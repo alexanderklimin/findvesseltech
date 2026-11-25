@@ -2,7 +2,7 @@
 // Short request form for the home page: passes values to /request/ via GET.
 import { PORTS, EQUIPMENT } from '../data/service.js';
 ---
-<form class="card quick-req" action="/request/" method="get">
+<form class="card quick-req" id="quick-req" action="/request/" method="get">
   <div class="fields">
     <label>Equipment
       <select name="equipment">{EQUIPMENT.map((e) => <option>{e}</option>)}</select>
@@ -17,7 +17,7 @@ import { PORTS, EQUIPMENT } from '../data/service.js';
       <input type="date" name="eta" />
     </label>
   </div>
-  <button type="submit">Request a technician</button>
+  <button type="submit" class="btn-cta">Request a technician</button>
 </form>
 
 <style>

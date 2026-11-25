@@ -62,3 +62,8 @@
 - Git: репозиторий alexanderklimin/findvesseltech (приватный), deploy key findvesseltech_deploy, wrangler name findvesseltech, workers_dev true, .node-version 22.23.5. Первый коммит сделан, push ждёт создания репозитория и ключа.
 - Код выгружен на GitHub (alexanderklimin/findvesseltech, ветка main), deploy key работает. Дальше пользователь подключает Workers Builds.
 - Workers Builds подключён пользователем, домен findvesseltech.com работает (16 страниц, 404, редиректы http→https, www→apex). Сайт под noindex. В wrangler.jsonc добавлен route custom_domain, workers_dev/preview_urls false (как tallerpedia), чтобы деплой не отвязал домен. Замечание: www→apex теряет путь (/tools/ → /), поправить правилом Redirect в Cloudflare.
+
+## 2026-11-25 (дизайн «веселее»)
+- По просьбе пользователя («выглядит очень технично»): главная с тёмно-синим морским первым экраном во всю ширину, анимированный радар (SVG, отключается при prefers-reduced-motion), волна, форма-карточка; плитки оборудования с иконками → заявка с выбранным оборудованием; «How it works» в 3 шага; оранжевые кнопки-CTA; карточки с иконками на главной, /tools/, /surveys/.
+- Иконки — встроенные SVG (src/components/Icon.astro), без картинок и шрифтов. Главная 6,2 КБ gzip.
+- Исправлено: .wrap перебивал padding у main (специфичность), баннер наезжал на меню на телефоне.

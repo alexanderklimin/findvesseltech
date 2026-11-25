@@ -1,52 +1,130 @@
 ---
 import Base from '../layouts/Base.astro';
 import QuickRequest from '../components/QuickRequest.astro';
+import Icon from '../components/Icon.astro';
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '../data/site.js';
 import { PORTS } from '../data/service.js';
 
 const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE_URL, description: SITE_TAGLINE }];
 
+// Equipment shortcuts: open the request form with the equipment preselected (values match EQUIPMENT in data/service.js).
+const equipment = [
+  { icon: 'radar', name: 'Radar', value: 'Radar / ARPA' },
+  { icon: 'ecdis', name: 'ECDIS', value: 'ECDIS' },
+  { icon: 'gmdss', name: 'GMDSS', value: 'GMDSS console (MF/HF, VHF DSC)' },
+  { icon: 'satellite', name: 'Inmarsat', value: 'Inmarsat-C / satellite GMDSS' },
+  { icon: 'epirb', name: 'EPIRB', value: 'EPIRB' },
+  { icon: 'vdr', name: 'VDR', value: 'VDR / S-VDR' },
+  { icon: 'ais', name: 'AIS', value: 'AIS' },
+  { icon: 'gyro', name: 'Gyro', value: 'Gyro compass' },
+];
+
+const steps = [
+  { icon: 'clipboard', title: 'Tell us what you need', text: 'Equipment, the problem or test, port and ETA. Two minutes.' },
+  { icon: 'search', title: 'We find engineers in that port', text: 'Your request goes to service engineers covering the port.' },
+  { icon: 'check', title: 'They reply with a quote', text: 'You agree the work directly with the service company.' },
+];
+
 const surveys = [
-  { href: '/surveys/epirb-annual-test/', name: 'EPIRB annual test', text: '17 checks of MSC.1/Circ.1040/Rev.2 and how to prepare.' },
-  { href: '/surveys/vdr-annual-performance-test/', name: 'VDR APT', text: 'Annual performance test, 45-day report, time window.' },
-  { href: '/surveys/ais-annual-test/', name: 'AIS annual test', text: 'Static and dynamic data, RF measurements, on-air test.' },
+  { icon: 'epirb', href: '/surveys/epirb-annual-test/', name: 'EPIRB annual test', text: '17 checks the surveyor makes, and how to prepare.' },
+  { icon: 'vdr', href: '/surveys/vdr-annual-performance-test/', name: 'VDR APT', text: 'Annual performance test, time window, 45-day report.' },
+  { icon: 'ais', href: '/surveys/ais-annual-test/', name: 'AIS annual test', text: 'Static and dynamic data, RF measurements, on-air test.' },
 ];
 const tools = [
-  { href: '/tools/survey-due-dates/', name: 'Survey due dates', text: 'Radio survey, VDR, AIS and EPIRB test windows with calendar export.' },
-  { href: '/tools/mmsi-lookup/', name: 'MMSI lookup', text: 'Flag country and station type from any MMSI.' },
-  { href: '/tools/epirb-hex-id-decoder/', name: 'EPIRB hex ID decoder', text: 'Country code, MMSI or serial in a 406 MHz beacon.' },
-  { href: '/tools/gmdss-frequencies/', name: 'GMDSS frequencies', text: 'DSC, voice and NAVTEX per ITU Appendix 15 (WRC-23).' },
-  { href: '/tools/mid-codes/', name: 'MID codes', text: 'Maritime Identification Digits by country.' },
+  { icon: 'calendar', href: '/tools/survey-due-dates/', name: 'Survey due dates', text: 'Every test window at a glance, with calendar export.' },
+  { icon: 'hash', href: '/tools/mmsi-lookup/', name: 'MMSI lookup', text: 'Flag country and station type from any MMSI.' },
+  { icon: 'epirb', href: '/tools/epirb-hex-id-decoder/', name: 'EPIRB hex ID', text: 'What is programmed into a 406 MHz beacon.' },
+  { icon: 'wave', href: '/tools/gmdss-frequencies/', name: 'GMDSS frequencies', text: 'DSC, voice and NAVTEX, printable for the bridge.' },
 ];
 ---
 <Base title={`${SITE_NAME}: ship radio and navigation service in port`} description="Find a technician for ship radio and navigation equipment at your next port call: repair, radio survey, VDR, AIS and EPIRB tests. Plus free GMDSS tools and survey guides." jsonLd={jsonLd}>
   <section class="hero">
-    <h1>Ship radio and navigation repair, surveys and tests in your next port</h1>
-    <p class="lead">Radar, ECDIS, GMDSS, VDR, AIS, gyro. Tell us the equipment, port and ETA; we pass the request to service engineers covering that port.</p>
-    <QuickRequest />
-    <p class="ports">Ports: {PORTS.map((p, i) => <>{i > 0 && ' · '}<span>{p.name}</span></>)}. Other ports on request.</p>
+    <div class="hero-in">
+      <div class="hero-text">
+        <p class="kicker"><Icon name="anchor" size={18} /> Radar · ECDIS · GMDSS · VDR · AIS · Gyro</p>
+        <h1>Bridge equipment down? Get an engineer at your next port.</h1>
+        <p class="sub">Repairs, radio surveys and annual tests. Tell us the equipment, port and ETA, and we pass it to service engineers who cover that port.</p>
+      </div>
+      <svg class="scope" viewBox="0 0 200 200" aria-hidden="true">
+        <defs>
+          <radialGradient id="g" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#1d6f6a" /><stop offset="1" stop-color="#0a2c40" /></radialGradient>
+          <linearGradient id="sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7ff0d8" stop-opacity="0" /><stop offset="1" stop-color="#7ff0d8" stop-opacity=".55" /></linearGradient>
+        </defs>
+        <circle cx="100" cy="100" r="96" fill="url(#g)" stroke="#3fb6a6" stroke-width="2" />
+        <g fill="none" stroke="#3fb6a6" stroke-opacity=".45"><circle cx="100" cy="100" r="64" /><circle cx="100" cy="100" r="32" /><path d="M100 4v192M4 100h192" /></g>
+        <g class="sweep"><path d="M100 100 L196 100 A96 96 0 0 0 167.9 32.1 Z" fill="url(#sw)" /></g>
+        <g fill="#ffd166"><circle class="blip b1" cx="140" cy="62" r="4" /><circle class="blip b2" cx="62" cy="138" r="3.5" /><circle class="blip b3" cx="150" cy="140" r="3" /></g>
+        <path d="M92 104 l8 -16 l8 16 l-8 -4 z" fill="#fff" />
+      </svg>
+    </div>
+    <div class="hero-form"><QuickRequest /></div>
+    <p class="ports"><Icon name="anchor" size={16} /> Ports: {PORTS.map((p, i) => <>{i > 0 && ' · '}<span>{p.name}</span></>)} · other ports on request</p>
+    <svg class="waves" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c120 20 240 20 360 0s240-20 360 0 240 20 360 0 240-20 360 0v30H0Z" /></svg>
   </section>
 
-  <h2>Surveys and annual tests</h2>
-  <div class="grid">
-    {surveys.map((g) => <a class="card" href={g.href}><strong>{g.name}</strong><span>{g.text}</span></a>)}
+  <h2>What needs fixing?</h2>
+  <div class="eq">
+    {equipment.map((e) => (
+      <a href={`/request/?equipment=${encodeURIComponent(e.value)}`} class="eq-item">
+        <span class="ico"><Icon name={e.icon} size={30} /></span><span>{e.name}</span>
+      </a>
+    ))}
   </div>
 
-  <h2>Free tools</h2>
+  <h2>How it works</h2>
+  <ol class="steps">
+    {steps.map((s, i) => (
+      <li class="card"><span class="num">{i + 1}</span><span class="ico"><Icon name={s.icon} /></span><strong>{s.title}</strong><p>{s.text}</p></li>
+    ))}
+  </ol>
+  <p class="center"><a class="btn-cta big" href="/request/">Request a technician</a></p>
+
+  <h2>Survey coming up?</h2>
   <div class="grid">
-    {tools.map((t) => <a class="card" href={t.href}><strong>{t.name}</strong><span>{t.text}</span></a>)}
+    {surveys.map((g) => <a class="card" href={g.href}><span class="ico"><Icon name={g.icon} /></span><strong>{g.name}</strong><span>{g.text}</span></a>)}
   </div>
 
-  <h2>Coming next</h2>
-  <ul>
-    <li>Equipment guides: radar, ECDIS, GMDSS consoles, VDR, AIS, gyro compass, with common faults and alarms.</li>
-    <li>NAVTEX stations, GMDSS daily/weekly/monthly tests and the annual radio survey checklist.</li>
-  </ul>
+  <h2>Free tools for the bridge</h2>
+  <div class="grid">
+    {tools.map((t) => <a class="card" href={t.href}><span class="ico"><Icon name={t.icon} /></span><strong>{t.name}</strong><span>{t.text}</span></a>)}
+  </div>
+  <p><a href="/tools/">All tools →</a></p>
 </Base>
 
 <style>
-  .hero { padding: 8px 0 4px; }
-  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); max-width: 26ch; }
-  .ports { color: var(--muted); font-size: .93rem; margin-top: 10px; }
-  .ports span { color: var(--text); font-weight: 600; }
+  .hero {
+    position: relative; margin: 0 calc(50% - 50vw); padding: 28px max(16px, calc(50vw - 474px)) 70px;
+    background: radial-gradient(1200px 500px at 85% 0%, #145a6e 0%, transparent 60%), linear-gradient(160deg, var(--navy) 0%, var(--navy-2) 100%);
+    color: #fff;
+  }
+  .hero-in { display: flex; gap: 24px; align-items: center; justify-content: space-between; }
+  .hero-text { max-width: 620px; }
+  .kicker { display: inline-flex; gap: 8px; align-items: center; color: #ffd166; font-weight: 600; font-size: .92rem; margin: 0; letter-spacing: .02em; }
+  .hero h1 { font-size: clamp(1.8rem, 4.4vw, 2.7rem); line-height: 1.15; margin: .35em 0 .4em; }
+  .sub { color: #cfe3ee; font-size: 1.1rem; margin: 0 0 18px; }
+  .scope { width: 210px; height: 210px; flex: 0 0 auto; filter: drop-shadow(0 10px 30px rgba(0, 0, 0, .35)); }
+  .sweep { transform-origin: 100px 100px; animation: spin 4s linear infinite; }
+  .blip { animation: blink 4s ease-in-out infinite; }
+  .b2 { animation-delay: 1.6s; } .b3 { animation-delay: 2.8s; }
+  @keyframes spin { to { transform: rotate(-360deg); } }
+  @keyframes blink { 0%, 100% { opacity: .15; } 10% { opacity: 1; } 40% { opacity: .35; } }
+  .hero-form :global(.card) { color: var(--text); box-shadow: 0 14px 40px rgba(0, 0, 0, .25); border: 0; }
+  .ports { color: #cfe3ee; font-size: .93rem; margin: 14px 0 0; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .ports span { color: #fff; font-weight: 600; }
+  .waves { position: absolute; left: 0; bottom: -1px; width: 100%; height: 40px; fill: var(--bg); }
+  @media (max-width: 720px) { .scope { display: none; } .hero { padding-bottom: 56px; } }
+
+  .eq { display: grid; grid-template-columns: repeat(8, 1fr); gap: 10px; }
+  @media (max-width: 860px) { .eq { grid-template-columns: repeat(4, 1fr); gap: 8px; } .eq-item { padding: 12px 4px; font-size: .88rem; } .eq-item .ico { width: 44px; height: 44px; } }
+  .eq-item { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 16px 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; text-decoration: none; color: var(--text); font-weight: 600; transition: transform .15s ease, border-color .15s ease; }
+  .eq-item:hover { transform: translateY(-2px); border-color: var(--sea); }
+  .eq-item .ico { display: grid; place-items: center; width: 54px; height: 54px; border-radius: 50%; background: var(--sea-soft); color: var(--sea); }
+
+  .steps { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+  .steps li { position: relative; }
+  .steps .num { position: absolute; top: 14px; right: 16px; font-size: 2rem; font-weight: 800; color: var(--sea); opacity: .25; }
+  .steps strong { display: block; color: var(--brand); }
+  .steps p { margin: 4px 0 0; color: var(--muted); }
+  .center { text-align: center; margin-top: 18px; }
+  .big { display: inline-block; padding: 12px 26px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 1.05rem; }
 </style>

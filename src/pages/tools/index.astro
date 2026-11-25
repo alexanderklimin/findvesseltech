@@ -1,12 +1,13 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 
 const ready = [
-  { href: '/tools/mmsi-lookup/', name: 'MMSI lookup', text: 'Country (MID) and station type from any 9-digit MMSI.' },
-  { href: '/tools/epirb-hex-id-decoder/', name: 'EPIRB hex ID decoder', text: '15 Hex ID of a 406 MHz beacon: country, protocol, MMSI or serial, TAC.' },
-  { href: '/tools/gmdss-frequencies/', name: 'GMDSS frequencies', text: 'Distress and safety frequencies from ITU RR Appendix 15 (WRC-23): DSC, voice, NAVTEX, VHF. Printable.' },
-  { href: '/tools/survey-due-dates/', name: 'Survey due dates', text: 'Windows for radio survey, EPIRB, VDR and AIS tests, SBM, battery and HRU expiry. Calendar export.' },
-  { href: '/tools/mid-codes/', name: 'MID codes', text: 'All Maritime Identification Digits by country, from the ITU table.' },
+  { icon: 'hash', href: '/tools/mmsi-lookup/', name: 'MMSI lookup', text: 'Country (MID) and station type from any 9-digit MMSI.' },
+  { icon: 'epirb', href: '/tools/epirb-hex-id-decoder/', name: 'EPIRB hex ID decoder', text: '15 Hex ID of a 406 MHz beacon: country, protocol, MMSI or serial, TAC.' },
+  { icon: 'wave', href: '/tools/gmdss-frequencies/', name: 'GMDSS frequencies', text: 'Distress and safety frequencies from ITU RR Appendix 15 (WRC-23): DSC, voice, NAVTEX, VHF. Printable.' },
+  { icon: 'calendar', href: '/tools/survey-due-dates/', name: 'Survey due dates', text: 'Windows for radio survey, EPIRB, VDR and AIS tests, SBM, battery and HRU expiry. Calendar export.' },
+  { icon: 'search', href: '/tools/mid-codes/', name: 'MID codes', text: 'All Maritime Identification Digits by country, from the ITU table.' },
 ];
 const planned = [
   ['NAVTEX stations', 'Stations by NAVAREA with B1 identifiers and schedules.'],
@@ -17,7 +18,7 @@ const planned = [
   <h1>Tools</h1>
   <p class="lead">Small, fast tools that run in your browser. Built for ship internet: no heavy scripts, no sign-up.</p>
   <div class="grid">
-    {ready.map((t) => <a class="card" href={t.href}><strong>{t.name}</strong><span>{t.text}</span></a>)}
+    {ready.map((t) => <a class="card" href={t.href}><span class="ico"><Icon name={t.icon} /></span><strong>{t.name}</strong><span>{t.text}</span></a>)}
   </div>
   <h2>In preparation</h2>
   <div class="grid">
