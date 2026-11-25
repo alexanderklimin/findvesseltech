@@ -1,0 +1,138 @@
+---
+import Base from '../../../layouts/Base.astro';
+import midData from '../../../data/mid.json';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'MMSI Lookup: Decode Country (MID) and Station Type';
+const description = 'Enter a 9-digit MMSI to see the flag country from its MID and the station type: ship, coast station, SAR aircraft, AIS AtoN, AIS-SART, EPIRB-AIS or MOB. Based on ITU-R M.585-10.';
+const compact = Object.fromEntries(midData.mids.map((m) => [m.mid, m.name]));
+
+const formats = [
+  ['MIDXXXXXX', '2–7', 'Ship station', 'Annex 1 §1'],
+  ['0MIDXXXXX', '0', 'Group ship station call (several ships at once)', 'Annex 1 §1'],
+  ['00MIDXXXX', '00', 'Coast station; optional 6th digit: 1 coast, 2 port, 3 pilot, 4 AIS repeater, 5 AIS base station', 'Annex 1 §2'],
+  ['111MIDXXX', '111', 'Search and rescue aircraft; optional 7th digit: 1 fixed-wing, 5 helicopter', 'Annex 1 §3'],
+  ['99MIDXXXX', '99', 'AIS aid to navigation; optional 6th digit: 1 physical, 6 virtual, 8 mobile AtoN', 'Annex 1 §4'],
+  ['98MIDXXXX', '98', 'Craft associated with a parent ship (lifeboat, liferaft, rescue boat, tender)', 'Annex 1 §5'],
+  ['8MIDXXXXX', '8', 'Handheld VHF with DSC and integral GNSS', 'Annex 2 §1'],
+  ['970XXYYYY', '970', 'AIS-SART (XX manufacturer, YYYY sequence; 00 = test)', 'Annex 2 §2'],
+  ['972XXYYYY', '972', 'Man overboard device (MOB-AIS)', 'Annex 2 §2'],
+  ['974XXYYYY', '974', 'EPIRB-AIS locating function (identifies the beacon, not the ship)', 'Annex 2 §2'],
+  ['979YYYYYY', '979', 'AMRD Group B (e.g. AIS net buoys); pseudorandom, duplicates allowed', 'Annex 2 §2.5'],
+];
+
+const faq = [
+  ['How do I find the country of an MMSI?', 'For a ship station the first three digits are the Maritime Identification Digits (MID). Each MID is allocated by the ITU to one administration, normally the flag State. For coast stations, craft and AtoN the MID starts at the third digit, for SAR aircraft at the fourth.'],
+  ['Can I find the ship name from an MMSI here?', 'No. This tool decodes the structure of the number only. Ship names and call signs are in the ITU MARS database (List V) and in commercial AIS services.'],
+  ['Why does my DSC radio show 10 digits?', 'DSC equipment (ITU-R M.493) transmits the 9-digit identity as a 10-digit address, normally with a 0 added at the end. Enter either form.'],
+  ['Does an MMSI change when a ship changes flag?', 'Yes. The MID belongs to the administration, so a ship that changes flag gets a new MMSI, and the DSC, AIS, EPIRB and SSAS programming and registrations must be updated.'],
+  ['Do AIS-SART and EPIRB-AIS numbers show a country?', 'No. 970, 972, 974 and 979 identities are not MMSI and are not linked to a country. The digits after the prefix are a manufacturer ID and a sequence number.'],
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org', '@type': 'WebApplication', name: 'MMSI Lookup', url: `${SITE_URL}/tools/mmsi-lookup/`,
+    applicationCategory: 'UtilityApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    description,
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+  },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'MMSI lookup', path: '/tools/mmsi-lookup/' }]}>
+  <h1>MMSI lookup</h1>
+  <p class="lead">Decode any 9-digit Maritime Mobile Service Identity: flag country from the MID and the type of station. Works offline in your browser; nothing is sent to a server.</p>
+
+  <form class="card lookup" id="mmsi-form" autocomplete="off">
+    <label for="mmsi">MMSI (9 digits, or 10-digit DSC address)</label>
+    <div class="row">
+      <input type="text" id="mmsi" name="mmsi" inputmode="numeric" placeholder="e.g. 538001234" maxlength="14" />
+      <button type="submit">Decode</button>
+    </div>
+    <div id="out" aria-live="polite"></div>
+  </form>
+
+  <h2>MMSI formats (ITU-R M.585-10)</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Format</th><th>Starts with</th><th>Station</th><th>Ref.</th></tr></thead>
+      <tbody>{formats.map(([f, s, w, r]) => <tr><td><code>{f}</code></td><td>{s}</td><td>{w}</td><td>{r}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p>M = MID (3 digits, allocated to a country by the ITU), X/Y = any digit. Full list of MIDs: <a href="/tools/mid-codes/">MID codes by country</a>.</p>
+
+  <h2>Before you reprogram or register an MMSI</h2>
+  <ul>
+    <li>The MMSI is assigned by the flag administration together with the ship station licence. Do not invent or copy one.</li>
+    <li>On a flag change, the new MMSI must go into every DSC controller, AIS transponder and SSAS, and the 406 MHz EPIRB must be recoded and registered with the new flag, because the country code is part of the beacon's hex ID. On many units the MMSI is protected and only the service agent can change it.</li>
+    <li>Never send a test distress alert. For DSC tests use a test call to a coast station.</li>
+  </ul>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources: Recommendation <a href="https://www.itu.int/rec/R-REC-M.585/en" rel="noopener">ITU-R M.585-10 (04/2026)</a>; <a href={midData.sourceUrl} rel="noopener">{midData.source}</a>, checked {midData.checked}.</p>
+
+  <script type="application/json" id="mid-data" set:html={JSON.stringify(compact)} />
+</Base>
+
+<script>
+  import { decodeMmsi } from '../../../lib/mmsi.js';
+
+  const raw = JSON.parse(document.getElementById('mid-data')!.textContent!) as Record<string, string>;
+  const mids = new Map(Object.entries(raw).map(([mid, name]) => [mid, { mid, name, allocatedTo: name }]));
+  const form = document.getElementById('mmsi-form') as HTMLFormElement;
+  const input = document.getElementById('mmsi') as HTMLInputElement;
+  const out = document.getElementById('out')!;
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+
+  function render(value: string, push: boolean) {
+    if (!value.trim()) { out.innerHTML = ''; return; }
+    const r = decodeMmsi(value, mids);
+    if (!r.ok) {
+      out.innerHTML = `<p class="bad">${esc(r.error)}</p>`;
+    } else {
+      const rows = [
+        ['MMSI', `<span class="mono">${r.digits}</span>`],
+        ['Station type', esc(r.category)],
+        ['Format', `<span class="mono">${esc(r.format)}</span> (M.585-10 ${esc(r.section)})`],
+      ];
+      if (r.mid) rows.push(['MID', `<a href="/tools/mid-codes/#mid-${r.mid}" class="mono">${r.mid}</a>`]);
+      if (r.mid) rows.push(['Country / administration', r.country ? `<strong>${esc(r.country.name)}</strong>` : '<span class="bad">not allocated</span>']);
+      if (r.detail) rows.push(['Note', esc(r.detail)]);
+      out.innerHTML = `<table class="result">${rows.map(([k, v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join('')}</table>` +
+        r.notes.map((n: string) => `<p class="hint">${esc(n)}</p>`).join('') +
+        `<p><button type="button" id="copy">Copy link to this result</button></p>`;
+      document.getElementById('copy')!.addEventListener('click', async (e) => {
+        const btn = e.currentTarget as HTMLButtonElement;
+        try { await navigator.clipboard.writeText(location.href); btn.textContent = 'Link copied'; } catch { btn.textContent = location.href; }
+      });
+    }
+    if (push) {
+      const url = new URL(location.href);
+      url.searchParams.set('mmsi', value.replace(/\D/g, ''));
+      history.replaceState(null, '', url);
+    }
+  }
+
+  form.addEventListener('submit', (e) => { e.preventDefault(); render(input.value, true); });
+  input.addEventListener('input', () => { if (input.value.replace(/\D/g, '').length >= 9) render(input.value, true); });
+  const initial = new URL(location.href).searchParams.get('mmsi');
+  if (initial) { input.value = initial; render(initial, false); }
+</script>
+
+<style>
+  .lookup label { font-weight: 600; display: block; margin-bottom: 6px; }
+  .row { display: flex; gap: 8px; }
+  .row input { flex: 1; font-family: ui-monospace, Menlo, Consolas, monospace; letter-spacing: .06em; }
+  #out :global(.result) { margin-top: 14px; }
+  #out :global(.result th) { width: 34%; background: none; color: var(--muted); font-weight: 500; }
+  #out :global(.bad) { color: var(--warn); font-weight: 600; }
+  #out :global(.hint) { color: var(--muted); font-size: .92rem; margin: 6px 0 0; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+</style>

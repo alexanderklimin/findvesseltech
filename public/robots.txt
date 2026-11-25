@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://findvesseltech.com/sitemap-index.xml

@@ -1,0 +1,48 @@
+---
+import Guide from '../../../components/Guide.astro';
+import { IMO } from '../../../data/imo-sources.js';
+
+const facts: [string, string][] = [
+  ['Requirement', 'SOLAS regulation V/18.8 (annual performance test); guidelines MSC.1/Circ.1222/Rev.1'],
+  ['Who tests', 'The manufacturer or a person authorized by the manufacturer.'],
+  ['When', 'Cargo ship: within ±3 months of the due date (max. 18 months between tests). Passenger ship: up to 3 months before (max. 15 months). Not later than completion of the related survey (MSC.1/Circ.1576). <a href="/tools/survey-due-dates/">Calculate your window</a>.'],
+  ['Report', 'The manufacturer reviews the results and issues the completed test report within 45 days; then the Annual Performance Test Certificate is issued.'],
+  ['Applies to', 'VDR and simplified VDR (S-VDR).'],
+];
+
+const checks = [
+  { text: 'No alarms present before the test starts.', ref: '2.1' },
+  { text: 'Power supply alarm on loss of external power; the VDR keeps recording at least 1 h 55 min and stops automatically within 2 h 5 min.', ref: '2.2' },
+  { text: 'Acoustic beacon (underwater locator) works, checked with the manufacturer\'s test equipment or by swapping in a certified unit.', ref: '2.3' },
+  { text: 'Overall condition satisfactory; batteries in the acoustic beacon and power supply in date.', ref: '2.4' },
+  { text: 'Accurate maintenance records available.', ref: '2.5' },
+  { text: 'All data items recorded at original commissioning are stored for the full recording period.', ref: '2.6' },
+  { text: 'Float-free capsule arrangement (where fitted) as accepted at commissioning; battery, release and other dated items within expiry. Float-free capsules to MSC.333(90) are examined like an EPIRB.', ref: '2.7' },
+  { text: 'Equipment back in normal operating mode after the test.', ref: '2.8' },
+];
+
+const prepare = [
+  'Book the manufacturer or its authorized agent early: the test has to fit the survey window and the port call.',
+  'Clear or explain any standing VDR alarms before the engineer comes on board.',
+  'Have the maintenance records and the previous APT certificate ready.',
+  'Check dates on the acoustic beacon battery, the power supply battery and, for a float-free capsule, its battery and hydrostatic release.',
+  'Make sure all interfaced sensors (radar, ECDIS, gyro, GNSS, AIS, audio, alarms) are running so recording can be verified.',
+];
+---
+<Guide
+  title="VDR Annual Performance Test (APT): What Is Checked"
+  h1="VDR annual performance test (APT)"
+  description="VDR and S-VDR annual performance test per SOLAS V/18.8 and MSC.1/Circ.1222/Rev.1: who may do it, the time window, the 45-day report, the checklist and how to prepare the ship."
+  path="/surveys/vdr-annual-performance-test/"
+  lead="The voyage data recorder is a black box, so once a year the manufacturer or its agent must prove it records everything it should. This is the test behind the APT certificate."
+  facts={facts}
+  checks={checks}
+  prepare={prepare}
+  sources={[{ name: 'SOLAS regulation V/18.8' }, IMO.c1222, IMO.c1576]}
+  checked="2026-11-25"
+  related={[
+    { href: '/tools/survey-due-dates/', text: 'Survey and test due dates' },
+    { href: '/surveys/ais-annual-test/', text: 'AIS annual test' },
+    { href: '/surveys/', text: 'All surveys and annual tests' },
+  ]}
+/>

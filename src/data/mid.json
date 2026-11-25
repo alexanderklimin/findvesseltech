@@ -1,0 +1,1467 @@
+{
+ "source": "ITU — Table of Maritime Identification Digits (MID)",
+ "sourceUrl": "https://www.itu.int/gladapp/Allocation/MIDs",
+ "checked": "2026-11-25",
+ "mids": [
+  {
+   "mid": "201",
+   "allocatedTo": "Albania (Republic of)",
+   "name": "Albania"
+  },
+  {
+   "mid": "202",
+   "allocatedTo": "Andorra (Principality of)",
+   "name": "Andorra"
+  },
+  {
+   "mid": "203",
+   "allocatedTo": "Austria",
+   "name": "Austria"
+  },
+  {
+   "mid": "204",
+   "allocatedTo": "Portugal - Azores",
+   "name": "Azores (Portugal)"
+  },
+  {
+   "mid": "205",
+   "allocatedTo": "Belgium",
+   "name": "Belgium"
+  },
+  {
+   "mid": "206",
+   "allocatedTo": "Belarus (Republic of)",
+   "name": "Belarus"
+  },
+  {
+   "mid": "207",
+   "allocatedTo": "Bulgaria (Republic of)",
+   "name": "Bulgaria"
+  },
+  {
+   "mid": "208",
+   "allocatedTo": "Vatican City State",
+   "name": "Vatican City State"
+  },
+  {
+   "mid": "209",
+   "allocatedTo": "Cyprus (Republic of)",
+   "name": "Cyprus"
+  },
+  {
+   "mid": "210",
+   "allocatedTo": "Cyprus (Republic of)",
+   "name": "Cyprus"
+  },
+  {
+   "mid": "211",
+   "allocatedTo": "Germany (Federal Republic of)",
+   "name": "Germany"
+  },
+  {
+   "mid": "212",
+   "allocatedTo": "Cyprus (Republic of)",
+   "name": "Cyprus"
+  },
+  {
+   "mid": "213",
+   "allocatedTo": "Georgia",
+   "name": "Georgia"
+  },
+  {
+   "mid": "214",
+   "allocatedTo": "Moldova (Republic of)",
+   "name": "Moldova"
+  },
+  {
+   "mid": "215",
+   "allocatedTo": "Malta",
+   "name": "Malta"
+  },
+  {
+   "mid": "216",
+   "allocatedTo": "Armenia (Republic of)",
+   "name": "Armenia"
+  },
+  {
+   "mid": "218",
+   "allocatedTo": "Germany (Federal Republic of)",
+   "name": "Germany"
+  },
+  {
+   "mid": "219",
+   "allocatedTo": "Denmark",
+   "name": "Denmark"
+  },
+  {
+   "mid": "220",
+   "allocatedTo": "Denmark",
+   "name": "Denmark"
+  },
+  {
+   "mid": "224",
+   "allocatedTo": "Spain",
+   "name": "Spain"
+  },
+  {
+   "mid": "225",
+   "allocatedTo": "Spain",
+   "name": "Spain"
+  },
+  {
+   "mid": "226",
+   "allocatedTo": "France",
+   "name": "France"
+  },
+  {
+   "mid": "227",
+   "allocatedTo": "France",
+   "name": "France"
+  },
+  {
+   "mid": "228",
+   "allocatedTo": "France",
+   "name": "France"
+  },
+  {
+   "mid": "229",
+   "allocatedTo": "Malta",
+   "name": "Malta"
+  },
+  {
+   "mid": "230",
+   "allocatedTo": "Finland",
+   "name": "Finland"
+  },
+  {
+   "mid": "231",
+   "allocatedTo": "Denmark - Faroe Islands",
+   "name": "Faroe Islands (Denmark)"
+  },
+  {
+   "mid": "232",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland",
+   "name": "United Kingdom"
+  },
+  {
+   "mid": "233",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland",
+   "name": "United Kingdom"
+  },
+  {
+   "mid": "234",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland",
+   "name": "United Kingdom"
+  },
+  {
+   "mid": "235",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland",
+   "name": "United Kingdom"
+  },
+  {
+   "mid": "236",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Gibraltar",
+   "name": "Gibraltar (United Kingdom)"
+  },
+  {
+   "mid": "237",
+   "allocatedTo": "Greece",
+   "name": "Greece"
+  },
+  {
+   "mid": "238",
+   "allocatedTo": "Croatia (Republic of)",
+   "name": "Croatia"
+  },
+  {
+   "mid": "239",
+   "allocatedTo": "Greece",
+   "name": "Greece"
+  },
+  {
+   "mid": "240",
+   "allocatedTo": "Greece",
+   "name": "Greece"
+  },
+  {
+   "mid": "241",
+   "allocatedTo": "Greece",
+   "name": "Greece"
+  },
+  {
+   "mid": "242",
+   "allocatedTo": "Morocco (Kingdom of)",
+   "name": "Morocco"
+  },
+  {
+   "mid": "243",
+   "allocatedTo": "Hungary",
+   "name": "Hungary"
+  },
+  {
+   "mid": "244",
+   "allocatedTo": "Netherlands (Kingdom of the)",
+   "name": "Netherlands"
+  },
+  {
+   "mid": "245",
+   "allocatedTo": "Netherlands (Kingdom of the)",
+   "name": "Netherlands"
+  },
+  {
+   "mid": "246",
+   "allocatedTo": "Netherlands (Kingdom of the)",
+   "name": "Netherlands"
+  },
+  {
+   "mid": "247",
+   "allocatedTo": "Italy",
+   "name": "Italy"
+  },
+  {
+   "mid": "248",
+   "allocatedTo": "Malta",
+   "name": "Malta"
+  },
+  {
+   "mid": "249",
+   "allocatedTo": "Malta",
+   "name": "Malta"
+  },
+  {
+   "mid": "250",
+   "allocatedTo": "Ireland",
+   "name": "Ireland"
+  },
+  {
+   "mid": "251",
+   "allocatedTo": "Iceland",
+   "name": "Iceland"
+  },
+  {
+   "mid": "252",
+   "allocatedTo": "Liechtenstein (Principality of)",
+   "name": "Liechtenstein"
+  },
+  {
+   "mid": "253",
+   "allocatedTo": "Luxembourg",
+   "name": "Luxembourg"
+  },
+  {
+   "mid": "254",
+   "allocatedTo": "Monaco (Principality of)",
+   "name": "Monaco"
+  },
+  {
+   "mid": "255",
+   "allocatedTo": "Portugal - Madeira",
+   "name": "Madeira (Portugal)"
+  },
+  {
+   "mid": "256",
+   "allocatedTo": "Malta",
+   "name": "Malta"
+  },
+  {
+   "mid": "257",
+   "allocatedTo": "Norway",
+   "name": "Norway"
+  },
+  {
+   "mid": "258",
+   "allocatedTo": "Norway",
+   "name": "Norway"
+  },
+  {
+   "mid": "259",
+   "allocatedTo": "Norway",
+   "name": "Norway"
+  },
+  {
+   "mid": "261",
+   "allocatedTo": "Poland (Republic of)",
+   "name": "Poland"
+  },
+  {
+   "mid": "262",
+   "allocatedTo": "Montenegro",
+   "name": "Montenegro"
+  },
+  {
+   "mid": "263",
+   "allocatedTo": "Portugal",
+   "name": "Portugal"
+  },
+  {
+   "mid": "264",
+   "allocatedTo": "Romania",
+   "name": "Romania"
+  },
+  {
+   "mid": "265",
+   "allocatedTo": "Sweden",
+   "name": "Sweden"
+  },
+  {
+   "mid": "266",
+   "allocatedTo": "Sweden",
+   "name": "Sweden"
+  },
+  {
+   "mid": "267",
+   "allocatedTo": "Slovak Republic",
+   "name": "Slovak Republic"
+  },
+  {
+   "mid": "268",
+   "allocatedTo": "San Marino (Republic of)",
+   "name": "San Marino"
+  },
+  {
+   "mid": "269",
+   "allocatedTo": "Switzerland (Confederation of)",
+   "name": "Switzerland (Confederation of)"
+  },
+  {
+   "mid": "270",
+   "allocatedTo": "Czech Republic",
+   "name": "Czech Republic"
+  },
+  {
+   "mid": "271",
+   "allocatedTo": "Republic of Türkiye",
+   "name": "Republic of Türkiye"
+  },
+  {
+   "mid": "272",
+   "allocatedTo": "Ukraine",
+   "name": "Ukraine"
+  },
+  {
+   "mid": "273",
+   "allocatedTo": "Russian Federation",
+   "name": "Russian Federation"
+  },
+  {
+   "mid": "274",
+   "allocatedTo": "North Macedonia (Republic of)",
+   "name": "North Macedonia"
+  },
+  {
+   "mid": "275",
+   "allocatedTo": "Latvia (Republic of)",
+   "name": "Latvia"
+  },
+  {
+   "mid": "276",
+   "allocatedTo": "Estonia (Republic of)",
+   "name": "Estonia"
+  },
+  {
+   "mid": "277",
+   "allocatedTo": "Lithuania (Republic of)",
+   "name": "Lithuania"
+  },
+  {
+   "mid": "278",
+   "allocatedTo": "Slovenia (Republic of)",
+   "name": "Slovenia"
+  },
+  {
+   "mid": "279",
+   "allocatedTo": "Serbia (Republic of)",
+   "name": "Serbia"
+  },
+  {
+   "mid": "301",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Anguilla",
+   "name": "Anguilla (United Kingdom)"
+  },
+  {
+   "mid": "303",
+   "allocatedTo": "United States of America - Alaska (State of)",
+   "name": "Alaska (United States)"
+  },
+  {
+   "mid": "304",
+   "allocatedTo": "Antigua and Barbuda",
+   "name": "Antigua and Barbuda"
+  },
+  {
+   "mid": "305",
+   "allocatedTo": "Antigua and Barbuda",
+   "name": "Antigua and Barbuda"
+  },
+  {
+   "mid": "306",
+   "allocatedTo": "Netherlands (Kingdom of the) - Bonaire, Sint Eustatius and Saba; Netherlands (Kingdom of the) - Curaçao; Netherlands (Kingdom of the) - Sint Maarten (Dutch part)",
+   "name": "Bonaire, Sint Eustatius and Saba, Curaçao, Sint Maarten (Netherlands)"
+  },
+  {
+   "mid": "307",
+   "allocatedTo": "Netherlands (Kingdom of the) - Aruba",
+   "name": "Aruba (Netherlands)"
+  },
+  {
+   "mid": "308",
+   "allocatedTo": "Bahamas (Commonwealth of the)",
+   "name": "Bahamas"
+  },
+  {
+   "mid": "309",
+   "allocatedTo": "Bahamas (Commonwealth of the)",
+   "name": "Bahamas"
+  },
+  {
+   "mid": "310",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Bermuda",
+   "name": "Bermuda (United Kingdom)"
+  },
+  {
+   "mid": "311",
+   "allocatedTo": "Bahamas (Commonwealth of the)",
+   "name": "Bahamas"
+  },
+  {
+   "mid": "312",
+   "allocatedTo": "Belize",
+   "name": "Belize"
+  },
+  {
+   "mid": "314",
+   "allocatedTo": "Barbados",
+   "name": "Barbados"
+  },
+  {
+   "mid": "316",
+   "allocatedTo": "Canada",
+   "name": "Canada"
+  },
+  {
+   "mid": "319",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Cayman Islands",
+   "name": "Cayman Islands (United Kingdom)"
+  },
+  {
+   "mid": "321",
+   "allocatedTo": "Costa Rica",
+   "name": "Costa Rica"
+  },
+  {
+   "mid": "323",
+   "allocatedTo": "Cuba",
+   "name": "Cuba"
+  },
+  {
+   "mid": "325",
+   "allocatedTo": "Dominica (Commonwealth of)",
+   "name": "Dominica"
+  },
+  {
+   "mid": "327",
+   "allocatedTo": "Dominican Republic",
+   "name": "Dominican Republic"
+  },
+  {
+   "mid": "329",
+   "allocatedTo": "France - Guadeloupe (French Department of)",
+   "name": "Guadeloupe (France)"
+  },
+  {
+   "mid": "330",
+   "allocatedTo": "Grenada",
+   "name": "Grenada"
+  },
+  {
+   "mid": "331",
+   "allocatedTo": "Denmark - Greenland",
+   "name": "Greenland (Denmark)"
+  },
+  {
+   "mid": "332",
+   "allocatedTo": "Guatemala (Republic of)",
+   "name": "Guatemala"
+  },
+  {
+   "mid": "334",
+   "allocatedTo": "Honduras (Republic of)",
+   "name": "Honduras"
+  },
+  {
+   "mid": "336",
+   "allocatedTo": "Haiti (Republic of)",
+   "name": "Haiti"
+  },
+  {
+   "mid": "338",
+   "allocatedTo": "United States of America",
+   "name": "United States"
+  },
+  {
+   "mid": "339",
+   "allocatedTo": "Jamaica",
+   "name": "Jamaica"
+  },
+  {
+   "mid": "341",
+   "allocatedTo": "Saint Kitts and Nevis (Federation of)",
+   "name": "Saint Kitts and Nevis (Federation of)"
+  },
+  {
+   "mid": "343",
+   "allocatedTo": "Saint Lucia",
+   "name": "Saint Lucia"
+  },
+  {
+   "mid": "345",
+   "allocatedTo": "Mexico",
+   "name": "Mexico"
+  },
+  {
+   "mid": "347",
+   "allocatedTo": "France - Martinique (French Department of)",
+   "name": "Martinique (France)"
+  },
+  {
+   "mid": "348",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Montserrat",
+   "name": "Montserrat (United Kingdom)"
+  },
+  {
+   "mid": "350",
+   "allocatedTo": "Nicaragua",
+   "name": "Nicaragua"
+  },
+  {
+   "mid": "351",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "352",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "353",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "354",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "355",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "356",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "357",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "358",
+   "allocatedTo": "United States of America - Puerto Rico",
+   "name": "Puerto Rico (United States)"
+  },
+  {
+   "mid": "359",
+   "allocatedTo": "El Salvador (Republic of)",
+   "name": "El Salvador"
+  },
+  {
+   "mid": "361",
+   "allocatedTo": "France - Saint Pierre and Miquelon (Territorial Collectivity of)",
+   "name": "Saint Pierre and Miquelon (France)"
+  },
+  {
+   "mid": "362",
+   "allocatedTo": "Trinidad and Tobago",
+   "name": "Trinidad and Tobago"
+  },
+  {
+   "mid": "364",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Turks and Caicos Islands",
+   "name": "Turks and Caicos Islands (United Kingdom)"
+  },
+  {
+   "mid": "366",
+   "allocatedTo": "United States of America",
+   "name": "United States"
+  },
+  {
+   "mid": "367",
+   "allocatedTo": "United States of America",
+   "name": "United States"
+  },
+  {
+   "mid": "368",
+   "allocatedTo": "United States of America",
+   "name": "United States"
+  },
+  {
+   "mid": "369",
+   "allocatedTo": "United States of America",
+   "name": "United States"
+  },
+  {
+   "mid": "370",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "371",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "372",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "373",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "374",
+   "allocatedTo": "Panama (Republic of)",
+   "name": "Panama"
+  },
+  {
+   "mid": "375",
+   "allocatedTo": "Saint Vincent and the Grenadines",
+   "name": "Saint Vincent and the Grenadines"
+  },
+  {
+   "mid": "376",
+   "allocatedTo": "Saint Vincent and the Grenadines",
+   "name": "Saint Vincent and the Grenadines"
+  },
+  {
+   "mid": "377",
+   "allocatedTo": "Saint Vincent and the Grenadines",
+   "name": "Saint Vincent and the Grenadines"
+  },
+  {
+   "mid": "378",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - British Virgin Islands",
+   "name": "British Virgin Islands (United Kingdom)"
+  },
+  {
+   "mid": "379",
+   "allocatedTo": "United States of America - United States Virgin Islands",
+   "name": "United States Virgin Islands (United States)"
+  },
+  {
+   "mid": "401",
+   "allocatedTo": "Afghanistan",
+   "name": "Afghanistan"
+  },
+  {
+   "mid": "403",
+   "allocatedTo": "Saudi Arabia (Kingdom of)",
+   "name": "Saudi Arabia"
+  },
+  {
+   "mid": "405",
+   "allocatedTo": "Bangladesh (People's Republic of)",
+   "name": "Bangladesh"
+  },
+  {
+   "mid": "408",
+   "allocatedTo": "Bahrain (Kingdom of)",
+   "name": "Bahrain"
+  },
+  {
+   "mid": "410",
+   "allocatedTo": "Bhutan (Kingdom of)",
+   "name": "Bhutan"
+  },
+  {
+   "mid": "412",
+   "allocatedTo": "China (People's Republic of)",
+   "name": "China"
+  },
+  {
+   "mid": "413",
+   "allocatedTo": "China (People's Republic of)",
+   "name": "China"
+  },
+  {
+   "mid": "414",
+   "allocatedTo": "China (People's Republic of)",
+   "name": "China"
+  },
+  {
+   "mid": "416",
+   "allocatedTo": "China (People's Republic of) - Taiwan (Province of China)",
+   "name": "Taiwan (Province of China)"
+  },
+  {
+   "mid": "417",
+   "allocatedTo": "Sri Lanka (Democratic Socialist Republic of)",
+   "name": "Sri Lanka"
+  },
+  {
+   "mid": "419",
+   "allocatedTo": "India (Republic of)",
+   "name": "India"
+  },
+  {
+   "mid": "422",
+   "allocatedTo": "Iran (Islamic Republic of)",
+   "name": "Iran"
+  },
+  {
+   "mid": "423",
+   "allocatedTo": "Azerbaijan (Republic of)",
+   "name": "Azerbaijan"
+  },
+  {
+   "mid": "425",
+   "allocatedTo": "Iraq (Republic of)",
+   "name": "Iraq"
+  },
+  {
+   "mid": "428",
+   "allocatedTo": "Israel (State of)",
+   "name": "Israel"
+  },
+  {
+   "mid": "431",
+   "allocatedTo": "Japan",
+   "name": "Japan"
+  },
+  {
+   "mid": "432",
+   "allocatedTo": "Japan",
+   "name": "Japan"
+  },
+  {
+   "mid": "434",
+   "allocatedTo": "Turkmenistan",
+   "name": "Turkmenistan"
+  },
+  {
+   "mid": "436",
+   "allocatedTo": "Kazakhstan (Republic of)",
+   "name": "Kazakhstan"
+  },
+  {
+   "mid": "437",
+   "allocatedTo": "Uzbekistan (Republic of)",
+   "name": "Uzbekistan"
+  },
+  {
+   "mid": "438",
+   "allocatedTo": "Jordan (Hashemite Kingdom of)",
+   "name": "Jordan"
+  },
+  {
+   "mid": "440",
+   "allocatedTo": "Korea (Republic of)",
+   "name": "Korea (Republic of)"
+  },
+  {
+   "mid": "441",
+   "allocatedTo": "Korea (Republic of)",
+   "name": "Korea (Republic of)"
+  },
+  {
+   "mid": "443",
+   "allocatedTo": "State of Palestine (In accordance with Resolution 99 Rev. Dubai, 2018)",
+   "name": "State of Palestine (In accordance with Resolution 99 Rev. Dubai, 2018)"
+  },
+  {
+   "mid": "445",
+   "allocatedTo": "Democratic People's Republic of Korea",
+   "name": "Democratic People's Republic of Korea"
+  },
+  {
+   "mid": "447",
+   "allocatedTo": "Kuwait (State of)",
+   "name": "Kuwait"
+  },
+  {
+   "mid": "450",
+   "allocatedTo": "Lebanon",
+   "name": "Lebanon"
+  },
+  {
+   "mid": "451",
+   "allocatedTo": "Kyrgyz Republic",
+   "name": "Kyrgyz Republic"
+  },
+  {
+   "mid": "453",
+   "allocatedTo": "China (People's Republic of) - Macao (Special Administrative Region of China)",
+   "name": "Macao (China)"
+  },
+  {
+   "mid": "455",
+   "allocatedTo": "Maldives (Republic of)",
+   "name": "Maldives"
+  },
+  {
+   "mid": "457",
+   "allocatedTo": "Mongolia",
+   "name": "Mongolia"
+  },
+  {
+   "mid": "459",
+   "allocatedTo": "Nepal (Federal Democratic Republic of)",
+   "name": "Nepal"
+  },
+  {
+   "mid": "461",
+   "allocatedTo": "Oman (Sultanate of)",
+   "name": "Oman"
+  },
+  {
+   "mid": "463",
+   "allocatedTo": "Pakistan (Islamic Republic of)",
+   "name": "Pakistan"
+  },
+  {
+   "mid": "466",
+   "allocatedTo": "Qatar (State of)",
+   "name": "Qatar"
+  },
+  {
+   "mid": "468",
+   "allocatedTo": "Syrian Arab Republic",
+   "name": "Syrian Arab Republic"
+  },
+  {
+   "mid": "470",
+   "allocatedTo": "United Arab Emirates",
+   "name": "United Arab Emirates"
+  },
+  {
+   "mid": "471",
+   "allocatedTo": "United Arab Emirates",
+   "name": "United Arab Emirates"
+  },
+  {
+   "mid": "472",
+   "allocatedTo": "Tajikistan (Republic of)",
+   "name": "Tajikistan"
+  },
+  {
+   "mid": "473",
+   "allocatedTo": "Yemen (Republic of)",
+   "name": "Yemen"
+  },
+  {
+   "mid": "475",
+   "allocatedTo": "Yemen (Republic of)",
+   "name": "Yemen"
+  },
+  {
+   "mid": "477",
+   "allocatedTo": "China (People's Republic of) - Hong Kong (Special Administrative Region of China)",
+   "name": "Hong Kong (China)"
+  },
+  {
+   "mid": "478",
+   "allocatedTo": "Bosnia and Herzegovina",
+   "name": "Bosnia and Herzegovina"
+  },
+  {
+   "mid": "501",
+   "allocatedTo": "France - Adelie Land",
+   "name": "Adelie Land (France)"
+  },
+  {
+   "mid": "503",
+   "allocatedTo": "Australia",
+   "name": "Australia"
+  },
+  {
+   "mid": "506",
+   "allocatedTo": "Myanmar (Union of)",
+   "name": "Myanmar"
+  },
+  {
+   "mid": "508",
+   "allocatedTo": "Brunei Darussalam",
+   "name": "Brunei Darussalam"
+  },
+  {
+   "mid": "510",
+   "allocatedTo": "Micronesia (Federated States of)",
+   "name": "Micronesia"
+  },
+  {
+   "mid": "511",
+   "allocatedTo": "Palau (Republic of)",
+   "name": "Palau"
+  },
+  {
+   "mid": "512",
+   "allocatedTo": "New Zealand",
+   "name": "New Zealand"
+  },
+  {
+   "mid": "514",
+   "allocatedTo": "Cambodia (Kingdom of)",
+   "name": "Cambodia"
+  },
+  {
+   "mid": "515",
+   "allocatedTo": "Cambodia (Kingdom of)",
+   "name": "Cambodia"
+  },
+  {
+   "mid": "516",
+   "allocatedTo": "Australia - Christmas Island (Indian Ocean)",
+   "name": "Christmas Island (Australia)"
+  },
+  {
+   "mid": "518",
+   "allocatedTo": "New Zealand - Cook Islands",
+   "name": "Cook Islands (New Zealand)"
+  },
+  {
+   "mid": "520",
+   "allocatedTo": "Fiji (Republic of)",
+   "name": "Fiji"
+  },
+  {
+   "mid": "523",
+   "allocatedTo": "Australia - Cocos (Keeling) Islands",
+   "name": "Cocos (Keeling) Islands (Australia)"
+  },
+  {
+   "mid": "525",
+   "allocatedTo": "Indonesia (Republic of)",
+   "name": "Indonesia"
+  },
+  {
+   "mid": "529",
+   "allocatedTo": "Kiribati (Republic of)",
+   "name": "Kiribati"
+  },
+  {
+   "mid": "531",
+   "allocatedTo": "Lao People's Democratic Republic",
+   "name": "Lao People's Democratic Republic"
+  },
+  {
+   "mid": "533",
+   "allocatedTo": "Malaysia",
+   "name": "Malaysia"
+  },
+  {
+   "mid": "536",
+   "allocatedTo": "United States of America - Northern Mariana Islands (Commonwealth of the)",
+   "name": "Northern Mariana Islands (United States)"
+  },
+  {
+   "mid": "538",
+   "allocatedTo": "Marshall Islands (Republic of the)",
+   "name": "Marshall Islands"
+  },
+  {
+   "mid": "540",
+   "allocatedTo": "France - New Caledonia",
+   "name": "New Caledonia (France)"
+  },
+  {
+   "mid": "542",
+   "allocatedTo": "New Zealand - Niue",
+   "name": "Niue (New Zealand)"
+  },
+  {
+   "mid": "544",
+   "allocatedTo": "Republic of Naoero",
+   "name": "Republic of Naoero"
+  },
+  {
+   "mid": "546",
+   "allocatedTo": "France - French Polynesia",
+   "name": "French Polynesia (France)"
+  },
+  {
+   "mid": "548",
+   "allocatedTo": "Philippines (Republic of the)",
+   "name": "Philippines"
+  },
+  {
+   "mid": "550",
+   "allocatedTo": "Timor-Leste (Democratic Republic of)",
+   "name": "Timor-Leste"
+  },
+  {
+   "mid": "553",
+   "allocatedTo": "Papua New Guinea",
+   "name": "Papua New Guinea"
+  },
+  {
+   "mid": "555",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Pitcairn Island",
+   "name": "Pitcairn Island (United Kingdom)"
+  },
+  {
+   "mid": "557",
+   "allocatedTo": "Solomon Islands",
+   "name": "Solomon Islands"
+  },
+  {
+   "mid": "559",
+   "allocatedTo": "United States of America - American Samoa",
+   "name": "American Samoa (United States)"
+  },
+  {
+   "mid": "561",
+   "allocatedTo": "Samoa (Independent State of)",
+   "name": "Samoa"
+  },
+  {
+   "mid": "563",
+   "allocatedTo": "Singapore (Republic of)",
+   "name": "Singapore"
+  },
+  {
+   "mid": "564",
+   "allocatedTo": "Singapore (Republic of)",
+   "name": "Singapore"
+  },
+  {
+   "mid": "565",
+   "allocatedTo": "Singapore (Republic of)",
+   "name": "Singapore"
+  },
+  {
+   "mid": "566",
+   "allocatedTo": "Singapore (Republic of)",
+   "name": "Singapore"
+  },
+  {
+   "mid": "567",
+   "allocatedTo": "Thailand",
+   "name": "Thailand"
+  },
+  {
+   "mid": "570",
+   "allocatedTo": "Tonga (Kingdom of)",
+   "name": "Tonga"
+  },
+  {
+   "mid": "572",
+   "allocatedTo": "Tuvalu",
+   "name": "Tuvalu"
+  },
+  {
+   "mid": "574",
+   "allocatedTo": "Viet Nam (Socialist Republic of)",
+   "name": "Viet Nam"
+  },
+  {
+   "mid": "576",
+   "allocatedTo": "Vanuatu (Republic of)",
+   "name": "Vanuatu"
+  },
+  {
+   "mid": "577",
+   "allocatedTo": "Vanuatu (Republic of)",
+   "name": "Vanuatu"
+  },
+  {
+   "mid": "578",
+   "allocatedTo": "France - Wallis and Futuna Islands",
+   "name": "Wallis and Futuna Islands (France)"
+  },
+  {
+   "mid": "601",
+   "allocatedTo": "South Africa (Republic of)",
+   "name": "South Africa"
+  },
+  {
+   "mid": "603",
+   "allocatedTo": "Angola (Republic of)",
+   "name": "Angola"
+  },
+  {
+   "mid": "605",
+   "allocatedTo": "Algeria (People's Democratic Republic of)",
+   "name": "Algeria"
+  },
+  {
+   "mid": "607",
+   "allocatedTo": "France - Saint Paul and Amsterdam Islands",
+   "name": "Saint Paul and Amsterdam Islands (France)"
+  },
+  {
+   "mid": "608",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Ascension Island",
+   "name": "Ascension Island (United Kingdom)"
+  },
+  {
+   "mid": "609",
+   "allocatedTo": "Burundi (Republic of)",
+   "name": "Burundi"
+  },
+  {
+   "mid": "610",
+   "allocatedTo": "Benin (Republic of)",
+   "name": "Benin"
+  },
+  {
+   "mid": "611",
+   "allocatedTo": "Botswana (Republic of)",
+   "name": "Botswana"
+  },
+  {
+   "mid": "612",
+   "allocatedTo": "Central African Republic",
+   "name": "Central African Republic"
+  },
+  {
+   "mid": "613",
+   "allocatedTo": "Cameroon (Republic of)",
+   "name": "Cameroon"
+  },
+  {
+   "mid": "615",
+   "allocatedTo": "Congo (Republic of the)",
+   "name": "Congo"
+  },
+  {
+   "mid": "616",
+   "allocatedTo": "Comoros (Union of the)",
+   "name": "Comoros"
+  },
+  {
+   "mid": "617",
+   "allocatedTo": "Cabo Verde (Republic of)",
+   "name": "Cabo Verde"
+  },
+  {
+   "mid": "618",
+   "allocatedTo": "France - Crozet Archipelago",
+   "name": "Crozet Archipelago (France)"
+  },
+  {
+   "mid": "619",
+   "allocatedTo": "Côte d'Ivoire (Republic of)",
+   "name": "Côte d'Ivoire"
+  },
+  {
+   "mid": "620",
+   "allocatedTo": "Comoros (Union of the)",
+   "name": "Comoros"
+  },
+  {
+   "mid": "621",
+   "allocatedTo": "Djibouti (Republic of)",
+   "name": "Djibouti"
+  },
+  {
+   "mid": "622",
+   "allocatedTo": "Egypt (Arab Republic of)",
+   "name": "Egypt"
+  },
+  {
+   "mid": "624",
+   "allocatedTo": "Ethiopia (Federal Democratic Republic of)",
+   "name": "Ethiopia"
+  },
+  {
+   "mid": "625",
+   "allocatedTo": "Eritrea",
+   "name": "Eritrea"
+  },
+  {
+   "mid": "626",
+   "allocatedTo": "Gabonese Republic",
+   "name": "Gabonese Republic"
+  },
+  {
+   "mid": "627",
+   "allocatedTo": "Ghana",
+   "name": "Ghana"
+  },
+  {
+   "mid": "629",
+   "allocatedTo": "Gambia (Republic of the)",
+   "name": "Gambia"
+  },
+  {
+   "mid": "630",
+   "allocatedTo": "Guinea-Bissau (Republic of)",
+   "name": "Guinea-Bissau"
+  },
+  {
+   "mid": "631",
+   "allocatedTo": "Equatorial Guinea (Republic of)",
+   "name": "Equatorial Guinea"
+  },
+  {
+   "mid": "632",
+   "allocatedTo": "Guinea (Republic of)",
+   "name": "Guinea"
+  },
+  {
+   "mid": "633",
+   "allocatedTo": "Burkina Faso",
+   "name": "Burkina Faso"
+  },
+  {
+   "mid": "634",
+   "allocatedTo": "Kenya (Republic of)",
+   "name": "Kenya"
+  },
+  {
+   "mid": "635",
+   "allocatedTo": "France - Kerguelen Islands",
+   "name": "Kerguelen Islands (France)"
+  },
+  {
+   "mid": "636",
+   "allocatedTo": "Liberia (Republic of)",
+   "name": "Liberia"
+  },
+  {
+   "mid": "637",
+   "allocatedTo": "Liberia (Republic of)",
+   "name": "Liberia"
+  },
+  {
+   "mid": "638",
+   "allocatedTo": "South Sudan (Republic of)",
+   "name": "South Sudan"
+  },
+  {
+   "mid": "642",
+   "allocatedTo": "Libya (State of)",
+   "name": "Libya"
+  },
+  {
+   "mid": "644",
+   "allocatedTo": "Lesotho (Kingdom of)",
+   "name": "Lesotho"
+  },
+  {
+   "mid": "645",
+   "allocatedTo": "Mauritius (Republic of)",
+   "name": "Mauritius"
+  },
+  {
+   "mid": "647",
+   "allocatedTo": "Madagascar (Republic of)",
+   "name": "Madagascar"
+  },
+  {
+   "mid": "649",
+   "allocatedTo": "Mali (Republic of)",
+   "name": "Mali"
+  },
+  {
+   "mid": "650",
+   "allocatedTo": "Mozambique (Republic of)",
+   "name": "Mozambique"
+  },
+  {
+   "mid": "654",
+   "allocatedTo": "Mauritania (Islamic Republic of)",
+   "name": "Mauritania"
+  },
+  {
+   "mid": "655",
+   "allocatedTo": "Malawi",
+   "name": "Malawi"
+  },
+  {
+   "mid": "656",
+   "allocatedTo": "Niger (Republic of the)",
+   "name": "Niger"
+  },
+  {
+   "mid": "657",
+   "allocatedTo": "Nigeria (Federal Republic of)",
+   "name": "Nigeria"
+  },
+  {
+   "mid": "659",
+   "allocatedTo": "Namibia (Republic of)",
+   "name": "Namibia"
+  },
+  {
+   "mid": "660",
+   "allocatedTo": "France - Reunion (French Department of)",
+   "name": "Reunion (France)"
+  },
+  {
+   "mid": "661",
+   "allocatedTo": "Rwanda (Republic of)",
+   "name": "Rwanda"
+  },
+  {
+   "mid": "662",
+   "allocatedTo": "Sudan (Republic of the)",
+   "name": "Sudan"
+  },
+  {
+   "mid": "663",
+   "allocatedTo": "Senegal (Republic of)",
+   "name": "Senegal"
+  },
+  {
+   "mid": "664",
+   "allocatedTo": "Seychelles (Republic of)",
+   "name": "Seychelles"
+  },
+  {
+   "mid": "665",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Saint Helena",
+   "name": "Saint Helena (United Kingdom)"
+  },
+  {
+   "mid": "666",
+   "allocatedTo": "Somalia (Federal Republic of)",
+   "name": "Somalia"
+  },
+  {
+   "mid": "667",
+   "allocatedTo": "Sierra Leone",
+   "name": "Sierra Leone"
+  },
+  {
+   "mid": "668",
+   "allocatedTo": "Sao Tome and Principe (Democratic Republic of)",
+   "name": "Sao Tome and Principe"
+  },
+  {
+   "mid": "669",
+   "allocatedTo": "Eswatini (Kingdom of)",
+   "name": "Eswatini"
+  },
+  {
+   "mid": "670",
+   "allocatedTo": "Chad (Republic of)",
+   "name": "Chad"
+  },
+  {
+   "mid": "671",
+   "allocatedTo": "Togolese Republic",
+   "name": "Togolese Republic"
+  },
+  {
+   "mid": "672",
+   "allocatedTo": "Tunisia",
+   "name": "Tunisia"
+  },
+  {
+   "mid": "674",
+   "allocatedTo": "Tanzania (United Republic of)",
+   "name": "Tanzania"
+  },
+  {
+   "mid": "675",
+   "allocatedTo": "Uganda (Republic of)",
+   "name": "Uganda"
+  },
+  {
+   "mid": "676",
+   "allocatedTo": "Democratic Republic of the Congo",
+   "name": "Democratic Republic of the Congo"
+  },
+  {
+   "mid": "677",
+   "allocatedTo": "Tanzania (United Republic of)",
+   "name": "Tanzania"
+  },
+  {
+   "mid": "678",
+   "allocatedTo": "Zambia (Republic of)",
+   "name": "Zambia"
+  },
+  {
+   "mid": "679",
+   "allocatedTo": "Zimbabwe (Republic of)",
+   "name": "Zimbabwe"
+  },
+  {
+   "mid": "701",
+   "allocatedTo": "Argentine Republic",
+   "name": "Argentine Republic"
+  },
+  {
+   "mid": "710",
+   "allocatedTo": "Brazil (Federative Republic of)",
+   "name": "Brazil"
+  },
+  {
+   "mid": "720",
+   "allocatedTo": "Bolivia (Plurinational State of)",
+   "name": "Bolivia"
+  },
+  {
+   "mid": "725",
+   "allocatedTo": "Chile",
+   "name": "Chile"
+  },
+  {
+   "mid": "730",
+   "allocatedTo": "Colombia (Republic of)",
+   "name": "Colombia"
+  },
+  {
+   "mid": "735",
+   "allocatedTo": "Ecuador",
+   "name": "Ecuador"
+  },
+  {
+   "mid": "740",
+   "allocatedTo": "United Kingdom of Great Britain and Northern Ireland - Falkland Islands (Malvinas)",
+   "name": "Falkland Islands (Malvinas) (United Kingdom)"
+  },
+  {
+   "mid": "745",
+   "allocatedTo": "France - Guiana (French Department of)",
+   "name": "Guiana (France)"
+  },
+  {
+   "mid": "750",
+   "allocatedTo": "Guyana",
+   "name": "Guyana"
+  },
+  {
+   "mid": "755",
+   "allocatedTo": "Paraguay (Republic of)",
+   "name": "Paraguay"
+  },
+  {
+   "mid": "760",
+   "allocatedTo": "Peru",
+   "name": "Peru"
+  },
+  {
+   "mid": "765",
+   "allocatedTo": "Suriname (Republic of)",
+   "name": "Suriname"
+  },
+  {
+   "mid": "770",
+   "allocatedTo": "Uruguay (Eastern Republic of)",
+   "name": "Uruguay"
+  },
+  {
+   "mid": "775",
+   "allocatedTo": "Venezuela (Bolivarian Republic of)",
+   "name": "Venezuela"
+  }
+ ]
+}

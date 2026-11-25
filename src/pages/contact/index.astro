@@ -1,0 +1,11 @@
+---
+import Base from '../../layouts/Base.astro';
+import { CONTACT_EMAIL, SITE_NAME } from '../../data/site.js';
+---
+<Base title="Contact" description={`Contact ${SITE_NAME}: service requests, corrections and partnership for service companies.`} crumbs={[{ name: 'Home', path: '/' }, { name: 'Contact', path: '/contact/' }]}>
+  <h1>Contact</h1>
+  <p class="lead">Need a technician? The quickest way is the <a href="/request/">request form</a>.</p>
+  <p>For corrections, questions about a page, or if you are a service company and want to receive requests in your ports, write to:</p>
+  <p><a class="mail" href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
+</Base>
+<style>.mail { font-size: 1.2rem; font-weight: 700; }</style>

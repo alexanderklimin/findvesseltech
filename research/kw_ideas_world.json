@@ -1,0 +1,12301 @@
+[
+ {
+  "k": "radar shipping",
+  "v": 90500,
+  "comp": "LOW",
+  "lo": 0.22,
+  "hi": 0.84
+ },
+ {
+  "k": "sart",
+  "v": 60500,
+  "comp": "LOW",
+  "lo": 0.07,
+  "hi": 2.49
+ },
+ {
+  "k": "epirb",
+  "v": 49500,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.51
+ },
+ {
+  "k": "emergency position indicating radio beacon",
+  "v": 49500,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.51
+ },
+ {
+  "k": "epirb emergency beacon",
+  "v": 49500,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.51
+ },
+ {
+  "k": "emergency position indicating radio",
+  "v": 49500,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.51
+ },
+ {
+  "k": "emergency position indicating radio beacon epirb",
+  "v": 49500,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.51
+ },
+ {
+  "k": "emergency position radio beacon",
+  "v": 49500,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.51
+ },
+ {
+  "k": "emergency radio beacon",
+  "v": 49500,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.51
+ },
+ {
+  "k": "shipping radar 24",
+  "v": 22200,
+  "comp": "LOW",
+  "lo": 0.18,
+  "hi": 0.88
+ },
+ {
+  "k": "gmdss",
+  "v": 12100,
+  "comp": "LOW",
+  "lo": 0.33,
+  "hi": 2.23
+ },
+ {
+  "k": "navtex",
+  "v": 12100,
+  "comp": "LOW",
+  "lo": 0.12,
+  "hi": 0.88
+ },
+ {
+  "k": "ecdis",
+  "v": 12100,
+  "comp": "LOW",
+  "lo": 0.33,
+  "hi": 1.3
+ },
+ {
+  "k": "furuno",
+  "v": 12100,
+  "comp": "LOW",
+  "lo": 0.11,
+  "hi": 1.41
+ },
+ {
+  "k": "gyro compass",
+  "v": 8100,
+  "comp": "LOW",
+  "lo": 0.31,
+  "hi": 6.07
+ },
+ {
+  "k": "gyroscope compass",
+  "v": 8100,
+  "comp": "LOW",
+  "lo": 0.31,
+  "hi": 6.07
+ },
+ {
+  "k": "shipping radar live",
+  "v": 5400,
+  "comp": "LOW",
+  "lo": 0.17,
+  "hi": 0.84
+ },
+ {
+  "k": "furuno radar",
+  "v": 4400,
+  "comp": "HIGH",
+  "lo": 0.17,
+  "hi": 1.41
+ },
+ {
+  "k": "epirb personal locator beacon",
+  "v": 3600,
+  "comp": "HIGH",
+  "lo": 0.18,
+  "hi": 1.11
+ },
+ {
+  "k": "plb locator beacon",
+  "v": 3600,
+  "comp": "HIGH",
+  "lo": 0.13,
+  "hi": 0.84
+ },
+ {
+  "k": "gmdss meaning",
+  "v": 2400,
+  "comp": "LOW",
+  "lo": 0.28,
+  "hi": 0.45
+ },
+ {
+  "k": "epirb for hiking",
+  "v": 2400,
+  "comp": "HIGH",
+  "lo": 0.2,
+  "hi": 1.04
+ },
+ {
+  "k": "marine electronics service",
+  "v": 2400,
+  "comp": "LOW",
+  "lo": 1.22,
+  "hi": 6.39
+ },
+ {
+  "k": "marine electronics installation",
+  "v": 2400,
+  "comp": "LOW",
+  "lo": 1.59,
+  "hi": 8.39
+ },
+ {
+  "k": "boat electronics installation",
+  "v": 2400,
+  "comp": "LOW",
+  "lo": 1.59,
+  "hi": 8.39
+ },
+ {
+  "k": "inmarsat c",
+  "v": 1900,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 2.2
+ },
+ {
+  "k": "epirb for boat",
+  "v": 1900,
+  "comp": "HIGH",
+  "lo": 0.27,
+  "hi": 1.53
+ },
+ {
+  "k": "bnwas",
+  "v": 1900,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "flight radar ships",
+  "v": 1900,
+  "comp": "LOW",
+  "lo": 0.13,
+  "hi": 0.82
+ },
+ {
+  "k": "marine electronics repair",
+  "v": 1900,
+  "comp": "LOW",
+  "lo": 2.2,
+  "hi": 8.51
+ },
+ {
+  "k": "epirb for sale",
+  "v": 1600,
+  "comp": "HIGH",
+  "lo": 0.19,
+  "hi": 1.05
+ },
+ {
+  "k": "epirb au",
+  "v": 1600,
+  "comp": "HIGH",
+  "lo": 0.16,
+  "hi": 1.52
+ },
+ {
+  "k": "registering an epirb",
+  "v": 1600,
+  "comp": "LOW",
+  "lo": 1.61,
+  "hi": 4.21
+ },
+ {
+  "k": "ecdis meaning",
+  "v": 1600,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "personal epirb",
+  "v": 1300,
+  "comp": "HIGH",
+  "lo": 0.18,
+  "hi": 1.07
+ },
+ {
+  "k": "epirb beacon",
+  "v": 1000,
+  "comp": "HIGH",
+  "lo": 0.25,
+  "hi": 1.45
+ },
+ {
+  "k": "gme epirb",
+  "v": 1000,
+  "comp": "HIGH",
+  "lo": 0.41,
+  "hi": 2.2
+ },
+ {
+  "k": "ship finder marine traffic",
+  "v": 1000,
+  "comp": "LOW",
+  "lo": 0.1,
+  "hi": 0.76
+ },
+ {
+  "k": "gmdss equipment",
+  "v": 880,
+  "comp": "LOW",
+  "lo": 0.34,
+  "hi": 1.22
+ },
+ {
+  "k": "equipment of gmdss",
+  "v": 880,
+  "comp": "LOW",
+  "lo": 0.34,
+  "hi": 1.22
+ },
+ {
+  "k": "acr epirb",
+  "v": 880,
+  "comp": "HIGH",
+  "lo": 0.43,
+  "hi": 2.33
+ },
+ {
+  "k": "acr electronics epirb",
+  "v": 880,
+  "comp": "HIGH",
+  "lo": 0.43,
+  "hi": 2.33
+ },
+ {
+  "k": "voyage data recorder",
+  "v": 880,
+  "comp": "LOW",
+  "lo": 1.43,
+  "hi": 67.78
+ },
+ {
+  "k": "simplified voyage data recorder",
+  "v": 880,
+  "comp": "LOW",
+  "lo": 1.43,
+  "hi": 67.78
+ },
+ {
+  "k": "jrc radar",
+  "v": 880,
+  "comp": "MEDIUM",
+  "lo": 0.35,
+  "hi": 2.12
+ },
+ {
+  "k": "furuno ecdis",
+  "v": 880,
+  "comp": "LOW",
+  "lo": 0.15,
+  "hi": 0.9
+ },
+ {
+  "k": "gmdss manual",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.29,
+  "hi": 1.79
+ },
+ {
+  "k": "navtex receivers",
+  "v": 720,
+  "comp": "MEDIUM",
+  "lo": 0.09,
+  "hi": 1.89
+ },
+ {
+  "k": "ecdis electronic chart display and information system",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.41,
+  "hi": 2.14
+ },
+ {
+  "k": "electronic chart display and information system",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.41,
+  "hi": 2.14
+ },
+ {
+  "k": "electronic chart display and information system ecdis",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.41,
+  "hi": 2.14
+ },
+ {
+  "k": "electronic chart display information system",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.41,
+  "hi": 2.14
+ },
+ {
+  "k": "electronic chart display information system ecdis",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.41,
+  "hi": 2.14
+ },
+ {
+  "k": "electronic chart display system",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.41,
+  "hi": 2.14
+ },
+ {
+  "k": "gyro compass in ship",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.45,
+  "hi": 2.37
+ },
+ {
+  "k": "ship gyro compass",
+  "v": 720,
+  "comp": "LOW",
+  "lo": 0.45,
+  "hi": 2.37
+ },
+ {
+  "k": "epirb battery replacement",
+  "v": 590,
+  "comp": "MEDIUM",
+  "lo": 0.7,
+  "hi": 2.57
+ },
+ {
+  "k": "navtex antenna",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "antenna navtex",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas alarm",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas system",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bridge navigation watch alarm system",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bridge navigational watch alarm system bnwas",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bridge watch alarm",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bridge watch alarm system",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis in ship",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 1.36
+ },
+ {
+  "k": "ship ecdis",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 1.36
+ },
+ {
+  "k": "marine audio near me",
+  "v": 590,
+  "comp": "LOW",
+  "lo": 0.92,
+  "hi": 5.34
+ },
+ {
+  "k": "gmdss radio",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0.29,
+  "hi": 1.43
+ },
+ {
+  "k": "global maritime distress and safety system",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0.39,
+  "hi": 2.34
+ },
+ {
+  "k": "gmdss goc",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0.44,
+  "hi": 4.43
+ },
+ {
+  "k": "global maritime distress and safety system gmdss",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0.39,
+  "hi": 2.34
+ },
+ {
+  "k": "global maritime distress safety system",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0.39,
+  "hi": 2.34
+ },
+ {
+  "k": "epirb marine",
+  "v": 480,
+  "comp": "HIGH",
+  "lo": 0.29,
+  "hi": 1.4
+ },
+ {
+  "k": "jotron epirb",
+  "v": 480,
+  "comp": "MEDIUM",
+  "lo": 0.6,
+  "hi": 4.62
+ },
+ {
+  "k": "best plbs",
+  "v": 480,
+  "comp": "HIGH",
+  "lo": 0.15,
+  "hi": 1.94
+ },
+ {
+  "k": "epirb in ship",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb ship",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno marine radar",
+  "v": 480,
+  "comp": "HIGH",
+  "lo": 0.22,
+  "hi": 2.24
+ },
+ {
+  "k": "boat radar furuno",
+  "v": 480,
+  "comp": "HIGH",
+  "lo": 0.22,
+  "hi": 2.24
+ },
+ {
+  "k": "gyro and magnetic compass",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass and magnetic compass",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "magnetic gyro compass",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine tracker 24",
+  "v": 480,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "personal epirb marine",
+  "v": 390,
+  "comp": "HIGH",
+  "lo": 0.23,
+  "hi": 1.12
+ },
+ {
+  "k": "mcmurdo epirb",
+  "v": 390,
+  "comp": "HIGH",
+  "lo": 0.44,
+  "hi": 1.97
+ },
+ {
+  "k": "ais epirb",
+  "v": 390,
+  "comp": "HIGH",
+  "lo": 0.32,
+  "hi": 2.64
+ },
+ {
+  "k": "marine plb",
+  "v": 390,
+  "comp": "HIGH",
+  "lo": 0.23,
+  "hi": 1.12
+ },
+ {
+  "k": "406 mhz epirb",
+  "v": 390,
+  "comp": "HIGH",
+  "lo": 0.32,
+  "hi": 1.25
+ },
+ {
+  "k": "flight radar but for ships",
+  "v": 390,
+  "comp": "LOW",
+  "lo": 0.13,
+  "hi": 0.65
+ },
+ {
+  "k": "jrc ecdis",
+  "v": 390,
+  "comp": "LOW",
+  "lo": 0.56,
+  "hi": 2.16
+ },
+ {
+  "k": "marine electronics installation near me",
+  "v": 390,
+  "comp": "LOW",
+  "lo": 2.22,
+  "hi": 6.42
+ },
+ {
+  "k": "marine electronics installer near me",
+  "v": 390,
+  "comp": "LOW",
+  "lo": 2.22,
+  "hi": 6.42
+ },
+ {
+  "k": "sailor 6110",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vhf gmdss",
+  "v": 320,
+  "comp": "MEDIUM",
+  "lo": 0.22,
+  "hi": 0.49
+ },
+ {
+  "k": "gmdss area",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal epirb",
+  "v": 320,
+  "comp": "HIGH",
+  "lo": 0.47,
+  "hi": 1.87
+ },
+ {
+  "k": "ocean signal rescueme epirb1",
+  "v": 320,
+  "comp": "HIGH",
+  "lo": 0.33,
+  "hi": 1.27
+ },
+ {
+  "k": "epirb battery",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0.57,
+  "hi": 2.35
+ },
+ {
+  "k": "406mhz",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4d nxt",
+  "v": 320,
+  "comp": "HIGH",
+  "lo": 0.41,
+  "hi": 3.88
+ },
+ {
+  "k": "furuno drs4dnxt",
+  "v": 320,
+  "comp": "HIGH",
+  "lo": 0.41,
+  "hi": 3.88
+ },
+ {
+  "k": "ais live marine traffic",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis meaning in maritime",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ship radar 24 app",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0.04,
+  "hi": 0.36
+ },
+ {
+  "k": "transas ecdis",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0.5,
+  "hi": 1.22
+ },
+ {
+  "k": "transas navi sailor 4000",
+  "v": 320,
+  "comp": "LOW",
+  "lo": 0.47,
+  "hi": 1.55
+ },
+ {
+  "k": "iridium gmdss",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 0.33,
+  "hi": 3.26
+ },
+ {
+  "k": "sailor sp3520",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 0.31,
+  "hi": 1.32
+ },
+ {
+  "k": "gmdss log book",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss meaning in maritime",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0.29,
+  "hi": 0.41
+ },
+ {
+  "k": "ic gm600",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 0.22,
+  "hi": 1.71
+ },
+ {
+  "k": "sp3520 sailor",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 0.31,
+  "hi": 1.32
+ },
+ {
+  "k": "gps epirb",
+  "v": 260,
+  "comp": "HIGH",
+  "lo": 0.4,
+  "hi": 1.65
+ },
+ {
+  "k": "406 epirb",
+  "v": 260,
+  "comp": "HIGH",
+  "lo": 0.37,
+  "hi": 1.8
+ },
+ {
+  "k": "epirb cost",
+  "v": 260,
+  "comp": "HIGH",
+  "lo": 0.1,
+  "hi": 0.52
+ },
+ {
+  "k": "acr rlb 32",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navtex",
+  "v": 260,
+  "comp": "HIGH",
+  "lo": 0.53,
+  "hi": 0.98
+ },
+ {
+  "k": "tron 60ais",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0.34,
+  "hi": 2.47
+ },
+ {
+  "k": "vdr in ship",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "voyage data",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0.24,
+  "hi": 1
+ },
+ {
+  "k": "furuno drs4w",
+  "v": 260,
+  "comp": "HIGH",
+  "lo": 0.37,
+  "hi": 3.71
+ },
+ {
+  "k": "furuno 1623 radar",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 0.04,
+  "hi": 0.92
+ },
+ {
+  "k": "ecdis chart 1",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "part of gyro compass",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar 1623 furuno",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 0.04,
+  "hi": 0.92
+ },
+ {
+  "k": "marine electronics repair near me",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 2.53,
+  "hi": 9.01
+ },
+ {
+  "k": "marine audio installation near me",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 1.15,
+  "hi": 5.35
+ },
+ {
+  "k": "boat electronics installation near me",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 1.85,
+  "hi": 6.82
+ },
+ {
+  "k": "marine electrical systems",
+  "v": 260,
+  "comp": "LOW",
+  "lo": 0.81,
+  "hi": 5.08
+ },
+ {
+  "k": "ship navigation tools",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 12.19,
+  "hi": 15.07
+ },
+ {
+  "k": "ship navigation instruments",
+  "v": 260,
+  "comp": "MEDIUM",
+  "lo": 12.19,
+  "hi": 15.07
+ },
+ {
+  "k": "entel ht649",
+  "v": 210,
+  "comp": "MEDIUM",
+  "lo": 0.46,
+  "hi": 2.06
+ },
+ {
+  "k": "jotron tr30",
+  "v": 210,
+  "comp": "MEDIUM",
+  "lo": 0.59,
+  "hi": 3.13
+ },
+ {
+  "k": "boat emergency beacon",
+  "v": 210,
+  "comp": "HIGH",
+  "lo": 0.23,
+  "hi": 0.83
+ },
+ {
+  "k": "fast find 220 plb",
+  "v": 210,
+  "comp": "HIGH",
+  "lo": 0.2,
+  "hi": 1.1
+ },
+ {
+  "k": "acr resqlink replacement battery",
+  "v": 210,
+  "comp": "MEDIUM",
+  "lo": 0.69,
+  "hi": 1.83
+ },
+ {
+  "k": "clipper navtex",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "felcom 18",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ssas test",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1815",
+  "v": 210,
+  "comp": "MEDIUM",
+  "lo": 0.17,
+  "hi": 0.96
+ },
+ {
+  "k": "drs4d nxt",
+  "v": 210,
+  "comp": "MEDIUM",
+  "lo": 0.5,
+  "hi": 5.03
+ },
+ {
+  "k": "radar furuno 1815",
+  "v": 210,
+  "comp": "MEDIUM",
+  "lo": 0.05,
+  "hi": 0.78
+ },
+ {
+  "k": "marine gyro compass",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 6.18
+ },
+ {
+  "k": "e globe ecdis",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "eglobe ecdis",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1715 radar",
+  "v": 210,
+  "comp": "MEDIUM",
+  "lo": 0.06,
+  "hi": 0.65
+ },
+ {
+  "k": "navi sailor 4000",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0.57,
+  "hi": 1.22
+ },
+ {
+  "k": "wartsila ecdis",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0.49,
+  "hi": 1.41
+ },
+ {
+  "k": "lowrance fish finder repair",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 1.64,
+  "hi": 3.26
+ },
+ {
+  "k": "vessel navigation system",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0.44,
+  "hi": 9.07
+ },
+ {
+  "k": "jrc service",
+  "v": 210,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss equipment list",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0.27,
+  "hi": 0.89
+ },
+ {
+  "k": "endorse gmdss",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area a1 a2 a3 a4",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss radio log book",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0.31,
+  "hi": 2.82
+ },
+ {
+  "k": "garmin epirb",
+  "v": 170,
+  "comp": "HIGH",
+  "lo": 0.34,
+  "hi": 1.95
+ },
+ {
+  "k": "acr plb battery replacement",
+  "v": 170,
+  "comp": "MEDIUM",
+  "lo": 0.71,
+  "hi": 1.72
+ },
+ {
+  "k": "epirb price",
+  "v": 170,
+  "comp": "HIGH",
+  "lo": 0.07,
+  "hi": 0.46
+ },
+ {
+  "k": "gme beacon",
+  "v": 170,
+  "comp": "MEDIUM",
+  "lo": 0.25,
+  "hi": 1.98
+ },
+ {
+  "k": "gme epirb battery replacement",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa navtex",
+  "v": 170,
+  "comp": "HIGH",
+  "lo": 0.15,
+  "hi": 0.54
+ },
+ {
+  "k": "amsa beacon",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "felcom 15",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno felcom 18",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navtex nx 300",
+  "v": 170,
+  "comp": "MEDIUM",
+  "lo": 0.08,
+  "hi": 0.37
+ },
+ {
+  "k": "gme plb battery replacement",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 40vdr",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 1.15,
+  "hi": 3.46
+ },
+ {
+  "k": "lrit conformance test",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0.51,
+  "hi": 4.75
+ },
+ {
+  "k": "vdr marine equipment",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 1.54,
+  "hi": 4.5
+ },
+ {
+  "k": "furuno 1623",
+  "v": 170,
+  "comp": "MEDIUM",
+  "lo": 0.03,
+  "hi": 1.19
+ },
+ {
+  "k": "fiber optic gyro compass",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0.92,
+  "hi": 7.24
+ },
+ {
+  "k": "furuno plotter",
+  "v": 170,
+  "comp": "HIGH",
+  "lo": 0.08,
+  "hi": 1.37
+ },
+ {
+  "k": "ecdis chart",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis display",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0.25,
+  "hi": 1.85
+ },
+ {
+  "k": "ecdis sperry marine",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis type",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nav net vx2",
+  "v": 170,
+  "comp": "HIGH",
+  "lo": 0.05,
+  "hi": 0.35
+ },
+ {
+  "k": "jrc 1000 radar",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine traffic global tracking",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "msc 232 82",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar 1000 jrc",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar onwa",
+  "v": 170,
+  "comp": "HIGH",
+  "lo": 0.36,
+  "hi": 0.9
+ },
+ {
+  "k": "type of ecdis",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine dealers near me",
+  "v": 170,
+  "comp": "HIGH",
+  "lo": 0.67,
+  "hi": 12
+ },
+ {
+  "k": "jrc plumbing",
+  "v": 170,
+  "comp": "LOW",
+  "lo": 4.86,
+  "hi": 18.72
+ },
+ {
+  "k": "lt 3100s",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.32,
+  "hi": 3.26
+ },
+ {
+  "k": "gmdss simulator",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.39,
+  "hi": 1.2
+ },
+ {
+  "k": "gmdss src",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.55,
+  "hi": 6.16
+ },
+ {
+  "k": "icom gm1600",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.76,
+  "hi": 2.41
+ },
+ {
+  "k": "gmdss sea area",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "goc gmdss",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron tr20",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 2.23
+ },
+ {
+  "k": "sea area a1",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sea area a1 a2 a3 a4",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sea area gmdss",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simulator gmdss",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.39,
+  "hi": 1.2
+ },
+ {
+  "k": "epirb west marine",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.65,
+  "hi": 4.2
+ },
+ {
+  "k": "acr globalfix v4",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.28,
+  "hi": 2.07
+ },
+ {
+  "k": "acr epirb battery replacement",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.75,
+  "hi": 3.07
+ },
+ {
+  "k": "buy epirb",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.25,
+  "hi": 1.49
+ },
+ {
+  "k": "acr globalfix",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.46,
+  "hi": 1.71
+ },
+ {
+  "k": "plb battery replacement",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.76,
+  "hi": 3.19
+ },
+ {
+  "k": "epirb for land",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.11,
+  "hi": 0.68
+ },
+ {
+  "k": "plb epirb",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.25,
+  "hi": 1.22
+ },
+ {
+  "k": "epirb1",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.35,
+  "hi": 1.42
+ },
+ {
+  "k": "acr global fix",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.46,
+  "hi": 1.71
+ },
+ {
+  "k": "cospas sarsat epirb",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb and plb",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.25,
+  "hi": 1.22
+ },
+ {
+  "k": "furuno navtex nx 700",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nx 700",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "hammar h20e",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.77,
+  "hi": 1.96
+ },
+ {
+  "k": "inmarsat c antenna",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 60ais",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.86,
+  "hi": 3.74
+ },
+ {
+  "k": "lrit inmarsat c",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas furuno",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ship vdr",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ship voyage data recorder",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vdr on ship",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vdr voyage data recorder",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.47,
+  "hi": 12.19
+ },
+ {
+  "k": "drs4w",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.3,
+  "hi": 2.1
+ },
+ {
+  "k": "furuno mfd12",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.29,
+  "hi": 2.33
+ },
+ {
+  "k": "anschutz gyro",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "chart world ecdis",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis in navigation",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.43,
+  "hi": 1.41
+ },
+ {
+  "k": "ecdis navi sailor 4000",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.44,
+  "hi": 1.41
+ },
+ {
+  "k": "ecdis radar",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.61,
+  "hi": 1.44
+ },
+ {
+  "k": "ecdis simrad",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.31,
+  "hi": 1.36
+ },
+ {
+  "k": "ecdis system",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.45,
+  "hi": 1.53
+ },
+ {
+  "k": "furuno 1815 radar",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.3,
+  "hi": 2.13
+ },
+ {
+  "k": "furuno radar 1815",
+  "v": 140,
+  "comp": "MEDIUM",
+  "lo": 0.3,
+  "hi": 2.13
+ },
+ {
+  "k": "furuno rcu 014",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyrocompass in ship",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyrocompass sperry",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kongsberg ecdis",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.99,
+  "hi": 1.48
+ },
+ {
+  "k": "marine traffic live tracking",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.01,
+  "hi": 0.89
+ },
+ {
+  "k": "radar ecdis",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0.61,
+  "hi": 1.44
+ },
+ {
+  "k": "zoc ecdis",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine audio installation",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ups hundredweight",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 4.52,
+  "hi": 30.4
+ },
+ {
+  "k": "acr epirb replacement battery",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.75,
+  "hi": 3.07
+ },
+ {
+  "k": "marine electronic sales",
+  "v": 140,
+  "comp": "HIGH",
+  "lo": 0.22,
+  "hi": 0.95
+ },
+ {
+  "k": "send electronics",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno support",
+  "v": 140,
+  "comp": "LOW",
+  "lo": 3.14,
+  "hi": 7.38
+ },
+ {
+  "k": "ht649",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss console",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss result",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sp3520",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.34,
+  "hi": 2.04
+ },
+ {
+  "k": "personal epirb hiking",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.12,
+  "hi": 1.02
+ },
+ {
+  "k": "rescueme epirb1",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.29,
+  "hi": 1.68
+ },
+ {
+  "k": "resqlink ais plb",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.36,
+  "hi": 3.54
+ },
+ {
+  "k": "epirb device",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.15,
+  "hi": 1.01
+ },
+ {
+  "k": "ocean signal epirb1",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.62,
+  "hi": 1.43
+ },
+ {
+  "k": "epirb mcmurdo e5",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb satellite",
+  "v": 110,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb types",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno felcom 15",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno inmarsat c",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nx 300",
+  "v": 110,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gps enabled epirb",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.17,
+  "hi": 1.03
+ },
+ {
+  "k": "ncr 333",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nsr epirb",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas on ship",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nxt radar",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.32,
+  "hi": 1.42
+ },
+ {
+  "k": "furuno tzt12f",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0.6,
+  "hi": 2.15
+ },
+ {
+  "k": "furuno 1715",
+  "v": 110,
+  "comp": "MEDIUM",
+  "lo": 0.09,
+  "hi": 0.97
+ },
+ {
+  "k": "anschutz gyro compass",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "danelec ecdis",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis ais",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis jrc",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis kelvin hughes",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "eglobe g2 ecdis",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1835 radar",
+  "v": 110,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno far2117",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fmd 3100",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fmd 3300",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gp330b furuno",
+  "v": 110,
+  "comp": "MEDIUM",
+  "lo": 2.61,
+  "hi": 11.36
+ },
+ {
+  "k": "gyro compass meaning",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "maris ecdis",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navi sailor",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navnet 3d furuno",
+  "v": 110,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "s 100 ecdis",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "wartsila navi sailor 4000",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0.49,
+  "hi": 1.34
+ },
+ {
+  "k": "ship electronics",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0.2,
+  "hi": 3.65
+ },
+ {
+  "k": "marine radio repair",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 1.6,
+  "hi": 9.56
+ },
+ {
+  "k": "shipping electronics usps",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fish finder repair",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin fishfinder repair",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine vhf radio repair",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 1.6,
+  "hi": 9.56
+ },
+ {
+  "k": "ship cell phone usps",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vhf radio repair",
+  "v": 110,
+  "comp": "LOW",
+  "lo": 1.6,
+  "hi": 9.56
+ },
+ {
+  "k": "lars thrane lt 3100s",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0.36,
+  "hi": 2.27
+ },
+ {
+  "k": "apa itu gmdss",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "coc gmdss",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss equipment in ship",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0.35,
+  "hi": 1.01
+ },
+ {
+  "k": "gmdss in ship",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss logbook",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss stand for",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss system",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0.7,
+  "hi": 3.26
+ },
+ {
+  "k": "gmdss walkie talkie",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0.99,
+  "hi": 2.53
+ },
+ {
+  "k": "sailor 6006",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr battery replacement",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0.67,
+  "hi": 3.62
+ },
+ {
+  "k": "category 1 epirb",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.4,
+  "hi": 2.53
+ },
+ {
+  "k": "rescue me epirb",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g8",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "cheap epirb",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.19,
+  "hi": 1.22
+ },
+ {
+  "k": "breitling epirb",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.32,
+  "hi": 2.1
+ },
+ {
+  "k": "boat plb",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.33,
+  "hi": 1.04
+ },
+ {
+  "k": "epirb signal",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb vhf",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ics nav 6",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c sailor",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c satellite",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c terminal",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron 60s epirb",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc ncr 333",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex nx 300",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex nx 700",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 4065 epirb",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60ais epirb",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas alarm stages",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno wireless radar",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.27,
+  "hi": 0.94
+ },
+ {
+  "k": "furuno 1835",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0.32,
+  "hi": 0.73
+ },
+ {
+  "k": "furuno nxt",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.47,
+  "hi": 3.63
+ },
+ {
+  "k": "tztl15f",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0.37,
+  "hi": 1.17
+ },
+ {
+  "k": "drs2d nxt",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.83,
+  "hi": 5.58
+ },
+ {
+  "k": "drs6a nxt",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis marine",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0.44,
+  "hi": 1.45
+ },
+ {
+  "k": "ecdis maris 900",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis transas",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0.17,
+  "hi": 1.09
+ },
+ {
+  "k": "furuno 1621 radar",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno antenna",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4d",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.34,
+  "hi": 1.99
+ },
+ {
+  "k": "furuno fmd 3200",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fr12",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar display",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar wifi",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.24,
+  "hi": 1.49
+ },
+ {
+  "k": "furuno radome",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.4,
+  "hi": 2.17
+ },
+ {
+  "k": "furuno rdp 149",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.15,
+  "hi": 1.78
+ },
+ {
+  "k": "iec 61174",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc 9201",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "maretron ssc300",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "master gyro compass",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "parallel index ecdis",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar 1935",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar furuno wifi",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.24,
+  "hi": 1.49
+ },
+ {
+  "k": "radar wifi furuno",
+  "v": 90,
+  "comp": "HIGH",
+  "lo": 0.24,
+  "hi": 1.49
+ },
+ {
+  "k": "s 57 ecdis",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "magnetic compass adjustment",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fish finder installation near me",
+  "v": 90,
+  "comp": "MEDIUM",
+  "lo": 0.64,
+  "hi": 1.83
+ },
+ {
+  "k": "compass adjustment",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 2.16
+ },
+ {
+  "k": "ship cell phone",
+  "v": 90,
+  "comp": "LOW",
+  "lo": 0.29,
+  "hi": 1.84
+ },
+ {
+  "k": "lt3100s",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0.42,
+  "hi": 3.5
+ },
+ {
+  "k": "sailor 6110 gmdss system",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a1 a2 a3 a4",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss book",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss handbook",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss handheld radio",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss inmarsat",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 3.44
+ },
+ {
+  "k": "gmdss navtex",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss portable radio",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss sailor",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss vhf radio",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron tr30",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0.36,
+  "hi": 2.52
+ },
+ {
+  "k": "jotron vhf",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.55,
+  "hi": 1.92
+ },
+ {
+  "k": "survival craft portable radio",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme emergency beacon",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.21,
+  "hi": 1.71
+ },
+ {
+  "k": "globalfix v5",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.66,
+  "hi": 2.69
+ },
+ {
+  "k": "portable epirb",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.29,
+  "hi": 0.94
+ },
+ {
+  "k": "epirb battery replacement near me",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gpirb",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr rlb 41",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb for small boat",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.27,
+  "hi": 1.04
+ },
+ {
+  "k": "kannad marine",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal epirb1 pro",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.35,
+  "hi": 1.99
+ },
+ {
+  "k": "epirb kannad",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb use",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb vep8",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "felcom 19",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat mini c",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron h20e",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 1.31,
+  "hi": 2.74
+ },
+ {
+  "k": "mcmurdo e5",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navigational telex",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex ncr 333",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radiopława epirb",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "receptor navtex",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 40s mkii",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60 ais",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 1.51,
+  "hi": 4.61
+ },
+ {
+  "k": "tron 60s",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 1.39,
+  "hi": 4.9
+ },
+ {
+  "k": "vdr vessel",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "voyage data recorder in ship",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "voyage data service",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0.49,
+  "hi": 3.35
+ },
+ {
+  "k": "furuno tzt3 9",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 0.77
+ },
+ {
+  "k": "furuno tz touch 3",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tztl12f",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass price",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad gyro compass",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs2d nxt",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0.42,
+  "hi": 1.89
+ },
+ {
+  "k": "antenna radar furuno",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "apa itu ecdis",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bbds1 furuno",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "cable radar furuno",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "cross track distance ecdis",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "digital gyro compass",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis online",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0.32,
+  "hi": 1.39
+ },
+ {
+  "k": "ecdis procedures guide",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis raytheon",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis ship",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "eglobe g2",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "electronic chart display",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fmd 3100",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno ch500",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4w 1st watch wireless radar",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.19,
+  "hi": 0.96
+ },
+ {
+  "k": "furuno fmd",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0.02,
+  "hi": 0.14
+ },
+ {
+  "k": "furuno radar antenna",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar cable",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar models",
+  "v": 70,
+  "comp": "HIGH",
+  "lo": 0.12,
+  "hi": 2.01
+ },
+ {
+  "k": "furuno rd50",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno x band radar",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gp 170 furuno",
+  "v": 70,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine gyro",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0.54,
+  "hi": 6.91
+ },
+ {
+  "k": "meridian gyro compass",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "no go area ecdis",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sistema ecdis",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sperry ecdis",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sperry gyro",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sperry marine gyro compass",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sperry marine visionmaster",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0.36,
+  "hi": 2.86
+ },
+ {
+  "k": "tokyo keiki ecdis",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas 4000",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0.37,
+  "hi": 1.29
+ },
+ {
+  "k": "yokogawa gyro compass",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine stereo installation near me",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 2.14,
+  "hi": 10.87
+ },
+ {
+  "k": "marine stereo installation",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vhf radio repair near me",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 4.02,
+  "hi": 16.68
+ },
+ {
+  "k": "boat electronics repair near me",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 2.57,
+  "hi": 7.93
+ },
+ {
+  "k": "raymarine service",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 1.05,
+  "hi": 1.92
+ },
+ {
+  "k": "marine radio repair near me",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 4.02,
+  "hi": 16.68
+ },
+ {
+  "k": "boat radio repair",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fedex electronics shipping",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 1.42,
+  "hi": 16.63
+ },
+ {
+  "k": "marine electronic installations ltd",
+  "v": 70,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "entel ht 649",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0.65,
+  "hi": 1.87
+ },
+ {
+  "k": "epirb gmdss",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gmdss",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a1",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss antenna",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss inmarsat c",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss radio survey",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss requirements",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron vhf radio",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0.61,
+  "hi": 1.82
+ },
+ {
+  "k": "mcmurdo r2 gmdss",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6000",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor sp3520 vhf gmdss",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best plb for boating",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.3,
+  "hi": 1.37
+ },
+ {
+  "k": "marine emergency beacon",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.19,
+  "hi": 0.56
+ },
+ {
+  "k": "gme locator beacon",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.38,
+  "hi": 1.91
+ },
+ {
+  "k": "global fix v4",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.42,
+  "hi": 6.12
+ },
+ {
+  "k": "small epirb",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.31,
+  "hi": 0.75
+ },
+ {
+  "k": "gme epirb mt600g",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal gps rescueme epirb",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "handheld epirb",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.23,
+  "hi": 1.81
+ },
+ {
+  "k": "mt600g epirb",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme gps",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 1.86,
+  "hi": 4.78
+ },
+ {
+  "k": "smallest epirb",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.31,
+  "hi": 0.75
+ },
+ {
+  "k": "personal epirb devices",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.18,
+  "hi": 1.04
+ },
+ {
+  "k": "epirb amazon",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.16,
+  "hi": 0.76
+ },
+ {
+  "k": "boya epirb",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb 1",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.25,
+  "hi": 0.66
+ },
+ {
+  "k": "epirb inmarsat",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb range",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb samyung",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb tron 60s",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0.18,
+  "hi": 3.5
+ },
+ {
+  "k": "epirb1 ocean signal",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.33,
+  "hi": 2.04
+ },
+ {
+  "k": "felcom 16",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme epirb battery replacement cost",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "hammar h20 e",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c in ship",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c meaning",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 40vdr",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 60s",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0.83,
+  "hi": 2.94
+ },
+ {
+  "k": "jrc navtex",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc navtex ncr 333",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo e8",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo navtex",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex antenne",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex jrc ncr 333",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex system",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "noaa epirb",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 4065",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6390",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6391",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor navtex",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "samyung epirb",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60s gps",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "danelec dm100",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno br 500",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno tzt3 16",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar package",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar for sale",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.09,
+  "hi": 1.18
+ },
+ {
+  "k": "furuno tzt16f",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1st watch wireless radar",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.24,
+  "hi": 0.92
+ },
+ {
+  "k": "furuno tztl15f",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno open array radar",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs4dnxt",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.86,
+  "hi": 4.29
+ },
+ {
+  "k": "tzt3 furuno",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fr10",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs4d",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis furuno fmd 3300",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis on ship",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis wartsila",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0.55,
+  "hi": 1.69
+ },
+ {
+  "k": "fmd 3200",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fmd 3300",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1832 radar",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1945 radar",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno ad 100",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs6a nxt",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno products",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0.63,
+  "hi": 1.26
+ },
+ {
+  "k": "furuno radar screen",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rcu 028",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 139",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno sc130",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno tzt9",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno weather radar",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gambar ecdis",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass on ship",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass tokyo keiki",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc 901b",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc alphatron marine",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc ecdis 9201",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc marine radar",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine radar repair",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "safebridge ecdis",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0.33,
+  "hi": 5.44
+ },
+ {
+  "k": "sam electronics ecdis",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad maris ecdis900",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tokyo keiki gyro compass",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine service near me",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 1.28,
+  "hi": 3.08
+ },
+ {
+  "k": "simrad simnet",
+  "v": 50,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boat electronic repair",
+  "v": 50,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boat stereo repair",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "correcting magnetic compass",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fish finder repair near me",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine electronics repair",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 1.43,
+  "hi": 4.65
+ },
+ {
+  "k": "shipping electronics ups",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0.23,
+  "hi": 1.04
+ },
+ {
+  "k": "simrad autopilot repair",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno customer service",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno usa support",
+  "v": 50,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6110 mini c gmdss",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "area a1 a2 a3 a4 gmdss",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "area gmdss",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "global marine distress safety system",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a1 area",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a3",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area a1",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss imo",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss maritime",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss portable vhf radio battery requirements",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss printer",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "goc maritime",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 3520",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sart gmdss",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sp3520 vhf gmdss",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "two way radio gmdss",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "globalfix v4",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb for offshore",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.84,
+  "hi": 4.7
+ },
+ {
+  "k": "gme mt600g",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind g8 ais epirb",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best personal epirb",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.22,
+  "hi": 1.56
+ },
+ {
+  "k": "best epirb for boat",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 1.11,
+  "hi": 2.9
+ },
+ {
+  "k": "gme accusat epirb",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.49,
+  "hi": 2.64
+ },
+ {
+  "k": "acr locator beacon",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.26,
+  "hi": 2.03
+ },
+ {
+  "k": "epirb garmin",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.59,
+  "hi": 1.27
+ },
+ {
+  "k": "safety alert epirb",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mini epirb",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb pris",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.17,
+  "hi": 0.57
+ },
+ {
+  "k": "121.5 mhz epirb",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "518 khz navtex",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "apa itu navtex",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb for boating",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 1.11,
+  "hi": 2.9
+ },
+ {
+  "k": "bushwalking epirb",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.11,
+  "hi": 0.63
+ },
+ {
+  "k": "emergency epirb",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.13,
+  "hi": 0.64
+ },
+ {
+  "k": "epirb jotron 60s",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb sbm",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "expired epirb",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno felcom 19",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gambar epirb",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "harga epirb",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ics navtex",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat safetynet",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 60 ais",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc inmarsat c",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc jue 85",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind e8",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex jrc",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor sat c",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60 gps",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine vdr",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar price",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass for sale",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "alphatron jrc",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "avcs ecdis",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "b54 transducer",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs4dl+",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis eglobe g2",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis furuno fmd 3200",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis maritime",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "flight tracker for ships",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fr8125",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1832",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1945",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1st watch wireless radar drs4w",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.37,
+  "hi": 1.09
+ },
+ {
+  "k": "furuno black box",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs25a nxt",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.72,
+  "hi": 3.12
+ },
+ {
+  "k": "furuno hs 2003",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar system",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass types",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "harga radar furuno",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inland ecdis",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc 1800 radar",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jual radar furuno",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mdbw10823",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mini ecdis",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navmaster ecdis",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0.46,
+  "hi": 17.99
+ },
+ {
+  "k": "old furuno radar",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "s 52 ecdis",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "totem ecdis",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas radar",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "type of gyro compass",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tztouch",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boat speaker installation near me",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine electronic installers near me",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 1.89,
+  "hi": 6.1
+ },
+ {
+  "k": "international shipping electronics",
+  "v": 40,
+  "comp": "MEDIUM",
+  "lo": 0.76,
+  "hi": 8.07
+ },
+ {
+  "k": "simrad repair",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 2.97,
+  "hi": 6.21
+ },
+ {
+  "k": "garmin chartplotter repair",
+  "v": 40,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine electronics supply",
+  "v": 40,
+  "comp": "HIGH",
+  "lo": 0.31,
+  "hi": 1.9
+ },
+ {
+  "k": "lt 3100s gmdss system",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0.34,
+  "hi": 3.26
+ },
+ {
+  "k": "lt 3100s gmdss",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0.33,
+  "hi": 3.26
+ },
+ {
+  "k": "lars thrane lt 3100",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0.41,
+  "hi": 3.06
+ },
+ {
+  "k": "iridium lt3100s",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0.34,
+  "hi": 3.26
+ },
+ {
+  "k": "alat gmdss",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "amerc gmdss",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "entel ht649 gmdss vhf",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a2",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss log",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss radio logbook",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss ship",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss solas requirements",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "imo gmdss manual",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lrit gmdss",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo r5 gmdss",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6110 mini c",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor sp3520 portable vhf gmdss",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "solas gmdss",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ssb gmdss",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron tr30 gmdss",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 1.05,
+  "hi": 2.83
+ },
+ {
+  "k": "zaswiadczenie gmdss",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb for offshore fishing",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.53,
+  "hi": 4.42
+ },
+ {
+  "k": "globalfix v4 epirb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr globalfix pro battery replacement",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt600g",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "personal epirb anaconda",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.18,
+  "hi": 0.56
+ },
+ {
+  "k": "acr globalfix v4 epirb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean rescue plb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.33,
+  "hi": 2.7
+ },
+ {
+  "k": "mcmurdo epirb battery replacement",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind g8",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "spot epirb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.43,
+  "hi": 2.48
+ },
+ {
+  "k": "land epirb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal epirb 1",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.5,
+  "hi": 1.43
+ },
+ {
+  "k": "marine epirb for sale",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.18,
+  "hi": 0.89
+ },
+ {
+  "k": "epirb radio",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "accusat epirb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr resqlink battery replacement cost",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best price epirb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.12,
+  "hi": 0.82
+ },
+ {
+  "k": "dnid inmarsat c",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "easy navtex",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb distress signal",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb jotron tron 60s",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb locator",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb mt600",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb on land",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb sailing",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0.16,
+  "hi": 0.36
+ },
+ {
+  "k": "furuno nx 700b",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nx700b",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "globalfix pro",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "hr1e",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ics nav6 navtex",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c ncs channel list",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat standard c",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat std c",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kannad marine epirb",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kti plb battery replacement",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo e3",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa marine navtex",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex nasa marine",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rescue me epirb 1",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6391 navtex system",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor inmarsat",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60s epirb",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vep8 epirb",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "whitworths epirb",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.02,
+  "hi": 0.22
+ },
+ {
+  "k": "danelec dm100 vdr",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno bnwas password",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno br 510",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ssas test requirements",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "veinland bnwas",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno first watch radar",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.34,
+  "hi": 1.56
+ },
+ {
+  "k": "5vmaa00106",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aircraft gyro compass",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ais ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "an ecdis is required to display which information",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "avcs meaning ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs6a",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis jrc 9201",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis price",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis transas navi sailor 4000",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0.32,
+  "hi": 0.89
+ },
+ {
+  "k": "fcv 587",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fmd 3100 ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1621",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1622 radar",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1935",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1935 radar",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 2117",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 585 for sale",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.1,
+  "hi": 1.53
+ },
+ {
+  "k": "furuno anemometer",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs12a nxt",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs6a",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fmd 3000",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gyro compass",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet radar",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rcu 024",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 150",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno solid state radar",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno vx2",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno wifi",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno wr110",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno wr2120",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass ship",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "harga radar furuno 1715",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0.01,
+  "hi": 0.21
+ },
+ {
+  "k": "isolated danger symbol ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jma 9122 6xa",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc 1500 radar",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "limiting danger line in ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nacos ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0.78,
+  "hi": 2.23
+ },
+ {
+  "k": "navtor ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 1.44
+ },
+ {
+  "k": "periskal inland ecdis viewer",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar furuno 1622",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar furuno drs4d nxt",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 0.18,
+  "hi": 0.67
+ },
+ {
+  "k": "rcds ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sam ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sperry marine visionmaster ft",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas navi sailor",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tztl",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "use of ecdis",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "used furuno radar for sale",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.03,
+  "hi": 0.46
+ },
+ {
+  "k": "yokogawa gyro",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "shipping laptops with lithium batteries",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boston whaler gelcoat repair kit",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.22,
+  "hi": 1.86
+ },
+ {
+  "k": "simrad service",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best way to ship cell phone",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0.06,
+  "hi": 1.85
+ },
+ {
+  "k": "furuno service",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin fishfinder customer service",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mailing cell phones usps",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine audio store near me",
+  "v": 30,
+  "comp": "HIGH",
+  "lo": 0.86,
+  "hi": 6.21
+ },
+ {
+  "k": "simrad repair near me",
+  "v": 30,
+  "comp": "MEDIUM",
+  "lo": 1.91,
+  "hi": 18.95
+ },
+ {
+  "k": "furuno radar repair",
+  "v": 30,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "annual radio survey",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss survey",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "9 functions of gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "alat alat gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "area a1 gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "arti gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ces gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fcc gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "functional requirements of gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a user's handbook",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a4",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area 1",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area a3",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area a4",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss carriage requirements",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss coc",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss equipment and functions",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss equipment onboard",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0.34,
+  "hi": 1.16
+ },
+ {
+  "k": "gmdss equipment requirements",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss functional requirements",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss functions",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss is required for which of the following",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss marine",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss on ship",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss online",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss portable vhf radio requirements",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss radio equipment",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss radio log",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss requirements for ships",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss sart",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss satellite",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss simulator online",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0.36,
+  "hi": 1.45
+ },
+ {
+  "k": "goc radio",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "icom gmdss",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "iridium gmdss terminal",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "iridium safetycast",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "itu gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "j3e gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron 80060",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tr 20",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lars thrane iridium",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0.4,
+  "hi": 2.02
+ },
+ {
+  "k": "lut gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "maritime distress",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mca gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mca gmdss log book",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "msi gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6000 mf hf",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 6110 gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sea area a3 gmdss requirements",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "src gmdss",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "system gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "zaswiadczenie kapitana gmdss",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb shore based maintenance",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme gps epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr globalfix pro",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 406 epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rlb 41",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "personal epirb for boating",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo epirb website",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme epirb for sale",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.12,
+  "hi": 0.47
+ },
+ {
+  "k": "globalfix epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.63,
+  "hi": 2.29
+ },
+ {
+  "k": "marine locator beacon",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.57,
+  "hi": 3.12
+ },
+ {
+  "k": "boat epirb for sale",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.37,
+  "hi": 1.52
+ },
+ {
+  "k": "water activated epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr global fix pro",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g8 ais epirb",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "automatic epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "personal epirb for sale",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.28,
+  "hi": 1.31
+ },
+ {
+  "k": "epirb for offshore fishing",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr rlb 37",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "category 2 epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.18,
+  "hi": 1.26
+ },
+ {
+  "k": "acr personal epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.44,
+  "hi": 0.86
+ },
+ {
+  "k": "gme mt600",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt600g epirb price",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.43,
+  "hi": 1.95
+ },
+ {
+  "k": "acr global fix v4",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.66,
+  "hi": 3.16
+ },
+ {
+  "k": "518 khz",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "518khz",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr epirb battery",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.72,
+  "hi": 1.86
+ },
+ {
+  "k": "acr globalfix epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr hydrofix",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr plb battery replacement cost",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ais locator beacon",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "amsa epirb",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "an inmarsat c terminal is suitable for",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "antena inmarsat c",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "coast guard epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ebay epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "elt epirb",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb alert",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb battery replacement cost",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb coast guard",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb distress beacon",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb equipment",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb imo",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb is",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb maritime",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb radar",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb sailor 4065",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb system",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb whitworths",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb1 pro",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.34,
+  "hi": 1.63
+ },
+ {
+  "k": "furuno felcom",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno felcom 16",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno lrit",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navtex antenna",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno sat c",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin epirb gps",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "global fix epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.63,
+  "hi": 2.29
+ },
+ {
+  "k": "gme accusat battery replacement",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c system",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat lrit",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron 60s",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron ais epirb",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron epirb battery replacement",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 60s epirb",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jue 75c",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kti epirb",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lut epirb",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo e5 smartfind",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind g8 ais",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "msi navtex",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa clipper navtex",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa easy navtex",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex raymarine",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ncs inmarsat c",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "new epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal epirb battery replacement",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal hr1e",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "offshore epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rlb 41 epirb",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rtm epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "smartfind e8",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tp058 30cl",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60 ais epirb",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron epirb",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vhf dsc epirb",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "wearable epirb",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.63,
+  "hi": 2.04
+ },
+ {
+  "k": "zczc navtex",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vdr annual performance test",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ami bnwas",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas ship",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno br500",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "iec 62616",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "interschalt vdr",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc bnwas",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "samyung bnw 50",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vdr recording time",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vdr s vdr",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vessel data recorder",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "voyage data recorder on ship",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "voyage data recorder regulations",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1623 radar for sale",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "arcs ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "dead reckoning ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs4dl",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs4w radar",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis 900",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis danelec",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis fmd 3100",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis furuno fmd 3100",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis imo",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis navigation system",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis s57",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis tokyo keiki",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis type specific",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis900",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "far2117",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fmd3200",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1621 mark 2",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1622",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1623 lcd radar",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1712 radar",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1720",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1720 radar",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1721",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1830 radar",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno ad 100 converter",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno b260 transducer",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno bird radar",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno cable",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno doppler radar",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs radar",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs12a",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs25a",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs2d",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4dl",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4dl+",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno ecdis fmd 3300",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gp 36",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno m1815",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno maxsea",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navigation radar",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet cmap nt",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno psu 012",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar drs4w",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 152",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno tzt12",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "guide to safe navigation including ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyrosphere compass",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "intermarine ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jma 5300",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc 1000",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc jma 3300",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc solid state radar",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "look ahead ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navi radar 4000",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "portable gyro compass",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar furuno 1720",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar furuno 2117",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar furuno drs4w",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0.32,
+  "hi": 4.79
+ },
+ {
+  "k": "raster chart display system",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rezboost",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rnc ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "s 63 ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "s52 ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor 4000",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sea freight radar",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad ecdis 900",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad gyro",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "stcw ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "telko ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "totem plus ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas 4000 ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0.33,
+  "hi": 1.25
+ },
+ {
+  "k": "transas navi sailor 4000 ecdis",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0.26,
+  "hi": 1.55
+ },
+ {
+  "k": "tztouch2",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "used furuno radar",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best way to ship electronics",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0.31,
+  "hi": 5.53
+ },
+ {
+  "k": "raymarine repair service near me",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 1.55,
+  "hi": 7.2
+ },
+ {
+  "k": "ups electronics shipping",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0.18,
+  "hi": 1.03
+ },
+ {
+  "k": "simrad service near me",
+  "v": 20,
+  "comp": "HIGH",
+  "lo": 3.27,
+  "hi": 5.78
+ },
+ {
+  "k": "boat electronic installers near me",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "dhl shipping laptop with battery",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin marine electronics customer service",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin marine repair",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lbc electronics shipping",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lowrance fish finder repair near me",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lowrance gps repair",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "magnetic compass vessel",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mailing electronics",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine audio shops near me",
+  "v": 20,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine compass adjustment",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine stereo repair",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mobile marine electronics repair near me",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 2.27,
+  "hi": 11.25
+ },
+ {
+  "k": "navigation device for ships",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ship navigation device",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ship's navigational device",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "shipping electronics with lithium batteries",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ships navigational device",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sparkfun shipping",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "usps shipping electronics with lithium batteries",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kongsberg service",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno repair",
+  "v": 20,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lars thrane lt 3100s gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor mini c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "9 functional requirements of gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "9 radio communication functions of gmdss",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "a1 area gmdss",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aaic gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 2827",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ais gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ais sart gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "area a2 gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "area a3 gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "area a4 gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "arq gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "curs gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "danphone futronic",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "e gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "entel gmdss",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "f1b gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fec gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fm 8900s price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "global maritime distress",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a1 requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a2 requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a3 requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss a4 requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss ais",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area 3",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area a1 requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area a2",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss area requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss communication",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss distress",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss e learning system",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss equipment carriage requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss goc meaning",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss goc online",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss is",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss j3e",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss log book requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss marine insight",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss meaning in shipping",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss meaning marine",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss mf hf",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss msi",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss navtex receiver",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss power supply requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss ppt",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss radio simulator",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss requirements solas",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss satellite communication",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss sea area a1",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss sea area equipment requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss simulator free",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss solas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss sub system",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gmdss walkie talkie batteries",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "icom gmdss ic gm1600e",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "icom gmdss vhf",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "imo gmdss handbook",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat mini c sailor 6110",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron vhf",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mca gmdss radio log book",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind gmdss navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind navtex",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mf hf gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mrcc gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ncs gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rcc gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "requirements for radio installations in the gmdss",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rya g22",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "safetynet gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailor sp3520 vhf gmdss price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sat c gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad axis 50 gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sistem gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "smartfind gmdss navtex",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ssas gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sub system of gmdss",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "telenor gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "the global maritime distress and safety system",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "thrane lt 3100",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron sart 9 ghz radar transponder",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron tr20 gmdss",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vhf gmdss simulator",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0.34,
+  "hi": 0.59
+ },
+ {
+  "k": "acr 2831 globalfix v4 gps epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 2830",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr epirb for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme epirb mt600",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "buy epirb online",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 2831 globalfix v4 gps epirb category 2",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt600g epirb best price",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme 406mhz gps enabled epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 406 epirb battery replacement",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb globalfix v4",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.27,
+  "hi": 2.54
+ },
+ {
+  "k": "gme 406mhz epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo ais epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt600g epirb with gps",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr epirb globalfix v4",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb for hiking",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.12,
+  "hi": 1.88
+ },
+ {
+  "k": "epirb for 4wd",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt603g",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr epirb battery replacement near me",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 2830 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr epirb battery replacement cost",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr v4",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo 406 epirb battery replacement",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 406",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "globalfix ipro 406 mhz gps epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g8 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb gme mt603g",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr v4 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean safety epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb perth",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.4,
+  "hi": 2.91
+ },
+ {
+  "k": "acr aquafix 406 battery replacement",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 2830 globalfix v4 gps epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "2 types of epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "406 epirb battery replacement",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "406 epirb for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "406 mhz cospas sarsat satellite epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "406link com",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "4209.5 khz navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "4wd epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 2831 epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr 2880 resqlink",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr aquafix 406",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr battery replacement cost",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr epirb battery life",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr epirb website",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr global fix epirb battery replacement",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr globalfix battery replacement",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr globalfix ipro",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr globalfix ipro 406 gps epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr globalfix pro 406 epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr globalfix pro 406 mhz gps epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr plb 350b battery replacement",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr plb battery",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr rlb 35 epirb battery replacement",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr rlb 41 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr satellite 2 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr satellite 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr satellite 406 epirb battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr terrafix 406 battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "acr2830",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aircraft epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.23,
+  "hi": 1.4
+ },
+ {
+  "k": "an epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aquafix 406",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aquafix 406 battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aviation epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.53,
+  "hi": 3.47
+ },
+ {
+  "k": "balise epirb mcmurdo",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb for kayaking",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best epirb for sailing",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "best marine epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boat emergency locator beacon",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boat locator beacon",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "burnsco epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.19,
+  "hi": 1.09
+ },
+ {
+  "k": "cetcme vpl8 plb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "class 1 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "class 2 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "class a epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "class b epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "class c epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "defender epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "different types of epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "emergency position indicating radiobeacons",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb acr globalfix v4",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb antenna",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb beacon for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.18,
+  "hi": 0.9
+ },
+ {
+  "k": "epirb black friday sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb boating safety equipment",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb burnsco",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb for jet ski",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.46,
+  "hi": 3.63
+ },
+ {
+  "k": "epirb for sale ebay",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb for sale gumtree",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb for small boat",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.16,
+  "hi": 1.44
+ },
+ {
+  "k": "epirb gme mt600g",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb hinta",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb land use",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb marine insight",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb mcmurdo e8",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb mt400",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb ocean signal e100g",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb receiver",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb rescue",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb rescue cost",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb sa1g",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb safety beacon",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb satellite system",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb shore based maintenance certificate",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb wa",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirb with gps for sale",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "epirbhire com au",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "felcom15",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno inmarsat",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navtex 300",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navtex nx 300 price",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nx 7h",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nx700a",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno ssas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin gps epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "global fix ipro",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "global fix pro epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "global fix v4 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 1.26,
+  "hi": 2.81
+ },
+ {
+  "k": "globalfix ipro",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "globalfix ipro battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "globalfix pro battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "globalfix pro epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "globalfix ™ v4 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme 406 epirb battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme accusat epirb battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme beacon battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme epirb free battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme epirb mt400",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme epirb mt400 battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt310",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt400",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt400 battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt400 epirb battery replacement cost",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt403ff",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt403g",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt406g",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt410g battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt600 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt603fg",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt603g",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme mt603g epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gme personal epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gps epirb for sale",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "hammar h20 epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "harga epirb samyung",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "hiking epirb for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "imo epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c antenne",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c charges",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c function",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c telex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c terminal is suitable for",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat c text data",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat e epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat mes",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat ncs",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat sat c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "inmarsat telex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "international navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "iphone 14 epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jet ski epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.47,
+  "hi": 5.57
+ },
+ {
+  "k": "jmc navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron 40vdr",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron epirb tron 60 ais",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron epirb tron 60s",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 40s",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 40s mkii",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jotron tron 60s gps",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc jue 95sa",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc ncr 300a",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jual epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jue 87 inmarsat c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kannad epirb battery replacement",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kannad marine sport epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kannad plb battery replacement",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kti epirb battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kti safety alert sa3g epirb with gps",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "l epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "land based epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lokata navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lokata navtex 1",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lrit inmarsat",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "magnum b epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine emergency locator beacon",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine epirb amazon",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "maritime navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo e5 epirb battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo e5 smartfind 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo e8 epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo e8 epirb brochure",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g5",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g5 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g5 smartfind plus",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g8 ais",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo g8 epirb ais",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo ics nav6 navtex",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo pains wessex 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo precision 406 gps epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo precision 406 gps epirb battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mcmurdo smartfind g8 epirb with ais",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "msc 471 101 epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt400 epirb battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt403ff",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt403g",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt406g",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt406g epirb",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt600g epirb price",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt600gaus",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mt603fg",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa navtex antenna",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa navtex bt3",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa navtex pro",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa navtex pro plus",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa target navtex",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa video navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nasa weatherman navtex",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nautilus epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.33,
+  "hi": 1.79
+ },
+ {
+  "k": "nav4 navtex plus",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nav6 navtex",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navareas navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navigational telex navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex 518",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex active antenna",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex arduino",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex bt3",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex information",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex ncr 300a",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex pro",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex pro plus",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex raspberry pi",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex sailor",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex sdr",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navtex usb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ncr 333 navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ncs inmarsat",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "nx 700 navtex",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal e100",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal e100g",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal epirb 1 pro",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal lb2e battery",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ocean signal safesea e100",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "pains wessex epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "pains wessex epirb battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "pc navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "pc navtex usb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "personal epirb sailing",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "personlig epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "plb whitworths",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "pocket epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radiobalizas epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radioplawa epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "range of epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "reception navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rlb 37 epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "rtl sdr navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sa2g plb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sa3g epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "safesea e100",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sailing emergency beacon",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.21,
+  "hi": 0.52
+ },
+ {
+  "k": "sailor h2095b",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sartech epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "satellite 2 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "satellite 406 epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sdr navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "small personal epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "smartfind 406 epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "smartfind g8",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "smartfind g8 ais",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "smartfind g8 ais epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ssas furuno",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "svb epirb",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "target navtex",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "target navtex pro",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "target navtex pro plus",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 40vdr battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60gps epirb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tron 60s epirb battery replacement",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "uscg epirb",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "zone navtex",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ais annual test",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "alpha bnwas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "alphatron bnwas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas alarm system",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas br 500",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bnwas bw 800",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "br 500 furuno",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "danelec dm100 vdr manual",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "interschalt bnwas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine data recorder",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navitron bnwas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "seamate bnwas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simplified vdr",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simplified voyage data recorder equipment",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simplified voyage data recorder s vdr",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ssas test inmarsat c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vdr vessel data recorder",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "voyage data recorder function",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "voyage data recorder price",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine radar repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs25ax",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno first watch",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "1st watch wireless radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ad 100 furuno",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "admiralty ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "all about ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "anschutz compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "arpa ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aton ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "avcs in ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "c plath gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "carte ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ch smith furuno",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "chart information in ecdis",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "custom display in ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs12ax",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs25a",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "drs2dnxt",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "dual ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "dual fuel ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "e globe g2 ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis 1.27",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis 4000",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis cost",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis for laptop",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis for pc",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis guide",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis information",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0.45,
+  "hi": 1.12
+ },
+ {
+  "k": "ecdis is",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis marine insight",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis maris",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis opencpn",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis ppt",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis sam electronics",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis specific",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ecdis stcw",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "electronic gyro compass",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "explain ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "far2127",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fmd ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fog gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 12kw radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1518",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 16 mile radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1621 radar for sale",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1623 for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1712",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1712 radar for sale",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1715 marine radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1715 radar for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0.39,
+  "hi": 1.35
+ },
+ {
+  "k": "furuno 1720 marine radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1721 mk2 radar",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1722c",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1724c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1731",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1731 mark 3",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1815 radar price",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1824c",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1830",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1831",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1831 radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1833c",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1834",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1834c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1835 radar price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1930",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1932",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1932 mark 2 radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1934c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1942",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1942 mk2",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1944c",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1954c",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1st watch",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1st watch radar",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 2115",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 2115 radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 2127",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 2127 radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 24 mile radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 25kw radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 260369 defender drs4w 4 kw wireless radar antenna",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 3 pin power cable",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 48 mile radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 4kw radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 667 radar",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 72 mile radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 8062",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 821 radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 841 mark 2",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno black box radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno bottom discrimination transducer",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno digital radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs12ax",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4a",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4d nxt price",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4d nxt solid state doppler radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4w 1st watch wireless 19 4kw digital radar",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs4w for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs6anxt",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno drs6ax",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno e3588",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno ecdis operating system",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno ecdis price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno factory outlet store",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fea",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno first watch wireless radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fmd ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fmd ecdis operating system",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fr8125",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gd1920c",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gp 25",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gp 27",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gp1870f for sale",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gp320b",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno lc 90",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno m 1623",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno m 1815",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno m 1835",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno m1623",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno m1835",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno mfdbb",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno mu190",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno nav net 3d",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet 3d radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet rdp 139",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet v2",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet vx1",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet vx2 for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno navnet vx2 radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno network sounder etr 6 10n",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno open array",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno pg1000",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno psu 017",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno psu012",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar chartplotter package",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar ebay",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar power cable",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar pris",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar wireless",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar with garmin chartplotter",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rcu 015",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rcu 017",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rd30 for sale",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 118",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 131",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 143",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 148",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp 149 navnet vx2",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp139",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rdp150",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno rezboost",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno sc20",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno small boat radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno tzt2 15",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno vx2 radar",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno wireless",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno wlan radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno xn20af",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gp1871",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gps gyro compass",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass description",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass navigation",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass ppt",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass purpose",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass uses",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass with label",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gyro compass working",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "harga ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "harga radar furuno 1623",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "headway ecdis",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "iec 61174 2015",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "iec 61174 ecdis",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "iho ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "imo 1.27",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jma 2254",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jma 3300 radar",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jma 3336",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jma 5312 6",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc 1500 radar for sale",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc 2000 radar",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc furuno",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc jma 5312 6",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc lcd radar 1000",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc radar 1000 for sale",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc radar 1500 mk2",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc radar 1800 for sale",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc radar 2000",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc radar 4 1",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc radar motion sensor",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc radar transmitter",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kegunaan ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "kelvin hughes manta digital ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "key4mate ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "main gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine radar repair near me",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine traffic live ais ships",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine traffic tracking free",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "maris ecdis 9000",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "maris ecdis900",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "martek ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mk27 gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "myseatime ecdis",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navnet 3d radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navnet radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "new furuno radar",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ng sperry marine visionmaster",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "overscale ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "purpose of gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar furuno drs4w wifi",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radar jrc jma 2300",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine gyro compass",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raytheon anschutz gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raytheon gyro",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raytheon gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "renc ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "safebridge transas navi sailor 4000",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "seatest ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sg brown gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "shipping radar english channel",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad maris",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "solid state gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "specific type of ecdis",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sperry mk 37 gyro compass",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "stage ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "system ecdis",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "system electronic navigational chart",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "t&p corrections ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tads ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "telco ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "the gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tokimec gyro",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tokyo keiki ecdis ec 8600",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "tombol tombol pada ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas ecdis navi sailor 4000",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas ecdis support",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas ecdis troubleshooting",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "transas navi sailor 4000 price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "use of gyro compass",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "used furuno gps for sale",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "used furuno navnet for sale",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "used jrc radar",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vesselfinder free ais ship tracking of marine traffic",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "wartsila transas 4000",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "wend ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "wärtsilä navi sailor 4000 by transas",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "x band radar furuno",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "xn24af 8",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "xte ecdis",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mobile marine audio installation near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "overnight shipping electronics",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 2.13,
+  "hi": 15.27
+ },
+ {
+  "k": "best deals on marine electronics",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "complete marine audio system",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boat gps installation near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad package deals",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine electronics mounting solutions",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "aqualink marine electronics",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine electronics service near me",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 2.27,
+  "hi": 9.69
+ },
+ {
+  "k": "bass boat electronics installation",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "boat radio repair near me",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "bottom line fish finder repair",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "brunton compass declination",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "brunton compass declination adjustment",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "call simrad customer service",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "canada post shipping electronics",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "dhl send electronics",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "electronics international shipping",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "electronics worldwide shipping",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fedex electronics",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "fedex international shipping electronics",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1650 battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1650 internal battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno 1850 battery replacement",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno fcv 585 screen replacement",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno vsat",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin fish finder repair service",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin marine electronics installation near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin marine electronics repair near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin marine gps repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin marine installer near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "garmin marine service",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "gps boat tracking device",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "humminbird electronics repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "icom marine radio repair",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "icom vhf marine radio repair",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "instrument used for navigating ships",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jameco shipping",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lensatic compass declination adjustment",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lowrance electronics repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "lowrance fish finder repair service",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "magnetic compass adjustment requirements",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "magnetic compass swing procedure",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mailing electronics usps",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine audio repair near me",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine audio system installation",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine audio visual",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine electronics technician near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 3.01,
+  "hi": 6.52
+ },
+ {
+  "k": "marine engine management system",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine gps installation",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine gps installation near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine gps repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine gps repair near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine radio repairs near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine solutions electronic oil injection",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "marine stereo system installation near me",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mobile marine audio installation",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mobile marine electronics installation",
+  "v": 10,
+  "comp": "HIGH",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "mobile marine stereo installation",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navico service",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "newark electronics shipping",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "overnight shipping cell phones",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "packaging electronics for shipping",
+  "v": 10,
+  "comp": "MEDIUM",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "pr systems marine electronics",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine installer near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine service centre",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "raymarine service repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "remote magnetic compass adjustment",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "send electronics through courier",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "shakespeare antenna repair",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "shipping cell phones with lithium batteries usps",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "shipping electronics canada post",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad ap20 control head repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad certified installer",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "simrad electronics customer service",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sparkfun shipping cost",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "standard horizon vhf repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "uniden marine radio repair",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "usps electronics shipping",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vhf marine radio repairs near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "vhf radio installation near me",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "sperry marine service",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno customer service phone",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno customer support",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gp 150 price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno gp 32 price",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno help line",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "furuno radar repair service",
+  "v": 10,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "jrc services inc",
+  "v": 10,
+  "comp": "LOW",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "radio survey ship",
+  "v": 0,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "to emergency position indicating radio beacon",
+  "v": 0,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "used furuno radar for sale craigslist",
+  "v": 0,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "ship radar service",
+  "v": 0,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ },
+ {
+  "k": "navigation equipment ship",
+  "v": 0,
+  "comp": "",
+  "lo": 0,
+  "hi": 0
+ }
+]

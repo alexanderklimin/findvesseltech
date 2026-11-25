@@ -1,0 +1,103 @@
+group,keyword,volume_world,bid_high_usd
+codes,"furuno gp 170",260,0.95
+codes,"sailor 6248",210,2.54
+codes,"tron sart20",210,2.89
+codes,"danelec vdr",140,4.5
+codes,"furuno nx 700",140,0
+codes,"mcmurdo e5 epirb",110,0
+codes,"furuno fs 1575",90,0
+codes,"jrc jhs 183",90,0
+codes,"jrc jue 87",90,0
+codes,"jrc ncr 333",90,0
+codes,"furuno vr 7000",70,0
+codes,"furuno far 2127",50,0
+codes,"sailor 6222 manual",50,0
+codes,"jrc jan 901b",40,0
+codes,"furuno felcom 18 manual",40,0
+codes,"felcom 15 manual",20,0
+codes,"sailor 6110 manual",20,0
+codes,"furuno fa 170 manual",20,0
+codes,"furuno fea 2107",10,0
+codes,"tokyo keiki gyro",10,0
+codes,"jotron tron 40s",10,0
+codes,"kannad safelink",10,0
+codes,"furuno radar error codes",0,0
+codes,"furuno far 2117 alarm",0,0
+codes,"furuno far 3000 alarm list",0,0
+codes,"jrc radar alarm list",0,0
+codes,"jrc jma 9100",0,0
+codes,"jrc ecdis alarm",0,0
+codes,"sailor 6110 lrit",0,0
+codes,"furuno ft 8900",0,0
+codes,"sperry navigat x",0,0
+codes,"anschutz gyro compass alarm",0,0
+codes,"ecdis error message",0,0
+codes,"vdr alarm",0,0
+codes,"bnwas reset",0,0
+jobs,"ship manager",3600,19.96
+jobs,"electro technical officer",2900,1.51
+jobs,"eto salary",1900,0
+jobs,"marine electronics technician",1900,6.53
+jobs,"eto jobs",1300,0.91
+jobs,"technical superintendent",1300,2.74
+jobs,"radio surveyor",480,0
+jobs,"superintendent ship",210,0
+jobs,"ship superintendent jobs",140,0.53
+jobs,"marine electronics engineer",90,12.93
+jobs,"marine service engineer jobs",70,0.83
+jobs,"gmdss radio maintainer",0,0
+ports,"furuno singapore",720,5.35
+ports,"jrc singapore",90,0
+ports,"ship repair singapore",70,2.54
+ports,"marine electronics singapore",10,0
+ports,"marine electronics rotterdam",10,0
+ports,"marine electronics greece",10,0
+ports,"marine electronics dubai",10,0
+ports,"marine electronics houston",10,0
+ports,"marine electronics mumbai",10,0
+ports,"marine electronics china",10,0
+ports,"ship spares supplier",10,0
+ports,"gmdss survey singapore",0,0
+ports,"radio survey singapore",0,0
+ports,"marine electronics hamburg",0,0
+ports,"marine electronics piraeus",0,0
+ports,"radio survey piraeus",0,0
+ports,"marine electronics fujairah",0,0
+ports,"marine electronics busan",0,0
+ports,"marine electronics shanghai",0,0
+ports,"marine electronics istanbul",0,0
+ports,"marine electronics panama",0,0
+ports,"marine electronics antwerp",0,0
+ports,"marine electronics gibraltar",0,0
+ports,"marine electronics las palmas",0,0
+ports,"marine electronics korea",0,0
+rules,"epirb registration",1600,4.21
+rules,"radio log book",320,0.66
+rules,"navtex stations",320,0
+rules,"gmdss sea areas",210,0
+rules,"wheelmark",210,0
+rules,"magnetic compass deviation card",170,0
+rules,"epirb hydrostatic release",170,1.2
+rules,"cargo ship safety radio certificate",140,0
+rules,"solas chapter iv",110,0
+rules,"ssas test procedure",90,0
+rules,"ecdis requirements",90,0
+rules,"compass adjustment",90,2.16
+rules,"gmdss requirements",50,0
+rules,"bnwas requirements",50,0
+rules,"epirb expiry date",50,0
+rules,"epirb test procedure",40,0
+rules,"sart test procedure",40,0
+rules,"imo performance standards",40,0
+rules,"vdr requirements",30,0
+rules,"med certificate marine",30,0
+rules,"lrit requirements",20,0
+rules,"gmdss radio log",20,0
+rules,"gmdss modernization",10,0
+rules,"vhf dsc test",10,0
+rules,"inmarsat c test",10,0
+rules,"radio survey certificate",0,0
+rules,"ais annual test certificate",0,0
+rules,"gyro compass error",0,0
+rules,"hru replacement",0,0
+rules,"type approval marine equipment",0,0

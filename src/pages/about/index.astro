@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE_NAME } from '../../data/site.js';
+---
+<Base title={`About ${SITE_NAME}`} description={`What ${SITE_NAME} is, where the data comes from and how pages are checked.`} crumbs={[{ name: 'Home', path: '/' }, { name: 'About', path: '/about/' }]}>
+  <h1>About {SITE_NAME}</h1>
+  <p class="lead">{SITE_NAME} is a reference on ship radio and navigation equipment for ETOs, deck officers and technical superintendents, and a way to find a service engineer in port.</p>
+  <h2>Sources</h2>
+  <p>We work from primary sources: ITU Recommendations and Radio Regulations, IMO resolutions and SOLAS, Cospas-Sarsat documents and manufacturers' own published manuals and bulletins. Each page names its sources and the date they were checked. We link to manufacturers' documents and do not republish them.</p>
+  <h2>Affiliations</h2>
+  <p>We are not affiliated with any manufacturer, classification society, flag administration, the ITU or the IMO. Brand and model names identify equipment only.</p>
+  <h2>Limits</h2>
+  <p>Information here is general. The manufacturer's manual for your software version, your flag State and your classification society always take precedence. Never transmit a live distress alert to test equipment.</p>
+</Base>

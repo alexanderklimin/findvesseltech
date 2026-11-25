@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const ready = [
+  { href: '/tools/mmsi-lookup/', name: 'MMSI lookup', text: 'Country (MID) and station type from any 9-digit MMSI.' },
+  { href: '/tools/epirb-hex-id-decoder/', name: 'EPIRB hex ID decoder', text: '15 Hex ID of a 406 MHz beacon: country, protocol, MMSI or serial, TAC.' },
+  { href: '/tools/gmdss-frequencies/', name: 'GMDSS frequencies', text: 'Distress and safety frequencies from ITU RR Appendix 15 (WRC-23): DSC, voice, NAVTEX, VHF. Printable.' },
+  { href: '/tools/survey-due-dates/', name: 'Survey due dates', text: 'Windows for radio survey, EPIRB, VDR and AIS tests, SBM, battery and HRU expiry. Calendar export.' },
+  { href: '/tools/mid-codes/', name: 'MID codes', text: 'All Maritime Identification Digits by country, from the ITU table.' },
+];
+const planned = [
+  ['NAVTEX stations', 'Stations by NAVAREA with B1 identifiers and schedules.'],
+  ['GMDSS battery calculator', 'Reserve source capacity for the radio survey file.'],
+];
+---
+<Base title="Ship Radio Tools" description="Free tools for ETOs, deck officers and superintendents: MMSI lookup, MID codes by country and more GMDSS utilities. Lightweight and usable on ship internet." crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }]}>
+  <h1>Tools</h1>
+  <p class="lead">Small, fast tools that run in your browser. Built for ship internet: no heavy scripts, no sign-up.</p>
+  <div class="grid">
+    {ready.map((t) => <a class="card" href={t.href}><strong>{t.name}</strong><span>{t.text}</span></a>)}
+  </div>
+  <h2>In preparation</h2>
+  <div class="grid">
+    {planned.map(([n, t]) => <div class="card soon"><strong>{n}</strong><span>{t}</span></div>)}
+  </div>
+</Base>

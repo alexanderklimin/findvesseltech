@@ -1,0 +1,131 @@
+---
+import Base from '../../../layouts/Base.astro';
+import midData from '../../../data/mid.json';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'EPIRB Hex ID Decoder (406 MHz, 15 Hex ID)';
+const description = 'Decode the 15-character Hex ID of a 406 MHz EPIRB, PLB or ELT: country code, coding protocol, MMSI, call sign, serial number and type approval (TAC). Per Cospas-Sarsat C/S T.001.';
+const compact = Object.fromEntries(midData.mids.map((m) => [m.mid, m.name]));
+
+const protocols = [
+  ['Maritime user', 'User', 'MMSI (last 6 digits) or call sign + beacon number', 'EPIRB'],
+  ['Radio call sign user', 'User', 'Call sign up to 7 characters + beacon number', 'EPIRB'],
+  ['Serial user', 'User', 'Serial number, optional C/S type approval number (TAC)', 'EPIRB, PLB, ELT'],
+  ['Aviation user', 'User', 'Aircraft registration', 'ELT'],
+  ['Standard location: MMSI', 'Location', 'MMSI (last 6 digits) + beacon number, GNSS position in the message', 'EPIRB'],
+  ['Standard location: serial', 'Location', 'TAC + serial number, GNSS position', 'EPIRB, PLB, ELT'],
+  ['Standard location: ship security', 'Location', 'MMSI; used by SSAS', 'SSAS'],
+  ['National location', 'Location', 'Serial number assigned by the administration', 'EPIRB, PLB, ELT'],
+  ['RLS location', 'Location', 'TAC + serial or MMSI; Galileo return link confirmation', 'EPIRB, PLB, ELT'],
+];
+
+const faq = [
+  ['Where do I find the Hex ID of my EPIRB?', 'On the label on the beacon body (often marked "Hex ID", "UIN" or "15 Hex ID"), on the registration certificate and in the shore-based maintenance (SBM) report. Some beacons also show it during the self-test.'],
+  ['The country code does not match our flag. Is that a problem?', 'Yes. The country code tells the rescue system which national database to search for your registration. After a change of flag the beacon must be recoded by an approved service agent and registered with the new flag administration.'],
+  ['What is the difference between user and location protocols?', 'User protocols carry the identity only; the position comes from satellite Doppler or MEOSAR processing. Location protocols also carry a GNSS position from a built-in or connected receiver, so the first alert is usually much more precise. The Hex ID itself never contains a position: those bits are set to default values.'],
+  ['Can I test the beacon by switching it on?', 'No. Use only the self-test described in the manual. If a beacon is activated by mistake, do not just switch it off: inform the nearest rescue coordination centre (RCC) that it is a false alert.'],
+  ['My ID has 23 characters.', 'That is a second-generation beacon (SGB, C/S T.018). Its 23 Hex ID uses a different structure; this tool decodes the 15 Hex ID of first-generation beacons.'],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'EPIRB Hex ID Decoder', url: `${SITE_URL}/tools/epirb-hex-id-decoder/`, applicationCategory: 'UtilityApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'EPIRB hex ID decoder', path: '/tools/epirb-hex-id-decoder/' }]}>
+  <h1>EPIRB hex ID decoder</h1>
+  <p class="lead">Check what is programmed into a 406 MHz EPIRB, PLB or ELT before registration, after a flag change or at the annual survey. Decoding happens in your browser.</p>
+
+  <form class="card lookup" id="hex-form" autocomplete="off">
+    <label for="hex">15 Hex ID (0–9, A–F)</label>
+    <div class="row">
+      <input type="text" id="hex" name="hex" placeholder="e.g. C809C70A34D34D1" maxlength="30" spellcheck="false" autocapitalize="characters" />
+      <button type="submit">Decode</button>
+    </div>
+    <div id="out" aria-live="polite"></div>
+  </form>
+
+  <h2>What to check</h2>
+  <ul>
+    <li><strong>Country code</strong> = the MID of your flag. A mismatch means the alert goes to the wrong national registry.</li>
+    <li><strong>MMSI</strong> (MMSI protocols): must be the ship's current MMSI. Our <a href="/tools/mmsi-lookup/">MMSI lookup</a> shows what the number means.</li>
+    <li><strong>Registration</strong>: the Hex ID must be registered with the flag administration, or in the <a href="https://www.406registration.com" rel="noopener">International Beacon Registration Database</a> if your flag uses it. Update it when owner, ship name or contacts change.</li>
+    <li><strong>Battery and hydrostatic release</strong> expiry dates on the label, and the date of the last shore-based maintenance.</li>
+  </ul>
+
+  <h2>Coding protocols</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Protocol</th><th>Group</th><th>Identity in the Hex ID</th><th>Used in</th></tr></thead>
+      <tbody>{protocols.map(([p, g, i, u]) => <tr><td>{p}</td><td>{g}</td><td>{i}</td><td>{u}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p>The Hex ID is bits 26–85 of the beacon message: protocol flag, 10-bit country code, protocol code and identity. In location protocols the position bits of the Hex ID are fixed default values.</p>
+
+  <div class="note">
+    <p><strong>Safety.</strong> Test a beacon only with its self-test. Never open a beacon or replace its lithium battery on board: battery and hydrostatic release replacement and recoding are done by an approved service agent. A false alert must be reported to the nearest RCC.</p>
+  </div>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources: Cospas-Sarsat C/S T.001 <em>Specification for Cospas-Sarsat 406 MHz Distress Beacons</em>, Issue 4 Rev. 7 (March 2021), Annex A; decoder checked against worked examples in Cospas-Sarsat C/S G.007 and the NOAA SARSAT RCC Messages Manual v5.4. Country codes: <a href={midData.sourceUrl} rel="noopener">ITU MID table</a>, checked {midData.checked}. For official decoding use the <a href="https://www.cospas-sarsat.int/en/beacons-pro/beacon-message-decode-program-txsep/beacon-decode-all" rel="noopener">Cospas-Sarsat beacon decoder</a>.</p>
+
+  <script type="application/json" id="mid-data" set:html={JSON.stringify(compact)} />
+</Base>
+
+<script>
+  import { decodeHexId } from '../../../lib/beacon.js';
+
+  const raw = JSON.parse(document.getElementById('mid-data')!.textContent!) as Record<string, string>;
+  const mids = new Map(Object.entries(raw).map(([mid, name]) => [mid, { mid, name }]));
+  const form = document.getElementById('hex-form') as HTMLFormElement;
+  const input = document.getElementById('hex') as HTMLInputElement;
+  const out = document.getElementById('out')!;
+  const esc = (s: string) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+
+  function render(value: string, push: boolean) {
+    if (!value.trim()) { out.innerHTML = ''; return; }
+    const r = decodeHexId(value, mids);
+    if (!r.ok) { out.innerHTML = `<p class="bad">${esc(r.error)}</p>`; return; }
+    const rows: [string, string][] = [
+      ['Hex ID', `<span class="mono">${r.hex}</span>`],
+      ['Country code', `<a class="mono" href="/tools/mid-codes/#mid-${r.countryCode}">${r.countryCode}</a> ${r.country ? `<strong>${esc(r.country.name)}</strong>` : '<span class="bad">not allocated</span>'}`],
+      ['Protocol', esc(r.protocol)],
+    ];
+    if (r.beaconType) rows.push(['Beacon type', esc(r.beaconType)]);
+    for (const [k, v] of r.fields) {
+      rows.push([esc(k), k === 'MMSI' ? `<a class="mono" href="/tools/mmsi-lookup/?mmsi=${v}">${v}</a>` : esc(v)]);
+    }
+    out.innerHTML = `<table class="result">${rows.map(([k, v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join('')}</table>` +
+      r.notes.map((n: string) => `<p class="hint">${esc(n)}</p>`).join('') +
+      `<p><button type="button" id="copy">Copy link to this result</button></p>`;
+    document.getElementById('copy')!.addEventListener('click', async (e) => {
+      const btn = e.currentTarget as HTMLButtonElement;
+      try { await navigator.clipboard.writeText(location.href); btn.textContent = 'Link copied'; } catch { btn.textContent = location.href; }
+    });
+    if (push) {
+      const url = new URL(location.href);
+      url.searchParams.set('id', r.hex);
+      history.replaceState(null, '', url);
+    }
+  }
+
+  form.addEventListener('submit', (e) => { e.preventDefault(); render(input.value, true); });
+  input.addEventListener('input', () => { if (input.value.replace(/[^0-9a-f]/gi, '').length === 15) render(input.value, true); });
+  const initial = new URL(location.href).searchParams.get('id');
+  if (initial) { input.value = initial; render(initial, false); }
+</script>
+
+<style>
+  .lookup label { font-weight: 600; display: block; margin-bottom: 6px; }
+  .row { display: flex; gap: 8px; }
+  .row input { flex: 1; min-width: 0; font-family: ui-monospace, Menlo, Consolas, monospace; letter-spacing: .05em; text-transform: uppercase; }
+  #out :global(.result) { margin-top: 14px; }
+  #out :global(.result th) { width: 34%; background: none; color: var(--muted); font-weight: 500; }
+  #out :global(.bad) { color: var(--warn); font-weight: 600; }
+  #out :global(.hint) { color: var(--muted); font-size: .92rem; margin: 6px 0 0; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+</style>

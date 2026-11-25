@@ -1,0 +1,15 @@
+{
+  // Static site on Cloudflare Workers (static assets). Build: npm run build → dist/
+  // Deploy: Cloudflare Workers Builds from GitHub (build `npm run build`, deploy `npx wrangler deploy`).
+  // Before launch: workers_dev true (preview, noindex via NOINDEX in src/data/site.js).
+  // At launch (only after the user's "yes"): routes [{pattern: "findvesseltech.com", custom_domain: true}], workers_dev false, build env PUBLIC_INDEX=1.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "findvesseltech",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": true
+}

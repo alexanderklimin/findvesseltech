@@ -1,0 +1,96 @@
+---
+import Base from '../../../layouts/Base.astro';
+import f from '../../../data/gmdss-frequencies.json';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'GMDSS Distress Frequencies: DSC, Radiotelephony, NAVTEX';
+const description = 'All GMDSS distress and safety frequencies from ITU Radio Regulations Appendix 15 (Rev.WRC-23): MF/HF DSC and radiotelephony pairs, VHF channels 16, 70, 13, 06, NAVTEX 518/490/4209.5 kHz, NAVDAT, AIS-SART, 406 MHz. Printable.';
+
+const fmt = (n: number | null) => (n === null ? '—' : n.toLocaleString('en-GB', { maximumFractionDigits: 1 }).replace(/,/g, '\u00a0'));
+const dsc = f.bands.filter((b) => b[2] !== null);
+
+const faq = [
+  ['What are the GMDSS DSC distress frequencies?', 'VHF channel 70 (156.525 MHz) and, on MF/HF, 2 187.5, 4 207.5, 6 312, 8 414.5, 12 577 and 16 804.5 kHz.'],
+  ['After a DSC distress alert on HF, where does voice traffic go?', 'On the radiotelephony frequency of the same band: 2 182, 4 125, 6 215, 8 291, 12 290 or 16 420 kHz. The DSC call indicates the mode of subsequent communication.'],
+  ['What is the difference between 518 and 490 kHz NAVTEX?', 'Both carry maritime safety information. 518 kHz is the international NAVTEX service in English; 490 kHz is used for national NAVTEX, often in the local language. 4 209.5 kHz is used for NAVTEX-type broadcasts on HF.'],
+  ['Are radiotelex (NBDP) distress frequencies still part of GMDSS?', 'Appendix 15 as revised by WRC-23 no longer lists NBDP frequencies for distress traffic (such as 2 174.5 kHz). NBDP remains listed only for HF maritime safety information broadcasts. Older tables still show the removed frequencies.'],
+  ['What is NAVDAT?', 'A digital MSI broadcast system that WRC-23 added to Appendix 15: 500 kHz internationally, 4 226 kHz and other HF frequencies for high-seas MSI.'],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Dataset', name: 'GMDSS distress and safety frequencies (ITU RR Appendix 15)', description, url: `${SITE_URL}/tools/gmdss-frequencies/`, isBasedOn: f.sourceUrl, dateModified: f.checked },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'GMDSS frequencies', path: '/tools/gmdss-frequencies/' }]}>
+  <h1>GMDSS distress and safety frequencies</h1>
+  <p class="lead">Every frequency in ITU Radio Regulations Appendix 15 as revised at WRC-23, arranged the way you use them at the console. <button type="button" class="print" onclick="window.print()">Print for the bridge</button></p>
+
+  <div class="card key">
+    <h2>Distress alerting</h2>
+    <p><strong>VHF DSC:</strong> <span class="big">Ch 70</span> 156.525 MHz &nbsp; <strong>VHF voice:</strong> <span class="big">Ch 16</span> 156.8 MHz</p>
+    <p><strong>MF/HF DSC (kHz):</strong> {dsc.map((b) => <span class="big">{fmt(b[2] as number)}</span>)}</p>
+  </div>
+
+  <h2>MF/HF: DSC and follow-on traffic by band</h2>
+  <p>After a DSC distress alert, voice traffic continues on the radiotelephony frequency of the same band.</p>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Band</th><th>DSC (kHz)</th><th>Radiotelephony (kHz)</th><th>HF MSI, NBDP (kHz)</th><th>HF MSI, NAVDAT (kHz)</th></tr></thead>
+      <tbody>{f.bands.map((b) => <tr><td>{b[0]}</td><td><strong>{fmt(b[2] as number | null)}</strong></td><td><strong>{fmt(b[1] as number | null)}</strong></td><td>{fmt(b[3] as number | null)}</td><td>{fmt(b[4] as number | null)}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p class="source">2 182 kHz uses emission class J3E. 4 125 kHz may also be used by aircraft to talk to ships for distress and safety.</p>
+
+  <h2>VHF and aeronautical</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Channel</th><th>MHz</th><th>Use</th></tr></thead>
+      <tbody>{f.vhf.map((v) => <tr><td><strong>{v[0]}</strong></td><td>{v[1]}</td><td>{v[2]}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p>Aeronautical SAR on MF/HF: {f.aero.map((a) => <strong>{fmt(a[0] as number)} kHz </strong>)} for ships, aircraft and land stations in coordinated search and rescue.</p>
+
+  <h2>Maritime safety information (MSI)</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>kHz</th><th>Service</th></tr></thead>
+      <tbody>{f.msi.map((m) => <tr><td><strong>{fmt(m[0] as number)}</strong></td><td>{m[2]}</td></tr>)}</tbody>
+    </table>
+  </div>
+
+  <h2>Satellite, beacons and SART</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Band</th><th>Direction</th><th>Use</th></tr></thead>
+      <tbody>{f.sat.map((s) => <tr><td>{s[0]}</td><td>{s[1]}</td><td>{s[2]}</td></tr>)}</tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <p><strong>Changed at WRC-23.</strong> Appendix 15 no longer lists radiotelex (NBDP) frequencies for distress traffic, and adds NAVDAT (500 kHz and HF) for MSI. If your bridge card still shows 2 174.5 kHz NBDP, it predates the 2024 edition. Always check the GMDSS Master Plan and your flag's requirements for what your ship must keep watch on.</p>
+  </div>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Source: <a href={f.sourceUrl} rel="noopener">{f.source}</a>, Tables 15-1 and 15-2, checked {f.checked}. VHF channel numbers per Appendix 18. Interference with any frequency in Appendix 15 is prohibited.</p>
+</Base>
+
+<style>
+  td, th { white-space: nowrap; }
+  td:last-child { white-space: normal; }
+  .key h2 { margin-top: 0; font-size: 1.1rem; }
+  .key p { margin: 6px 0; }
+  .big { font-family: ui-monospace, Menlo, Consolas, monospace; font-weight: 700; font-size: 1.1rem; background: var(--code); padding: 2px 8px; border-radius: 6px; margin: 2px 4px 2px 0; display: inline-block; }
+  .print { font-size: .9rem; padding: 6px 12px; margin-left: 6px; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media print {
+    :global(.site-header), :global(.site-footer), :global(.crumbs), .print, .faq, :global(h2 + p.lead) { display: none !important; }
+    :global(body) { background: #fff; color: #000; font-size: 11pt; }
+    :global(.table-scroll) { overflow: visible; border: 0; }
+    :global(details) { display: none; }
+  }
+</style>

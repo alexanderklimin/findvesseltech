@@ -1,0 +1,125 @@
+---
+import Base from '../../layouts/Base.astro';
+import { PORTS, EQUIPMENT, SERVICES } from '../../data/service.js';
+import { CONTACT_EMAIL, SITE_NAME } from '../../data/site.js';
+
+const title = 'Request a Ship Radio or Navigation Technician in Port';
+const description = 'Request repair, a radio survey or an annual test (VDR, AIS, EPIRB) for your ship\'s radio and navigation equipment at your next port call. We pass your request to service engineers covering that port.';
+---
+<Base title={title} description={description} crumbs={[{ name: 'Home', path: '/' }, { name: 'Request a technician', path: '/request/' }]}>
+  <h1>Request a technician</h1>
+  <p class="lead">Tell us what is wrong, where and when the ship will be. We forward your request to service engineers covering that port, and they reply to you directly with availability and a quote.</p>
+
+  <form class="card req" id="req-form" autocomplete="on">
+    <fieldset>
+      <legend>What is needed</legend>
+      <label>Service <select name="service" required>{SERVICES.map((s) => <option>{s}</option>)}</select></label>
+      <label>Equipment <select name="equipment" required>{EQUIPMENT.map((e) => <option>{e}</option>)}</select></label>
+      <div class="two">
+        <label>Manufacturer <input type="text" name="maker" placeholder="e.g. Furuno, JRC, Sailor" maxlength="60" /></label>
+        <label>Model <input type="text" name="model" placeholder="e.g. FAR-2228" maxlength="60" /></label>
+      </div>
+      <label>What is wrong / what is needed <textarea name="problem" rows="4" maxlength="1200" placeholder="Symptoms, alarm messages on screen, what was already checked"></textarea></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Where and when</legend>
+      <div class="two">
+        <label>Port
+          <select name="port" required>
+            {PORTS.map((p) => <option value={p.id}>{p.name}, {p.country}</option>)}
+            <option value="other">Other port (write below)</option>
+          </select>
+        </label>
+        <label>Arrival (ETA) <input type="date" name="eta" required /></label>
+      </div>
+      <label data-other hidden>Other port <input type="text" name="otherPort" maxlength="80" /></label>
+      <label>Departure (ETD), if known <input type="date" name="etd" /></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Ship and contact</legend>
+      <div class="two">
+        <label>Ship name <input type="text" name="ship" required maxlength="80" /></label>
+        <label>IMO number <input type="text" name="imo" inputmode="numeric" pattern="\d{7}" maxlength="7" placeholder="7 digits" /></label>
+      </div>
+      <div class="two">
+        <label>Your name <input type="text" name="name" required maxlength="80" /></label>
+        <label>Company <input type="text" name="company" maxlength="100" /></label>
+      </div>
+      <div class="two">
+        <label>Email <input type="email" name="email" required maxlength="120" /></label>
+        <label>Phone / WhatsApp <input type="tel" name="phone" maxlength="40" /></label>
+      </div>
+    </fieldset>
+
+    <label class="consent"><input type="checkbox" name="consent" required />
+      <span>I agree that {SITE_NAME} passes this request, including my contact details, to service partners covering the port, so they can reply to me. See the <a href="/privacy/">privacy notice</a>.</span>
+    </label>
+    <p class="source">We forward requests to service partners in or near your port. Partners may pay us a fee. Quotes and work are agreed directly between you and the service company.</p>
+    <p><button type="submit">Prepare request email</button></p>
+    <div id="req-out" aria-live="polite"></div>
+  </form>
+
+  <p>Prefer to write yourself? Email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the ship name, IMO, port, ETA and the problem.</p>
+
+  <script type="application/json" id="req-data" set:html={JSON.stringify({ email: CONTACT_EMAIL, ports: PORTS })} />
+</Base>
+
+<script>
+  const data = JSON.parse(document.getElementById('req-data')!.textContent!);
+  const form = document.getElementById('req-form') as HTMLFormElement;
+  const out = document.getElementById('req-out')!;
+  const other = form.querySelector<HTMLElement>('[data-other]')!;
+  const portSel = form.elements.namedItem('port') as HTMLSelectElement;
+
+  const toggleOther = () => { other.hidden = portSel.value !== 'other'; };
+  portSel.addEventListener('change', toggleOther);
+
+  // Prefill from the home page quick form (?equipment=&port=&eta=).
+  const params = new URL(location.href).searchParams;
+  for (const key of ['equipment', 'port', 'eta', 'service']) {
+    const v = params.get(key);
+    const el = form.elements.namedItem(key) as HTMLInputElement | HTMLSelectElement | null;
+    if (v && el) el.value = v;
+  }
+  toggleOther();
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const f = new FormData(form);
+    const g = (k: string) => String(f.get(k) ?? '').trim();
+    const port = g('port') === 'other' ? g('otherPort') : (() => { const p = data.ports.find((x: any) => x.id === g('port')); return p ? `${p.name}, ${p.country}` : g('port'); })();
+    const subject = `Service request: ${g('equipment')} – ${port} – ETA ${g('eta')} – ${g('ship')}`;
+    const lines = [
+      `Service: ${g('service')}`,
+      `Equipment: ${g('equipment')}`,
+      `Manufacturer / model: ${[g('maker'), g('model')].filter(Boolean).join(' ') || '-'}`,
+      `Problem / scope:`, g('problem') || '-', '',
+      `Port: ${port}`,
+      `ETA: ${g('eta')}   ETD: ${g('etd') || '-'}`, '',
+      `Ship: ${g('ship')}   IMO: ${g('imo') || '-'}`,
+      `Contact: ${g('name')}, ${g('company') || '-'}`,
+      `Email: ${g('email')}   Phone: ${g('phone') || '-'}`, '',
+      'Consent: I agree that FindVesselTech passes this request and my contact details to service partners covering the port.',
+    ];
+    const body = lines.join('\n');
+    const href = `mailto:${data.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    out.innerHTML = `<div class="note"><p><strong>Your email is ready.</strong> If your mail program did not open, <a href="${href}">click here</a> or copy the text below to <a href="mailto:${data.email}">${data.email}</a>.</p><textarea readonly rows="8"></textarea></div>`;
+    (out.querySelector('textarea') as HTMLTextAreaElement).value = `Subject: ${subject}\n\n${body}`;
+    location.href = href;
+  });
+</script>
+
+<style>
+  fieldset { border: 0; padding: 0; margin: 0 0 16px; }
+  legend { font-weight: 700; margin-bottom: 6px; font-size: 1.05rem; }
+  .req label { display: flex; flex-direction: column; gap: 4px; margin: 8px 0; font-weight: 600; font-size: .93rem; }
+  .req input[type=text], .req input[type=email], .req input[type=tel], .req input[type=date], .req select, .req textarea {
+    font: inherit; font-weight: 400; padding: 9px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); width: 100%;
+  }
+  .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0 12px; }
+  .req .consent { flex-direction: row; align-items: flex-start; gap: 8px; font-weight: 400; }
+  .consent input { margin-top: 5px; }
+  #req-out textarea { width: 100%; font: .9rem ui-monospace, Menlo, Consolas, monospace; margin-top: 8px; background: var(--code); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+</style>

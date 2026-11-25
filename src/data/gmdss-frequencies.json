@@ -1,0 +1,214 @@
+{
+ "source": "ITU Radio Regulations, Edition of 2024, Volume 2, Appendix 15 (Rev.WRC-23)",
+ "sourceUrl": "https://www.itu.int/pub/R-REG-RR-2024",
+ "checked": "2026-11-25",
+ "bands": [
+  [
+   "2 MHz (MF)",
+   2182,
+   2187.5,
+   null,
+   null
+  ],
+  [
+   "4 MHz",
+   4125,
+   4207.5,
+   4210,
+   4226
+  ],
+  [
+   "6 MHz",
+   6215,
+   6312,
+   6314,
+   6337.5
+  ],
+  [
+   "8 MHz",
+   8291,
+   8414.5,
+   8416.5,
+   8443
+  ],
+  [
+   "12 MHz",
+   12290,
+   12577,
+   12579,
+   12663.5
+  ],
+  [
+   "16 MHz",
+   16420,
+   16804.5,
+   16806.5,
+   16909.5
+  ],
+  [
+   "19 MHz",
+   null,
+   null,
+   19680.5,
+   null
+  ],
+  [
+   "22 MHz",
+   null,
+   null,
+   22376,
+   22450.5
+  ],
+  [
+   "26 MHz",
+   null,
+   null,
+   26100.5,
+   null
+  ]
+ ],
+ "msi": [
+  [
+   490,
+   "MSI",
+   "NAVTEX on 490 kHz (national service, often local language)",
+   "Exclusively for MSI."
+  ],
+  [
+   500,
+   "MSI",
+   "International NAVDAT",
+   "Exclusively for NAVDAT (Resolution 364 (WRC-23))."
+  ],
+  [
+   518,
+   "MSI",
+   "International NAVTEX (English)",
+   "Exclusively for the international NAVTEX system."
+  ],
+  [
+   4209.5,
+   "MSI",
+   "NAVTEX-type transmissions on HF",
+   "Exclusively NAVTEX-type (Resolution 339)."
+  ],
+  [
+   4226,
+   "MSI",
+   "NAVDAT on HF",
+   "Exclusively international NAVDAT."
+  ]
+ ],
+ "aero": [
+  [
+   3023,
+   "AERO-SAR",
+   "Coordinated SAR: ships, aircraft, land stations"
+  ],
+  [
+   5680,
+   "AERO-SAR",
+   "Coordinated SAR: ships, aircraft, land stations"
+  ]
+ ],
+ "vhf": [
+  [
+   "16",
+   "156.800",
+   "Distress and safety radiotelephony (also aircraft, safety only)",
+   true
+  ],
+  [
+   "70",
+   "156.525",
+   "DSC distress and safety calls",
+   true
+  ],
+  [
+   "06",
+   "156.300",
+   "Ship–aircraft communications in coordinated SAR",
+   false
+  ],
+  [
+   "13",
+   "156.650",
+   "Ship-to-ship safety of navigation (bridge-to-bridge)",
+   false
+  ],
+  [
+   "AIS 1",
+   "161.975",
+   "AIS; used by AIS-SART",
+   true
+  ],
+  [
+   "AIS 2",
+   "162.025",
+   "AIS; used by AIS-SART",
+   true
+  ],
+  [
+   "—",
+   "121.5",
+   "Aeronautical emergency: ships may talk to aircraft (A3E, distress and urgency only); EPIRB homing signal",
+   true
+  ],
+  [
+   "—",
+   "123.1",
+   "Aeronautical auxiliary: coordinated SAR with aircraft (A3E)",
+   false
+  ]
+ ],
+ "sat": [
+  [
+   "406–406.1 MHz",
+   "Earth-to-space",
+   "Cospas-Sarsat 406 MHz EPIRB, PLB, ELT (exclusive)",
+   true
+  ],
+  [
+   "1 530–1 544 MHz",
+   "space-to-Earth",
+   "Maritime mobile-satellite; GMDSS traffic has priority",
+   false
+  ],
+  [
+   "1 544–1 545 MHz",
+   "space-to-Earth",
+   "Distress and safety operations only, incl. beacon relay feeder links",
+   true
+  ],
+  [
+   "1 614.4225–1 618.725 or 1 616.3–1 620.38 MHz",
+   "Earth-to-space",
+   "Maritime mobile-satellite; Resolution 365 (WRC-23) applies",
+   false
+  ],
+  [
+   "1 621.35–1 626.5 MHz",
+   "both directions",
+   "Maritime mobile-satellite; GMDSS priority within the same system",
+   false
+  ],
+  [
+   "1 626.5–1 645.5 MHz",
+   "Earth-to-space",
+   "Maritime mobile-satellite; GMDSS traffic has priority",
+   false
+  ],
+  [
+   "2 483.59–2 499.91 MHz",
+   "space-to-Earth",
+   "Maritime mobile-satellite; Resolution 365 (WRC-23) applies",
+   false
+  ],
+  [
+   "9 200–9 500 MHz",
+   "—",
+   "Radar SART (search and rescue transponder)",
+   false
+  ]
+ ]
+}

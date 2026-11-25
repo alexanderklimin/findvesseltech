@@ -1,0 +1,44 @@
+---
+import Guide from '../../../components/Guide.astro';
+import { IMO } from '../../../data/imo-sources.js';
+
+const facts: [string, string][] = [
+  ['Requirement', 'SOLAS regulation V/18.9; guidelines MSC.1/Circ.1252'],
+  ['Who tests', 'A qualified radio inspector authorized by the flag Administration or a recognized organization.'],
+  ['When', 'Cargo ship: ±3 months of the safety equipment annual/periodical survey due date, or up to 3 months before the renewal survey. Passenger ship: up to 3 months before the renewal survey. Not later than completion of the survey (MSC.1/Circ.1576). <a href="/tools/survey-due-dates/">Calculate your window</a>.'],
+  ['Report', 'Model test report in the appendix of MSC.1/Circ.1252, in English, French or Spanish (or with a translation). Keep a copy on board.'],
+];
+
+const checks = [
+  { text: 'Installation: antenna layout, initial configuration report, interconnection drawings, pilot plug, main and emergency power supply.', ref: '2.1' },
+  { text: 'Static data programmed correctly: MMSI, IMO number, call sign, name, ship type, length and beam, GNSS antenna position.', ref: '2.2' },
+  { text: 'Dynamic data received from sensors: position with accuracy and integrity, UTC, COG, SOG, heading, navigational status, rate of turn where available.', ref: '2.3' },
+  { text: 'Voyage data can be entered: draught, cargo type, destination and ETA, safety-related messages.', ref: '2.4' },
+  { text: 'Performance test with instruments, including frequency and output power on AIS 1 and AIS 2 and DSC channel 70.', ref: '2.5' },
+  { text: 'On-air test with a VTS station or suitable test equipment: reception, own signal seen by others, polling.', ref: '2.6' },
+];
+
+const prepare = [
+  'Check the static data on the AIS display against the ship\'s certificates, especially after a change of name or flag. Decode the MMSI with our <a href="/tools/mmsi-lookup/">MMSI lookup</a>.',
+  'Have the initial installation configuration report and the drawings (antenna, AIS arrangement, block diagram) on board.',
+  'Make sure heading and GNSS inputs are live and the pilot plug is accessible near the pilot\'s position.',
+  'Keep a copy of the test report on board, as MSC.1/Circ.1252 §4 requires.',
+];
+---
+<Guide
+  title="AIS Annual Test: Checklist per MSC.1/Circ.1252"
+  h1="AIS annual test"
+  description="AIS annual performance test per SOLAS V/18.9 and MSC.1/Circ.1252: who may test, the time window, what is checked (static and dynamic data, RF measurements, on-air test) and how to prepare."
+  path="/surveys/ais-annual-test/"
+  lead="Once a year an authorized radio inspector checks that the AIS transmits the right identity and sensor data on the right frequencies. Check the static data yourself before the test."
+  facts={facts}
+  checks={checks}
+  prepare={prepare}
+  sources={[{ name: 'SOLAS regulation V/18.9' }, IMO.c1252, IMO.c1576]}
+  checked="2026-11-25"
+  related={[
+    { href: '/tools/mmsi-lookup/', text: 'MMSI lookup' },
+    { href: '/tools/survey-due-dates/', text: 'Survey and test due dates' },
+    { href: '/surveys/vdr-annual-performance-test/', text: 'VDR annual performance test' },
+  ]}
+/>

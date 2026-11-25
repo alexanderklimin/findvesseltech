@@ -1,0 +1,81 @@
+group,keyword,volume_world,bid_high_usd
+manuals,"transas ecdis manual",140,0.91
+manuals,"furuno gp 170 manual",70,0
+manuals,"furuno manual",40,0
+manuals,"furuno fm 8900s manual",30,0
+manuals,"jrc manual",20,0
+manuals,"furuno far 2117 manual",20,0
+manuals,"furuno fa 170 manual",20,0
+manuals,"jrc ncr 333 manual",20,0
+manuals,"jotron tron 60s manual",20,0
+manuals,"navi sailor 4000 manual",20,0
+manuals,"jrc jue 87 manual",20,0
+manuals,"sailor manual",10,0
+manuals,"furuno far 2127 manual",0,0
+manuals,"furuno far 3000 manual",0,0
+manuals,"jrc jma 5300 manual",0,0
+manuals,"jrc jan 901b manual",0,0
+manuals,"furuno fs 1575 manual",0,0
+manuals,"sailor 6310 manual",0,0
+manuals,"mcmurdo smartfind e5 manual",0,0
+manuals,"anschutz standard 22 manual",0,0
+tests,"sart test",720,3.79
+tests,"gmdss tests",590,3.73
+tests,"epirb test",320,2.29
+tests,"ssas test",210,0
+tests,"radar performance monitor",210,0
+tests,"inmarsat c pv test",70,0
+tests,"gmdss weekly test",50,0
+tests,"gmdss daily test",30,0
+tests,"gmdss monthly test",30,0
+tests,"dsc test call",30,0
+tests,"inmarsat c link test",30,0
+tests,"gmdss battery test",30,0
+tests,"epirb self test",20,0
+tests,"vhf dsc test call",20,0
+tests,"navtex test",10,0
+tests,"gmdss checklist",10,0
+tests,"bnwas test",0,0
+tests,"reserve source of energy gmdss",0,0
+tests,"radio survey checklist",0,0
+tests,"vdr apt checklist",0,0
+tools,"phonetic alphabet",823000,21.75
+tools,"q codes",22200,2.44
+tools,"mmsi number",2900,1.2
+tools,"mid code",2400,48.78
+tools,"mmsi lookup",720,0
+tools,"navtex frequencies",480,0
+tools,"distress frequencies",320,0
+tools,"dsc frequencies",260,0
+tools,"gmdss frequencies",140,0
+tools,"vhf channels marine",90,0
+tools,"navtex station list",90,0
+tools,"epirb hex id",90,0
+tools,"mmsi country code",70,0
+tools,"maritime identification digits",50,0
+tools,"inmarsat ocean regions",40,0
+tools,"marine vhf channels list",30,0
+tools,"gmdss sea area map",10,0
+tools,"mmsi decoder",0,0
+tools,"hf frequencies marine",0,0
+tools,"epirb hex id decoder",0,0
+trouble,"ecdis alarms",210,0
+trouble,"vdr capsule",140,0
+trouble,"gps no fix",110,0
+trouble,"radar magnetron replacement",50,0
+trouble,"false distress alert",40,0
+trouble,"ais not transmitting",20,0
+trouble,"epirb accidental activation",10,0
+trouble,"gyro compass alarm",10,0
+trouble,"false distress alert cancellation",0,0
+trouble,"cancel false dsc alert",0,0
+trouble,"magnetron life hours",0,0
+trouble,"radar no picture",0,0
+trouble,"inmarsat c not logged in",0,0
+trouble,"inmarsat c login",0,0
+trouble,"navtex not receiving",0,0
+trouble,"gyro compass settling time",0,0
+trouble,"ecdis chart permits",0,0
+trouble,"ecdis update charts",0,0
+trouble,"vdr data download",0,0
+trouble,"bnwas alarm reset",0,0

@@ -1,0 +1,1758 @@
+keyword,volume_world,competition,bid_low_usd,bid_high_usd
+"radar shipping",90500,LOW,0.22,0.84
+"sart",60500,LOW,0.07,2.49
+"epirb",49500,HIGH,0.28,1.51
+"emergency position indicating radio beacon",49500,HIGH,0.28,1.51
+"epirb emergency beacon",49500,HIGH,0.28,1.51
+"emergency position indicating radio",49500,HIGH,0.28,1.51
+"emergency position indicating radio beacon epirb",49500,HIGH,0.28,1.51
+"emergency position radio beacon",49500,HIGH,0.28,1.51
+"emergency radio beacon",49500,HIGH,0.28,1.51
+"shipping radar 24",22200,LOW,0.18,0.88
+"gmdss",12100,LOW,0.33,2.23
+"navtex",12100,LOW,0.12,0.88
+"ecdis",12100,LOW,0.33,1.3
+"furuno",12100,LOW,0.11,1.41
+"gyro compass",8100,LOW,0.31,6.07
+"gyroscope compass",8100,LOW,0.31,6.07
+"shipping radar live",5400,LOW,0.17,0.84
+"furuno radar",4400,HIGH,0.17,1.41
+"epirb personal locator beacon",3600,HIGH,0.18,1.11
+"plb locator beacon",3600,HIGH,0.13,0.84
+"gmdss meaning",2400,LOW,0.28,0.45
+"epirb for hiking",2400,HIGH,0.2,1.04
+"marine electronics service",2400,LOW,1.22,6.39
+"marine electronics installation",2400,LOW,1.59,8.39
+"boat electronics installation",2400,LOW,1.59,8.39
+"inmarsat c",1900,LOW,0.4,2.2
+"epirb for boat",1900,HIGH,0.27,1.53
+"bnwas",1900,LOW,0,0
+"flight radar ships",1900,LOW,0.13,0.82
+"marine electronics repair",1900,LOW,2.2,8.51
+"epirb for sale",1600,HIGH,0.19,1.05
+"epirb au",1600,HIGH,0.16,1.52
+"registering an epirb",1600,LOW,1.61,4.21
+"ecdis meaning",1600,LOW,0,0
+"personal epirb",1300,HIGH,0.18,1.07
+"epirb beacon",1000,HIGH,0.25,1.45
+"gme epirb",1000,HIGH,0.41,2.2
+"ship finder marine traffic",1000,LOW,0.1,0.76
+"gmdss equipment",880,LOW,0.34,1.22
+"equipment of gmdss",880,LOW,0.34,1.22
+"acr epirb",880,HIGH,0.43,2.33
+"acr electronics epirb",880,HIGH,0.43,2.33
+"voyage data recorder",880,LOW,1.43,67.78
+"simplified voyage data recorder",880,LOW,1.43,67.78
+"jrc radar",880,MEDIUM,0.35,2.12
+"furuno ecdis",880,LOW,0.15,0.9
+"gmdss manual",720,LOW,0.29,1.79
+"navtex receivers",720,MEDIUM,0.09,1.89
+"ecdis electronic chart display and information system",720,LOW,0.41,2.14
+"electronic chart display and information system",720,LOW,0.41,2.14
+"electronic chart display and information system ecdis",720,LOW,0.41,2.14
+"electronic chart display information system",720,LOW,0.41,2.14
+"electronic chart display information system ecdis",720,LOW,0.41,2.14
+"electronic chart display system",720,LOW,0.41,2.14
+"gyro compass in ship",720,LOW,0.45,2.37
+"ship gyro compass",720,LOW,0.45,2.37
+"epirb battery replacement",590,MEDIUM,0.7,2.57
+"navtex antenna",590,LOW,0,0
+"antenna navtex",590,LOW,0,0
+"bnwas alarm",590,LOW,0,0
+"bnwas system",590,LOW,0,0
+"bridge navigation watch alarm system",590,LOW,0,0
+"bridge navigational watch alarm system bnwas",590,LOW,0,0
+"bridge watch alarm",590,LOW,0,0
+"bridge watch alarm system",590,LOW,0,0
+"ecdis in ship",590,LOW,0.4,1.36
+"ship ecdis",590,LOW,0.4,1.36
+"marine audio near me",590,LOW,0.92,5.34
+"gmdss radio",480,LOW,0.29,1.43
+"global maritime distress and safety system",480,LOW,0.39,2.34
+"gmdss goc",480,LOW,0.44,4.43
+"global maritime distress and safety system gmdss",480,LOW,0.39,2.34
+"global maritime distress safety system",480,LOW,0.39,2.34
+"epirb marine",480,HIGH,0.29,1.4
+"jotron epirb",480,MEDIUM,0.6,4.62
+"best plbs",480,HIGH,0.15,1.94
+"epirb in ship",480,LOW,0,0
+"epirb ship",480,LOW,0,0
+"furuno marine radar",480,HIGH,0.22,2.24
+"boat radar furuno",480,HIGH,0.22,2.24
+"gyro and magnetic compass",480,LOW,0,0
+"gyro compass and magnetic compass",480,LOW,0,0
+"magnetic gyro compass",480,LOW,0,0
+"marine tracker 24",480,LOW,0,0
+"personal epirb marine",390,HIGH,0.23,1.12
+"mcmurdo epirb",390,HIGH,0.44,1.97
+"ais epirb",390,HIGH,0.32,2.64
+"marine plb",390,HIGH,0.23,1.12
+"406 mhz epirb",390,HIGH,0.32,1.25
+"flight radar but for ships",390,LOW,0.13,0.65
+"jrc ecdis",390,LOW,0.56,2.16
+"marine electronics installation near me",390,LOW,2.22,6.42
+"marine electronics installer near me",390,LOW,2.22,6.42
+"sailor 6110",320,LOW,0,0
+"vhf gmdss",320,MEDIUM,0.22,0.49
+"gmdss area",320,LOW,0,0
+"ocean signal epirb",320,HIGH,0.47,1.87
+"ocean signal rescueme epirb1",320,HIGH,0.33,1.27
+"epirb battery",320,LOW,0.57,2.35
+"406mhz",320,LOW,0,0
+"furuno drs4d nxt",320,HIGH,0.41,3.88
+"furuno drs4dnxt",320,HIGH,0.41,3.88
+"ais live marine traffic",320,LOW,0,0
+"ecdis meaning in maritime",320,LOW,0,0
+"ship radar 24 app",320,LOW,0.04,0.36
+"transas ecdis",320,LOW,0.5,1.22
+"transas navi sailor 4000",320,LOW,0.47,1.55
+"iridium gmdss",260,MEDIUM,0.33,3.26
+"sailor sp3520",260,MEDIUM,0.31,1.32
+"gmdss log book",260,LOW,0,0
+"gmdss meaning in maritime",260,LOW,0.29,0.41
+"ic gm600",260,MEDIUM,0.22,1.71
+"sp3520 sailor",260,MEDIUM,0.31,1.32
+"gps epirb",260,HIGH,0.4,1.65
+"406 epirb",260,HIGH,0.37,1.8
+"epirb cost",260,HIGH,0.1,0.52
+"acr rlb 32",260,LOW,0,0
+"furuno navtex",260,HIGH,0.53,0.98
+"tron 60ais",260,LOW,0.34,2.47
+"vdr in ship",260,LOW,0,0
+"voyage data",260,LOW,0.24,1
+"furuno drs4w",260,HIGH,0.37,3.71
+"furuno 1623 radar",260,MEDIUM,0.04,0.92
+"ecdis chart 1",260,LOW,0,0
+"part of gyro compass",260,LOW,0,0
+"radar 1623 furuno",260,MEDIUM,0.04,0.92
+"marine electronics repair near me",260,LOW,2.53,9.01
+"marine audio installation near me",260,LOW,1.15,5.35
+"boat electronics installation near me",260,MEDIUM,1.85,6.82
+"marine electrical systems",260,LOW,0.81,5.08
+"ship navigation tools",260,MEDIUM,12.19,15.07
+"ship navigation instruments",260,MEDIUM,12.19,15.07
+"entel ht649",210,MEDIUM,0.46,2.06
+"jotron tr30",210,MEDIUM,0.59,3.13
+"boat emergency beacon",210,HIGH,0.23,0.83
+"fast find 220 plb",210,HIGH,0.2,1.1
+"acr resqlink replacement battery",210,MEDIUM,0.69,1.83
+"clipper navtex",210,LOW,0,0
+"felcom 18",210,LOW,0,0
+"ssas test",210,LOW,0,0
+"furuno 1815",210,MEDIUM,0.17,0.96
+"drs4d nxt",210,MEDIUM,0.5,5.03
+"radar furuno 1815",210,MEDIUM,0.05,0.78
+"marine gyro compass",210,LOW,0.4,6.18
+"e globe ecdis",210,LOW,0,0
+"eglobe ecdis",210,LOW,0,0
+"furuno 1715 radar",210,MEDIUM,0.06,0.65
+"navi sailor 4000",210,LOW,0.57,1.22
+"wartsila ecdis",210,LOW,0.49,1.41
+"lowrance fish finder repair",210,LOW,1.64,3.26
+"vessel navigation system",210,LOW,0.44,9.07
+"jrc service",210,LOW,0,0
+"gmdss equipment list",170,LOW,0.27,0.89
+"endorse gmdss",170,LOW,0,0
+"gmdss area a1 a2 a3 a4",170,LOW,0,0
+"gmdss radio log book",170,LOW,0.31,2.82
+"garmin epirb",170,HIGH,0.34,1.95
+"acr plb battery replacement",170,MEDIUM,0.71,1.72
+"epirb price",170,HIGH,0.07,0.46
+"gme beacon",170,MEDIUM,0.25,1.98
+"gme epirb battery replacement",170,LOW,0,0
+"nasa navtex",170,HIGH,0.15,0.54
+"amsa beacon",170,LOW,0,0
+"felcom 15",170,LOW,0,0
+"furuno felcom 18",170,LOW,0,0
+"furuno navtex nx 300",170,MEDIUM,0.08,0.37
+"gme plb battery replacement",170,LOW,0,0
+"tron 40vdr",170,LOW,1.15,3.46
+"lrit conformance test",170,LOW,0.51,4.75
+"vdr marine equipment",170,LOW,1.54,4.5
+"furuno 1623",170,MEDIUM,0.03,1.19
+"fiber optic gyro compass",170,LOW,0.92,7.24
+"furuno plotter",170,HIGH,0.08,1.37
+"ecdis chart",170,LOW,0,0
+"ecdis display",170,LOW,0.25,1.85
+"ecdis sperry marine",170,LOW,0,0
+"ecdis type",170,LOW,0,0
+"furuno nav net vx2",170,HIGH,0.05,0.35
+"jrc 1000 radar",170,LOW,0,0
+"marine traffic global tracking",170,LOW,0,0
+"msc 232 82",170,LOW,0,0
+"radar 1000 jrc",170,LOW,0,0
+"radar onwa",170,HIGH,0.36,0.9
+"type of ecdis",170,LOW,0,0
+"raymarine dealers near me",170,HIGH,0.67,12
+"jrc plumbing",170,LOW,4.86,18.72
+"lt 3100s",140,MEDIUM,0.32,3.26
+"gmdss simulator",140,LOW,0.39,1.2
+"gmdss src",140,MEDIUM,0.55,6.16
+"icom gm1600",140,MEDIUM,0.76,2.41
+"gmdss sea area",140,LOW,0,0
+"goc gmdss",140,LOW,0,0
+"jotron tron tr20",140,LOW,0.4,2.23
+"sea area a1",140,LOW,0,0
+"sea area a1 a2 a3 a4",140,LOW,0,0
+"sea area gmdss",140,LOW,0,0
+"simulator gmdss",140,LOW,0.39,1.2
+"epirb west marine",140,HIGH,0.65,4.2
+"acr globalfix v4",140,MEDIUM,0.28,2.07
+"acr epirb battery replacement",140,HIGH,0.75,3.07
+"buy epirb",140,HIGH,0.25,1.49
+"acr globalfix",140,MEDIUM,0.46,1.71
+"plb battery replacement",140,LOW,0.76,3.19
+"epirb for land",140,HIGH,0.11,0.68
+"plb epirb",140,HIGH,0.25,1.22
+"epirb1",140,HIGH,0.35,1.42
+"acr global fix",140,MEDIUM,0.46,1.71
+"cospas sarsat epirb",140,LOW,0,0
+"epirb and plb",140,HIGH,0.25,1.22
+"furuno navtex nx 700",140,LOW,0,0
+"furuno nx 700",140,LOW,0,0
+"hammar h20e",140,HIGH,0.77,1.96
+"inmarsat c antenna",140,LOW,0,0
+"jotron tron 60ais",140,MEDIUM,0.86,3.74
+"lrit inmarsat c",140,LOW,0,0
+"bnwas furuno",140,LOW,0,0
+"ship vdr",140,LOW,0,0
+"ship voyage data recorder",140,LOW,0,0
+"vdr on ship",140,LOW,0,0
+"vdr voyage data recorder",140,LOW,0.47,12.19
+"drs4w",140,MEDIUM,0.3,2.1
+"furuno mfd12",140,HIGH,0.29,2.33
+"anschutz gyro",140,LOW,0,0
+"chart world ecdis",140,LOW,0,0
+"ecdis in navigation",140,LOW,0.43,1.41
+"ecdis navi sailor 4000",140,LOW,0.44,1.41
+"ecdis radar",140,LOW,0.61,1.44
+"ecdis simrad",140,LOW,0.31,1.36
+"ecdis system",140,LOW,0.45,1.53
+"furuno 1815 radar",140,MEDIUM,0.3,2.13
+"furuno radar 1815",140,MEDIUM,0.3,2.13
+"furuno rcu 014",140,LOW,0,0
+"gyrocompass in ship",140,LOW,0,0
+"gyrocompass sperry",140,LOW,0,0
+"kongsberg ecdis",140,LOW,0.99,1.48
+"marine traffic live tracking",140,LOW,0.01,0.89
+"radar ecdis",140,LOW,0.61,1.44
+"zoc ecdis",140,LOW,0,0
+"marine audio installation",140,LOW,0,0
+"ups hundredweight",140,LOW,4.52,30.4
+"acr epirb replacement battery",140,HIGH,0.75,3.07
+"marine electronic sales",140,HIGH,0.22,0.95
+"send electronics",140,LOW,0,0
+"furuno support",140,LOW,3.14,7.38
+"ht649",110,LOW,0,0
+"gmdss console",110,LOW,0,0
+"gmdss result",110,LOW,0,0
+"sp3520",110,LOW,0,0
+"best epirb",110,HIGH,0.34,2.04
+"personal epirb hiking",110,HIGH,0.12,1.02
+"rescueme epirb1",110,HIGH,0.29,1.68
+"resqlink ais plb",110,HIGH,0.36,3.54
+"epirb device",110,HIGH,0.15,1.01
+"ocean signal epirb1",110,HIGH,0.62,1.43
+"epirb mcmurdo e5",110,LOW,0,0
+"epirb satellite",110,MEDIUM,0,0
+"epirb types",110,LOW,0,0
+"furuno felcom 15",110,LOW,0,0
+"furuno inmarsat c",110,LOW,0,0
+"furuno nx 300",110,MEDIUM,0,0
+"gps enabled epirb",110,HIGH,0.17,1.03
+"ncr 333",110,LOW,0,0
+"nsr epirb",110,LOW,0,0
+"bnwas on ship",110,LOW,0,0
+"furuno nxt radar",110,HIGH,0.32,1.42
+"furuno tzt12f",110,HIGH,0.6,2.15
+"furuno 1715",110,MEDIUM,0.09,0.97
+"anschutz gyro compass",110,LOW,0,0
+"danelec ecdis",110,LOW,0,0
+"ecdis ais",110,LOW,0,0
+"ecdis jrc",110,LOW,0,0
+"ecdis kelvin hughes",110,LOW,0,0
+"eglobe g2 ecdis",110,LOW,0,0
+"furuno 1835 radar",110,MEDIUM,0,0
+"furuno far2117",110,LOW,0,0
+"furuno fmd 3100",110,LOW,0,0
+"furuno fmd 3300",110,LOW,0,0
+"gp330b furuno",110,MEDIUM,2.61,11.36
+"gyro compass meaning",110,LOW,0,0
+"maris ecdis",110,LOW,0,0
+"navi sailor",110,LOW,0,0
+"navnet 3d furuno",110,HIGH,0,0
+"s 100 ecdis",110,LOW,0,0
+"wartsila navi sailor 4000",110,LOW,0.49,1.34
+"ship electronics",110,LOW,0.2,3.65
+"marine radio repair",110,LOW,1.6,9.56
+"shipping electronics usps",110,LOW,0,0
+"fish finder repair",110,LOW,0,0
+"garmin fishfinder repair",110,LOW,0,0
+"marine vhf radio repair",110,LOW,1.6,9.56
+"ship cell phone usps",110,LOW,0,0
+"vhf radio repair",110,LOW,1.6,9.56
+"lars thrane lt 3100s",90,LOW,0.36,2.27
+"apa itu gmdss",90,LOW,0,0
+"coc gmdss",90,LOW,0,0
+"gmdss equipment in ship",90,LOW,0.35,1.01
+"gmdss in ship",90,LOW,0,0
+"gmdss logbook",90,LOW,0,0
+"gmdss stand for",90,LOW,0,0
+"gmdss system",90,LOW,0.7,3.26
+"gmdss walkie talkie",90,MEDIUM,0.99,2.53
+"sailor 6006",90,LOW,0,0
+"acr battery replacement",90,MEDIUM,0.67,3.62
+"category 1 epirb",90,HIGH,0.4,2.53
+"rescue me epirb",90,HIGH,0,0
+"mcmurdo g8",90,MEDIUM,0,0
+"cheap epirb",90,HIGH,0.19,1.22
+"breitling epirb",90,HIGH,0.32,2.1
+"boat plb",90,HIGH,0.33,1.04
+"epirb signal",90,MEDIUM,0,0
+"epirb vhf",90,MEDIUM,0,0
+"ics nav 6",90,LOW,0,0
+"inmarsat c sailor",90,LOW,0,0
+"inmarsat c satellite",90,LOW,0,0
+"inmarsat c terminal",90,LOW,0,0
+"jotron 60s epirb",90,LOW,0,0
+"jrc ncr 333",90,LOW,0,0
+"navtex nx 300",90,LOW,0,0
+"navtex nx 700",90,LOW,0,0
+"sailor 4065 epirb",90,LOW,0,0
+"tron 60ais epirb",90,MEDIUM,0,0
+"bnwas alarm stages",90,LOW,0,0
+"furuno wireless radar",90,HIGH,0.27,0.94
+"furuno 1835",90,MEDIUM,0.32,0.73
+"furuno nxt",90,HIGH,0.47,3.63
+"tztl15f",90,MEDIUM,0.37,1.17
+"drs2d nxt",90,HIGH,0.83,5.58
+"drs6a nxt",90,MEDIUM,0,0
+"ecdis marine",90,LOW,0.44,1.45
+"ecdis maris 900",90,LOW,0,0
+"ecdis transas",90,LOW,0.17,1.09
+"furuno 1621 radar",90,LOW,0,0
+"furuno antenna",90,MEDIUM,0,0
+"furuno drs4d",90,HIGH,0.34,1.99
+"furuno fmd 3200",90,LOW,0,0
+"furuno fr12",90,MEDIUM,0,0
+"furuno radar display",90,MEDIUM,0,0
+"furuno radar wifi",90,HIGH,0.24,1.49
+"furuno radome",90,HIGH,0.4,2.17
+"furuno rdp 149",90,HIGH,0.15,1.78
+"iec 61174",90,LOW,0,0
+"jrc 9201",90,LOW,0,0
+"maretron ssc300",90,HIGH,0,0
+"master gyro compass",90,LOW,0,0
+"parallel index ecdis",90,LOW,0,0
+"radar 1935",90,LOW,0,0
+"radar furuno wifi",90,HIGH,0.24,1.49
+"radar wifi furuno",90,HIGH,0.24,1.49
+"s 57 ecdis",90,LOW,0,0
+"magnetic compass adjustment",90,LOW,0,0
+"fish finder installation near me",90,MEDIUM,0.64,1.83
+"compass adjustment",90,LOW,0.4,2.16
+"ship cell phone",90,LOW,0.29,1.84
+"lt3100s",70,MEDIUM,0.42,3.5
+"sailor 6110 gmdss system",70,LOW,0,0
+"gmdss a1 a2 a3 a4",70,LOW,0,0
+"gmdss book",70,MEDIUM,0,0
+"gmdss handbook",70,LOW,0,0
+"gmdss handheld radio",70,MEDIUM,0,0
+"gmdss inmarsat",70,LOW,0.4,3.44
+"gmdss navtex",70,LOW,0,0
+"gmdss portable radio",70,MEDIUM,0,0
+"gmdss sailor",70,LOW,0,0
+"gmdss vhf radio",70,MEDIUM,0,0
+"jotron tron tr30",70,MEDIUM,0.36,2.52
+"jotron vhf",70,HIGH,0.55,1.92
+"survival craft portable radio",70,LOW,0,0
+"gme emergency beacon",70,HIGH,0.21,1.71
+"globalfix v5",70,HIGH,0.66,2.69
+"portable epirb",70,HIGH,0.29,0.94
+"epirb battery replacement near me",70,MEDIUM,0,0
+"gpirb",70,MEDIUM,0,0
+"acr rlb 41",70,LOW,0,0
+"mcmurdo smartfind",70,MEDIUM,0,0
+"best epirb for small boat",70,HIGH,0.27,1.04
+"kannad marine",70,LOW,0,0
+"ocean signal epirb1 pro",70,HIGH,0.35,1.99
+"epirb kannad",70,MEDIUM,0,0
+"epirb use",70,LOW,0,0
+"epirb vep8",70,LOW,0,0
+"felcom 19",70,LOW,0,0
+"inmarsat mini c",70,LOW,0,0
+"jotron h20e",70,MEDIUM,1.31,2.74
+"mcmurdo e5",70,LOW,0,0
+"navigational telex",70,LOW,0,0
+"navtex ncr 333",70,LOW,0,0
+"radiopława epirb",70,HIGH,0,0
+"receptor navtex",70,LOW,0,0
+"tron 40s mkii",70,LOW,0,0
+"tron 60 ais",70,LOW,1.51,4.61
+"tron 60s",70,LOW,1.39,4.9
+"vdr vessel",70,LOW,0,0
+"voyage data recorder in ship",70,LOW,0,0
+"voyage data service",70,LOW,0.49,3.35
+"furuno tzt3 9",70,HIGH,0.28,0.77
+"furuno tz touch 3",70,HIGH,0,0
+"tztl12f",70,MEDIUM,0,0
+"gyro compass price",70,LOW,0,0
+"simrad gyro compass",70,LOW,0,0
+"furuno drs2d nxt",70,MEDIUM,0.42,1.89
+"antenna radar furuno",70,HIGH,0,0
+"apa itu ecdis",70,LOW,0,0
+"bbds1 furuno",70,MEDIUM,0,0
+"cable radar furuno",70,MEDIUM,0,0
+"cross track distance ecdis",70,LOW,0,0
+"digital gyro compass",70,LOW,0,0
+"ecdis online",70,LOW,0.32,1.39
+"ecdis procedures guide",70,LOW,0,0
+"ecdis raytheon",70,LOW,0,0
+"ecdis ship",70,LOW,0,0
+"eglobe g2",70,LOW,0,0
+"electronic chart display",70,LOW,0,0
+"fmd 3100",70,LOW,0,0
+"furuno ch500",70,LOW,0,0
+"furuno drs4w 1st watch wireless radar",70,HIGH,0.19,0.96
+"furuno fmd",70,LOW,0.02,0.14
+"furuno radar antenna",70,HIGH,0,0
+"furuno radar cable",70,MEDIUM,0,0
+"furuno radar models",70,HIGH,0.12,2.01
+"furuno rd50",70,LOW,0,0
+"furuno x band radar",70,LOW,0,0
+"gp 170 furuno",70,MEDIUM,0,0
+"marine gyro",70,LOW,0.54,6.91
+"meridian gyro compass",70,LOW,0,0
+"no go area ecdis",70,LOW,0,0
+"sistema ecdis",70,LOW,0,0
+"sperry ecdis",70,LOW,0,0
+"sperry gyro",70,LOW,0,0
+"sperry marine gyro compass",70,LOW,0,0
+"sperry marine visionmaster",70,LOW,0.36,2.86
+"tokyo keiki ecdis",70,LOW,0,0
+"transas 4000",70,LOW,0.37,1.29
+"yokogawa gyro compass",70,LOW,0,0
+"marine stereo installation near me",70,LOW,2.14,10.87
+"marine stereo installation",70,LOW,0,0
+"vhf radio repair near me",70,LOW,4.02,16.68
+"boat electronics repair near me",70,LOW,2.57,7.93
+"raymarine service",70,LOW,1.05,1.92
+"marine radio repair near me",70,LOW,4.02,16.68
+"boat radio repair",70,LOW,0,0
+"fedex electronics shipping",70,LOW,1.42,16.63
+"marine electronic installations ltd",70,LOW,0,0
+"entel ht 649",50,MEDIUM,0.65,1.87
+"epirb gmdss",50,LOW,0,0
+"furuno gmdss",50,LOW,0,0
+"gmdss a1",50,LOW,0,0
+"gmdss antenna",50,LOW,0,0
+"gmdss inmarsat c",50,LOW,0,0
+"gmdss radio survey",50,LOW,0,0
+"gmdss requirements",50,LOW,0,0
+"jotron vhf radio",50,MEDIUM,0.61,1.82
+"mcmurdo r2 gmdss",50,LOW,0,0
+"sailor 6000",50,LOW,0,0
+"sailor sp3520 vhf gmdss",50,MEDIUM,0,0
+"best plb for boating",50,HIGH,0.3,1.37
+"marine emergency beacon",50,HIGH,0.19,0.56
+"gme locator beacon",50,HIGH,0.38,1.91
+"global fix v4",50,HIGH,0.42,6.12
+"small epirb",50,HIGH,0.31,0.75
+"gme epirb mt600g",50,HIGH,0,0
+"ocean signal gps rescueme epirb",50,HIGH,0,0
+"handheld epirb",50,HIGH,0.23,1.81
+"mt600g epirb",50,HIGH,0,0
+"gme gps",50,HIGH,1.86,4.78
+"smallest epirb",50,HIGH,0.31,0.75
+"personal epirb devices",50,HIGH,0.18,1.04
+"epirb amazon",50,HIGH,0.16,0.76
+"boya epirb",50,LOW,0,0
+"epirb 1",50,HIGH,0.25,0.66
+"epirb inmarsat",50,LOW,0,0
+"epirb range",50,LOW,0,0
+"epirb samyung",50,LOW,0,0
+"epirb tron 60s",50,LOW,0.18,3.5
+"epirb1 ocean signal",50,HIGH,0.33,2.04
+"felcom 16",50,LOW,0,0
+"gme epirb battery replacement cost",50,LOW,0,0
+"hammar h20 e",50,HIGH,0,0
+"inmarsat c in ship",50,LOW,0,0
+"inmarsat c meaning",50,LOW,0,0
+"jotron tron 40vdr",50,LOW,0,0
+"jotron tron 60s",50,LOW,0.83,2.94
+"jrc navtex",50,LOW,0,0
+"jrc navtex ncr 333",50,LOW,0,0
+"mcmurdo e8",50,LOW,0,0
+"mcmurdo navtex",50,LOW,0,0
+"navtex antenne",50,HIGH,0,0
+"navtex jrc ncr 333",50,LOW,0,0
+"navtex system",50,LOW,0,0
+"noaa epirb",50,LOW,0,0
+"sailor 4065",50,LOW,0,0
+"sailor 6390",50,LOW,0,0
+"sailor 6391",50,LOW,0,0
+"sailor navtex",50,LOW,0,0
+"samyung epirb",50,LOW,0,0
+"tron 60s gps",50,LOW,0,0
+"danelec dm100",50,LOW,0,0
+"furuno br 500",50,LOW,0,0
+"furuno tzt3 16",50,HIGH,0,0
+"furuno radar package",50,HIGH,0,0
+"furuno radar for sale",50,HIGH,0.09,1.18
+"furuno tzt16f",50,HIGH,0,0
+"furuno 1st watch wireless radar",50,HIGH,0.24,0.92
+"furuno tztl15f",50,MEDIUM,0,0
+"furuno open array radar",50,HIGH,0,0
+"drs4dnxt",50,HIGH,0.86,4.29
+"tzt3 furuno",50,HIGH,0,0
+"furuno fr10",50,HIGH,0,0
+"drs4d",50,MEDIUM,0,0
+"ecdis furuno fmd 3300",50,LOW,0,0
+"ecdis on ship",50,LOW,0,0
+"ecdis wartsila",50,LOW,0.55,1.69
+"fmd 3200",50,LOW,0,0
+"fmd 3300",50,LOW,0,0
+"furuno 1832 radar",50,LOW,0,0
+"furuno 1945 radar",50,MEDIUM,0,0
+"furuno ad 100",50,LOW,0,0
+"furuno drs6a nxt",50,MEDIUM,0,0
+"furuno products",50,HIGH,0.63,1.26
+"furuno radar screen",50,MEDIUM,0,0
+"furuno rcu 028",50,LOW,0,0
+"furuno rdp 139",50,MEDIUM,0,0
+"furuno sc130",50,LOW,0,0
+"furuno tzt9",50,HIGH,0,0
+"furuno weather radar",50,LOW,0,0
+"gambar ecdis",50,LOW,0,0
+"gyro compass on ship",50,LOW,0,0
+"gyro compass tokyo keiki",50,LOW,0,0
+"jrc 901b",50,LOW,0,0
+"jrc alphatron marine",50,LOW,0,0
+"jrc ecdis 9201",50,LOW,0,0
+"jrc marine radar",50,LOW,0,0
+"raymarine radar repair",50,LOW,0,0
+"safebridge ecdis",50,LOW,0.33,5.44
+"sam electronics ecdis",50,LOW,0,0
+"simrad maris ecdis900",50,LOW,0,0
+"tokyo keiki gyro compass",50,LOW,0,0
+"raymarine service near me",50,LOW,1.28,3.08
+"simrad simnet",50,HIGH,0,0
+"boat electronic repair",50,MEDIUM,0,0
+"boat stereo repair",50,LOW,0,0
+"correcting magnetic compass",50,LOW,0,0
+"fish finder repair near me",50,LOW,0,0
+"raymarine electronics repair",50,LOW,1.43,4.65
+"shipping electronics ups",50,LOW,0.23,1.04
+"simrad autopilot repair",50,LOW,0,0
+"furuno customer service",50,LOW,0,0
+"furuno usa support",50,LOW,0,0
+"sailor 6110 mini c gmdss",40,LOW,0,0
+"area a1 a2 a3 a4 gmdss",40,LOW,0,0
+"area gmdss",40,LOW,0,0
+"global marine distress safety system",40,LOW,0,0
+"gmdss a1 area",40,LOW,0,0
+"gmdss a3",40,LOW,0,0
+"gmdss area a1",40,LOW,0,0
+"gmdss imo",40,LOW,0,0
+"gmdss maritime",40,LOW,0,0
+"gmdss portable vhf radio battery requirements",40,LOW,0,0
+"gmdss printer",40,LOW,0,0
+"goc maritime",40,LOW,0,0
+"sailor 3520",40,LOW,0,0
+"sart gmdss",40,LOW,0,0
+"sp3520 vhf gmdss",40,MEDIUM,0,0
+"two way radio gmdss",40,LOW,0,0
+"globalfix v4",40,HIGH,0,0
+"best epirb for offshore",40,HIGH,0.84,4.7
+"gme mt600g",40,HIGH,0,0
+"mcmurdo smartfind g8 ais epirb",40,HIGH,0,0
+"best personal epirb",40,HIGH,0.22,1.56
+"best epirb for boat",40,HIGH,1.11,2.9
+"gme accusat epirb",40,HIGH,0.49,2.64
+"acr locator beacon",40,HIGH,0.26,2.03
+"epirb garmin",40,HIGH,0.59,1.27
+"safety alert epirb",40,HIGH,0,0
+"mini epirb",40,HIGH,0,0
+"epirb pris",40,HIGH,0.17,0.57
+"121.5 mhz epirb",40,MEDIUM,0,0
+"518 khz navtex",40,LOW,0,0
+"apa itu navtex",40,LOW,0,0
+"best epirb for boating",40,HIGH,1.11,2.9
+"bushwalking epirb",40,HIGH,0.11,0.63
+"emergency epirb",40,HIGH,0.13,0.64
+"epirb jotron 60s",40,LOW,0,0
+"epirb sbm",40,LOW,0,0
+"expired epirb",40,LOW,0,0
+"furuno felcom 19",40,LOW,0,0
+"gambar epirb",40,LOW,0,0
+"harga epirb",40,MEDIUM,0,0
+"ics navtex",40,MEDIUM,0,0
+"inmarsat safetynet",40,LOW,0,0
+"jotron tron 60 ais",40,LOW,0,0
+"jrc inmarsat c",40,LOW,0,0
+"jrc jue 85",40,LOW,0,0
+"mcmurdo smartfind e8",40,LOW,0,0
+"navtex jrc",40,LOW,0,0
+"sailor sat c",40,LOW,0,0
+"tron 60 gps",40,MEDIUM,0,0
+"marine vdr",40,LOW,0,0
+"furuno radar price",40,MEDIUM,0,0
+"gyro compass for sale",40,MEDIUM,0,0
+"alphatron jrc",40,LOW,0,0
+"avcs ecdis",40,LOW,0,0
+"b54 transducer",40,HIGH,0,0
+"drs4dl+",40,MEDIUM,0,0
+"ecdis eglobe g2",40,LOW,0,0
+"ecdis furuno fmd 3200",40,LOW,0,0
+"ecdis maritime",40,LOW,0,0
+"flight tracker for ships",40,LOW,0,0
+"fr8125",40,LOW,0,0
+"furuno 1832",40,LOW,0,0
+"furuno 1945",40,LOW,0,0
+"furuno 1st watch wireless radar drs4w",40,HIGH,0.37,1.09
+"furuno black box",40,HIGH,0,0
+"furuno drs25a nxt",40,HIGH,0.72,3.12
+"furuno hs 2003",40,LOW,0,0
+"furuno radar system",40,HIGH,0,0
+"gyro compass types",40,LOW,0,0
+"harga radar furuno",40,LOW,0,0
+"inland ecdis",40,LOW,0,0
+"jrc 1800 radar",40,LOW,0,0
+"jual radar furuno",40,LOW,0,0
+"mdbw10823",40,LOW,0,0
+"mini ecdis",40,LOW,0,0
+"navmaster ecdis",40,LOW,0.46,17.99
+"old furuno radar",40,HIGH,0,0
+"s 52 ecdis",40,LOW,0,0
+"totem ecdis",40,LOW,0,0
+"transas radar",40,LOW,0,0
+"type of gyro compass",40,LOW,0,0
+"tztouch",40,HIGH,0,0
+"boat speaker installation near me",40,LOW,0,0
+"marine electronic installers near me",40,MEDIUM,1.89,6.1
+"international shipping electronics",40,MEDIUM,0.76,8.07
+"simrad repair",40,LOW,2.97,6.21
+"garmin chartplotter repair",40,LOW,0,0
+"marine electronics supply",40,HIGH,0.31,1.9
+"lt 3100s gmdss system",30,MEDIUM,0.34,3.26
+"lt 3100s gmdss",30,MEDIUM,0.33,3.26
+"lars thrane lt 3100",30,LOW,0.41,3.06
+"iridium lt3100s",30,LOW,0.34,3.26
+"alat gmdss",30,LOW,0,0
+"amerc gmdss",30,LOW,0,0
+"entel ht649 gmdss vhf",30,MEDIUM,0,0
+"gmdss a2",30,LOW,0,0
+"gmdss log",30,LOW,0,0
+"gmdss radio logbook",30,LOW,0,0
+"gmdss ship",30,LOW,0,0
+"gmdss solas requirements",30,LOW,0,0
+"imo gmdss manual",30,LOW,0,0
+"lrit gmdss",30,LOW,0,0
+"mcmurdo r5 gmdss",30,MEDIUM,0,0
+"sailor 6110 mini c",30,LOW,0,0
+"sailor sp3520 portable vhf gmdss",30,LOW,0,0
+"solas gmdss",30,LOW,0,0
+"ssb gmdss",30,LOW,0,0
+"tron tr30 gmdss",30,MEDIUM,1.05,2.83
+"zaswiadczenie gmdss",30,LOW,0,0
+"best epirb for offshore fishing",30,HIGH,0.53,4.42
+"globalfix v4 epirb",30,HIGH,0,0
+"acr globalfix pro battery replacement",30,HIGH,0,0
+"mt600g",30,HIGH,0,0
+"personal epirb anaconda",30,HIGH,0.18,0.56
+"acr globalfix v4 epirb",30,HIGH,0,0
+"ocean rescue plb",30,HIGH,0.33,2.7
+"mcmurdo epirb battery replacement",30,MEDIUM,0,0
+"mcmurdo smartfind g8",30,MEDIUM,0,0
+"spot epirb",30,HIGH,0.43,2.48
+"land epirb",30,HIGH,0,0
+"ocean signal epirb 1",30,HIGH,0.5,1.43
+"marine epirb for sale",30,HIGH,0.18,0.89
+"epirb radio",30,HIGH,0,0
+"accusat epirb",30,HIGH,0,0
+"acr resqlink battery replacement cost",30,LOW,0,0
+"best price epirb",30,HIGH,0.12,0.82
+"dnid inmarsat c",30,LOW,0,0
+"easy navtex",30,HIGH,0,0
+"epirb distress signal",30,LOW,0,0
+"epirb jotron tron 60s",30,MEDIUM,0,0
+"epirb locator",30,MEDIUM,0,0
+"epirb mt600",30,HIGH,0,0
+"epirb on land",30,HIGH,0,0
+"epirb sailing",30,MEDIUM,0.16,0.36
+"furuno nx 700b",30,LOW,0,0
+"furuno nx700b",30,LOW,0,0
+"globalfix pro",30,HIGH,0,0
+"hr1e",30,LOW,0,0
+"ics nav6 navtex",30,HIGH,0,0
+"inmarsat c ncs channel list",30,LOW,0,0
+"inmarsat standard c",30,LOW,0,0
+"inmarsat std c",30,LOW,0,0
+"kannad marine epirb",30,MEDIUM,0,0
+"kti plb battery replacement",30,LOW,0,0
+"mcmurdo e3",30,LOW,0,0
+"nasa marine navtex",30,HIGH,0,0
+"navtex nasa marine",30,HIGH,0,0
+"rescue me epirb 1",30,HIGH,0,0
+"sailor 6391 navtex system",30,LOW,0,0
+"sailor inmarsat",30,LOW,0,0
+"tron 60s epirb",30,MEDIUM,0,0
+"vep8 epirb",30,LOW,0,0
+"whitworths epirb",30,HIGH,0.02,0.22
+"danelec dm100 vdr",30,LOW,0,0
+"furuno bnwas password",30,LOW,0,0
+"furuno br 510",30,LOW,0,0
+"ssas test requirements",30,LOW,0,0
+"veinland bnwas",30,LOW,0,0
+"furuno first watch radar",30,HIGH,0.34,1.56
+"5vmaa00106",30,LOW,0,0
+"aircraft gyro compass",30,LOW,0,0
+"ais ecdis",30,LOW,0,0
+"an ecdis is required to display which information",30,LOW,0,0
+"avcs meaning ecdis",30,LOW,0,0
+"drs6a",30,LOW,0,0
+"ecdis jrc 9201",30,LOW,0,0
+"ecdis price",30,LOW,0,0
+"ecdis transas navi sailor 4000",30,LOW,0.32,0.89
+"fcv 587",30,MEDIUM,0,0
+"fmd 3100 ecdis",30,LOW,0,0
+"furuno 1621",30,MEDIUM,0,0
+"furuno 1622 radar",30,MEDIUM,0,0
+"furuno 1935",30,LOW,0,0
+"furuno 1935 radar",30,LOW,0,0
+"furuno 2117",30,LOW,0,0
+"furuno 585 for sale",30,HIGH,0.1,1.53
+"furuno anemometer",30,HIGH,0,0
+"furuno drs12a nxt",30,MEDIUM,0,0
+"furuno drs6a",30,LOW,0,0
+"furuno fmd 3000",30,LOW,0,0
+"furuno gyro compass",30,LOW,0,0
+"furuno navnet radar",30,HIGH,0,0
+"furuno rcu 024",30,LOW,0,0
+"furuno rdp 150",30,LOW,0,0
+"furuno solid state radar",30,MEDIUM,0,0
+"furuno vx2",30,LOW,0,0
+"furuno wifi",30,LOW,0,0
+"furuno wr110",30,LOW,0,0
+"furuno wr2120",30,LOW,0,0
+"gyro compass ship",30,LOW,0,0
+"harga radar furuno 1715",30,LOW,0.01,0.21
+"isolated danger symbol ecdis",30,LOW,0,0
+"jma 9122 6xa",30,LOW,0,0
+"jrc 1500 radar",30,MEDIUM,0,0
+"limiting danger line in ecdis",30,LOW,0,0
+"nacos ecdis",30,LOW,0.78,2.23
+"navtor ecdis",30,LOW,0.4,1.44
+"periskal inland ecdis viewer",30,LOW,0,0
+"radar furuno 1622",30,MEDIUM,0,0
+"radar furuno drs4d nxt",30,MEDIUM,0.18,0.67
+"rcds ecdis",30,LOW,0,0
+"sam ecdis",30,LOW,0,0
+"sperry marine visionmaster ft",30,LOW,0,0
+"transas navi sailor",30,LOW,0,0
+"tztl",30,LOW,0,0
+"use of ecdis",30,LOW,0,0
+"used furuno radar for sale",30,HIGH,0.03,0.46
+"yokogawa gyro",30,LOW,0,0
+"shipping laptops with lithium batteries",30,LOW,0,0
+"boston whaler gelcoat repair kit",30,HIGH,0.22,1.86
+"simrad service",30,LOW,0,0
+"best way to ship cell phone",30,LOW,0.06,1.85
+"furuno service",30,LOW,0,0
+"garmin fishfinder customer service",30,LOW,0,0
+"mailing cell phones usps",30,LOW,0,0
+"marine audio store near me",30,HIGH,0.86,6.21
+"simrad repair near me",30,MEDIUM,1.91,18.95
+"furuno radar repair",30,LOW,0,0
+"annual radio survey",20,LOW,0,0
+"gmdss survey",20,LOW,0,0
+"9 functions of gmdss",20,LOW,0,0
+"alat alat gmdss",20,LOW,0,0
+"area a1 gmdss",20,LOW,0,0
+"arti gmdss",20,LOW,0,0
+"ces gmdss",20,LOW,0,0
+"fcc gmdss",20,LOW,0,0
+"functional requirements of gmdss",20,LOW,0,0
+"gmdss a user's handbook",20,MEDIUM,0,0
+"gmdss a4",20,LOW,0,0
+"gmdss area 1",20,LOW,0,0
+"gmdss area a3",20,LOW,0,0
+"gmdss area a4",20,LOW,0,0
+"gmdss carriage requirements",20,LOW,0,0
+"gmdss coc",20,LOW,0,0
+"gmdss equipment and functions",20,LOW,0,0
+"gmdss equipment onboard",20,LOW,0.34,1.16
+"gmdss equipment requirements",20,LOW,0,0
+"gmdss functional requirements",20,LOW,0,0
+"gmdss functions",20,LOW,0,0
+"gmdss is required for which of the following",20,LOW,0,0
+"gmdss marine",20,LOW,0,0
+"gmdss on ship",20,LOW,0,0
+"gmdss online",20,LOW,0,0
+"gmdss portable vhf radio requirements",20,LOW,0,0
+"gmdss radio equipment",20,LOW,0,0
+"gmdss radio log",20,LOW,0,0
+"gmdss requirements for ships",20,LOW,0,0
+"gmdss sart",20,LOW,0,0
+"gmdss satellite",20,LOW,0,0
+"gmdss simulator online",20,LOW,0.36,1.45
+"goc radio",20,LOW,0,0
+"icom gmdss",20,HIGH,0,0
+"iridium gmdss terminal",20,LOW,0,0
+"iridium safetycast",20,LOW,0,0
+"itu gmdss",20,LOW,0,0
+"j3e gmdss",20,LOW,0,0
+"jotron 80060",20,LOW,0,0
+"jotron tr 20",20,MEDIUM,0,0
+"jrc gmdss",20,LOW,0,0
+"lars thrane iridium",20,LOW,0.4,2.02
+"lut gmdss",20,LOW,0,0
+"maritime distress",20,LOW,0,0
+"mca gmdss",20,LOW,0,0
+"mca gmdss log book",20,LOW,0,0
+"msi gmdss",20,LOW,0,0
+"sailor 6000 mf hf",20,LOW,0,0
+"sailor 6110 gmdss",20,LOW,0,0
+"sea area a3 gmdss requirements",20,LOW,0,0
+"src gmdss",20,MEDIUM,0,0
+"system gmdss",20,LOW,0,0
+"zaswiadczenie kapitana gmdss",20,LOW,0,0
+"epirb shore based maintenance",20,LOW,0,0
+"gme gps epirb",20,HIGH,0,0
+"acr globalfix pro",20,HIGH,0,0
+"acr 406 epirb",20,HIGH,0,0
+"rlb 41",20,HIGH,0,0
+"personal epirb for boating",20,HIGH,0,0
+"mcmurdo epirb website",20,MEDIUM,0,0
+"gme epirb for sale",20,HIGH,0.12,0.47
+"globalfix epirb",20,HIGH,0.63,2.29
+"marine locator beacon",20,HIGH,0.57,3.12
+"boat epirb for sale",20,HIGH,0.37,1.52
+"water activated epirb",20,HIGH,0,0
+"acr global fix pro",20,HIGH,0,0
+"mcmurdo g8 ais epirb",20,MEDIUM,0,0
+"automatic epirb",20,HIGH,0,0
+"personal epirb for sale",20,HIGH,0.28,1.31
+"epirb for offshore fishing",20,HIGH,0,0
+"acr rlb 37",20,MEDIUM,0,0
+"category 2 epirb",20,HIGH,0.18,1.26
+"acr personal epirb",20,HIGH,0.44,0.86
+"gme mt600",20,HIGH,0,0
+"gme mt600g epirb price",20,HIGH,0.43,1.95
+"acr global fix v4",20,HIGH,0.66,3.16
+"518 khz",20,LOW,0,0
+"518khz",20,LOW,0,0
+"acr epirb battery",20,HIGH,0.72,1.86
+"acr globalfix epirb",20,HIGH,0,0
+"acr hydrofix",20,HIGH,0,0
+"acr plb battery replacement cost",20,LOW,0,0
+"ais locator beacon",20,HIGH,0,0
+"amsa epirb",20,LOW,0,0
+"an inmarsat c terminal is suitable for",20,LOW,0,0
+"antena inmarsat c",20,LOW,0,0
+"coast guard epirb",20,HIGH,0,0
+"ebay epirb",20,HIGH,0,0
+"elt epirb",20,LOW,0,0
+"epirb alert",20,MEDIUM,0,0
+"epirb battery replacement cost",20,LOW,0,0
+"epirb coast guard",20,HIGH,0,0
+"epirb distress beacon",20,LOW,0,0
+"epirb equipment",20,LOW,0,0
+"epirb imo",20,LOW,0,0
+"epirb is",20,LOW,0,0
+"epirb maritime",20,MEDIUM,0,0
+"epirb radar",20,LOW,0,0
+"epirb sailor 4065",20,LOW,0,0
+"epirb system",20,MEDIUM,0,0
+"epirb whitworths",20,HIGH,0,0
+"epirb1 pro",20,HIGH,0.34,1.63
+"furuno felcom",20,LOW,0,0
+"furuno felcom 16",20,LOW,0,0
+"furuno lrit",20,LOW,0,0
+"furuno navtex antenna",20,MEDIUM,0,0
+"furuno sat c",20,LOW,0,0
+"garmin epirb gps",20,HIGH,0,0
+"global fix epirb",20,HIGH,0.63,2.29
+"gme accusat battery replacement",20,LOW,0,0
+"inmarsat c system",20,LOW,0,0
+"inmarsat lrit",20,LOW,0,0
+"jotron 60s",20,MEDIUM,0,0
+"jotron ais epirb",20,MEDIUM,0,0
+"jotron epirb battery replacement",20,LOW,0,0
+"jotron tron",20,HIGH,0,0
+"jotron tron 60s epirb",20,LOW,0,0
+"jue 75c",20,LOW,0,0
+"kti epirb",20,MEDIUM,0,0
+"lut epirb",20,LOW,0,0
+"mcmurdo e5 smartfind",20,MEDIUM,0,0
+"mcmurdo smartfind g8 ais",20,MEDIUM,0,0
+"msi navtex",20,LOW,0,0
+"nasa clipper navtex",20,MEDIUM,0,0
+"nasa easy navtex",20,HIGH,0,0
+"navtex raymarine",20,MEDIUM,0,0
+"ncs inmarsat c",20,LOW,0,0
+"new epirb",20,HIGH,0,0
+"ocean signal epirb battery replacement",20,MEDIUM,0,0
+"ocean signal hr1e",20,LOW,0,0
+"offshore epirb",20,HIGH,0,0
+"rlb 41 epirb",20,MEDIUM,0,0
+"rtm epirb",20,HIGH,0,0
+"smartfind e8",20,LOW,0,0
+"tp058 30cl",20,LOW,0,0
+"tron 60 ais epirb",20,MEDIUM,0,0
+"tron epirb",20,MEDIUM,0,0
+"vhf dsc epirb",20,LOW,0,0
+"wearable epirb",20,HIGH,0.63,2.04
+"zczc navtex",20,LOW,0,0
+"vdr annual performance test",20,LOW,0,0
+"ami bnwas",20,LOW,0,0
+"bnwas ship",20,LOW,0,0
+"furuno br500",20,LOW,0,0
+"iec 62616",20,LOW,0,0
+"interschalt vdr",20,LOW,0,0
+"jrc bnwas",20,LOW,0,0
+"samyung bnw 50",20,LOW,0,0
+"vdr recording time",20,LOW,0,0
+"vdr s vdr",20,LOW,0,0
+"vessel data recorder",20,LOW,0,0
+"voyage data recorder on ship",20,LOW,0,0
+"voyage data recorder regulations",20,LOW,0,0
+"furuno 1623 radar for sale",20,HIGH,0,0
+"arcs ecdis",20,LOW,0,0
+"dead reckoning ecdis",20,LOW,0,0
+"drs4dl",20,LOW,0,0
+"drs4w radar",20,MEDIUM,0,0
+"ecdis 900",20,LOW,0,0
+"ecdis danelec",20,LOW,0,0
+"ecdis fmd 3100",20,LOW,0,0
+"ecdis furuno fmd 3100",20,LOW,0,0
+"ecdis imo",20,LOW,0,0
+"ecdis navigation system",20,LOW,0,0
+"ecdis s57",20,LOW,0,0
+"ecdis tokyo keiki",20,LOW,0,0
+"ecdis type specific",20,LOW,0,0
+"ecdis900",20,LOW,0,0
+"far2117",20,LOW,0,0
+"fmd3200",20,LOW,0,0
+"furuno 1621 mark 2",20,MEDIUM,0,0
+"furuno 1622",20,HIGH,0,0
+"furuno 1623 lcd radar",20,HIGH,0,0
+"furuno 1712 radar",20,MEDIUM,0,0
+"furuno 1720",20,HIGH,0,0
+"furuno 1720 radar",20,MEDIUM,0,0
+"furuno 1721",20,MEDIUM,0,0
+"furuno 1830 radar",20,LOW,0,0
+"furuno ad 100 converter",20,LOW,0,0
+"furuno b260 transducer",20,HIGH,0,0
+"furuno bird radar",20,MEDIUM,0,0
+"furuno cable",20,MEDIUM,0,0
+"furuno doppler radar",20,HIGH,0,0
+"furuno drs",20,MEDIUM,0,0
+"furuno drs radar",20,HIGH,0,0
+"furuno drs12a",20,MEDIUM,0,0
+"furuno drs25a",20,MEDIUM,0,0
+"furuno drs2d",20,HIGH,0,0
+"furuno drs4dl",20,MEDIUM,0,0
+"furuno drs4dl+",20,HIGH,0,0
+"furuno ecdis fmd 3300",20,LOW,0,0
+"furuno gp 36",20,MEDIUM,0,0
+"furuno m1815",20,LOW,0,0
+"furuno maxsea",20,LOW,0,0
+"furuno navigation radar",20,MEDIUM,0,0
+"furuno navnet cmap nt",20,HIGH,0,0
+"furuno psu 012",20,LOW,0,0
+"furuno radar drs4w",20,HIGH,0,0
+"furuno rdp 152",20,LOW,0,0
+"furuno tzt12",20,HIGH,0,0
+"guide to safe navigation including ecdis",20,LOW,0,0
+"gyrosphere compass",20,LOW,0,0
+"intermarine ecdis",20,LOW,0,0
+"jma 5300",20,LOW,0,0
+"jrc 1000",20,LOW,0,0
+"jrc jma 3300",20,LOW,0,0
+"jrc solid state radar",20,LOW,0,0
+"look ahead ecdis",20,LOW,0,0
+"navi radar 4000",20,LOW,0,0
+"portable gyro compass",20,MEDIUM,0,0
+"radar furuno 1720",20,MEDIUM,0,0
+"radar furuno 2117",20,LOW,0,0
+"radar furuno drs4w",20,HIGH,0.32,4.79
+"raster chart display system",20,LOW,0,0
+"rezboost",20,LOW,0,0
+"rnc ecdis",20,LOW,0,0
+"s 63 ecdis",20,LOW,0,0
+"s52 ecdis",20,LOW,0,0
+"sailor 4000",20,LOW,0,0
+"sea freight radar",20,LOW,0,0
+"simrad ecdis 900",20,LOW,0,0
+"simrad gyro",20,MEDIUM,0,0
+"stcw ecdis",20,LOW,0,0
+"telko ecdis",20,LOW,0,0
+"totem plus ecdis",20,LOW,0,0
+"transas 4000 ecdis",20,LOW,0.33,1.25
+"transas navi sailor 4000 ecdis",20,LOW,0.26,1.55
+"tztouch2",20,LOW,0,0
+"used furuno radar",20,HIGH,0,0
+"best way to ship electronics",20,MEDIUM,0.31,5.53
+"raymarine repair service near me",20,LOW,1.55,7.2
+"ups electronics shipping",20,LOW,0.18,1.03
+"simrad service near me",20,HIGH,3.27,5.78
+"boat electronic installers near me",20,LOW,0,0
+"dhl shipping laptop with battery",20,LOW,0,0
+"garmin marine electronics customer service",20,LOW,0,0
+"garmin marine repair",20,LOW,0,0
+"lbc electronics shipping",20,LOW,0,0
+"lowrance fish finder repair near me",20,LOW,0,0
+"lowrance gps repair",20,LOW,0,0
+"magnetic compass vessel",20,LOW,0,0
+"mailing electronics",20,LOW,0,0
+"marine audio shops near me",20,MEDIUM,0,0
+"marine compass adjustment",20,LOW,0,0
+"marine stereo repair",20,LOW,0,0
+"mobile marine electronics repair near me",20,LOW,2.27,11.25
+"navigation device for ships",20,LOW,0,0
+"ship navigation device",20,LOW,0,0
+"ship's navigational device",20,LOW,0,0
+"shipping electronics with lithium batteries",20,LOW,0,0
+"ships navigational device",20,LOW,0,0
+"sparkfun shipping",20,LOW,0,0
+"usps shipping electronics with lithium batteries",20,LOW,0,0
+"kongsberg service",20,LOW,0,0
+"furuno repair",20,LOW,0,0
+"lars thrane lt 3100s gmdss",10,LOW,0,0
+"sailor mini c",10,LOW,0,0
+"9 functional requirements of gmdss",10,LOW,0,0
+"9 radio communication functions of gmdss",10,,0,0
+"a1 area gmdss",10,,0,0
+"aaic gmdss",10,LOW,0,0
+"acr 2827",10,,0,0
+"ais gmdss",10,LOW,0,0
+"ais sart gmdss",10,LOW,0,0
+"area a2 gmdss",10,LOW,0,0
+"area a3 gmdss",10,LOW,0,0
+"area a4 gmdss",10,LOW,0,0
+"arq gmdss",10,LOW,0,0
+"curs gmdss",10,LOW,0,0
+"danphone futronic",10,LOW,0,0
+"e gmdss",10,LOW,0,0
+"entel gmdss",10,HIGH,0,0
+"f1b gmdss",10,LOW,0,0
+"fec gmdss",10,LOW,0,0
+"furuno fm 8900s price",10,LOW,0,0
+"global maritime distress",10,LOW,0,0
+"gmdss a1 requirements",10,LOW,0,0
+"gmdss a2 requirements",10,LOW,0,0
+"gmdss a3 requirements",10,LOW,0,0
+"gmdss a4 requirements",10,LOW,0,0
+"gmdss ais",10,LOW,0,0
+"gmdss area 3",10,LOW,0,0
+"gmdss area a1 requirements",10,LOW,0,0
+"gmdss area a2",10,LOW,0,0
+"gmdss area requirements",10,LOW,0,0
+"gmdss communication",10,LOW,0,0
+"gmdss distress",10,LOW,0,0
+"gmdss e learning system",10,LOW,0,0
+"gmdss equipment carriage requirements",10,LOW,0,0
+"gmdss goc meaning",10,LOW,0,0
+"gmdss goc online",10,LOW,0,0
+"gmdss is",10,LOW,0,0
+"gmdss j3e",10,LOW,0,0
+"gmdss log book requirements",10,LOW,0,0
+"gmdss marine insight",10,LOW,0,0
+"gmdss meaning in shipping",10,LOW,0,0
+"gmdss meaning marine",10,,0,0
+"gmdss mf hf",10,LOW,0,0
+"gmdss msi",10,LOW,0,0
+"gmdss navtex receiver",10,HIGH,0,0
+"gmdss power supply requirements",10,LOW,0,0
+"gmdss ppt",10,LOW,0,0
+"gmdss radio simulator",10,LOW,0,0
+"gmdss requirements solas",10,,0,0
+"gmdss satellite communication",10,,0,0
+"gmdss sea area a1",10,LOW,0,0
+"gmdss sea area equipment requirements",10,LOW,0,0
+"gmdss simulator free",10,LOW,0,0
+"gmdss solas",10,LOW,0,0
+"gmdss sub system",10,LOW,0,0
+"gmdss walkie talkie batteries",10,LOW,0,0
+"icom gmdss ic gm1600e",10,HIGH,0,0
+"icom gmdss vhf",10,HIGH,0,0
+"imo gmdss handbook",10,LOW,0,0
+"inmarsat mini c sailor 6110",10,LOW,0,0
+"jotron tron vhf",10,LOW,0,0
+"mca gmdss radio log book",10,LOW,0,0
+"mcmurdo smartfind gmdss navtex",10,LOW,0,0
+"mcmurdo smartfind navtex",10,MEDIUM,0,0
+"mf hf gmdss",10,LOW,0,0
+"mrcc gmdss",10,LOW,0,0
+"ncs gmdss",10,LOW,0,0
+"rcc gmdss",10,LOW,0,0
+"requirements for radio installations in the gmdss",10,,0,0
+"rya g22",10,,0,0
+"safetynet gmdss",10,LOW,0,0
+"sailor sp3520 vhf gmdss price",10,LOW,0,0
+"sat c gmdss",10,LOW,0,0
+"simrad axis 50 gmdss",10,LOW,0,0
+"sistem gmdss",10,LOW,0,0
+"smartfind gmdss navtex",10,MEDIUM,0,0
+"ssas gmdss",10,LOW,0,0
+"sub system of gmdss",10,,0,0
+"telenor gmdss",10,LOW,0,0
+"the global maritime distress and safety system",10,,0,0
+"thrane lt 3100",10,HIGH,0,0
+"tron sart 9 ghz radar transponder",10,MEDIUM,0,0
+"tron tr20 gmdss",10,LOW,0,0
+"vhf gmdss simulator",10,LOW,0.34,0.59
+"acr 2831 globalfix v4 gps epirb",10,MEDIUM,0,0
+"acr 2830",10,,0,0
+"acr epirb for sale",10,HIGH,0,0
+"gme epirb mt600",10,HIGH,0,0
+"buy epirb online",10,HIGH,0,0
+"acr 2831 globalfix v4 gps epirb category 2",10,,0,0
+"mt600g epirb best price",10,HIGH,0,0
+"gme 406mhz gps enabled epirb",10,,0,0
+"acr 406 epirb battery replacement",10,HIGH,0,0
+"epirb globalfix v4",10,HIGH,0.27,2.54
+"gme 406mhz epirb",10,HIGH,0,0
+"mcmurdo ais epirb",10,HIGH,0,0
+"gme mt600g epirb with gps",10,MEDIUM,0,0
+"acr epirb globalfix v4",10,HIGH,0,0
+"best epirb for hiking",10,HIGH,0.12,1.88
+"epirb for 4wd",10,HIGH,0,0
+"mt603g",10,MEDIUM,0,0
+"acr epirb battery replacement near me",10,HIGH,0,0
+"acr 2830 epirb",10,HIGH,0,0
+"acr epirb battery replacement cost",10,HIGH,0,0
+"acr v4",10,HIGH,0,0
+"mcmurdo 406 epirb battery replacement",10,MEDIUM,0,0
+"acr 406",10,HIGH,0,0
+"globalfix ipro 406 mhz gps epirb",10,HIGH,0,0
+"mcmurdo g8 epirb",10,HIGH,0,0
+"epirb gme mt603g",10,HIGH,0,0
+"acr v4 epirb",10,HIGH,0,0
+"ocean safety epirb",10,HIGH,0,0
+"epirb perth",10,HIGH,0.4,2.91
+"acr aquafix 406 battery replacement",10,HIGH,0,0
+"acr 2830 globalfix v4 gps epirb",10,LOW,0,0
+"2 types of epirb",10,LOW,0,0
+"406 epirb battery replacement",10,MEDIUM,0,0
+"406 epirb for sale",10,HIGH,0,0
+"406 mhz cospas sarsat satellite epirb",10,,0,0
+"406link com",10,LOW,0,0
+"4209.5 khz navtex",10,LOW,0,0
+"4wd epirb",10,HIGH,0,0
+"acr 2831 epirb",10,,0,0
+"acr 2880 resqlink",10,HIGH,0,0
+"acr aquafix 406",10,LOW,0,0
+"acr battery replacement cost",10,LOW,0,0
+"acr epirb battery life",10,MEDIUM,0,0
+"acr epirb website",10,HIGH,0,0
+"acr global fix epirb battery replacement",10,MEDIUM,0,0
+"acr globalfix battery replacement",10,HIGH,0,0
+"acr globalfix ipro",10,HIGH,0,0
+"acr globalfix ipro 406 gps epirb",10,,0,0
+"acr globalfix pro 406 epirb",10,,0,0
+"acr globalfix pro 406 mhz gps epirb",10,HIGH,0,0
+"acr plb 350b battery replacement",10,HIGH,0,0
+"acr plb battery",10,LOW,0,0
+"acr rlb 35 epirb battery replacement",10,MEDIUM,0,0
+"acr rlb 41 epirb",10,HIGH,0,0
+"acr satellite 2 406 epirb",10,HIGH,0,0
+"acr satellite 406 epirb",10,HIGH,0,0
+"acr satellite 406 epirb battery replacement",10,,0,0
+"acr terrafix 406 battery replacement",10,,0,0
+"acr2830",10,,0,0
+"aircraft epirb",10,HIGH,0.23,1.4
+"an epirb",10,LOW,0,0
+"aquafix 406",10,LOW,0,0
+"aquafix 406 battery replacement",10,,0,0
+"aviation epirb",10,HIGH,0.53,3.47
+"balise epirb mcmurdo",10,HIGH,0,0
+"best epirb for kayaking",10,HIGH,0,0
+"best epirb for sailing",10,HIGH,0,0
+"best marine epirb",10,,0,0
+"boat emergency locator beacon",10,HIGH,0,0
+"boat locator beacon",10,HIGH,0,0
+"burnsco epirb",10,HIGH,0.19,1.09
+"cetcme vpl8 plb",10,,0,0
+"class 1 epirb",10,HIGH,0,0
+"class 2 epirb",10,HIGH,0,0
+"class a epirb",10,MEDIUM,0,0
+"class b epirb",10,HIGH,0,0
+"class c epirb",10,HIGH,0,0
+"defender epirb",10,HIGH,0,0
+"different types of epirb",10,MEDIUM,0,0
+"emergency position indicating radiobeacons",10,LOW,0,0
+"epirb acr globalfix v4",10,HIGH,0,0
+"epirb antenna",10,MEDIUM,0,0
+"epirb beacon for sale",10,HIGH,0.18,0.9
+"epirb black friday sale",10,HIGH,0,0
+"epirb boating safety equipment",10,HIGH,0,0
+"epirb burnsco",10,HIGH,0,0
+"epirb for jet ski",10,HIGH,0.46,3.63
+"epirb for sale ebay",10,HIGH,0,0
+"epirb for sale gumtree",10,HIGH,0,0
+"epirb for small boat",10,HIGH,0.16,1.44
+"epirb gme mt600g",10,HIGH,0,0
+"epirb hinta",10,MEDIUM,0,0
+"epirb land use",10,HIGH,0,0
+"epirb marine insight",10,LOW,0,0
+"epirb mcmurdo e8",10,MEDIUM,0,0
+"epirb mt400",10,HIGH,0,0
+"epirb ocean signal e100g",10,HIGH,0,0
+"epirb receiver",10,HIGH,0,0
+"epirb rescue",10,MEDIUM,0,0
+"epirb rescue cost",10,LOW,0,0
+"epirb sa1g",10,LOW,0,0
+"epirb safety beacon",10,,0,0
+"epirb satellite system",10,LOW,0,0
+"epirb shore based maintenance certificate",10,LOW,0,0
+"epirb wa",10,MEDIUM,0,0
+"epirb with gps for sale",10,,0,0
+"epirbhire com au",10,LOW,0,0
+"felcom15",10,LOW,0,0
+"furuno epirb",10,MEDIUM,0,0
+"furuno inmarsat",10,LOW,0,0
+"furuno navtex 300",10,HIGH,0,0
+"furuno navtex nx 300 price",10,MEDIUM,0,0
+"furuno nx 7h",10,LOW,0,0
+"furuno nx700a",10,LOW,0,0
+"furuno ssas",10,LOW,0,0
+"garmin gps epirb",10,HIGH,0,0
+"global fix ipro",10,,0,0
+"global fix pro epirb",10,MEDIUM,0,0
+"global fix v4 epirb",10,HIGH,1.26,2.81
+"globalfix ipro",10,,0,0
+"globalfix ipro battery replacement",10,,0,0
+"globalfix pro battery replacement",10,LOW,0,0
+"globalfix pro epirb",10,MEDIUM,0,0
+"globalfix ™ v4 epirb",10,HIGH,0,0
+"gme 406 epirb",10,HIGH,0,0
+"gme 406 epirb battery replacement",10,LOW,0,0
+"gme accusat epirb battery replacement",10,LOW,0,0
+"gme beacon battery replacement",10,LOW,0,0
+"gme epirb free battery replacement",10,,0,0
+"gme epirb mt400",10,HIGH,0,0
+"gme epirb mt400 battery replacement",10,LOW,0,0
+"gme mt310",10,HIGH,0,0
+"gme mt400",10,MEDIUM,0,0
+"gme mt400 battery replacement",10,LOW,0,0
+"gme mt400 epirb battery replacement cost",10,,0,0
+"gme mt403ff",10,LOW,0,0
+"gme mt403g",10,MEDIUM,0,0
+"gme mt406g",10,,0,0
+"gme mt410g battery replacement",10,LOW,0,0
+"gme mt600 epirb",10,HIGH,0,0
+"gme mt603fg",10,HIGH,0,0
+"gme mt603g",10,LOW,0,0
+"gme mt603g epirb",10,LOW,0,0
+"gme personal epirb",10,HIGH,0,0
+"gps epirb for sale",10,,0,0
+"hammar h20 epirb",10,MEDIUM,0,0
+"harga epirb samyung",10,LOW,0,0
+"hiking epirb for sale",10,HIGH,0,0
+"imo epirb",10,HIGH,0,0
+"inmarsat c antenne",10,MEDIUM,0,0
+"inmarsat c charges",10,LOW,0,0
+"inmarsat c function",10,LOW,0,0
+"inmarsat c price",10,LOW,0,0
+"inmarsat c telex",10,LOW,0,0
+"inmarsat c terminal is suitable for",10,LOW,0,0
+"inmarsat c text data",10,LOW,0,0
+"inmarsat e epirb",10,LOW,0,0
+"inmarsat mes",10,LOW,0,0
+"inmarsat ncs",10,LOW,0,0
+"inmarsat sat c",10,LOW,0,0
+"inmarsat telex",10,LOW,0,0
+"international navtex",10,LOW,0,0
+"iphone 14 epirb",10,,0,0
+"jet ski epirb",10,HIGH,0.47,5.57
+"jmc navtex",10,LOW,0,0
+"jotron 40vdr",10,LOW,0,0
+"jotron epirb tron 60 ais",10,LOW,0,0
+"jotron epirb tron 60s",10,,0,0
+"jotron tron 40s",10,LOW,0,0
+"jotron tron 40s mkii",10,LOW,0,0
+"jotron tron 60s gps",10,MEDIUM,0,0
+"jrc epirb",10,LOW,0,0
+"jrc jue 95sa",10,LOW,0,0
+"jrc ncr 300a",10,LOW,0,0
+"jual epirb",10,MEDIUM,0,0
+"jue 87 inmarsat c",10,LOW,0,0
+"kannad epirb battery replacement",10,MEDIUM,0,0
+"kannad marine sport epirb",10,MEDIUM,0,0
+"kannad plb battery replacement",10,MEDIUM,0,0
+"kti epirb battery replacement",10,LOW,0,0
+"kti safety alert sa3g epirb with gps",10,,0,0
+"l epirb",10,HIGH,0,0
+"land based epirb",10,HIGH,0,0
+"lokata navtex",10,LOW,0,0
+"lokata navtex 1",10,MEDIUM,0,0
+"lrit inmarsat",10,LOW,0,0
+"magnum b epirb",10,,0,0
+"marine emergency locator beacon",10,HIGH,0,0
+"marine epirb amazon",10,HIGH,0,0
+"maritime navtex",10,LOW,0,0
+"mcmurdo 406 epirb",10,HIGH,0,0
+"mcmurdo e5 epirb battery replacement",10,,0,0
+"mcmurdo e5 smartfind 406 epirb",10,HIGH,0,0
+"mcmurdo e8 epirb",10,LOW,0,0
+"mcmurdo e8 epirb brochure",10,,0,0
+"mcmurdo g5",10,HIGH,0,0
+"mcmurdo g5 epirb",10,HIGH,0,0
+"mcmurdo g5 smartfind plus",10,HIGH,0,0
+"mcmurdo g8 ais",10,MEDIUM,0,0
+"mcmurdo g8 epirb ais",10,,0,0
+"mcmurdo ics nav6 navtex",10,,0,0
+"mcmurdo pains wessex 406 epirb",10,HIGH,0,0
+"mcmurdo precision 406 gps epirb",10,LOW,0,0
+"mcmurdo precision 406 gps epirb battery replacement",10,,0,0
+"mcmurdo smartfind 406 epirb",10,HIGH,0,0
+"mcmurdo smartfind epirb",10,HIGH,0,0
+"mcmurdo smartfind g8 epirb with ais",10,,0,0
+"msc 471 101 epirb",10,LOW,0,0
+"mt400 epirb battery replacement",10,,0,0
+"mt403ff",10,LOW,0,0
+"mt403g",10,MEDIUM,0,0
+"mt406g",10,MEDIUM,0,0
+"mt406g epirb",10,,0,0
+"mt600g epirb price",10,,0,0
+"mt600gaus",10,LOW,0,0
+"mt603fg",10,LOW,0,0
+"nasa navtex antenna",10,HIGH,0,0
+"nasa navtex bt3",10,HIGH,0,0
+"nasa navtex pro",10,,0,0
+"nasa navtex pro plus",10,HIGH,0,0
+"nasa target navtex",10,HIGH,0,0
+"nasa video navtex",10,LOW,0,0
+"nasa weatherman navtex",10,,0,0
+"nautilus epirb",10,HIGH,0.33,1.79
+"nav4 navtex plus",10,MEDIUM,0,0
+"nav6 navtex",10,MEDIUM,0,0
+"navareas navtex",10,LOW,0,0
+"navigational telex navtex",10,LOW,0,0
+"navtex 518",10,LOW,0,0
+"navtex active antenna",10,HIGH,0,0
+"navtex arduino",10,LOW,0,0
+"navtex bt3",10,HIGH,0,0
+"navtex for sale",10,HIGH,0,0
+"navtex information",10,LOW,0,0
+"navtex ncr 300a",10,LOW,0,0
+"navtex pro",10,HIGH,0,0
+"navtex pro plus",10,HIGH,0,0
+"navtex raspberry pi",10,LOW,0,0
+"navtex sailor",10,MEDIUM,0,0
+"navtex sdr",10,LOW,0,0
+"navtex usb",10,MEDIUM,0,0
+"ncr 333 navtex",10,LOW,0,0
+"ncs inmarsat",10,LOW,0,0
+"nx 700 navtex",10,MEDIUM,0,0
+"ocean signal e100",10,MEDIUM,0,0
+"ocean signal e100g",10,MEDIUM,0,0
+"ocean signal epirb 1 pro",10,HIGH,0,0
+"ocean signal lb2e battery",10,MEDIUM,0,0
+"ocean signal safesea e100",10,MEDIUM,0,0
+"pains wessex epirb",10,LOW,0,0
+"pains wessex epirb battery replacement",10,LOW,0,0
+"pc navtex",10,LOW,0,0
+"pc navtex usb",10,LOW,0,0
+"personal epirb sailing",10,HIGH,0,0
+"personlig epirb",10,HIGH,0,0
+"plb whitworths",10,HIGH,0,0
+"pocket epirb",10,HIGH,0,0
+"radiobalizas epirb",10,HIGH,0,0
+"radioplawa epirb",10,HIGH,0,0
+"range of epirb",10,LOW,0,0
+"reception navtex",10,LOW,0,0
+"rlb 37 epirb",10,MEDIUM,0,0
+"rtl sdr navtex",10,LOW,0,0
+"sa2g plb",10,HIGH,0,0
+"sa3g epirb",10,LOW,0,0
+"safesea e100",10,LOW,0,0
+"sailing emergency beacon",10,HIGH,0.21,0.52
+"sailor h2095b",10,LOW,0,0
+"sartech epirb",10,MEDIUM,0,0
+"satellite 2 406 epirb",10,HIGH,0,0
+"satellite 406 epirb",10,MEDIUM,0,0
+"sdr navtex",10,LOW,0,0
+"simrad epirb",10,MEDIUM,0,0
+"small personal epirb",10,HIGH,0,0
+"smartfind 406 epirb",10,HIGH,0,0
+"smartfind g8",10,HIGH,0,0
+"smartfind g8 ais",10,HIGH,0,0
+"smartfind g8 ais epirb",10,HIGH,0,0
+"ssas furuno",10,LOW,0,0
+"svb epirb",10,HIGH,0,0
+"target navtex",10,HIGH,0,0
+"target navtex pro",10,HIGH,0,0
+"target navtex pro plus",10,HIGH,0,0
+"tron 40vdr battery replacement",10,LOW,0,0
+"tron 60gps epirb",10,MEDIUM,0,0
+"tron 60s epirb battery replacement",10,LOW,0,0
+"uscg epirb",10,LOW,0,0
+"zone navtex",10,LOW,0,0
+"ais annual test",10,LOW,0,0
+"alpha bnwas",10,LOW,0,0
+"alphatron bnwas",10,LOW,0,0
+"bnwas alarm system",10,LOW,0,0
+"bnwas br 500",10,LOW,0,0
+"bnwas bw 800",10,LOW,0,0
+"br 500 furuno",10,LOW,0,0
+"danelec dm100 vdr manual",10,LOW,0,0
+"interschalt bnwas",10,LOW,0,0
+"marine data recorder",10,LOW,0,0
+"navitron bnwas",10,LOW,0,0
+"seamate bnwas",10,LOW,0,0
+"simplified vdr",10,LOW,0,0
+"simplified voyage data recorder equipment",10,,0,0
+"simplified voyage data recorder s vdr",10,,0,0
+"ssas test inmarsat c",10,LOW,0,0
+"vdr vessel data recorder",10,LOW,0,0
+"voyage data recorder function",10,LOW,0,0
+"voyage data recorder price",10,,0,0
+"marine radar repair",10,LOW,0,0
+"furuno drs25ax",10,HIGH,0,0
+"furuno first watch",10,HIGH,0,0
+"1st watch wireless radar",10,HIGH,0,0
+"ad 100 furuno",10,MEDIUM,0,0
+"admiralty ecdis",10,LOW,0,0
+"all about ecdis",10,LOW,0,0
+"anschutz compass",10,LOW,0,0
+"arpa ecdis",10,LOW,0,0
+"aton ecdis",10,LOW,0,0
+"avcs in ecdis",10,LOW,0,0
+"c plath gyro compass",10,LOW,0,0
+"carte ecdis",10,LOW,0,0
+"ch smith furuno",10,,0,0
+"chart information in ecdis",10,,0,0
+"custom display in ecdis",10,LOW,0,0
+"drs12ax",10,HIGH,0,0
+"drs25a",10,LOW,0,0
+"drs2dnxt",10,HIGH,0,0
+"dual ecdis",10,LOW,0,0
+"dual fuel ecdis",10,LOW,0,0
+"e globe g2 ecdis",10,LOW,0,0
+"ecdis 1.27",10,LOW,0,0
+"ecdis 4000",10,LOW,0,0
+"ecdis cost",10,LOW,0,0
+"ecdis for laptop",10,LOW,0,0
+"ecdis for pc",10,LOW,0,0
+"ecdis guide",10,LOW,0,0
+"ecdis information",10,LOW,0.45,1.12
+"ecdis is",10,LOW,0,0
+"ecdis marine insight",10,,0,0
+"ecdis maris",10,LOW,0,0
+"ecdis opencpn",10,LOW,0,0
+"ecdis ppt",10,LOW,0,0
+"ecdis sam electronics",10,LOW,0,0
+"ecdis specific",10,LOW,0,0
+"ecdis stcw",10,LOW,0,0
+"electronic gyro compass",10,MEDIUM,0,0
+"explain ecdis",10,LOW,0,0
+"far2127",10,LOW,0,0
+"fmd ecdis",10,LOW,0,0
+"fog gyro compass",10,LOW,0,0
+"furuno 12kw radar",10,HIGH,0,0
+"furuno 1518",10,LOW,0,0
+"furuno 16 mile radar",10,HIGH,0,0
+"furuno 1621 radar for sale",10,,0,0
+"furuno 1623 for sale",10,HIGH,0,0
+"furuno 1712",10,HIGH,0,0
+"furuno 1712 radar for sale",10,MEDIUM,0,0
+"furuno 1715 marine radar",10,LOW,0,0
+"furuno 1715 radar for sale",10,HIGH,0.39,1.35
+"furuno 1720 marine radar",10,LOW,0,0
+"furuno 1721 mk2 radar",10,,0,0
+"furuno 1722c",10,,0,0
+"furuno 1724c",10,LOW,0,0
+"furuno 1731",10,HIGH,0,0
+"furuno 1731 mark 3",10,LOW,0,0
+"furuno 1815 radar price",10,MEDIUM,0,0
+"furuno 1824c",10,MEDIUM,0,0
+"furuno 1830",10,MEDIUM,0,0
+"furuno 1831",10,HIGH,0,0
+"furuno 1831 radar",10,MEDIUM,0,0
+"furuno 1833c",10,MEDIUM,0,0
+"furuno 1834",10,LOW,0,0
+"furuno 1834c",10,LOW,0,0
+"furuno 1835 radar price",10,LOW,0,0
+"furuno 1930",10,LOW,0,0
+"furuno 1932",10,LOW,0,0
+"furuno 1932 mark 2 radar",10,LOW,0,0
+"furuno 1934c",10,LOW,0,0
+"furuno 1942",10,LOW,0,0
+"furuno 1942 mk2",10,LOW,0,0
+"furuno 1944c",10,MEDIUM,0,0
+"furuno 1954c",10,LOW,0,0
+"furuno 1st watch",10,,0,0
+"furuno 1st watch radar",10,,0,0
+"furuno 2115",10,LOW,0,0
+"furuno 2115 radar",10,LOW,0,0
+"furuno 2127",10,LOW,0,0
+"furuno 2127 radar",10,LOW,0,0
+"furuno 24 mile radar",10,HIGH,0,0
+"furuno 25kw radar",10,HIGH,0,0
+"furuno 260369 defender drs4w 4 kw wireless radar antenna",10,,0,0
+"furuno 3 pin power cable",10,HIGH,0,0
+"furuno 48 mile radar",10,LOW,0,0
+"furuno 4kw radar",10,MEDIUM,0,0
+"furuno 667 radar",10,,0,0
+"furuno 72 mile radar",10,MEDIUM,0,0
+"furuno 8062",10,LOW,0,0
+"furuno 821 radar",10,MEDIUM,0,0
+"furuno 841 mark 2",10,,0,0
+"furuno black box radar",10,LOW,0,0
+"furuno bottom discrimination transducer",10,HIGH,0,0
+"furuno digital radar",10,LOW,0,0
+"furuno drs12ax",10,HIGH,0,0
+"furuno drs4",10,HIGH,0,0
+"furuno drs4a",10,HIGH,0,0
+"furuno drs4d nxt price",10,,0,0
+"furuno drs4d nxt solid state doppler radar",10,HIGH,0,0
+"furuno drs4w 1st watch wireless 19 4kw digital radar",10,,0,0
+"furuno drs4w for sale",10,HIGH,0,0
+"furuno drs6anxt",10,HIGH,0,0
+"furuno drs6ax",10,MEDIUM,0,0
+"furuno e3588",10,LOW,0,0
+"furuno ecdis operating system",10,,0,0
+"furuno ecdis price",10,LOW,0,0
+"furuno factory outlet store",10,,0,0
+"furuno fea",10,LOW,0,0
+"furuno first watch wireless radar",10,HIGH,0,0
+"furuno fmd ecdis",10,LOW,0,0
+"furuno fmd ecdis operating system",10,LOW,0,0
+"furuno fr8125",10,,0,0
+"furuno gd1920c",10,,0,0
+"furuno gp 25",10,LOW,0,0
+"furuno gp 27",10,,0,0
+"furuno gp1870f for sale",10,LOW,0,0
+"furuno gp320b",10,HIGH,0,0
+"furuno lc 90",10,HIGH,0,0
+"furuno m 1623",10,LOW,0,0
+"furuno m 1815",10,MEDIUM,0,0
+"furuno m 1835",10,HIGH,0,0
+"furuno m1623",10,MEDIUM,0,0
+"furuno m1835",10,LOW,0,0
+"furuno mfdbb",10,MEDIUM,0,0
+"furuno mu190",10,LOW,0,0
+"furuno nav net 3d",10,MEDIUM,0,0
+"furuno navnet 3d radar",10,MEDIUM,0,0
+"furuno navnet for sale",10,HIGH,0,0
+"furuno navnet rdp 139",10,HIGH,0,0
+"furuno navnet v2",10,HIGH,0,0
+"furuno navnet vx1",10,HIGH,0,0
+"furuno navnet vx2 for sale",10,HIGH,0,0
+"furuno navnet vx2 radar",10,MEDIUM,0,0
+"furuno network sounder etr 6 10n",10,,0,0
+"furuno open array",10,HIGH,0,0
+"furuno pg1000",10,MEDIUM,0,0
+"furuno psu 017",10,LOW,0,0
+"furuno psu012",10,MEDIUM,0,0
+"furuno radar chartplotter package",10,HIGH,0,0
+"furuno radar ebay",10,HIGH,0,0
+"furuno radar power cable",10,,0,0
+"furuno radar pris",10,LOW,0,0
+"furuno radar wireless",10,HIGH,0,0
+"furuno radar with garmin chartplotter",10,,0,0
+"furuno rcu 015",10,LOW,0,0
+"furuno rcu 017",10,LOW,0,0
+"furuno rd30 for sale",10,,0,0
+"furuno rdp 118",10,LOW,0,0
+"furuno rdp 131",10,HIGH,0,0
+"furuno rdp 143",10,MEDIUM,0,0
+"furuno rdp 148",10,LOW,0,0
+"furuno rdp 149 navnet vx2",10,MEDIUM,0,0
+"furuno rdp139",10,LOW,0,0
+"furuno rdp150",10,LOW,0,0
+"furuno rezboost",10,LOW,0,0
+"furuno sc20",10,MEDIUM,0,0
+"furuno small boat radar",10,HIGH,0,0
+"furuno tzt2 15",10,HIGH,0,0
+"furuno vx2 radar",10,,0,0
+"furuno wireless",10,HIGH,0,0
+"furuno wlan radar",10,MEDIUM,0,0
+"furuno xn20af",10,LOW,0,0
+"gp1871",10,LOW,0,0
+"gps gyro compass",10,MEDIUM,0,0
+"gyro compass description",10,LOW,0,0
+"gyro compass navigation",10,LOW,0,0
+"gyro compass ppt",10,LOW,0,0
+"gyro compass purpose",10,LOW,0,0
+"gyro compass uses",10,LOW,0,0
+"gyro compass with label",10,LOW,0,0
+"gyro compass working",10,LOW,0,0
+"harga ecdis",10,LOW,0,0
+"harga radar furuno 1623",10,LOW,0,0
+"headway ecdis",10,,0,0
+"iec 61174 2015",10,LOW,0,0
+"iec 61174 ecdis",10,,0,0
+"iho ecdis",10,LOW,0,0
+"imo 1.27",10,LOW,0,0
+"jma 2254",10,LOW,0,0
+"jma 3300 radar",10,MEDIUM,0,0
+"jma 3336",10,LOW,0,0
+"jma 5312 6",10,LOW,0,0
+"jrc 1500 radar for sale",10,,0,0
+"jrc 2000 radar",10,LOW,0,0
+"jrc furuno",10,LOW,0,0
+"jrc jma 5312 6",10,LOW,0,0
+"jrc lcd radar 1000",10,LOW,0,0
+"jrc radar 1000 for sale",10,LOW,0,0
+"jrc radar 1500 mk2",10,LOW,0,0
+"jrc radar 1800 for sale",10,,0,0
+"jrc radar 2000",10,LOW,0,0
+"jrc radar 4 1",10,MEDIUM,0,0
+"jrc radar motion sensor",10,MEDIUM,0,0
+"jrc radar transmitter",10,,0,0
+"kegunaan ecdis",10,LOW,0,0
+"kelvin hughes manta digital ecdis",10,LOW,0,0
+"key4mate ecdis",10,LOW,0,0
+"main gyro compass",10,LOW,0,0
+"marine radar repair near me",10,,0,0
+"marine traffic live ais ships",10,,0,0
+"marine traffic tracking free",10,LOW,0,0
+"maris ecdis 9000",10,LOW,0,0
+"maris ecdis900",10,LOW,0,0
+"martek ecdis",10,LOW,0,0
+"mk27 gyro compass",10,LOW,0,0
+"myseatime ecdis",10,,0,0
+"navnet 3d radar",10,HIGH,0,0
+"navnet radar",10,HIGH,0,0
+"new furuno radar",10,HIGH,0,0
+"ng sperry marine visionmaster",10,,0,0
+"overscale ecdis",10,LOW,0,0
+"purpose of gyro compass",10,LOW,0,0
+"radar furuno drs4w wifi",10,HIGH,0,0
+"radar jrc jma 2300",10,LOW,0,0
+"raymarine gyro compass",10,HIGH,0,0
+"raytheon anschutz gyro compass",10,LOW,0,0
+"raytheon gyro",10,LOW,0,0
+"raytheon gyro compass",10,LOW,0,0
+"renc ecdis",10,LOW,0,0
+"safebridge transas navi sailor 4000",10,LOW,0,0
+"seatest ecdis",10,LOW,0,0
+"sg brown gyro compass",10,LOW,0,0
+"shipping radar english channel",10,LOW,0,0
+"simrad maris",10,LOW,0,0
+"solid state gyro compass",10,LOW,0,0
+"specific type of ecdis",10,,0,0
+"sperry mk 37 gyro compass",10,MEDIUM,0,0
+"stage ecdis",10,LOW,0,0
+"system ecdis",10,MEDIUM,0,0
+"system electronic navigational chart",10,LOW,0,0
+"t&p corrections ecdis",10,LOW,0,0
+"tads ecdis",10,LOW,0,0
+"telco ecdis",10,LOW,0,0
+"the gyro compass",10,LOW,0,0
+"tokimec gyro",10,LOW,0,0
+"tokyo keiki ecdis ec 8600",10,LOW,0,0
+"tombol tombol pada ecdis",10,LOW,0,0
+"transas ecdis navi sailor 4000",10,MEDIUM,0,0
+"transas ecdis support",10,LOW,0,0
+"transas ecdis troubleshooting",10,,0,0
+"transas navi sailor 4000 price",10,LOW,0,0
+"use of gyro compass",10,LOW,0,0
+"used furuno gps for sale",10,HIGH,0,0
+"used furuno navnet for sale",10,,0,0
+"used jrc radar",10,,0,0
+"vesselfinder free ais ship tracking of marine traffic",10,,0,0
+"wartsila transas 4000",10,LOW,0,0
+"wend ecdis",10,LOW,0,0
+"wärtsilä navi sailor 4000 by transas",10,LOW,0,0
+"x band radar furuno",10,LOW,0,0
+"xn24af 8",10,,0,0
+"xte ecdis",10,LOW,0,0
+"mobile marine audio installation near me",10,LOW,0,0
+"overnight shipping electronics",10,HIGH,2.13,15.27
+"best deals on marine electronics",10,HIGH,0,0
+"complete marine audio system",10,HIGH,0,0
+"boat gps installation near me",10,LOW,0,0
+"simrad package deals",10,HIGH,0,0
+"marine electronics mounting solutions",10,HIGH,0,0
+"aqualink marine electronics",10,LOW,0,0
+"marine electronics service near me",10,MEDIUM,2.27,9.69
+"bass boat electronics installation",10,LOW,0,0
+"boat radio repair near me",10,MEDIUM,0,0
+"bottom line fish finder repair",10,,0,0
+"brunton compass declination",10,,0,0
+"brunton compass declination adjustment",10,LOW,0,0
+"call simrad customer service",10,LOW,0,0
+"canada post shipping electronics",10,LOW,0,0
+"dhl send electronics",10,LOW,0,0
+"electronics international shipping",10,HIGH,0,0
+"electronics worldwide shipping",10,HIGH,0,0
+"fedex electronics",10,LOW,0,0
+"fedex international shipping electronics",10,LOW,0,0
+"furuno 1650 battery replacement",10,,0,0
+"furuno 1650 internal battery replacement",10,,0,0
+"furuno 1850 battery replacement",10,,0,0
+"furuno fcv 585 screen replacement",10,HIGH,0,0
+"furuno vsat",10,LOW,0,0
+"garmin fish finder repair service",10,LOW,0,0
+"garmin marine electronics installation near me",10,LOW,0,0
+"garmin marine electronics repair near me",10,LOW,0,0
+"garmin marine gps repair",10,LOW,0,0
+"garmin marine installer near me",10,LOW,0,0
+"garmin marine service",10,LOW,0,0
+"gps boat tracking device",10,HIGH,0,0
+"humminbird electronics repair",10,LOW,0,0
+"icom marine radio repair",10,MEDIUM,0,0
+"icom vhf marine radio repair",10,MEDIUM,0,0
+"instrument used for navigating ships",10,,0,0
+"jameco shipping",10,LOW,0,0
+"lensatic compass declination adjustment",10,,0,0
+"lowrance electronics repair",10,LOW,0,0
+"lowrance fish finder repair service",10,LOW,0,0
+"magnetic compass adjustment requirements",10,LOW,0,0
+"magnetic compass swing procedure",10,LOW,0,0
+"mailing electronics usps",10,LOW,0,0
+"marine audio repair near me",10,HIGH,0,0
+"marine audio system installation",10,,0,0
+"marine audio visual",10,LOW,0,0
+"marine electronics technician near me",10,LOW,3.01,6.52
+"marine engine management system",10,MEDIUM,0,0
+"marine gps installation",10,LOW,0,0
+"marine gps installation near me",10,LOW,0,0
+"marine gps repair",10,LOW,0,0
+"marine gps repair near me",10,LOW,0,0
+"marine radio repairs near me",10,LOW,0,0
+"marine solutions electronic oil injection",10,,0,0
+"marine stereo system installation near me",10,,0,0
+"mobile marine audio installation",10,,0,0
+"mobile marine electronics installation",10,HIGH,0,0
+"mobile marine stereo installation",10,LOW,0,0
+"navico service",10,LOW,0,0
+"newark electronics shipping",10,LOW,0,0
+"overnight shipping cell phones",10,LOW,0,0
+"packaging electronics for shipping",10,MEDIUM,0,0
+"pr systems marine electronics",10,LOW,0,0
+"raymarine installer near me",10,LOW,0,0
+"raymarine service centre",10,LOW,0,0
+"raymarine service repair",10,LOW,0,0
+"remote magnetic compass adjustment",10,LOW,0,0
+"send electronics through courier",10,,0,0
+"shakespeare antenna repair",10,,0,0
+"shipping cell phones with lithium batteries usps",10,LOW,0,0
+"shipping electronics canada post",10,LOW,0,0
+"simrad ap20 control head repair",10,LOW,0,0
+"simrad certified installer",10,LOW,0,0
+"simrad electronics customer service",10,LOW,0,0
+"sparkfun shipping cost",10,LOW,0,0
+"standard horizon vhf repair",10,LOW,0,0
+"uniden marine radio repair",10,LOW,0,0
+"usps electronics shipping",10,LOW,0,0
+"vhf marine radio repairs near me",10,LOW,0,0
+"vhf radio installation near me",10,LOW,0,0
+"sperry marine service",10,LOW,0,0
+"furuno customer service phone",10,,0,0
+"furuno customer support",10,LOW,0,0
+"furuno gp 150 price",10,LOW,0,0
+"furuno gp 32 price",10,LOW,0,0
+"furuno help line",10,LOW,0,0
+"furuno radar repair service",10,,0,0
+"jrc services inc",10,LOW,0,0
+"radio survey ship",0,,0,0
+"to emergency position indicating radio beacon",0,,0,0
+"used furuno radar for sale craigslist",0,,0,0
+"ship radar service",0,,0,0
+"navigation equipment ship",0,,0,0

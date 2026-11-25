@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+
+const guides = [
+  { href: '/surveys/epirb-annual-test/', name: 'EPIRB annual test', text: 'SOLAS IV/15.9: 17 checks by the radio surveyor, and how it differs from shore-based maintenance.' },
+  { href: '/surveys/vdr-annual-performance-test/', name: 'VDR annual performance test', text: 'SOLAS V/18.8: by the manufacturer or its agent, ±3 months window, report within 45 days.' },
+  { href: '/surveys/ais-annual-test/', name: 'AIS annual test', text: 'SOLAS V/18.9: static and dynamic data, RF measurements and an on-air test.' },
+];
+---
+<Base title="Ship Radio Surveys and Annual Tests" description="Guides to the annual radio survey and the annual tests of EPIRB, VDR and AIS: who tests, when, what is checked and how to prepare. Based on SOLAS, HSSC and IMO circulars." crumbs={[{ name: 'Home', path: '/' }, { name: 'Surveys and annual tests', path: '/surveys/' }]}>
+  <h1>Surveys and annual tests</h1>
+  <p class="lead">What the surveyor or service engineer checks, when the window opens and what to fix before they arrive. For masters, ETOs and technical superintendents.</p>
+  <p>Start with the <a href="/tools/survey-due-dates/">due date calculator</a>: enter your certificate dates and see every window at once.</p>
+  <div class="grid">
+    {guides.map((g) => <a class="card" href={g.href}><strong>{g.name}</strong><span>{g.text}</span></a>)}
+  </div>
+  <h2>In preparation</h2>
+  <div class="grid">
+    <div class="card soon"><strong>Annual radio survey</strong><span>Cargo Ship Safety Radio Certificate: what the surveyor checks.</span></div>
+    <div class="card soon"><strong>EPIRB shore-based maintenance</strong><span>MSC.1/Circ.1039/Rev.1: what the SBM provider does.</span></div>
+  </div>
+</Base>

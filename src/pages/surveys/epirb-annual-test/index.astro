@@ -1,0 +1,61 @@
+---
+import Guide from '../../../components/Guide.astro';
+import { IMO } from '../../../data/imo-sources.js';
+
+const facts: [string, string][] = [
+  ['Requirement', 'SOLAS regulation IV/15.9; guidelines MSC.1/Circ.1040/Rev.2'],
+  ['Who tests', 'Trained and approved personnel with suitable test equipment. Normally the radio surveyor, as part of the annual radio survey.'],
+  ['When', 'Within the time window of the radio survey and not later than its completion (MSC.1/Circ.1576). <a href="/tools/survey-due-dates/">Calculate your window</a>.'],
+  ['How', 'Electrical tests in self-test mode where possible, so that no distress alert reaches the satellites.'],
+  ['Not the same as', 'Shore-based maintenance (SBM): done ashore by an approved SBM provider at intervals set by the flag, not exceeding five years (MSC.1/Circ.1039/Rev.1).'],
+];
+
+const checks = [
+  { text: 'Bracket position and mounting allow the beacon to float free.', ref: '4.1' },
+  { text: 'Visual inspection of beacon and bracket: damage, cracks, degradation, water ingress.', ref: '4.2' },
+  { text: 'Beacon self-test, including the GNSS self-test if fitted.', ref: '4.3' },
+  { text: 'The ID (15 Hex ID, or 23 Hex ID for second-generation beacons) and, if fitted, the AIS user ID are clearly marked on the outside.', ref: '4.4' },
+  { text: 'The ID and data decoded from the transmitted signal match the marking on the beacon.', ref: '4.5' },
+  { text: 'An encoded MMSI or call sign matches the one assigned to the ship.', ref: '4.6' },
+  { text: 'Registration in the national database or the International Beacon Registration Database.', ref: '4.7' },
+  { text: 'Battery expiry date.', ref: '4.8' },
+  { text: 'Hydrostatic release and its expiry date, where fitted.', ref: '4.9' },
+  { text: '406 MHz emission, via self-test or a test device, without alerting the satellites.', ref: '4.10' },
+  { text: '121.5 MHz homing emission, if possible, without activating the SAR system.', ref: '4.11' },
+  { text: 'AIS locating signal, if fitted, without creating a false alert.', ref: '4.12' },
+  { text: 'Shore-based maintenance done by an approved provider at the intervals required by the flag.', ref: '4.13' },
+  { text: 'Beacon back in its bracket and not transmitting.', ref: '4.14' },
+  { text: 'Lanyard attached, in good condition, neatly stowed and not tied to the ship or the bracket.', ref: '4.15' },
+  { text: 'Operating manual on board.', ref: '4.16' },
+  { text: 'Pictorial instructions for manual operation visible at the beacon.', ref: '4.17' },
+];
+
+const prepare = [
+  'Decode the Hex ID from the label with our <a href="/tools/epirb-hex-id-decoder/">EPIRB hex ID decoder</a>: country code = flag, MMSI = the ship\'s current MMSI.',
+  'Have the registration proof for the current owner and ship name. After a change of flag, owner or name, update it before the survey.',
+  'Check battery and HRU dates on the label. If either expires before the survey window closes, order the replacement now: it is done by an approved service agent, not on board.',
+  'Keep the last SBM certificate or report on board.',
+  'Check the manual is on board and the pictorial instructions are at the beacon; check the lanyard.',
+];
+---
+<Guide
+  title="EPIRB Annual Test: Checklist per MSC.1/Circ.1040/Rev.2"
+  h1="EPIRB annual test"
+  description="What the radio surveyor checks at the annual EPIRB test (SOLAS IV/15.9, MSC.1/Circ.1040/Rev.2), when it is due, how it differs from shore-based maintenance, and how to prepare the ship."
+  path="/surveys/epirb-annual-test/"
+  lead="Every 406 MHz EPIRB on a SOLAS ship is tested once a year, normally by the radio surveyor during the annual radio survey. Here is what gets checked and what to sort out before the surveyor arrives."
+  facts={facts}
+  checks={checks}
+  prepare={prepare}
+  sources={[{ name: 'SOLAS regulation IV/15.9' }, IMO.c1040, IMO.c1039, IMO.c1576, IMO.hssc]}
+  checked="2026-11-25"
+  related={[
+    { href: '/tools/epirb-hex-id-decoder/', text: 'EPIRB hex ID decoder' },
+    { href: '/tools/survey-due-dates/', text: 'Survey and test due dates' },
+    { href: '/surveys/', text: 'All surveys and annual tests' },
+  ]}
+>
+  <div class="note">
+    <p><strong>False alert.</strong> If a distress signal is sent by mistake, stop the transmission and inform the local rescue coordination centre (RCC) at once, and also the nearest Cospas-Sarsat mission control centre (MSC.1/Circ.1040/Rev.2, §3).</p>
+  </div>
+</Guide>

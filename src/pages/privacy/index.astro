@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE_NAME, CONTACT_EMAIL } from '../../data/site.js';
+---
+<Base title="Privacy" description={`How ${SITE_NAME} handles data.`} crumbs={[{ name: 'Home', path: '/' }, { name: 'Privacy', path: '/privacy/' }]}>
+  <h1>Privacy</h1>
+  <h2>Tools</h2>
+  <p>The tools run in your browser. Numbers and dates you enter (MMSI, beacon IDs, certificate dates) are not sent to our server; they only appear in the page address if you choose to share a link.</p>
+  <h2>Service requests</h2>
+  <p>When you send a service request, we receive the details you provide: ship name and IMO number, port and dates, equipment and problem, your name, company, email and phone. We use them only to handle your request: we forward them to service partners covering the port so they can contact you with availability and a quote. We do not sell your data or use it for unrelated marketing.</p>
+  <p>We keep requests as long as needed to handle them and for our records, and delete them on request. To access, correct or delete your data, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+  <p>This notice will be updated before any analytics is added.</p>
+</Base>

@@ -1,0 +1,30 @@
+---
+// Short request form for the home page: passes values to /request/ via GET.
+import { PORTS, EQUIPMENT } from '../data/service.js';
+---
+<form class="card quick-req" action="/request/" method="get">
+  <div class="fields">
+    <label>Equipment
+      <select name="equipment">{EQUIPMENT.map((e) => <option>{e}</option>)}</select>
+    </label>
+    <label>Port
+      <select name="port">
+        {PORTS.map((p) => <option value={p.id}>{p.name}, {p.country}</option>)}
+        <option value="other">Other port</option>
+      </select>
+    </label>
+    <label>Arrival (ETA)
+      <input type="date" name="eta" />
+    </label>
+  </div>
+  <button type="submit">Request a technician</button>
+</form>
+
+<style>
+  .quick-req { display: flex; flex-wrap: wrap; gap: 12px; align-items: flex-end; }
+  .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; flex: 1 1 520px; }
+  label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; font-size: .92rem; }
+  select, input { font: inherit; font-weight: 400; padding: 9px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); width: 100%; }
+  button { flex: 0 0 auto; padding: 11px 18px; }
+  @media (max-width: 560px) { button { width: 100%; } }
+</style>

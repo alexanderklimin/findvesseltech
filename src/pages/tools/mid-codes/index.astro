@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import midData from '../../../data/mid.json';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'MID Codes: Maritime Identification Digits by Country';
+const description = `All ${midData.mids.length} Maritime Identification Digits (MID) allocated by the ITU, from 201 Albania to 775 Venezuela. Search by code or country; checked against the ITU table on ${midData.checked}.`;
+
+const regions = [
+  ['2', 'Europe'], ['3', 'North and Central America, Caribbean'], ['4', 'Asia (excluding South-East Asia)'],
+  ['5', 'Oceania and South-East Asia'], ['6', 'Africa'], ['7', 'South America'],
+];
+
+// Countries with several MIDs (large registries): useful at a glance.
+const byName = new Map<string, string[]>();
+for (const m of midData.mids) byName.set(m.name, [...(byName.get(m.name) ?? []), m.mid]);
+const multi = [...byName.entries()].filter(([, v]) => v.length > 1).sort((a, b) => b[1].length - a[1].length);
+
+const jsonLd = [{
+  '@context': 'https://schema.org', '@type': 'Dataset',
+  name: 'Maritime Identification Digits (MID) by country',
+  description, url: `${SITE_URL}/tools/mid-codes/`,
+  isBasedOn: midData.sourceUrl, dateModified: midData.checked,
+  creator: { '@type': 'Organization', name: 'International Telecommunication Union (source data)' },
+}];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'MID codes', path: '/tools/mid-codes/' }]}>
+  <h1>MID codes by country</h1>
+  <p class="lead">Maritime Identification Digits are the three digits inside every MMSI that show the administration (usually the flag State). The ITU allocates them; big registries such as Panama, Liberia and the Marshall Islands hold several.</p>
+  <p>Have a full number? Use the <a href="/tools/mmsi-lookup/">MMSI lookup</a>: it also tells ship, coast station, SAR aircraft and AIS devices apart.</p>
+
+  <div class="card">
+    <label for="q"><strong>Filter</strong> by MID or country</label>
+    <input type="search" id="q" placeholder="e.g. 636 or Liberia" />
+    <p id="count" class="source" aria-live="polite"></p>
+  </div>
+
+  <div class="table-scroll" style="margin-top:12px">
+    <table id="mids">
+      <thead><tr><th>MID</th><th>Country or area</th><th>ITU allocation</th></tr></thead>
+      <tbody>
+        {midData.mids.map((m) => (
+          <tr id={`mid-${m.mid}`} data-q={`${m.mid} ${m.name} ${m.allocatedTo}`.toLowerCase()}>
+            <td><code>{m.mid}</code></td><td>{m.name}</td><td class="source">{m.allocatedTo}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>First digit of the MID</h2>
+  <p>The first digit roughly follows region. There are exceptions: 242 is Morocco, 331 Greenland, 501 Adélie Land.</p>
+  <div class="table-scroll">
+    <table><thead><tr><th>First digit</th><th>Region</th></tr></thead>
+      <tbody>{regions.map(([d, r]) => <tr><td><code>{d}xx</code></td><td>{r}</td></tr>)}</tbody></table>
+  </div>
+
+  <h2>Administrations with more than one MID</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Country</th><th>MIDs</th></tr></thead>
+      <tbody>{multi.map(([n, v]) => <tr><td>{n}</td><td>{v.map((x) => <code>{x}</code>).reduce((a: any, b: any) => [a, ' ', b])}</td></tr>)}</tbody></table>
+  </div>
+
+  <p class="source">Source: <a href={midData.sourceUrl} rel="noopener">{midData.source}</a>, checked {midData.checked}. Short country names are ours; the third column is the ITU wording. Format rules: Recommendation ITU-R M.585-10.</p>
+</Base>
+
+<script>
+  const q = document.getElementById('q') as HTMLInputElement;
+  const rows = [...document.querySelectorAll<HTMLTableRowElement>('#mids tbody tr')];
+  const count = document.getElementById('count')!;
+  const apply = () => {
+    const v = q.value.trim().toLowerCase();
+    let n = 0;
+    for (const r of rows) { const hit = !v || r.dataset.q!.includes(v); r.hidden = !hit; if (hit) n++; }
+    count.textContent = v ? `${n} of ${rows.length} MIDs` : `${rows.length} MIDs`;
+  };
+  q.addEventListener('input', apply);
+  apply();
+</script>
+
+<style>
+  :target { background: color-mix(in srgb, var(--accent) 25%, transparent); }
+  label { display: block; margin-bottom: 6px; }
+</style>

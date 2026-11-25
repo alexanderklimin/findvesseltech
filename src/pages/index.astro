@@ -1,0 +1,52 @@
+---
+import Base from '../layouts/Base.astro';
+import QuickRequest from '../components/QuickRequest.astro';
+import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '../data/site.js';
+import { PORTS } from '../data/service.js';
+
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE_URL, description: SITE_TAGLINE }];
+
+const surveys = [
+  { href: '/surveys/epirb-annual-test/', name: 'EPIRB annual test', text: '17 checks of MSC.1/Circ.1040/Rev.2 and how to prepare.' },
+  { href: '/surveys/vdr-annual-performance-test/', name: 'VDR APT', text: 'Annual performance test, 45-day report, time window.' },
+  { href: '/surveys/ais-annual-test/', name: 'AIS annual test', text: 'Static and dynamic data, RF measurements, on-air test.' },
+];
+const tools = [
+  { href: '/tools/survey-due-dates/', name: 'Survey due dates', text: 'Radio survey, VDR, AIS and EPIRB test windows with calendar export.' },
+  { href: '/tools/mmsi-lookup/', name: 'MMSI lookup', text: 'Flag country and station type from any MMSI.' },
+  { href: '/tools/epirb-hex-id-decoder/', name: 'EPIRB hex ID decoder', text: 'Country code, MMSI or serial in a 406 MHz beacon.' },
+  { href: '/tools/gmdss-frequencies/', name: 'GMDSS frequencies', text: 'DSC, voice and NAVTEX per ITU Appendix 15 (WRC-23).' },
+  { href: '/tools/mid-codes/', name: 'MID codes', text: 'Maritime Identification Digits by country.' },
+];
+---
+<Base title={`${SITE_NAME}: ship radio and navigation service in port`} description="Find a technician for ship radio and navigation equipment at your next port call: repair, radio survey, VDR, AIS and EPIRB tests. Plus free GMDSS tools and survey guides." jsonLd={jsonLd}>
+  <section class="hero">
+    <h1>Ship radio and navigation repair, surveys and tests in your next port</h1>
+    <p class="lead">Radar, ECDIS, GMDSS, VDR, AIS, gyro. Tell us the equipment, port and ETA; we pass the request to service engineers covering that port.</p>
+    <QuickRequest />
+    <p class="ports">Ports: {PORTS.map((p, i) => <>{i > 0 && ' · '}<span>{p.name}</span></>)}. Other ports on request.</p>
+  </section>
+
+  <h2>Surveys and annual tests</h2>
+  <div class="grid">
+    {surveys.map((g) => <a class="card" href={g.href}><strong>{g.name}</strong><span>{g.text}</span></a>)}
+  </div>
+
+  <h2>Free tools</h2>
+  <div class="grid">
+    {tools.map((t) => <a class="card" href={t.href}><strong>{t.name}</strong><span>{t.text}</span></a>)}
+  </div>
+
+  <h2>Coming next</h2>
+  <ul>
+    <li>Equipment guides: radar, ECDIS, GMDSS consoles, VDR, AIS, gyro compass, with common faults and alarms.</li>
+    <li>NAVTEX stations, GMDSS daily/weekly/monthly tests and the annual radio survey checklist.</li>
+  </ul>
+</Base>
+
+<style>
+  .hero { padding: 8px 0 4px; }
+  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); max-width: 26ch; }
+  .ports { color: var(--muted); font-size: .93rem; margin-top: 10px; }
+  .ports span { color: var(--text); font-weight: 600; }
+</style>

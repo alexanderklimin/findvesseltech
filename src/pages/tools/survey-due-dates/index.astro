@@ -1,0 +1,160 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'Radio Survey, VDR APT, AIS and EPIRB Due Date Calculator';
+const description = 'Work out the survey windows for the annual radio survey, VDR annual performance test, AIS annual test and EPIRB test, plus EPIRB shore-based maintenance, battery and HRU expiry. Based on HSSC 2025 and IMO circulars. Export to calendar.';
+
+const rules = [
+  ['Radio survey, cargo ship', 'Periodical survey within 3 months before or after each anniversary date of the Cargo Ship Safety Radio Certificate. Renewal survey within 3 months before expiry.', 'HSSC 2025, res. A.1207(34), 1.3.2, 4.4.1'],
+  ['Passenger ship', 'The Passenger Ship Safety Certificate is valid for max 12 months: radio survey and annual tests within 3 months before expiry.', 'A.1207(34) 1.3.2; MSC.1/Circ.1252 §3; MSC.1/Circ.1222/Rev.1 §3'],
+  ['EPIRB annual test', 'Within the time window of the radio survey, not later than its completion. Normally done by the radio surveyor.', 'SOLAS IV/15.9; MSC.1/Circ.1576; MSC.1/Circ.1040/Rev.2'],
+  ['VDR / S-VDR annual performance test', 'Within the window of the safety equipment survey (±3 months of the anniversary, up to 3 months before renewal), not later than its completion. By the manufacturer or its authorized agent; report issued within 45 days.', 'SOLAS V/18.8; MSC.1/Circ.1222/Rev.1; MSC.1/Circ.1576'],
+  ['AIS annual test', 'Same window as the safety equipment survey. By a radio inspector authorized by the flag or a recognized organization.', 'SOLAS V/18.9; MSC.1/Circ.1252; MSC.1/Circ.1576'],
+  ['EPIRB shore-based maintenance', 'At intervals set by the flag State, not exceeding five years. Battery replacement is recommended at the same time.', 'SOLAS IV/15.9; MSC.1/Circ.1039/Rev.1 §4.2'],
+];
+
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Survey and test due date calculator', url: `${SITE_URL}/tools/survey-due-dates/`, applicationCategory: 'BusinessApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description }];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'Survey due dates', path: '/tools/survey-due-dates/' }]}>
+  <h1>Survey and test due dates</h1>
+  <p class="lead">Enter the certificate dates once and see when the radio survey, EPIRB, VDR and AIS tests can be done, what is overdue and which batteries the surveyor will reject. Nothing is sent to a server.</p>
+
+  <form class="card" id="due-form" autocomplete="off">
+    <fieldset>
+      <legend>Ship</legend>
+      <label>Ship name (optional, for the calendar) <input type="text" name="ship" maxlength="60" /></label>
+      <div class="radios">
+        <label><input type="radio" name="kind" value="cargo" checked /> Cargo ship</label>
+        <label><input type="radio" name="kind" value="passenger" /> Passenger ship</label>
+      </div>
+    </fieldset>
+    <fieldset data-for="cargo">
+      <legend>Certificates (expiry dates)</legend>
+      <label>Cargo Ship Safety Radio Certificate <input type="date" name="radioExpiry" /></label>
+      <label>Cargo Ship Safety Equipment Certificate <small>(leave empty if same as radio)</small> <input type="date" name="equipmentExpiry" /></label>
+    </fieldset>
+    <fieldset data-for="passenger" hidden>
+      <legend>Certificate (expiry date)</legend>
+      <label>Passenger Ship Safety Certificate <input type="date" name="pssExpiry" /></label>
+    </fieldset>
+    <fieldset>
+      <legend>EPIRB, SART <small>(optional, from the labels)</small></legend>
+      <label>Last shore-based maintenance <input type="date" name="lastSbm" /></label>
+      <label>SBM interval required by flag
+        <select name="sbmYears"><option value="5">5 years</option><option value="4">4 years</option><option value="3">3 years</option><option value="2">2 years</option><option value="1">1 year</option></select>
+      </label>
+      <label>EPIRB battery expiry <input type="date" name="epirbBattery" /></label>
+      <label>Hydrostatic release (HRU) expiry <input type="date" name="hru" /></label>
+      <label>SART battery expiry <input type="date" name="sartBattery" /></label>
+    </fieldset>
+    <p><button type="submit">Calculate</button></p>
+  </form>
+
+  <div id="out" aria-live="polite"></div>
+
+  <h2>Rules used</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Item</th><th>When</th><th>Source</th></tr></thead>
+      <tbody>{rules.map(([a, b, c]) => <tr><td>{a}</td><td>{b}</td><td class="source">{c}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <div class="note">
+    <p>The anniversary date is the day and month of the certificate expiry date in each year. Flag States may set stricter rules (for example a shorter SBM interval, or no 3-month window after the anniversary); certificate extensions under SOLAS I/14 are not modelled. Check your flag's circulars and confirm dates with your class.</p>
+  </div>
+  <p class="source">Sources: IMO res. A.1207(34) Survey Guidelines under the HSSC, 2025; MSC.1/Circ.1576 (2017); MSC.1/Circ.1040/Rev.2 and MSC.1/Circ.1039/Rev.1 (2021); MSC.1/Circ.1222/Rev.1 (2019); MSC.1/Circ.1252 (2007). Checked 2026-11-25.</p>
+</Base>
+
+<script>
+  import { plan, toIcs } from '../../../lib/due.js';
+
+  const form = document.getElementById('due-form') as HTMLFormElement;
+  const out = document.getElementById('out')!;
+  const FIELDS = ['ship', 'kind', 'radioExpiry', 'equipmentExpiry', 'pssExpiry', 'lastSbm', 'sbmYears', 'epirbBattery', 'hru', 'sartBattery'];
+  const esc = (s: string) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  const LABEL: Record<string, string> = { open: 'Window open now', upcoming: 'Upcoming', overdue: 'Overdue', expired: 'Certificate expired', deadline: 'Due' };
+
+  const today = () => new Date().toISOString().slice(0, 10);
+  const values = () => Object.fromEntries(FIELDS.map((f) => [f, (new FormData(form).get(f) as string) ?? '']));
+
+  function toggleKind() {
+    const kind = (form.elements.namedItem('kind') as RadioNodeList).value;
+    form.querySelectorAll<HTMLFieldSetElement>('fieldset[data-for]').forEach((fs) => { fs.hidden = fs.dataset.for !== kind; });
+  }
+
+  function render(push: boolean) {
+    const v = values();
+    const r = plan({ ...v, kind: v.kind as 'cargo' | 'passenger', sbmYears: Number(v.sbmYears), today: today() });
+    if (r.errors.length) { out.innerHTML = r.errors.map((e: string) => `<p class="bad">${esc(e)}</p>`).join(''); return; }
+    const items = r.rows.map((x: any) => {
+      const when = x.kind === 'window'
+        ? `<span class="d">${x.open}</span> → <strong class="d">${x.close}</strong>${x.renewal ? ' <small>(renewal)</small>' : ''}<br><small>due date ${x.due}</small>`
+        : `<strong class="d">${x.due}</strong>`;
+      const days = x.daysToClose >= 0 ? `${x.daysToClose} days left` : `${-x.daysToClose} days ago`;
+      const warn = x.beforeSurvey ? '<p class="warn">Expires before the radio survey window closes: replace before the survey.</p>' : '';
+      return `<div class="item st-${x.status}"><div class="head"><strong>${esc(x.label)}</strong><span class="badge">${LABEL[x.status]}</span></div>
+        <div class="when">${when} <span class="source">· ${days}</span></div>${warn}<div class="source">${esc(x.ref)}</div></div>`;
+    }).join('');
+    out.innerHTML = `<h2>Your dates</h2><div class="items">${items}</div>
+      <p class="actions"><button type="button" id="ics">Add to calendar (.ics)</button> <button type="button" id="copy">Copy link</button> <button type="button" onclick="window.print()">Print</button></p>`;
+    document.getElementById('ics')!.addEventListener('click', () => {
+      const blob = new Blob([toIcs(r.rows, v.ship)], { type: 'text/calendar' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `${(v.ship || 'ship').replace(/[^\w-]+/g, '_')}-due-dates.ics`;
+      a.click();
+      setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    });
+    document.getElementById('copy')!.addEventListener('click', async (e) => {
+      const btn = e.currentTarget as HTMLButtonElement;
+      try { await navigator.clipboard.writeText(location.href); btn.textContent = 'Link copied'; } catch { btn.textContent = location.href; }
+    });
+    if (push) {
+      const url = new URL(location.href);
+      url.search = '';
+      for (const [k, val] of Object.entries(v)) if (val && !(k === 'kind' && val === 'cargo') && !(k === 'sbmYears' && val === '5')) url.searchParams.set(k, val);
+      history.replaceState(null, '', url);
+    }
+  }
+
+  form.addEventListener('change', (e) => { if ((e.target as HTMLInputElement).name === 'kind') toggleKind(); });
+  form.addEventListener('submit', (e) => { e.preventDefault(); render(true); });
+
+  const params = new URL(location.href).searchParams;
+  if ([...params.keys()].length) {
+    for (const f of FIELDS) {
+      const val = params.get(f);
+      if (val === null) continue;
+      const el = form.elements.namedItem(f);
+      if (el instanceof RadioNodeList) el.value = val; else if (el) (el as HTMLInputElement).value = val;
+    }
+    toggleKind();
+    render(false);
+  }
+</script>
+
+<style>
+  fieldset { border: 0; padding: 0; margin: 0 0 14px; }
+  legend { font-weight: 700; margin-bottom: 6px; }
+  #due-form label { display: block; margin: 8px 0; }
+  #due-form input[type=date], #due-form input[type=text], #due-form select { display: block; margin-top: 4px; font: inherit; padding: 8px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); width: 100%; max-width: 320px; }
+  .radios { display: flex; gap: 16px; flex-wrap: wrap; }
+  .radios label { display: inline-flex !important; gap: 6px; align-items: center; }
+  small { color: var(--muted); font-weight: 400; }
+  #out :global(.badge) { white-space: nowrap; display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: .85rem; font-weight: 600; background: var(--code); }
+  #out :global(.st-open .badge) { background: color-mix(in srgb, var(--ok) 25%, transparent); }
+  #out :global(.st-overdue .badge), #out :global(.st-expired .badge) { background: color-mix(in srgb, var(--warn) 30%, transparent); }
+  #out :global(.warn) { color: var(--warn); font-size: .9rem; font-weight: 600; }
+  #out :global(.items) { display: grid; gap: 10px; }
+  #out :global(.item) { background: var(--surface); border: 1px solid var(--line); border-left: 5px solid var(--line); border-radius: 8px; padding: 10px 14px; }
+  #out :global(.item.st-open) { border-left-color: var(--ok); }
+  #out :global(.item.st-overdue), #out :global(.item.st-expired) { border-left-color: var(--warn); }
+  #out :global(.item .head) { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; }
+  #out :global(.item .when) { margin: 4px 0; }
+  #out :global(.item p.warn) { margin: 4px 0; }
+  #out :global(.d) { white-space: nowrap; }
+  #out :global(.bad) { color: var(--warn); font-weight: 600; }
+  #out :global(.actions button) { margin: 4px 6px 4px 0; }
+  @media print { :global(.site-header), :global(.site-footer), :global(.crumbs), #due-form, :global(.actions) { display: none !important; } }
+</style>

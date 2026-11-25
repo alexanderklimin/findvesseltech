@@ -1,0 +1,57 @@
+---
+// Shared layout for survey / annual test guides: summary table, checklist, preparation, sources.
+import Base from '../layouts/Base.astro';
+import { SITE_URL } from '../data/site.js';
+
+interface Props {
+  title: string;
+  h1: string;
+  description: string;
+  path: string;
+  lead: string;
+  facts: [string, string][];
+  checks: { text: string; ref?: string }[];
+  prepare: string[];
+  sources: { name: string; url?: string }[];
+  checked: string;
+  related?: { href: string; text: string }[];
+}
+const p = Astro.props;
+const jsonLd = [{
+  '@context': 'https://schema.org', '@type': 'TechArticle', headline: p.h1, description: p.description,
+  url: `${SITE_URL}${p.path}`, dateModified: p.checked, inLanguage: 'en',
+  citation: p.sources.map((s) => s.name),
+}];
+---
+<Base title={p.title} description={p.description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Surveys and annual tests', path: '/surveys/' }, { name: p.h1, path: p.path }]}>
+  <h1>{p.h1}</h1>
+  <p class="lead">{p.lead}</p>
+
+  <div class="table-scroll">
+    <table class="facts"><tbody>{p.facts.map(([k, v]) => <tr><th>{k}</th><td set:html={v} /></tr>)}</tbody></table>
+  </div>
+
+  <h2>What is checked</h2>
+  <ol class="checks">
+    {p.checks.map((c) => <li>{c.text}{c.ref && <span class="source"> ({c.ref})</span>}</li>)}
+  </ol>
+
+  <h2>Prepare the ship</h2>
+  <ul>{p.prepare.map((x) => <li set:html={x} />)}</ul>
+
+  <slot />
+
+  {p.related && (
+    <>
+      <h2>Related</h2>
+      <div class="grid">{p.related.map((r) => <a class="card" href={r.href}><span>{r.text}</span></a>)}</div>
+    </>
+  )}
+
+  <p class="source">Sources (summarized in our own words, check the original): {p.sources.map((s, i) => <>{i > 0 && '; '}{s.url ? <a href={s.url} rel="noopener">{s.name}</a> : s.name}</>)}. Checked {p.checked}. Your flag State and class may have additional requirements.</p>
+</Base>
+
+<style>
+  .facts th { width: 32%; background: none; color: var(--muted); font-weight: 500; }
+  .checks li { margin: 6px 0; }
+</style>
