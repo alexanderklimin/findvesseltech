@@ -1,0 +1,79 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'Voyage Data Recorder (VDR): What It Records, Capsules and Retention';
+const description = 'Ship VDR explained per IMO MSC.333(90): fixed, float-free and long-term recording media, 48-hour and 30-day retention, 2-hour bridge audio on reserve power, the 20 data items recorded, annual performance test and finding a VDR engineer in port.';
+
+const media = [
+  ['Fixed capsule', 'At least 48 h', 'Protected against fire, shock, penetration and deep-sea pressure; keeps data at least 2 years after recording stops; highly visible, with an underwater locating device.', '5.2.1, 5.4.3'],
+  ['Float-free capsule', 'At least 48 h', 'Floats free after sinking; keeps data at least 6 months; sends a locating and homing signal for at least 48 h over at least 7 days; built like an EPIRB.', '5.2.2, 5.4.3'],
+  ['Long-term medium', 'At least 30 days / 720 h', 'Permanently installed, accessible from inside the ship; data can be read but not changed or deleted.', '5.2.3, 5.4.3'],
+];
+
+const items = [
+  'Date and time', "Ship's position", 'Speed', 'Heading', 'Bridge audio (at least two channels, bridge wings included)',
+  'Communications audio (VHF)', 'Radar displays (both required radars)', 'ECDIS display in use', 'Echo sounder',
+  'Main alarms (all mandatory bridge alarms)', 'Rudder order and response', 'Engine and thruster order and response',
+  'Hull openings status', 'Watertight and fire door status', 'Accelerations and hull stresses (if fitted)', 'Wind speed and direction',
+  'AIS data', 'Rolling motion', 'Configuration data', 'Electronic logbook (if fitted)',
+];
+
+const faq = [
+  ['What is a VDR?', 'A voyage data recorder, the ship\'s "black box": it continuously records position, speed, heading, bridge and VHF audio, radar and ECDIS screens, alarms, rudder and engine orders and more, in protected capsules, so that an incident can be reconstructed.'],
+  ['How long does the VDR keep data?', 'At least 48 hours in the fixed and float-free capsules and at least 30 days on the long-term recording medium, for VDRs installed on or after 1 July 2014. Older data may be overwritten.'],
+  ['What happens if the ship loses power?', 'The VDR keeps recording bridge audio from its dedicated reserve battery for 2 hours, then stops automatically. The annual performance test checks this.'],
+  ['What is the difference between VDR and S-VDR?', 'A simplified VDR (S-VDR, performance standard MSC.163(78)) records a reduced set of data items. SOLAS allowed it on certain existing cargo ships instead of a full VDR.'],
+  ['What should be done with VDR data after an incident?', 'Follow your company and flag instructions to save and preserve the data straight away: the capsules hold only the last 48 hours and older data is overwritten.'],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'Voyage data recorder (VDR): what it records, capsules and retention', description, url: `${SITE_URL}/equipment/vdr/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.msc333.name, IMO.c1222.name] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'VDR', path: '/equipment/vdr/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="vdr" size={34} /></span>
+    <div>
+      <h1>Voyage data recorder (VDR)</h1>
+      <p class="lead">What the ship's black box records, where it stores it and for how long, and what the annual performance test checks.</p>
+    </div>
+  </div>
+
+  <h2>Three recording media</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Medium</th><th>Keeps</th><th>Key requirements</th><th>Ref.</th></tr></thead>
+      <tbody>{media.map(([m, k, r, ref]) => <tr><td><strong>{m}</strong></td><td>{k}</td><td>{r}</td><td class="source">{ref}</td></tr>)}</tbody></table>
+  </div>
+  <p>On loss of ship's power the VDR records bridge audio from its reserve battery for 2 hours, then stops by itself (5.4.2).</p>
+  <p class="source">MSC.333(90), for VDRs installed on or after 1 July 2014. Earlier units follow A.861(20) as amended.</p>
+
+  <ServiceCta equipment="VDR / S-VDR" service="VDR annual performance test" icon="vdr" title="VDR APT or VDR fault?" text="Annual performance test, capsule, beacon or battery replacement, sensor interfaces: tell us the port and ETA." />
+
+  <h2>What the VDR records</h2>
+  <ol class="items">{items.map((x) => <li>{x}</li>)}</ol>
+  <p class="source">MSC.333(90), 5.5.1–5.5.20 (minimum set). The VDR also checks data integrity and alarms on non-correctable errors.</p>
+
+  <h2>Annual performance test</h2>
+  <p>Once a year, and after repairs to the VDR or its sensors, all data items must be confirmed as correctly recorded. The test is done by the manufacturer or its authorized agent within the survey window. See <a href="/surveys/vdr-annual-performance-test/">VDR annual performance test</a> and calculate your window with the <a href="/tools/survey-due-dates/">due date tool</a>.</p>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.msc333.url} rel="noopener">{IMO.msc333.name}</a>; <a href={IMO.c1222.url} rel="noopener">{IMO.c1222.name}</a>. Checked 2026-11-25.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .items { columns: 2 260px; column-gap: 28px; }
+  .items li { margin: 4px 0; break-inside: avoid; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>
