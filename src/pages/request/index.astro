@@ -96,6 +96,8 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
     const href = `mailto:${data.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     out.innerHTML = `<div class="note"><p><strong>Your email is ready.</strong> If your mail program did not open, <a href="${href}">click here</a> or copy the text below to <a href="mailto:${data.email}">${data.email}</a>.</p><textarea readonly rows="8"></textarea></div>`;
     (out.querySelector('textarea') as HTMLTextAreaElement).value = `Subject: ${subject}\n\n${body}`;
+    const w = window as unknown as { gtag?: (...a: unknown[]) => void };
+    w.gtag?.('event', 'generate_lead', { equipment: g('equipment'), service: g('service'), port: port });
     location.href = href;
   });
 </script>

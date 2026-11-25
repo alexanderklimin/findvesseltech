@@ -74,6 +74,8 @@
 ## Доступы
 - Keyword Planner (только чтение): research/kw_ideas.mjs и research/kw_hist.mjs. Запуск: `cd /opt/google-ads-mcp && set -a && . ./.env && set +a && /opt/astro-es/.tools/node/bin/node /opt/ship-radio/research/<скрипт>.mjs`. Язык en 1000, без гео = весь мир. Валюта аккаунта CLP: делить на ≈950.
 - Search Console: `cd /opt/shopify-mcp && node scripts/gsc.mjs …` (см. CLAUDE.md в /opt/limpieza-es).
+  Ресурс sc-domain:findvesseltech.com подтверждён 2026-11-25, sitemap отправлен.
+- GA4: G-NJ6286ZZ76 (Consent Mode v2, событие generate_lead на /request/). PageSpeed: `set -a; . /opt/asa-dashboard/.env; set +a; node research/psi.mjs <url>…`.
 
 ## Первые шаги
 1. ✅ Домен куплен 2026-11-25: **findvesseltech.com**, название FindVesselTech (выбор и проверки — research/domains.md). Регистратор и DNS ещё не настроены.

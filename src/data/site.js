@@ -7,3 +7,6 @@ export const NOINDEX = process.env.NOINDEX === '1';
 export const UPDATED = '2026-11-25';
 // Mailbox set up by the user ("contact", like the other sites).
 export const CONTACT_EMAIL = 'contact@findvesseltech.com';
+// GA4 measurement ID (user, 2026-11-25). Loaded only on ANALYTICS_HOST, with Consent Mode v2.
+export const GA_ID = 'G-NJ6286ZZ76';
+export const ANALYTICS_HOST = 'findvesseltech.com';

@@ -1,5 +1,6 @@
 ---
 import { SITE_NAME, NOINDEX } from '../data/site.js';
+import Analytics from '../components/Analytics.astro';
 
 interface Crumb { name: string; path: string }
 interface Props {
@@ -88,9 +89,10 @@ if (crumbs.length > 1) {
     <footer class="site-footer">
       <div class="wrap">
         <p><strong>{SITE_NAME}</strong> is a reference and service-request platform for ship radio and navigation equipment. It is not affiliated with any equipment manufacturer, classification society, AIS tracking service, flag administration or the ITU/IMO. Trademarks are used only to identify equipment. Always follow the manufacturer's manual for your software version and the requirements of your flag State and class.</p>
-        <p class="footer-links"><a href="/request/">Request a technician</a> <a href="/contact/">Contact</a> <a href="/about/">About</a> <a href="/privacy/">Privacy</a></p>
+        <p class="footer-links"><a href="/request/">Request a technician</a> <a href="/contact/">Contact</a> <a href="/about/">About</a> <a href="/privacy/">Privacy</a> <button type="button" class="footer-button" data-open-consent hidden>Cookies</button></p>
       </div>
     </footer>
+    <Analytics />
   </body>
 </html>
 
@@ -160,4 +162,5 @@ if (crumbs.length > 1) {
   .source { font-size: .88rem; color: var(--muted); }
   .site-footer { border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; padding: 20px 0 32px; }
   .footer-links a { margin-right: 14px; }
+  .site-footer .footer-button { color: var(--brand); min-height: auto; }
 </style>

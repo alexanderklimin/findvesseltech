@@ -87,3 +87,8 @@
 - Search Console: ресурса sc-domain:findvesseltech.com в аккаунте пока нет — пользователь добавляет (подтверждение через Cloudflare DNS), затем отправить sitemap https://findvesseltech.com/sitemap-index.xml.
 - Search Console: sc-domain:findvesseltech.com подтверждён (siteOwner), sitemap-index.xml принят 17:24 без ошибок; страницы пока «unknown to Google».
 - PageSpeed (research/psi.mjs, ключ из /opt/asa-dashboard/.env): главная, ECDIS, /request/ — 100/100/100/100 мобильный и десктоп, 8–10 КБ, LCP 0.8 с (моб.). NAVTEX десктоп perf 97 из-за CLS 0.115 (счётчик заполнялся скриптом) — счётчик теперь в HTML (и на MID codes).
+
+## 2026-11-25 (GA4)
+- GA4 G-NJ6286ZZ76 (от пользователя) с Consent Mode v2, как в tallerpedia: src/components/Analytics.astro. Только на findvesseltech.com; часовой пояс Европы → баннер, GA не грузится до «Accept»; вне Европы — без рекламного хранилища, Google сам применяет denied для EEA/UK/CH по IP. Ключ согласия fvt_consent, кнопка «Cookies» в подвале.
+- Событие generate_lead (equipment, service, port) при подготовке письма-заявки на /request/ — отметить его ключевым событием в GA4.
+- /privacy/: раздел «Analytics and cookies».
