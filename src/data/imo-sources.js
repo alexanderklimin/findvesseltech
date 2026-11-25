@@ -14,5 +14,7 @@ export const IMO = {
   msc148: { name: 'Res. MSC.148(77) (2003), Revised performance standards for NAVTEX receivers', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.148(77).pdf' },
   a424: { name: 'Res. A.424(XI) (1979), Performance standards for gyro-compasses', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.424(11).pdf' },
   msc128: { name: 'Res. MSC.128(75) (2002), Performance standards for a bridge navigational watch alarm system (BNWAS)', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.128(75).pdf' },
+  a807: { name: 'Res. A.807(19) (1995), Performance standards for Inmarsat-C ship earth stations', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.807(19).pdf' },
+  a664: { name: 'Res. A.664(16) (1989), Performance standards for enhanced group call (EGC) equipment', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.664(16).pdf' },
   hssc: { name: 'Res. A.1207(34), Survey Guidelines under the HSSC, 2025', url: 'https://wwwcdn.imo.org/localresources/en/OurWork/IIIS/Documents/A%2034-Res.1207%20-%20SURVEY%20GUIDELINES%20UNDER%20THE%20HARMONIZED%20SYSTEMOF%20SURVEY%20AND%20CERTIFICATION%20(HSSC),%202025%20(Secretariat).pdf' },
 };

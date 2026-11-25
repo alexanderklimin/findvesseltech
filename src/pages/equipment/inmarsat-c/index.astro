@@ -1,0 +1,93 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'Inmarsat-C on Ships: Distress Alerts, EGC SafetyNET and Antenna Problems';
+const description = 'Inmarsat-C ship earth station explained: distress button rules, position input, EGC SafetyNET alarms, power interruptions, antenna siting and shadowing (IMO A.807(19), A.664(16)), and its place in GMDSS since the 2024 modernization.';
+
+const rules = [
+  ['Distress button', 'A dedicated, clearly marked button protected against accidental use (not a keyboard key); sending an alert takes at least two independent actions.', 'A.807 3.3–3.5'],
+  ['Where from', 'Distress alerts can be sent from the conning position and from at least one other designated position.', 'A.807 3.2'],
+  ['Position and time', 'Both can be entered automatically (GNSS) and manually.', 'A.807 3.8'],
+  ['Identity', 'No external control may change the ship station identity.', 'A.807 3.1'],
+  ['Power', 'Runs from the main supply and from an alternative source, antenna tracking included. A changeover or interruption of up to 60 s must not need a manual restart or lose stored messages.', 'A.807 5'],
+  ['EGC alarm', 'Distress or urgency EGC messages give an aural and visual alarm at the conning position that cannot be disabled and is reset only by hand.', 'A.664 3.2'],
+  ['EGC tuning', 'The equipment shows when it is not tuned or synchronized to the EGC carrier.', 'A.664 3.3'],
+  ['RF hazard label', 'The radome is labelled with the distances where radiation reaches 100, 25 and 10 W/m².', 'A.807 4'],
+];
+
+const trouble = [
+  ['No EGC / SafetyNET messages', 'The terminal must be tuned and synchronized to the EGC carrier of the satellite covering your position; the equipment indicates when it is not. Check the ocean region / satellite selected and the antenna.'],
+  ['Frequent loss of signal on some headings', 'Antenna shadowing. For an omnidirectional antenna, no obstacle should be in view down to −5° fore and aft and −15° to the sides; objects within 1 m that shade more than 2° already degrade performance. Look for masts, funnels or other antennas close to it.'],
+  ['Position in reports is wrong or old', 'Check the GNSS input; the position and its time can also be entered by hand until the input is fixed.'],
+  ['Terminal restarts or loses messages after a power dip', 'It should ride through interruptions of up to 60 s. If it does not, check the power supply and the alternative source.'],
+  ['Hardware or antenna unit fault', 'Call a service technician. Before work near the radome, check the RF hazard distances on its label.'],
+];
+
+const faq = [
+  ['What is Inmarsat-C?', 'A two-way satellite data and messaging service with small, low-power ship terminals. In GMDSS it is used for ship-to-shore distress alerts, distress and safety messaging, and receiving maritime safety information through Enhanced Group Call (EGC) SafetyNET.'],
+  ['Is Inmarsat-C still required after the 2024 GMDSS modernization?', 'SOLAS chapter IV now refers to a "recognized mobile satellite service" rather than a named provider. A ship in sea area A3 needs a ship earth station of a recognized service; Inmarsat-C remains one way to meet this, and other recognized services can too.'],
+  ['What is EGC SafetyNET?', 'The satellite broadcast of navigational and meteorological warnings, forecasts and SAR information to ships in an area, received on the Inmarsat-C terminal or a separate EGC receiver. It covers areas beyond NAVTEX range.'],
+  ['Can I test the distress alert?', 'Never send a live distress alert to test. Use the terminal\'s built-in tests and the test procedures of your service provider, as described in the manual.'],
+];
+
+const makers = ['Furuno (Felcom)', 'Sailor (Cobham, formerly Thrane & Thrane)', 'JRC'];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'Inmarsat-C on ships: distress alerts, EGC SafetyNET and antenna problems', description, url: `${SITE_URL}/equipment/inmarsat-c/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.a807.name, IMO.a664.name, IMO.msc496.name] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'Inmarsat-C', path: '/equipment/inmarsat-c/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="satellite" size={34} /></span>
+    <div>
+      <h1>Inmarsat-C</h1>
+      <p class="lead">The satellite terminal behind distress alerts, safety messages and EGC SafetyNET on many ships. What it must do, and how to deal with the common problems.</p>
+    </div>
+  </div>
+
+  <h2>Problems and what to check</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+      <tbody>{trouble.map(([s, c]) => <tr><td><strong>{s}</strong></td><td>{c}</td></tr>)}</tbody></table>
+  </div>
+
+  <ServiceCta equipment="Inmarsat-C / satellite GMDSS" service="Repair / troubleshooting" icon="satellite" title="Inmarsat-C not working?" text="Terminal, antenna, EGC reception, power supply: tell us the port and ETA." />
+
+  <h2>What the IMO standards require</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Item</th><th>Requirement</th><th>Ref.</th></tr></thead>
+      <tbody>{rules.map(([a, b, c]) => <tr><td><strong>{a}</strong></td><td>{b}</td><td class="source">{c}</td></tr>)}</tbody></table>
+  </div>
+  <p class="source">A.807(19) applies to Inmarsat-C ship earth stations installed on or after 23 November 1996.</p>
+
+  <h2>Related</h2>
+  <div class="grid">
+    <a class="card" href="/equipment/gmdss/"><span class="ico"><Icon name="gmdss" /></span><strong>GMDSS sea areas</strong><span>What a ship needs in A1–A4 since 2024.</span></a>
+    <a class="card" href="/equipment/navtex/"><span class="ico"><Icon name="navtex" /></span><strong>NAVTEX</strong><span>Coastal MSI on 518/490 kHz.</span></a>
+  </div>
+
+  <h2>Common makers</h2>
+  <p class="makers">{makers.map((m) => <span>{m}</span>)}</p>
+  <p class="source">Brand names identify equipment only. Inmarsat is a trademark of its owner.</p>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.a807.url} rel="noopener">{IMO.a807.name}</a>; <a href={IMO.a664.url} rel="noopener">{IMO.a664.name}</a>; <a href={IMO.msc496.url} rel="noopener">{IMO.msc496.name}</a>. Checked 2026-11-25.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .makers { display: flex; flex-wrap: wrap; gap: 8px; }
+  .makers span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: .93rem; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>

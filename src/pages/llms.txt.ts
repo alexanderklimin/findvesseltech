@@ -14,6 +14,7 @@ export function GET() {
 - [MID codes](${SITE_URL}/tools/mid-codes/): all Maritime Identification Digits by country from the ITU table
 
 ## Equipment
+- [Inmarsat-C](${SITE_URL}/equipment/inmarsat-c/): distress alert rules, EGC SafetyNET, power and antenna siting per A.807(19) and A.664(16)
 - [BNWAS](${SITE_URL}/equipment/bnwas/): alarm stages and timings, modes and reset rules per MSC.128(75)
 - [Gyro compass](${SITE_URL}/equipment/gyro-compass/): settling time, accuracy and alarms per IMO A.424(XI), troubleshooting
 - [NAVTEX receiver](${SITE_URL}/equipment/navtex/): B1/B2, receiver requirements per MSC.148(77), troubleshooting

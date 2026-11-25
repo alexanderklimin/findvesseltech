@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 
 const ready = [
+  { icon: 'satellite', href: '/equipment/inmarsat-c/', name: 'Inmarsat-C', text: 'Distress button rules, EGC SafetyNET alarms, power and antenna shadowing.' },
   { icon: 'clipboard', href: '/equipment/bnwas/', name: 'BNWAS', text: 'Alarm stages and timings, modes, reset rules, false alarms.' },
   { icon: 'gyro', href: '/equipment/gyro-compass/', name: 'Gyro compass', text: 'Settling time, accuracy, speed and latitude correction, repeaters, alarms.' },
   { icon: 'navtex', href: '/equipment/navtex/', name: 'NAVTEX', text: 'B1/B2 settings, what the receiver must do, troubleshooting no messages and asterisks.' },
@@ -12,7 +13,7 @@ const ready = [
   { icon: 'ecdis', href: '/equipment/ecdis/', name: 'ECDIS', text: 'Requirements, performance standard by installation date, software updates, known anomalies.' },
 ];
 const planned = [
-['satellite', 'Inmarsat-C and satellite GMDSS', 'Inmarsat-C / satellite GMDSS'], ['vdr', 'VDR / S-VDR', 'VDR / S-VDR'], ['ais', 'AIS', 'AIS']
+['vdr', 'VDR / S-VDR', 'VDR / S-VDR'], ['ais', 'AIS', 'AIS']
 ];
 ---
 <Base title="Ship Radio and Navigation Equipment Guides" description="Guides to ship bridge equipment: ECDIS, radar, GMDSS, Inmarsat-C, EPIRB, VDR, AIS, gyro compass. Requirements, common problems and how to get an engineer in port." crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }]}>
