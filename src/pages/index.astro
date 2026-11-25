@@ -9,7 +9,7 @@ const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SI
 // Equipment shortcuts: open the request form with the equipment preselected (values match EQUIPMENT in data/service.js).
 const equipment = [
   { icon: 'radar', name: 'Radar', value: 'Radar / ARPA' },
-  { icon: 'ecdis', name: 'ECDIS', value: 'ECDIS' },
+  { icon: 'ecdis', name: 'ECDIS', value: 'ECDIS', href: '/equipment/ecdis/' },
   { icon: 'gmdss', name: 'GMDSS', value: 'GMDSS console (MF/HF, VHF DSC)' },
   { icon: 'satellite', name: 'Inmarsat', value: 'Inmarsat-C / satellite GMDSS' },
   { icon: 'epirb', name: 'EPIRB', value: 'EPIRB' },
@@ -64,7 +64,7 @@ const tools = [
   <h2>What needs fixing?</h2>
   <div class="eq">
     {equipment.map((e) => (
-      <a href={`/request/?equipment=${encodeURIComponent(e.value)}`} class="eq-item">
+      <a href={e.href ?? `/request/?equipment=${encodeURIComponent(e.value)}`} class="eq-item">
         <span class="ico"><Icon name={e.icon} size={30} /></span><span>{e.name}</span>
       </a>
     ))}

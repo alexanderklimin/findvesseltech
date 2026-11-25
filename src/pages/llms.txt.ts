@@ -12,6 +12,9 @@ export function GET() {
 - [Survey due dates](${SITE_URL}/tools/survey-due-dates/): time windows for radio survey, EPIRB, VDR and AIS annual tests and EPIRB SBM per HSSC 2025 (A.1207(34)) and MSC.1/Circ.1576
 - [MID codes](${SITE_URL}/tools/mid-codes/): all Maritime Identification Digits by country from the ITU table
 
+## Equipment
+- [ECDIS](${SITE_URL}/equipment/ecdis/): requirements (SOLAS V/19), performance standard by installation date (MSC.530(106)), software updates and known anomalies (MSC.1/Circ.1503/Rev.2)
+
 ## Surveys and annual tests
 - [EPIRB annual test](${SITE_URL}/surveys/epirb-annual-test/): checklist per SOLAS IV/15.9 and MSC.1/Circ.1040/Rev.2
 - [VDR annual performance test](${SITE_URL}/surveys/vdr-annual-performance-test/): SOLAS V/18.8, MSC.1/Circ.1222/Rev.1

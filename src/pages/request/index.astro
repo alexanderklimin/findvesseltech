@@ -104,7 +104,7 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
   fieldset { border: 0; padding: 0; margin: 0 0 16px; }
   legend { font-weight: 700; margin-bottom: 6px; font-size: 1.05rem; }
   .req label { display: flex; flex-direction: column; gap: 4px; margin: 8px 0; font-weight: 600; font-size: .93rem; }
-  .req input[type=text], .req input[type=email], .req input[type=tel], .req input[type=date], .req select, .req textarea {
+  .req :global(input[type=text]), .req input[type=email], .req input[type=tel], .req input[type=date], .req select, .req textarea {
     font: inherit; font-weight: 400; padding: 9px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); width: 100%;
   }
   .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0 12px; }

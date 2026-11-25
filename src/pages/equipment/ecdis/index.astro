@@ -1,0 +1,118 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'ECDIS: Requirements, Software Updates and Known Anomalies';
+const description = 'What ECDIS is, when it is mandatory (SOLAS V/19), which IMO performance standard applies by installation date, software updates to IHO standards, known display anomalies with workarounds, and finding an ECDIS engineer in port.';
+
+const standards = [
+  ['Before 1 Jan 2009', 'A.817(19), as amended'],
+  ['1 Jan 2009 – 31 Dec 2025', 'MSC.232(82)'],
+  ['1 Jan 2026 – 31 Dec 2028', 'MSC.232(82) or MSC.530(106)'],
+  ['From 1 Jan 2029', 'MSC.530(106)'],
+];
+
+const conditions = [
+  ['Type-approved', 'Certified against the IMO performance standards (test standard IEC 61174) by a flag-accredited body or class (SOLAS V/18).'],
+  ['Up-to-date ENCs', 'Official charts of the latest edition, kept updated with ENC updates and notices to mariners (SOLAS V/19.2.1.4, V/27).'],
+  ['Current IHO standards', 'Software compatible with the latest IHO chart content, display and data protection standards.'],
+  ['Independent backup', 'A safe takeover if ECDIS fails, and a way to navigate safely for the rest of the voyage. The backup must be kept up to date too.'],
+];
+
+const anomalies = [
+  ['"?" instead of a symbol, or an ENC fails to load', 'Old Presentation Library: new IMO features such as archipelagic sea lanes (ASL) or PSSAs are not drawn.', 'Interrogate the "?" with the pick report; check paper charts or publications; update the software.'],
+  ['Foul areas or obstructions missing in "Standard" display', 'Some models only show them in "All" / "Other" mode (alarms still work).', 'Use display mode "All" or "Other".'],
+  ['Object on a contour line not shown', 'Fails to display in "Standard" mode on some equipment.', 'Use display mode "All" or "Other".'],
+  ['Small islets not shown or not alarmed', 'Small land areas on small-scale ENCs may be hidden by text, and some units do not route-check small-scale ENCs.', 'Inspect the largest-scale ENC along the route by eye.'],
+  ['Wrecks or obstructions not shown in any mode', 'Reported on some software versions of one manufacturer, since fixed by an update.', 'Use paper charts; ask the manufacturer for the update.'],
+];
+
+const faq = [
+  ['What does ECDIS mean?', 'Electronic Chart Display and Information System: type-approved navigation equipment that displays official electronic navigational charts (ENCs) with the ship\'s position and can replace paper charts under SOLAS when the conditions above are met.'],
+  ['Is ECDIS mandatory?', 'Yes, for ships covered by SOLAS regulation V/19.2.10. Carriage was phased in by ship type and size between 1 July 2012 and 1 July 2018.'],
+  ['Which performance standard does my ECDIS have to meet?', 'It depends on when it was installed: see the table above. For new ships, "installed" relates to the building contract date; for existing ships, to the equipment delivery date.'],
+  ['Do I still need paper charts?', 'Not if the ECDIS and its independent backup meet the carriage requirements with ENCs, unless a coastal State or your flag requires them (the IHO online chart catalogue links to coastal State guidance). Where ENCs are missing or the scale is inadequate, ECDIS runs in RCDS mode with raster charts, which must be used together with an appropriate folio of up-to-date paper charts.'],
+  ['What paperwork should be on board after a software update?', 'Proof that the updated ECDIS is still conformant: a new type approval certificate (TAC) and declaration of conformity, or the old TAC with a letter of acceptance and a new declaration, or the old TAC and declaration when the type approval authority decided no new documents were needed. Plus the updated user manual if applicable.'],
+];
+
+const makers = ['Furuno', 'JRC', 'Wärtsilä (Transas Navi-Sailor)', 'Kongsberg', 'Raytheon Anschütz', 'Sperry Marine', 'Tokyo Keiki'];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'ECDIS: requirements, software updates and known anomalies', description, url: `${SITE_URL}/equipment/ecdis/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.c1503.name, IMO.msc530.name, 'SOLAS chapter V'] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'ECDIS', path: '/equipment/ecdis/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="ecdis" size={34} /></span>
+    <div>
+      <h1>ECDIS</h1>
+      <p class="lead">Electronic Chart Display and Information System: the type-approved chart system that replaces paper charts on the bridge. What makes it legal to navigate with, what goes wrong, and when to call an engineer.</p>
+    </div>
+  </div>
+
+  <h2>Four conditions to navigate with ECDIS instead of paper</h2>
+  <div class="grid four">
+    {conditions.map(([t, d]) => <div class="card"><strong>{t}</strong><span>{d}</span></div>)}
+  </div>
+  <p class="source">MSC.1/Circ.1503/Rev.2, paragraphs 6–11.</p>
+
+  <h2>Which performance standard applies</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>ECDIS installed</th><th>IMO performance standard</th></tr></thead>
+      <tbody>{standards.map(([d, s]) => <tr><td>{d}</td><td><strong>{s}</strong></td></tr>)}</tbody></table>
+  </div>
+  <p class="source">Res. MSC.530(106), operative paragraphs 2–3. For ships contracted from 2029, any installation date counts as "on or after 1 January 2029".</p>
+
+  <h2>Software updates: why they matter</h2>
+  <p>ECDIS is hardware, software and chart data. Software that is not kept compatible with the latest IHO standards may no longer meet the SOLAS chart carriage requirements: it can draw new chart features wrongly, miss alarms, or fail to decrypt and load ENCs.</p>
+  <ul>
+    <li>Manufacturers should publish software version information, including which IHO standards are implemented, and actively tell users about essential updates.</li>
+    <li>Before an update is installed on board, the manufacturer notifies the type approval authority, which decides whether new tests or documents are needed.</li>
+    <li>Keep the resulting documents on board: TAC and declaration of conformity (new, or supplemented by a letter of acceptance) and the updated manual.</li>
+    <li>Plan software maintenance in the ship's ISM procedures.</li>
+  </ul>
+  <p class="source">MSC.1/Circ.1503/Rev.2, paragraphs 12–24.</p>
+
+  <ServiceCta equipment="ECDIS" service="Repair / troubleshooting" icon="ecdis" title="ECDIS update, repair or failure?" text="Software upgrades to the latest IHO standards, chart loading problems, hardware failures: tell us the port and ETA." />
+
+  <h2>Known display anomalies and workarounds</h2>
+  <p>IMO lists operating anomalies found in type-approved equipment. They are most common in units approved before 2009, but newer units can still be affected.</p>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>What you see</th><th>Why</th><th>Workaround</th></tr></thead>
+      <tbody>{anomalies.map(([a, b, c]) => <tr><td><strong>{a}</strong></td><td>{b}</td><td>{c}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p class="source">MSC.1/Circ.1503/Rev.2, section D and appendix 1 (selection). Report new anomalies to your flag Administration.</p>
+
+  <h2>ECDIS mode and RCDS mode</h2>
+  <p>With official vector charts (ENCs) the system works in full ECDIS mode. Where no suitable ENC exists it can display raster charts (RNCs) in RCDS mode, which lacks some ECDIS functions and may only be used together with an appropriate portfolio of up-to-date paper charts.</p>
+
+  <h2>Common makers</h2>
+  <p class="makers">{makers.map((m) => <span>{m}</span>)}</p>
+  <p class="source">Model guides with official manual links will be added. Brand names identify equipment only.</p>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.c1503.url} rel="noopener">{IMO.c1503.name}</a>; <a href={IMO.msc530.url} rel="noopener">{IMO.msc530.name}</a>; SOLAS regulations V/18, V/19, V/27. Checked 2026-11-25. Your flag State may have additional requirements.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .head h1 { margin-top: .2em; }
+  .four { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .four .card strong { display: block; color: var(--brand); margin-bottom: 4px; }
+  .four .card span { color: var(--muted); font-size: .93rem; }
+  .makers { display: flex; flex-wrap: wrap; gap: 8px; }
+  .makers span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: .93rem; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>

@@ -1,0 +1,24 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+
+const ready = [
+  { icon: 'ecdis', href: '/equipment/ecdis/', name: 'ECDIS', text: 'Requirements, performance standard by installation date, software updates, known anomalies.' },
+];
+const planned = [
+  ['radar', 'Radar / ARPA', 'Radar / ARPA'], ['gmdss', 'GMDSS consoles (MF/HF, VHF DSC)', 'GMDSS console (MF/HF, VHF DSC)'],
+  ['satellite', 'Inmarsat-C and satellite GMDSS', 'Inmarsat-C / satellite GMDSS'], ['epirb', 'EPIRB and SART', 'EPIRB'],
+  ['vdr', 'VDR / S-VDR', 'VDR / S-VDR'], ['ais', 'AIS', 'AIS'], ['gyro', 'Gyro compass', 'Gyro compass'], ['navtex', 'NAVTEX', 'NAVTEX'],
+];
+---
+<Base title="Ship Radio and Navigation Equipment Guides" description="Guides to ship bridge equipment: ECDIS, radar, GMDSS, Inmarsat-C, EPIRB, VDR, AIS, gyro compass. Requirements, common problems and how to get an engineer in port." crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }]}>
+  <h1>Equipment</h1>
+  <p class="lead">What the rules require, what typically goes wrong and when to call a service engineer. Each page cites IMO, ITU and manufacturer sources.</p>
+  <div class="grid">
+    {ready.map((e) => <a class="card" href={e.href}><span class="ico"><Icon name={e.icon} /></span><strong>{e.name}</strong><span>{e.text}</span></a>)}
+  </div>
+  <h2>In preparation</h2>
+  <div class="grid">
+    {planned.map(([i, n, v]) => <a class="card soon" href={`/request/?equipment=${encodeURIComponent(v)}`}><span class="ico"><Icon name={i} /></span><strong>{n}</strong><span>Guide coming soon. Need service now? Request a technician.</span></a>)}
+  </div>
+</Base>
