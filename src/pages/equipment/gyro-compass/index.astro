@@ -1,0 +1,86 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'Ship Gyro Compass: Settling Time, Accuracy, Errors and Alarms';
+const description = 'How a marine gyro compass performs under IMO standard A.424(XI): settling time after switch-on or blackout, accuracy (0.75° × secant latitude), speed and latitude correction, repeater alignment, alarms, and when to call a gyro technician.';
+
+const specs = [
+  ['Settling time', 'Within 6 hours of switch-on, in latitudes up to 60°, also when rolling and pitching.', '5.1.1, 5.2.1'],
+  ['Settle point error', 'Not more than ±0.75° × secant latitude, at any heading.', '5.1.2'],
+  ['Steady-state error at sea', 'Not more than ±0.25° × secant latitude after speed and course correction (at 20 kn).', '5.2.3.1'],
+  ['Rapid speed change (20 kn)', 'Error not more than ±2°.', '5.2.3.2'],
+  ['Rapid 180° turn at 20 kn', 'Error not more than ±3°.', '5.2.3.3'],
+  ['Repeaters', 'Not more than ±0.5° divergence from the master compass.', '5.2.4'],
+  ['Corrections', 'Means to correct errors caused by speed and latitude.', '9.2'],
+  ['Alarm', 'Automatic alarm for a major fault in the compass system.', '9.3'],
+];
+
+const trouble = [
+  ['Heading unreliable after a blackout or restart', 'The gyro has to settle again: allow the settling time given in its manual (up to 6 hours under the IMO standard) and cross-check against the magnetic compass or GNSS heading before trusting it.'],
+  ['Heading slowly wrong by a degree or two', 'Check the speed and latitude correction: manual entries must be kept current, automatic inputs (log, GNSS) must be working. Compare with a transit or azimuth to find the gyro error.'],
+  ['Repeater disagrees with the master', 'Repeaters must agree within 0.5°. Re-align (synchronize) the repeater as described in the manual.'],
+  ['Gyro system alarm', 'A major fault: switch the autopilot and other users to a backup heading source per your procedures and call a gyro technician.'],
+];
+
+const faq = [
+  ['What is a gyro compass?', 'A compass that finds true north using a spinning gyroscope (or, in modern units, other non-magnetic sensors) and the Earth\'s rotation, unaffected by the ship\'s magnetism. It feeds heading to radar, ECDIS, autopilot, AIS and VDR.'],
+  ['Which ships must have one?', 'Under SOLAS chapter V, ships of 500 GT and upwards must have a gyro-compass or other non-magnetic means of determining and displaying heading. Check SOLAS regulation V/19 and your flag for your ship.'],
+  ['Why does accuracy depend on latitude?', 'The directive force that aligns the gyro with the meridian weakens towards the poles, so IMO allowances are multiplied by the secant of the latitude and apply only up to 60°.'],
+  ['Gyro compass vs magnetic compass?', 'The gyro points to true north and is not affected by the ship\'s steel or cargo, but needs power and settling time. The magnetic compass needs no power and remains the independent backup.'],
+];
+
+const makers = ['Anschütz (Raytheon)', 'Sperry Marine', 'Tokyo Keiki', 'Yokogawa', 'C. Plath', 'Simrad', 'Furuno (satellite compass)'];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'Ship gyro compass: settling time, accuracy, errors and alarms', description, url: `${SITE_URL}/equipment/gyro-compass/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.a424.name, 'SOLAS chapter V'] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'Gyro compass', path: '/equipment/gyro-compass/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="gyro" size={34} /></span>
+    <div>
+      <h1>Gyro compass</h1>
+      <p class="lead">Settling time, accuracy and alarms of the ship's gyro compass, and what to do when the heading cannot be trusted.</p>
+    </div>
+  </div>
+
+  <h2>Problems and what to check</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+      <tbody>{trouble.map(([s, c]) => <tr><td><strong>{s}</strong></td><td>{c}</td></tr>)}</tbody></table>
+  </div>
+
+  <ServiceCta equipment="Gyro compass" service="Repair / troubleshooting" icon="gyro" title="Gyro alarm or heading error?" text="Gyro, repeaters, heading distribution: tell us the port and ETA and we pass it to gyro technicians there." />
+
+  <h2>IMO performance requirements</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Item</th><th>Requirement</th><th>Ref.</th></tr></thead>
+      <tbody>{specs.map(([a, b, c]) => <tr><td><strong>{a}</strong></td><td>{b}</td><td class="source">{c}</td></tr>)}</tbody></table>
+  </div>
+  <p class="source">Resolution A.424(XI). Example: at 50° latitude the secant is 1.56, so the settle point error may be up to about ±1.2°.</p>
+
+  <h2>Common makers</h2>
+  <p class="makers">{makers.map((m) => <span>{m}</span>)}</p>
+  <p class="source">Brand names identify equipment only.</p>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.a424.url} rel="noopener">{IMO.a424.name}</a>; SOLAS chapter V. Checked 2026-11-25. Follow your gyro manufacturer's manual for settling and alignment procedures.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .makers { display: flex; flex-wrap: wrap; gap: 8px; }
+  .makers span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: .93rem; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>

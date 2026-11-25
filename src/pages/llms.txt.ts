@@ -14,6 +14,7 @@ export function GET() {
 - [MID codes](${SITE_URL}/tools/mid-codes/): all Maritime Identification Digits by country from the ITU table
 
 ## Equipment
+- [Gyro compass](${SITE_URL}/equipment/gyro-compass/): settling time, accuracy and alarms per IMO A.424(XI), troubleshooting
 - [NAVTEX receiver](${SITE_URL}/equipment/navtex/): B1/B2, receiver requirements per MSC.148(77), troubleshooting
 - [GMDSS](${SITE_URL}/equipment/gmdss/): sea areas A1–A4, required radio equipment per area and watches, SOLAS IV as amended by MSC.496(105) (in force 1 Jan 2024)
 - [EPIRB](${SITE_URL}/equipment/epirb/): 406 MHz EPIRB requirements per MSC.471(101) (GNSS, AIS locator, 121.5 MHz, 48 h), annual test, SBM, registration, false alerts
