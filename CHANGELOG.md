@@ -52,3 +52,11 @@
 - Первый подрядчик: Naval Radio (Чили, офисы в Панаме и Перу). В CLAUDE.md и память; пилотные порты начинаем с Valparaíso, San Antonio, Callao, Balboa, Cristóbal. Найден официальный источник станций NAVTEX: GMDSS.1/Circ.22 (GMDSS Master Plan, IMO) и ITU Navtex.pdf.
 - Naval Radio также в Эквадоре (Guayaquil/Posorja добавлены в пилот). Один из партнёров пользователя по проекту — оттуда: раскрыть связь на сайте.
 - Решение: Naval Radio на сайте не упоминать. Из подвала и About убрано «independent»; в условиях формы будет общая фраза про сервисных партнёров и вознаграждение (без имён).
+
+## 2026-11-25 (главная под концепцию, форма, git)
+- Главная переделана: «ремонт, освидетельствования и тесты в следующем порту» + быстрая форма (оборудование, порт, ETA) → /request/. Меню: Request a technician · Surveys · Tools.
+- /request/: форма заявки (услуга, оборудование, производитель/модель, проблема, порт, ETA/ETD, судно/IMO, контакт, согласие). Отправка — письмо через mailto на contact@findvesseltech.com (сервер не нужен). Поля спроектированы под будущую рассылку подрядчикам по порту и типу оборудования.
+- Порты на сайте: Balboa, Cristóbal/Colón, Callao, Guayaquil, Posorja, Valparaíso, San Antonio (без имени подрядчика).
+- /contact/, обновлена /privacy/ (заявки передаются сервисным партнёрам порта).
+- Исправлено: [hidden] перебивался CSS (поле «Other port» было видно).
+- Git: репозиторий alexanderklimin/findvesseltech (приватный), deploy key findvesseltech_deploy, wrangler name findvesseltech, workers_dev true, .node-version 22.23.5. Первый коммит сделан, push ждёт создания репозитория и ключа.
