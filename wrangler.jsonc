@@ -1,8 +1,8 @@
 {
   // Static site on Cloudflare Workers (static assets). Build: npm run build → dist/
   // Deploy: Cloudflare Workers Builds from GitHub (build `npm run build`, deploy `npx wrangler deploy`).
-  // Domain findvesseltech.com connected by the user on 2026-11-25. Still noindex (NOINDEX in src/data/site.js)
-  // until the user says "yes": then set build env PUBLIC_INDEX=1 in Workers Builds.
+  // Domain findvesseltech.com connected by the user on 2026-11-25. Indexing open since 2026-11-25;
+  // build env NOINDEX=1 closes it again (src/data/site.js).
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "findvesseltech",
   "compatibility_date": "2026-11-01",
