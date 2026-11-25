@@ -1,0 +1,104 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'EPIRB: How It Works, Requirements, Testing and Registration';
+const description = 'Ship EPIRB explained: what a 406 MHz emergency position-indicating radio beacon must do (IMO MSC.471(101)), AIS and GNSS in new beacons, annual test, shore-based maintenance, battery and HRU, registration and what to do after a false alert.';
+
+const features = [
+  ['Float-free', 'Releases itself before 4 m depth at any list or trim, and switches on automatically when floating.', '2.3.3, 2.6.3'],
+  ['406 MHz + GNSS', 'Sends a distress alert with its GNSS position to Cospas-Sarsat satellites.', '2.1, 2.3.15'],
+  ['121.5 MHz homing', 'Lets aircraft home in on the beacon.', '2.3.14'],
+  ['AIS locating signal', 'Transmits on AIS 1 and AIS 2 so nearby ships receive it: its 15 Hex ID alternating with the text "EPIRB ACTIVE".', '2.3.16, B.5'],
+  ['48 h battery', 'Operates for at least 48 hours from activation.', '2.4'],
+  ['Light and colour', 'Yellow/orange, retroreflective, with a low-duty-cycle light visible to night vision devices.', '2.3.9, 2.3.11'],
+  ['Buoyant lanyard', 'To tie to a liferaft, lifeboat or person, never to the ship.', '2.3.10'],
+  ['Labelled', 'Brief instructions, battery expiry date and the programmed identity codes on the outside.', '5.2'],
+];
+
+const cycle = [
+  ['On board, as per manual', 'Self-test using the beacon\'s own test function (no satellite alert); check the HRU and battery dates on the label.', '/surveys/epirb-annual-test/', 'MSC.471(101) 2.3.8'],
+  ['Every year', 'Annual test by the radio surveyor, within the radio survey window: 17 checks including decoding the Hex ID and registration.', '/surveys/epirb-annual-test/', 'SOLAS IV/15.9, MSC.1/Circ.1040/Rev.2'],
+  ['At most every 5 years', 'Shore-based maintenance (SBM) by an approved provider, at intervals set by the flag. Battery replacement recommended at the same time.', '/tools/survey-due-dates/', 'MSC.1/Circ.1039/Rev.1'],
+  ['Before expiry', 'Battery and hydrostatic release unit (HRU) replaced by an approved service agent.', '/tools/survey-due-dates/', 'MSC.1/Circ.1040/Rev.2 4.8–4.9'],
+];
+
+const faq = [
+  ['What is an EPIRB?', 'An Emergency Position-Indicating Radio Beacon: a float-free distress beacon that, when activated, sends the ship\'s identity and GNSS position to search and rescue via the Cospas-Sarsat satellite system on 406 MHz, and transmits 121.5 MHz and AIS signals for homing.'],
+  ['Which standard must my EPIRB meet?', 'EPIRBs installed on or after 1 July 2022 must meet resolution MSC.471(101), which adds a GNSS receiver and an AIS locating signal. Beacons installed earlier follow resolution A.810(19), as amended.'],
+  ['Does an EPIRB have to be registered?', 'Yes. The annual test checks that the beacon is registered in the national database or the International Beacon Registration Database. Update the registration after a change of owner, name, flag or contacts. Decode your beacon with our Hex ID decoder first.'],
+  ['What should I do after a false alert?', 'Stop the transmission at once and inform the nearest rescue coordination centre (RCC), and also the nearest Cospas-Sarsat mission control centre. Do not just switch it off and stay silent.'],
+  ['Is a PLB the same as an EPIRB?', 'No. A PLB is a personal locator beacon carried by a person. It is not a float-free installation and does not replace the ship\'s EPIRB required under SOLAS.'],
+];
+
+const makers = ['McMurdo', 'Jotron', 'ACR Electronics', 'Kannad', 'Ocean Signal', 'Furuno', 'JRC', 'GME'];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'EPIRB: how it works, requirements, testing and registration', description, url: `${SITE_URL}/equipment/epirb/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.msc471.name, IMO.c1040.name, IMO.c1039.name] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'EPIRB', path: '/equipment/epirb/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="epirb" size={34} /></span>
+    <div>
+      <h1>EPIRB</h1>
+      <p class="lead">The ship's emergency position-indicating radio beacon: what it must do, how it is tested and maintained, and the paperwork the surveyor checks.</p>
+    </div>
+  </div>
+
+  <div class="tools">
+    <a class="card" href="/tools/epirb-hex-id-decoder/"><span class="ico"><Icon name="search" /></span><strong>Decode your Hex ID</strong><span>Country code, MMSI or serial in the beacon.</span></a>
+    <a class="card" href="/tools/survey-due-dates/"><span class="ico"><Icon name="calendar" /></span><strong>Due dates</strong><span>Annual test, SBM, battery and HRU expiry.</span></a>
+    <a class="card" href="/surveys/epirb-annual-test/"><span class="ico"><Icon name="clipboard" /></span><strong>Annual test checklist</strong><span>The 17 checks of MSC.1/Circ.1040/Rev.2.</span></a>
+  </div>
+
+  <h2>What a modern EPIRB must do</h2>
+  <p>For EPIRBs installed on or after 1 July 2022 (resolution MSC.471(101)):</p>
+  <div class="grid feat">
+    {features.map(([t, d, r]) => <div class="card"><strong>{t}</strong><span>{d}</span><small class="source">MSC.471(101) {r}</small></div>)}
+  </div>
+
+  <h2>Testing and maintenance cycle</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>When</th><th>What</th><th>Rule</th></tr></thead>
+      <tbody>{cycle.map(([w, d, h, r]) => <tr><td><strong>{w}</strong></td><td>{d} <a href={h}>More</a></td><td class="source">{r}</td></tr>)}</tbody></table>
+  </div>
+
+  <ServiceCta equipment="EPIRB" service="EPIRB annual test / shore-based maintenance" icon="epirb" title="EPIRB test, SBM, battery or recoding?" text="Annual test, shore-based maintenance, battery or HRU replacement, recoding after a flag change: tell us the port and ETA." />
+
+  <div class="note">
+    <p><strong>Safety.</strong> Never activate the EPIRB to test it: use only the self-test. Do not open the beacon or change its lithium battery on board. After an accidental alert, stop the transmission and tell the nearest RCC and Cospas-Sarsat mission control centre straight away (MSC.1/Circ.1040/Rev.2, §3).</p>
+  </div>
+
+  <h2>Common makers</h2>
+  <p class="makers">{makers.map((m) => <span>{m}</span>)}</p>
+  <p class="source">Brand names identify equipment only.</p>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.msc471.url} rel="noopener">{IMO.msc471.name}</a>; <a href={IMO.c1040.url} rel="noopener">{IMO.c1040.name}</a>; <a href={IMO.c1039.url} rel="noopener">{IMO.c1039.name}</a>; SOLAS regulation IV/15.9. Checked 2026-11-25.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .tools { display: grid; gap: 10px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 8px 0 4px; }
+  .tools a { text-decoration: none; color: var(--text); }
+  .tools strong { display: block; color: var(--brand); }
+  .tools span:not(.ico) { color: var(--muted); font-size: .92rem; }
+  .feat { grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+  .feat .card strong { display: block; color: var(--brand); margin-bottom: 4px; }
+  .feat .card span { display: block; color: var(--muted); font-size: .93rem; }
+  .feat .card small { display: block; margin-top: 6px; }
+  .makers { display: flex; flex-wrap: wrap; gap: 8px; }
+  .makers span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: .93rem; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>
