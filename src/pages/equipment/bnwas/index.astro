@@ -1,0 +1,96 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'BNWAS: Alarm Stages, Timings, Modes and False Alarms';
+const description = 'Bridge navigational watch alarm system (BNWAS) explained per IMO MSC.128(75): dormant period 3–12 min, visual indication, first, second and third stage alarms, operating modes, reset rules, emergency call and common problems.';
+
+const stages = [
+  ['Dormant period (Td)', '3–12 min, set by the Master', 'Nothing happens while the OOW resets the system in time.'],
+  ['Visual indication', 'At the end of Td', 'Flashing indication on the bridge.'],
+  ['1st stage alarm', '+15 s', 'Audible alarm on the bridge.'],
+  ['2nd stage alarm', '+15 s', 'Remote alarm at the Master\'s and/or back-up officer\'s location.'],
+  ['3rd stage alarm', '+90 s (up to 3 min on large ships)', 'Remote alarm where other crew able to take action are.'],
+];
+
+const rules = [
+  ['Modes', 'Automatic (follows the heading/track control system, i.e. autopilot), Manual ON, Manual OFF.', '4.1.1'],
+  ['Who sets it', 'Mode and dormant period are security protected: Master only.', '4.3'],
+  ['Reset', 'A single action of the OOW, only from bridge positions with a proper lookout. Resets all alarms and restarts the full dormant period.', '4.1.3.1–4.1.3.3'],
+  ['No cheating', 'Holding a reset device down does not extend the dormant period or stop the alarm sequence.', '4.1.3.4'],
+  ['Emergency call', 'A push button may call the 2nd and 3rd stage alarms at once.', '4.1.4'],
+  ['Accuracy', 'Timings within 5% or 5 s, whichever is less.', '4.2'],
+  ['Faults', 'Malfunction or power failure must be indicated, and may be repeated on the central alarm panel.', '4.4.1'],
+  ['Cargo ships', 'The 2nd and 3rd stage may sound everywhere at once; then the 3rd stage may be omitted.', '4.1.2.6'],
+];
+
+const trouble = [
+  ['BNWAS does not start with the autopilot', 'In Automatic mode it needs the autopilot/track control signal: check the mode and that signal. Otherwise use Manual ON as ordered by the Master.'],
+  ['Alarms although the OOW is alert', 'The dormant period may be set too short for the bridge routine, or a reset device (button or motion sensor) does not register. The Master can adjust Td within 3–12 min; faulty sensors are a service job.'],
+  ['Malfunction or power failure indication', 'Check the power supply and fuses, then call a technician.'],
+  ['Remote alarms not heard in cabins', 'Check the remote alarm units and wiring during the next test; a missing 2nd/3rd stage defeats the purpose of the system.'],
+];
+
+const faq = [
+  ['What is BNWAS?', 'A bridge navigational watch alarm system: it checks that the officer of the watch is active and, if they do not respond, alerts the Master or back-up officer and then other crew.'],
+  ['Which ships must have BNWAS?', 'Under SOLAS chapter V, cargo ships of 150 GT and upwards and all passenger ships, phased in between 2011 and 2014. Check SOLAS regulation V/19 and your flag for your ship.'],
+  ['Can BNWAS be switched off?', 'Only the Master can change the mode. It should be operational whenever the autopilot is engaged, unless the Master inhibits it. Switching it off to avoid alarms defeats its safety purpose and may breach flag requirements.'],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'BNWAS: alarm stages, timings, modes and false alarms', description, url: `${SITE_URL}/equipment/bnwas/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.msc128.name, 'SOLAS chapter V'] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'BNWAS', path: '/equipment/bnwas/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="clipboard" size={34} /></span>
+    <div>
+      <h1>BNWAS</h1>
+      <p class="lead">Bridge navigational watch alarm system: the alarm sequence, who may set it, and how to deal with false alarms without defeating it.</p>
+    </div>
+  </div>
+
+  <h2>Alarm sequence</h2>
+  <ol class="timeline">
+    {stages.map(([s, t, d], i) => <li><span class="dot">{i}</span><div><strong>{s}</strong> <span class="t">{t}</span><p>{d}</p></div></li>)}
+  </ol>
+  <p class="source">MSC.128(75), 4.1.2.</p>
+
+  <h2>Problems and what to check</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+      <tbody>{trouble.map(([s, c]) => <tr><td><strong>{s}</strong></td><td>{c}</td></tr>)}</tbody></table>
+  </div>
+
+  <ServiceCta equipment="BNWAS" service="Repair / troubleshooting" icon="wrench" title="BNWAS fault or new installation?" text="Panels, reset sensors, remote alarms: tell us the port and ETA." />
+
+  <h2>Rules of the IMO standard</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Item</th><th>Requirement</th><th>Ref.</th></tr></thead>
+      <tbody>{rules.map(([a, b, c]) => <tr><td><strong>{a}</strong></td><td>{b}</td><td class="source">{c}</td></tr>)}</tbody></table>
+  </div>
+  <p class="source">For BNWAS installed on or after 1 July 2003.</p>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.msc128.url} rel="noopener">{IMO.msc128.name}</a>; SOLAS chapter V. Checked 2026-11-25.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .timeline { list-style: none; padding: 0; margin: 0; border-left: 3px solid var(--sea); }
+  .timeline li { display: flex; gap: 12px; padding: 8px 0 8px 0; margin-left: -14px; }
+  .dot { flex: 0 0 auto; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--sea); color: #fff; font-weight: 700; font-size: .85rem; }
+  .timeline .t { color: var(--cta); font-weight: 700; margin-left: 6px; }
+  .timeline p { margin: 2px 0 0; color: var(--muted); }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>

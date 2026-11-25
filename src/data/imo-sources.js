@@ -13,5 +13,6 @@ export const IMO = {
   msc496: { name: 'Res. MSC.496(105) (2022), Amendments to SOLAS chapter IV (GMDSS modernization), in force 1 January 2024', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.496(105).pdf' },
   msc148: { name: 'Res. MSC.148(77) (2003), Revised performance standards for NAVTEX receivers', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.148(77).pdf' },
   a424: { name: 'Res. A.424(XI) (1979), Performance standards for gyro-compasses', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.424(11).pdf' },
+  msc128: { name: 'Res. MSC.128(75) (2002), Performance standards for a bridge navigational watch alarm system (BNWAS)', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.128(75).pdf' },
   hssc: { name: 'Res. A.1207(34), Survey Guidelines under the HSSC, 2025', url: 'https://wwwcdn.imo.org/localresources/en/OurWork/IIIS/Documents/A%2034-Res.1207%20-%20SURVEY%20GUIDELINES%20UNDER%20THE%20HARMONIZED%20SYSTEMOF%20SURVEY%20AND%20CERTIFICATION%20(HSSC),%202025%20(Secretariat).pdf' },
 };
