@@ -61,3 +61,4 @@
 - Исправлено: [hidden] перебивался CSS (поле «Other port» было видно).
 - Git: репозиторий alexanderklimin/findvesseltech (приватный), deploy key findvesseltech_deploy, wrangler name findvesseltech, workers_dev true, .node-version 22.23.5. Первый коммит сделан, push ждёт создания репозитория и ключа.
 - Код выгружен на GitHub (alexanderklimin/findvesseltech, ветка main), deploy key работает. Дальше пользователь подключает Workers Builds.
+- Workers Builds подключён пользователем, домен findvesseltech.com работает (16 страниц, 404, редиректы http→https, www→apex). Сайт под noindex. В wrangler.jsonc добавлен route custom_domain, workers_dev/preview_urls false (как tallerpedia), чтобы деплой не отвязал домен. Замечание: www→apex теряет путь (/tools/ → /), поправить правилом Redirect в Cloudflare.

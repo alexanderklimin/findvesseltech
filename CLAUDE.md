@@ -69,7 +69,7 @@
 ## Стек (как в /opt/autos-es и /opt/plantas-es)
 - Astro (статическая генерация) + Cloudflare Workers/Pages. Данные справочника — JSON или SQLite в репозитории, собираются в статические страницы. RFQ и напоминания — Cloudflare Worker + почта. Позже D1 или Postgres для личного кабинета.
 - Node 22 лежит в /opt/astro-es/.tools/node/bin. Деплой как у hojapedia и ladrimiau: GitHub deploy key + Cloudflare Workers Builds, превью на workers.dev с noindex.
-- Репозиторий: приватный `alexanderklimin/findvesseltech`, deploy key /root/.ssh/findvesseltech_deploy, алиас `github-findvesseltech`, origin `github-findvesseltech:alexanderklimin/findvesseltech.git`. Workers Builds: сборка `npm run build`, деплой `npx wrangler deploy`, Worker `findvesseltech`. До запуска workers_dev: true и noindex (NOINDEX без PUBLIC_INDEX=1). Токен Cloudflare на сервере не нужен.
+- Репозиторий: приватный `alexanderklimin/findvesseltech`, deploy key /root/.ssh/findvesseltech_deploy, алиас `github-findvesseltech`, origin `github-findvesseltech:alexanderklimin/findvesseltech.git`. Workers Builds: сборка `npm run build`, деплой `npx wrangler deploy`, Worker `findvesseltech`. Домен findvesseltech.com подключён 2026-11-25 (routes custom_domain, workers_dev false), сайт пока noindex: индексацию включаем переменной сборки PUBLIC_INDEX=1 только после «да». Токен Cloudflare на сервере не нужен.
 
 ## Доступы
 - Keyword Planner (только чтение): research/kw_ideas.mjs и research/kw_hist.mjs. Запуск: `cd /opt/google-ads-mcp && set -a && . ./.env && set +a && /opt/astro-es/.tools/node/bin/node /opt/ship-radio/research/<скрипт>.mjs`. Язык en 1000, без гео = весь мир. Валюта аккаунта CLP: делить на ≈950.

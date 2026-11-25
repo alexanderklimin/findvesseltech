@@ -1,8 +1,8 @@
 {
   // Static site on Cloudflare Workers (static assets). Build: npm run build → dist/
   // Deploy: Cloudflare Workers Builds from GitHub (build `npm run build`, deploy `npx wrangler deploy`).
-  // Before launch: workers_dev true (preview, noindex via NOINDEX in src/data/site.js).
-  // At launch (only after the user's "yes"): routes [{pattern: "findvesseltech.com", custom_domain: true}], workers_dev false, build env PUBLIC_INDEX=1.
+  // Domain findvesseltech.com connected by the user on 2026-11-25. Still noindex (NOINDEX in src/data/site.js)
+  // until the user says "yes": then set build env PUBLIC_INDEX=1 in Workers Builds.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "findvesseltech",
   "compatibility_date": "2026-11-01",
@@ -11,5 +11,7 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
-  "workers_dev": true
+  "routes": [{ "pattern": "findvesseltech.com", "custom_domain": true }],
+  "workers_dev": false,
+  "preview_urls": false
 }
