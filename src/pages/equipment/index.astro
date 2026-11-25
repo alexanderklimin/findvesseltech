@@ -3,13 +3,13 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 
 const ready = [
+  { icon: 'gmdss', href: '/equipment/gmdss/', name: 'GMDSS', text: 'Sea areas A1–A4, equipment per area and watches under SOLAS IV as amended in 2024.' },
   { icon: 'epirb', href: '/equipment/epirb/', name: 'EPIRB', text: 'What a 406 MHz beacon must do, AIS and GNSS, testing, SBM, battery, registration.' },
   { icon: 'radar', href: '/equipment/radar/', name: 'Radar', text: 'Sensor alarms and fallback modes, X- vs S-band, SART detection, requirements by ship size.' },
   { icon: 'ecdis', href: '/equipment/ecdis/', name: 'ECDIS', text: 'Requirements, performance standard by installation date, software updates, known anomalies.' },
 ];
 const planned = [
-['gmdss', 'GMDSS consoles (MF/HF, VHF DSC)', 'GMDSS console (MF/HF, VHF DSC)'],
-  ['satellite', 'Inmarsat-C and satellite GMDSS', 'Inmarsat-C / satellite GMDSS'], ['vdr', 'VDR / S-VDR', 'VDR / S-VDR'], ['ais', 'AIS', 'AIS'], ['gyro', 'Gyro compass', 'Gyro compass'], ['navtex', 'NAVTEX', 'NAVTEX'],
+['satellite', 'Inmarsat-C and satellite GMDSS', 'Inmarsat-C / satellite GMDSS'], ['vdr', 'VDR / S-VDR', 'VDR / S-VDR'], ['ais', 'AIS', 'AIS'], ['gyro', 'Gyro compass', 'Gyro compass'], ['navtex', 'NAVTEX', 'NAVTEX'],
 ];
 ---
 <Base title="Ship Radio and Navigation Equipment Guides" description="Guides to ship bridge equipment: ECDIS, radar, GMDSS, Inmarsat-C, EPIRB, VDR, AIS, gyro compass. Requirements, common problems and how to get an engineer in port." crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }]}>

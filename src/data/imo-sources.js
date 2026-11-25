@@ -10,5 +10,6 @@ export const IMO = {
   msc530: { name: 'Res. MSC.530(106) (2022), Performance standards for ECDIS', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.530(106).pdf' },
   msc192: { name: 'Res. MSC.192(79) (2004), Revised performance standards for radar equipment', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.192(79).pdf' },
   msc471: { name: 'Res. MSC.471(101) (2019), Performance standards for float-free 406 MHz EPIRBs', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.471(101).pdf' },
+  msc496: { name: 'Res. MSC.496(105) (2022), Amendments to SOLAS chapter IV (GMDSS modernization), in force 1 January 2024', url: 'https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/MSCResolutions/MSC.496(105).pdf' },
   hssc: { name: 'Res. A.1207(34), Survey Guidelines under the HSSC, 2025', url: 'https://wwwcdn.imo.org/localresources/en/OurWork/IIIS/Documents/A%2034-Res.1207%20-%20SURVEY%20GUIDELINES%20UNDER%20THE%20HARMONIZED%20SYSTEMOF%20SURVEY%20AND%20CERTIFICATION%20(HSSC),%202025%20(Secretariat).pdf' },
 };

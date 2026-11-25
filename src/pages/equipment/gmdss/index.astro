@@ -1,0 +1,112 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'GMDSS: Sea Areas A1–A4 and Required Equipment (SOLAS IV, 2024)';
+const description = 'What GMDSS is, sea areas A1, A2, A3 and A4, the radio equipment every ship must carry in each area and the watches to keep, per SOLAS chapter IV as amended by MSC.496(105) in force 1 January 2024.';
+
+const areas = [
+  ['A1', 'Within radiotelephone coverage of at least one VHF coast station with continuous DSC alerting.', 'Declared by each coastal State (GMDSS Master Plan).'],
+  ['A2', 'Outside A1, within coverage of at least one MF coast station with continuous DSC alerting.', 'Declared by each coastal State (GMDSS Master Plan).'],
+  ['A3', 'Outside A1 and A2, within coverage of a recognized mobile satellite service supported by the ship earth station on board, with continuous alerting.', 'Depends on the satellite service the ship carries.'],
+  ['A4', 'Everything outside A1, A2 and A3.', 'Whatever is left outside the areas above; its extent depends on the satellite service.'],
+];
+
+const allShips = [
+  'VHF installation: DSC on channel 70 (alerting from the conning position) and radiotelephony on channels 6, 13 and 16',
+  'Continuous DSC watch receiver on channel 70 (may be combined)',
+  'Radar SART or AIS-SART',
+  'Receiver(s) for maritime safety information (MSI) and SAR information for the whole voyage, e.g. NAVTEX and satellite MSI',
+  'Float-free EPIRB, manually releasable and carried by one person into a survival craft, manual and automatic activation',
+  'VHF for general radiocommunications (156–174 MHz)',
+];
+
+const perArea = [
+  ['A1', 'Ship-to-shore distress alert from the conning position by 406 MHz EPIRB, MF DSC (if in MF coverage), HF DSC or a recognized mobile satellite service.'],
+  ['A2', 'MF installation: DSC 2187.5 kHz and radiotelephony 2182 kHz, DSC watch on 2187.5 kHz; secondary alerting by 406 MHz EPIRB, HF DSC or a recognized mobile satellite service; general communications on MF/HF or satellite.'],
+  ['A3', 'Recognized mobile satellite ship earth station (distress, urgency, safety, priority calls and shore-to-ship alert watch) plus MF DSC/RT and 2187.5 kHz watch; secondary alerting by 406 MHz EPIRB, HF DSC or a second satellite ship earth station.'],
+  ['A4', 'MF/HF installation with DSC and radiotelephony on all distress and safety frequencies 1605–27500 kHz; DSC watch on 2187.5 and 8414.5 kHz and at least one of 4207.5, 6312, 12577 or 16804.5 kHz; secondary alerting by 406 MHz EPIRB.'],
+];
+
+const survival = [
+  ['Cargo ships 300–500 GT', 'At least 1 radar SART or AIS-SART and 2 two-way VHF radiotelephones'],
+  ['Passenger ships and cargo ships ≥ 500 GT', 'At least 1 radar SART or AIS-SART on each side and 3 two-way VHF radiotelephones'],
+  ['Passenger ships', 'Two-way on-scene SAR communications on 121.5 and 123.1 MHz from the conning position (may be portable)'],
+];
+
+const faq = [
+  ['What does GMDSS mean?', 'Global Maritime Distress and Safety System: the internationally agreed set of radio equipment, frequencies and procedures (SOLAS chapter IV) that lets a ship in distress alert search and rescue authorities and nearby ships, and receive maritime safety information, wherever it sails.'],
+  ['What changed in the 2024 GMDSS modernization?', 'The SOLAS chapter IV amendments in resolution MSC.496(105), in force since 1 January 2024, refer to any "recognized mobile satellite service" instead of a single provider for sea area A3, and require MF/HF equipment only for DSC and radiotelephony (no radiotelex/NBDP). ITU Appendix 15 was updated in parallel (WRC-23).'],
+  ['Which sea area am I in?', 'A1 and A2 are declared by coastal States around their VHF and MF DSC coast stations and published in the GMDSS Master Plan and national lists; A3 depends on your satellite service; A4 is the rest. Ships are equipped for the sea areas they trade in, as shown on the Cargo Ship Safety Radio Certificate.'],
+  ['What watches must be kept at sea?', 'Continuous watch on VHF DSC channel 70; on 2187.5 kHz DSC if fitted with MF; on 2187.5, 8414.5 kHz and one more HF DSC frequency if fitted with MF/HF; and for satellite shore-to-ship distress alert relays if fitted with a recognized mobile satellite ship earth station.'],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'GMDSS: sea areas A1–A4 and required equipment', description, url: `${SITE_URL}/equipment/gmdss/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.msc496.name, 'SOLAS chapter IV'] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'GMDSS', path: '/equipment/gmdss/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="gmdss" size={34} /></span>
+    <div>
+      <h1>GMDSS: sea areas and required equipment</h1>
+      <p class="lead">What radio equipment a SOLAS ship must carry, area by area, under SOLAS chapter IV as amended for the GMDSS modernization in force since 1 January 2024.</p>
+    </div>
+  </div>
+
+  <h2>Sea areas A1 to A4</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Area</th><th>Definition</th><th>Note</th></tr></thead>
+      <tbody>{areas.map(([a, d, n]) => <tr><td><strong class="area">{a}</strong></td><td>{d}</td><td class="source">{n}</td></tr>)}</tbody></table>
+  </div>
+  <p class="source">SOLAS regulation IV/2 as amended by MSC.496(105). Notes in the last column are ours.</p>
+
+  <h2>Every ship, in every area</h2>
+  <ul class="checks">{allShips.map((x) => <li>{x}</li>)}</ul>
+  <p class="source">SOLAS regulation IV/7.1.</p>
+
+  <h2>Additional equipment by sea area</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Area</th><th>Additional requirements</th></tr></thead>
+      <tbody>{perArea.map(([a, r]) => <tr><td><strong class="area">{a}</strong></td><td>{r}</td></tr>)}</tbody></table>
+  </div>
+  <p>In A1, A2, A3 and A4 the 406 MHz alerting from the conning position can be met by placing the EPIRB near the bridge (still float-free), by remote activation from the bridge, or by a second EPIRB near the bridge.</p>
+  <p class="source">SOLAS regulations IV/8 to IV/11 as amended by MSC.496(105).</p>
+
+  <ServiceCta equipment="GMDSS console (MF/HF, VHF DSC)" service="Repair / troubleshooting" icon="gmdss" title="GMDSS console fault or radio survey due?" text="MF/HF and VHF DSC, satellite terminals, NAVTEX, batteries: tell us the port and ETA." />
+
+  <h2>Survival craft radio equipment</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Ship</th><th>Minimum</th></tr></thead>
+      <tbody>{survival.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table>
+  </div>
+  <p class="source">SOLAS regulation IV/7.2, 7.3 and 7.6.</p>
+
+  <h2>Related</h2>
+  <div class="grid">
+    <a class="card" href="/tools/gmdss-frequencies/"><span class="ico"><Icon name="wave" /></span><strong>GMDSS frequencies</strong><span>All distress and safety frequencies, ITU Appendix 15 (WRC-23).</span></a>
+    <a class="card" href="/tools/navtex-stations/"><span class="ico"><Icon name="navtex" /></span><strong>NAVTEX stations</strong><span>B1 letters and times of 271 stations.</span></a>
+    <a class="card" href="/equipment/epirb/"><span class="ico"><Icon name="epirb" /></span><strong>EPIRB</strong><span>Requirements, testing, SBM and registration.</span></a>
+    <a class="card" href="/tools/survey-due-dates/"><span class="ico"><Icon name="calendar" /></span><strong>Radio survey dates</strong><span>Survey and annual test windows.</span></a>
+  </div>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.msc496.url} rel="noopener">{IMO.msc496.name}</a>; ITU Radio Regulations Appendix 15 (Rev.WRC-23). Checked 2026-11-25. Your flag State may have additional requirements.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .area { font-size: 1.1rem; color: var(--sea); }
+  .checks li { margin: 6px 0; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>
