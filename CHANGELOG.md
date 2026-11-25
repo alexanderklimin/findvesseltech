@@ -60,3 +60,4 @@
 - /contact/, обновлена /privacy/ (заявки передаются сервисным партнёрам порта).
 - Исправлено: [hidden] перебивался CSS (поле «Other port» было видно).
 - Git: репозиторий alexanderklimin/findvesseltech (приватный), deploy key findvesseltech_deploy, wrangler name findvesseltech, workers_dev true, .node-version 22.23.5. Первый коммит сделан, push ждёт создания репозитория и ключа.
+- Код выгружен на GitHub (alexanderklimin/findvesseltech, ветка main), deploy key работает. Дальше пользователь подключает Workers Builds.
