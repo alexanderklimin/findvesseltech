@@ -36,7 +36,7 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
       <legend>Ship and contact</legend>
       <div class="two">
         <label>Ship name <input type="text" name="ship" required maxlength="80" /></label>
-        <label>IMO number <input type="text" name="imo" inputmode="numeric" pattern="\d{7}" maxlength="7" placeholder="7 digits" /></label>
+        <label>IMO number <input type="text" name="imo" inputmode="numeric" pattern="\d{7}" maxlength="7" placeholder="7 digits" aria-describedby="imo-hint" /><small id="imo-hint" class="hint" aria-live="polite"></small></label>
       </div>
       <div class="two">
         <label>Your name <input type="text" name="name" required maxlength="80" /></label>
@@ -62,9 +62,20 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
 </Base>
 
 <script>
+  import { checkImo } from '../../lib/imo.js';
   const data = JSON.parse(document.getElementById('req-data')!.textContent!);
   const form = document.getElementById('req-form') as HTMLFormElement;
   const out = document.getElementById('req-out')!;
+
+  const imoInput = form.elements.namedItem('imo') as HTMLInputElement;
+  const imoHint = document.getElementById('imo-hint')!;
+  imoInput.addEventListener('input', () => {
+    const v = imoInput.value.trim();
+    if (v.length < 7) { imoHint.textContent = ''; imoHint.className = 'hint'; return; }
+    const r = checkImo(v);
+    imoHint.textContent = r.ok ? '✓ Valid IMO number' : r.reason ?? '';
+    imoHint.className = r.ok ? 'hint good' : 'hint bad';
+  });
 
   // Prefill from the home page quick form (?equipment=&port=&eta=).
   const params = new URL(location.href).searchParams;
@@ -109,6 +120,8 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
   .req :global(input[type=text]), .req input[type=email], .req input[type=tel], .req input[type=date], .req select, .req textarea {
     font: inherit; font-weight: 400; padding: 9px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); width: 100%;
   }
+  .hint { font-weight: 400; font-size: .85rem; min-height: 1.2em; }
+  .hint.good { color: var(--ok); } .hint.bad { color: var(--warn); }
   .two { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0 12px; }
   .req .consent { flex-direction: row; align-items: flex-start; gap: 8px; font-weight: 400; }
   .consent input { margin-top: 5px; }
