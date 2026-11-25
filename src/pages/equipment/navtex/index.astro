@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'NAVTEX Receiver: How It Works, Settings and Troubleshooting';
+const description = 'NAVTEX explained for the bridge: 518, 490 and 4209.5 kHz, B1 station and B2 message settings, what the receiver must do (IMO MSC.148(77)), why messages are not printed twice, asterisks in text, and when to call a technician.';
+
+const req = [
+  ['Two receivers', 'One on 518 kHz (international) with priority, and a second working at the same time on at least two other NAVTEX frequencies (490 and 4209.5 kHz).', '4.1'],
+  ['Message memory', 'At least 200 messages of 500 characters per receiver in non-volatile memory; the user cannot delete them; the oldest are overwritten.', '6.1.1'],
+  ['Keep important messages', 'Messages can be tagged for permanent retention, up to 25% of the memory.', '6.1.2'],
+  ['No repeats', 'Identifications of correctly received messages are kept 60–72 hours, so a repeated broadcast is not shown again.', '6.2'],
+  ['SAR alarm', 'Receipt of search and rescue information (B2 = D) gives an alarm at the conning position, reset only by hand.', '7.1'],
+  ['Settings survive power cuts', 'B1 (station) and B2 (message type) selections survive interruptions of less than 6 hours.', '6.3.1'],
+  ['Corrupted characters', 'A character received with errors is shown as an asterisk (*).', '5.7'],
+  ['Self-test', 'A test facility checks the receiver, display/printer and memory.', '8.1'],
+];
+
+const trouble = [
+  ['No messages at all', 'Check that the B1 letters of the stations along your route are selected (see the station list), that the receiver is on 518 kHz, then run the self-test. If the test passes but nothing arrives, suspect the antenna, its cable or earthing.'],
+  ['Many asterisks (*) in the text', 'Characters received corrupted: weak signal or interference. Check the station is within range and the antenna installation. A message with 4% or more errors is not marked as received, so the receiver will show the next repeat of it.'],
+  ['A warning I expected was not printed again', 'By design: a message already received correctly is not printed again for 60–72 hours.'],
+  ['Messages from a station I need are missing', 'Its B1 letter or the message type (B2) may be excluded. The receiver must show which areas and categories are excluded.'],
+  ['Self-test fails', 'Receiver, display/printer or memory fault: call a service technician.'],
+];
+
+const faq = [
+  ['What is NAVTEX?', 'An international automated service that broadcasts navigational and meteorological warnings, forecasts and urgent safety information to ships as text, on 518 kHz in English, on 490 kHz in national languages and on 4209.5 kHz in some areas. It is part of GMDSS maritime safety information.'],
+  ['What are B1 and B2?', 'B1 is the letter of the transmitting station; B2 is the type of message. You choose which stations and message types the receiver shows. Search and rescue information (B2 = D) always raises an alarm.'],
+  ['Which NAVTEX stations should I select?', 'Those whose coverage you will sail through. Use our NAVTEX station list with its NAVAREA and frequency filters to find B1 letters and broadcast times.'],
+  ['Do I need a printer?', 'Not necessarily: receivers installed since 1 July 2005 may use a dedicated display with non-volatile memory, or feed an integrated navigation system. If there is no printer, the display must be at the conning position.'],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'NAVTEX receiver: how it works, settings and troubleshooting', description, url: `${SITE_URL}/equipment/navtex/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.msc148.name, 'ITU Radio Regulations Appendix 15'] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'NAVTEX', path: '/equipment/navtex/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="navtex" size={34} /></span>
+    <div>
+      <h1>NAVTEX receiver</h1>
+      <p class="lead">How NAVTEX works, what the receiver must do and how to sort out the usual problems before calling a technician.</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <a class="card" href="/tools/navtex-stations/"><span class="ico"><Icon name="search" /></span><strong>Find NAVTEX stations</strong><span>B1 letters, broadcast times and range of 271 stations.</span></a>
+    <a class="card" href="/tools/gmdss-frequencies/"><span class="ico"><Icon name="wave" /></span><strong>Frequencies</strong><span>518, 490 and 4209.5 kHz and all GMDSS frequencies.</span></a>
+  </div>
+
+  <h2>Troubleshooting</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+      <tbody>{trouble.map(([s, c]) => <tr><td><strong>{s}</strong></td><td>{c}</td></tr>)}</tbody></table>
+  </div>
+
+  <ServiceCta equipment="NAVTEX" service="Repair / troubleshooting" icon="navtex" title="NAVTEX still not working?" text="Receiver, antenna or interface fault: tell us the port and ETA." />
+
+  <h2>What the receiver must do</h2>
+  <p>For receivers installed on or after 1 July 2005 (resolution MSC.148(77)):</p>
+  <div class="table-scroll">
+    <table><thead><tr><th>Function</th><th>Requirement</th><th>Ref.</th></tr></thead>
+      <tbody>{req.map(([a, b, c]) => <tr><td><strong>{a}</strong></td><td>{b}</td><td class="source">{c}</td></tr>)}</tbody></table>
+  </div>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.msc148.url} rel="noopener">{IMO.msc148.name}</a>; ITU Radio Regulations Appendix 15 (Rev.WRC-23). Checked 2026-11-25. Follow your receiver's manual for settings.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>
