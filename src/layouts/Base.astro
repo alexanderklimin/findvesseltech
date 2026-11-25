@@ -54,14 +54,26 @@ if (crumbs.length > 1) {
     <a class="skip" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="wrap bar">
+        <button type="button" class="sq burger" id="menu-btn" aria-label="Menu" aria-expanded="false" aria-controls="main-nav">
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+        </button>
         <a class="brand" href="/">
           <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 6v20M10 12a8 8 0 0 1 12 0M7 9a12 12 0 0 1 18 0" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/><circle cx="16" cy="16" r="2.6" fill="currentColor"/></svg>
           {SITE_NAME}
         </a>
-        <nav aria-label="Main">
+        <nav aria-label="Main" id="main-nav">
           {nav.map((n) => <a href={n.href} aria-current={current.startsWith(n.href) ? 'page' : undefined}>{n.label}</a>)}
         </nav>
+        <a class="sq req" href="/request/" aria-label="Request a technician">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 6.5a4 4 0 0 1-5 5L4 17v3h3l5.5-5.5a4 4 0 0 0 5-5l-2.5 2.5-2.5-.5-.5-2.5 2.5-2.5Z"/></svg>
+        </a>
       </div>
+      <script is:inline>
+        (function () {
+          var b = document.getElementById('menu-btn'), h = b.closest('.site-header');
+          b.addEventListener('click', function () { var o = h.classList.toggle('open'); b.setAttribute('aria-expanded', o ? 'true' : 'false'); });
+        })();
+      </script>
     </header>
     <main id="main" class="wrap">
       {crumbs.length > 1 && (
@@ -105,6 +117,18 @@ if (crumbs.length > 1) {
   .site-header nav { display: flex; gap: 4px; flex-wrap: wrap; }
   .site-header nav a { color: #fff; text-decoration: none; padding: 6px 10px; border-radius: 6px; font-size: .95rem; }
   .site-header nav a[aria-current] , .site-header nav a:hover { background: rgba(255,255,255,.14); }
+  .sq { display: none; }
+  @media (max-width: 720px) {
+    .bar { display: grid; grid-template-columns: 44px 1fr 44px; gap: 8px; padding-top: 8px; padding-bottom: 8px; }
+    .brand { justify-self: center; font-size: 1.1rem; }
+    .sq { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 10px; border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.08); color: #fff; padding: 0; cursor: pointer; }
+    .sq.req { background: var(--cta); border-color: var(--cta); color: var(--cta-text); }
+    .burger { grid-row: 1; grid-column: 1; } .brand { grid-row: 1; grid-column: 2; } .sq.req { grid-row: 1; grid-column: 3; }
+    .site-header nav { grid-row: 2; }
+    .site-header nav { display: none; grid-column: 1 / -1; flex-direction: column; gap: 2px; padding: 6px 0 4px; border-top: 1px solid rgba(255,255,255,.15); }
+    .site-header.open nav { display: flex; }
+    .site-header nav a { padding: 12px 10px; font-size: 1.05rem; }
+  }
   main.wrap { padding: 20px 16px 40px; }
   main.wrap:has(> .hero:first-child) { padding-top: 0; }
   h1 { font-size: 1.75rem; line-height: 1.25; margin: .3em 0 .4em; }
