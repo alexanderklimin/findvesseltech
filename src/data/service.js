@@ -1,4 +1,5 @@
-// Options for the service request form. Ports: where service partners are present (do not name partners on the site).
+// Options for the service request form.
+// PORTS: ports where service partners are present (internal, for future routing; not shown on the site).
 export const PORTS = [
   { id: 'balboa', name: 'Balboa', country: 'Panama', note: 'Panama Canal, Pacific side' },
   { id: 'cristobal', name: 'Cristóbal / Colón', country: 'Panama', note: 'Panama Canal, Atlantic side' },

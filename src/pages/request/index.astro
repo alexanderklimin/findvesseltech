@@ -1,6 +1,7 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { PORTS, EQUIPMENT, SERVICES } from '../../data/service.js';
+import { EQUIPMENT, SERVICES } from '../../data/service.js';
+import PortInput from '../../components/PortInput.astro';
 import { CONTACT_EMAIL, SITE_NAME } from '../../data/site.js';
 
 const title = 'Request a Ship Radio or Navigation Technician in Port';
@@ -25,15 +26,9 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
     <fieldset>
       <legend>Where and when</legend>
       <div class="two">
-        <label>Port
-          <select name="port" required>
-            {PORTS.map((p) => <option value={p.id}>{p.name}, {p.country}</option>)}
-            <option value="other">Other port (write below)</option>
-          </select>
-        </label>
+        <label>Port <PortInput id="req-port" required /></label>
         <label>Arrival (ETA) <input type="date" name="eta" required /></label>
       </div>
-      <label data-other hidden>Other port <input type="text" name="otherPort" maxlength="80" /></label>
       <label>Departure (ETD), if known <input type="date" name="etd" /></label>
     </fieldset>
 
@@ -63,18 +58,13 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
 
   <p>Prefer to write yourself? Email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the ship name, IMO, port, ETA and the problem.</p>
 
-  <script type="application/json" id="req-data" set:html={JSON.stringify({ email: CONTACT_EMAIL, ports: PORTS })} />
+  <script type="application/json" id="req-data" set:html={JSON.stringify({ email: CONTACT_EMAIL })} />
 </Base>
 
 <script>
   const data = JSON.parse(document.getElementById('req-data')!.textContent!);
   const form = document.getElementById('req-form') as HTMLFormElement;
   const out = document.getElementById('req-out')!;
-  const other = form.querySelector<HTMLElement>('[data-other]')!;
-  const portSel = form.elements.namedItem('port') as HTMLSelectElement;
-
-  const toggleOther = () => { other.hidden = portSel.value !== 'other'; };
-  portSel.addEventListener('change', toggleOther);
 
   // Prefill from the home page quick form (?equipment=&port=&eta=).
   const params = new URL(location.href).searchParams;
@@ -83,13 +73,12 @@ const description = 'Request repair, a radio survey or an annual test (VDR, AIS,
     const el = form.elements.namedItem(key) as HTMLInputElement | HTMLSelectElement | null;
     if (v && el) el.value = v;
   }
-  toggleOther();
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const f = new FormData(form);
     const g = (k: string) => String(f.get(k) ?? '').trim();
-    const port = g('port') === 'other' ? g('otherPort') : (() => { const p = data.ports.find((x: any) => x.id === g('port')); return p ? `${p.name}, ${p.country}` : g('port'); })();
+    const port = g('port');
     const subject = `Service request: ${g('equipment')} – ${port} – ETA ${g('eta')} – ${g('ship')}`;
     const lines = [
       `Service: ${g('service')}`,

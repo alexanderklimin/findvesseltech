@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
 import midData from '../../../data/mid.json';
 import { SITE_URL } from '../../../data/site.js';
 
@@ -65,6 +66,8 @@ const jsonLd = [
   <div class="note">
     <p><strong>Safety.</strong> Test a beacon only with its self-test. Never open a beacon or replace its lithium battery on board: battery and hydrostatic release replacement and recoding are done by an approved service agent. A false alert must be reported to the nearest RCC.</p>
   </div>
+
+  <ServiceCta equipment="EPIRB" service="EPIRB annual test / shore-based maintenance" icon="epirb" title="Beacon needs recoding, a battery or SBM?" text="Recoding, battery and HRU replacement are done by an approved service agent. Tell us the port and ETA." />
 
   <h2>Questions</h2>
   {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}

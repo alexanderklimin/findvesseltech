@@ -1,6 +1,7 @@
 ---
 // Short request form for the home page: passes values to /request/ via GET.
-import { PORTS, EQUIPMENT } from '../data/service.js';
+import { EQUIPMENT } from '../data/service.js';
+import PortInput from './PortInput.astro';
 ---
 <form class="card quick-req" id="quick-req" action="/request/" method="get">
   <div class="fields">
@@ -8,10 +9,7 @@ import { PORTS, EQUIPMENT } from '../data/service.js';
       <select name="equipment">{EQUIPMENT.map((e) => <option>{e}</option>)}</select>
     </label>
     <label>Port
-      <select name="port">
-        {PORTS.map((p) => <option value={p.id}>{p.name}, {p.country}</option>)}
-        <option value="other">Other port</option>
-      </select>
+      <PortInput id="qr-port" />
     </label>
     <label>Arrival (ETA)
       <input type="date" name="eta" />

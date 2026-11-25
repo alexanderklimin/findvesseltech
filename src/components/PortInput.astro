@@ -1,0 +1,8 @@
+---
+// Free-text port field with world port suggestions. Any port can be typed.
+import { PORT_SUGGESTIONS } from '../data/ports.js';
+interface Props { id: string; required?: boolean; dark?: boolean }
+const { id, required = false } = Astro.props;
+---
+<input type="text" name="port" list={`${id}-list`} placeholder="Any port: Singapore, Rotterdam, Balboa…" autocomplete="off" maxlength="80" required={required} />
+<datalist id={`${id}-list`}>{PORT_SUGGESTIONS.map((p) => <option value={p} />)}</datalist>

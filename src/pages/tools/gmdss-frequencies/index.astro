@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
 import f from '../../../data/gmdss-frequencies.json';
 import { SITE_URL } from '../../../data/site.js';
 
@@ -70,6 +71,8 @@ const jsonLd = [
   <div class="note">
     <p><strong>Changed at WRC-23.</strong> Appendix 15 no longer lists radiotelex (NBDP) frequencies for distress traffic, and adds NAVDAT (500 kHz and HF) for MSI. If your bridge card still shows 2 174.5 kHz NBDP, it predates the 2024 edition. Always check the GMDSS Master Plan and your flag's requirements for what your ship must keep watch on.</p>
   </div>
+
+  <ServiceCta equipment="GMDSS console (MF/HF, VHF DSC)" icon="gmdss" title="GMDSS console not working?" />
 
   <h2>Questions</h2>
   {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}

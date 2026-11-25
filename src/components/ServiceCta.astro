@@ -1,0 +1,41 @@
+---
+// "Need an engineer in port?" block for content pages. Passes equipment/service to /request/ (prefilled there).
+import Icon from './Icon.astro';
+import PortInput from './PortInput.astro';
+
+interface Props { title?: string; text?: string; equipment?: string; service?: string; icon?: string }
+const {
+  title = 'Need an engineer in port?',
+  text = 'Tell us the port and ETA: we pass your request to service engineers covering that port.',
+  equipment, service, icon = 'wrench',
+} = Astro.props;
+---
+<aside class="cta" aria-label="Request a technician">
+  <div class="cta-head">
+    <span class="cta-ico"><Icon name={icon} size={26} /></span>
+    <div><strong>{title}</strong><p>{text}</p></div>
+  </div>
+  <form action="/request/" method="get" class="cta-form">
+    {equipment && <input type="hidden" name="equipment" value={equipment} />}
+    {service && <input type="hidden" name="service" value={service} />}
+    <label>Port
+      <PortInput id="cta-port" />
+    </label>
+    <label>ETA <input type="date" name="eta" /></label>
+    <button type="submit" class="btn-cta">Request a technician</button>
+  </form>
+</aside>
+
+<style>
+  .cta { margin: 28px 0; padding: 18px; border-radius: 16px; color: #fff; background: linear-gradient(150deg, var(--navy) 0%, #12506a 100%); }
+  .cta-head { display: flex; gap: 14px; align-items: flex-start; }
+  .cta-ico { flex: 0 0 auto; display: grid; place-items: center; width: 46px; height: 46px; border-radius: 12px; background: rgba(255, 255, 255, .12); color: #ffd166; }
+  .cta strong { font-size: 1.15rem; }
+  .cta p { margin: 4px 0 0; color: #cfe3ee; }
+  .cta-form { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-end; margin-top: 14px; }
+  .cta-form label { display: flex; flex-direction: column; gap: 4px; font-size: .88rem; font-weight: 600; flex: 1 1 180px; }
+  .cta-form select, .cta-form input { font: inherit; font-weight: 400; padding: 9px 10px; border-radius: 8px; border: 0; background: #fff; color: #14202b; width: 100%; }
+  .cta-form button { flex: 0 0 auto; padding: 10px 18px; }
+  @media (max-width: 560px) { .cta-form button { width: 100%; } }
+  @media print { .cta { display: none; } }
+</style>

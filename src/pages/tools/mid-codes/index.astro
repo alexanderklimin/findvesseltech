@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
 import midData from '../../../data/mid.json';
 import { SITE_URL } from '../../../data/site.js';
 
@@ -47,6 +48,8 @@ const jsonLd = [{
       </tbody>
     </table>
   </div>
+
+  <ServiceCta icon="wrench" />
 
   <h2>First digit of the MID</h2>
   <p>The first digit roughly follows region. There are exceptions: 242 is Morocco, 331 Greenland, 501 Adélie Land.</p>

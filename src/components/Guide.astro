@@ -2,6 +2,7 @@
 // Shared layout for survey / annual test guides: summary table, checklist, preparation, sources.
 import Base from '../layouts/Base.astro';
 import { SITE_URL } from '../data/site.js';
+import ServiceCta from './ServiceCta.astro';
 
 interface Props {
   title: string;
@@ -15,6 +16,7 @@ interface Props {
   sources: { name: string; url?: string }[];
   checked: string;
   related?: { href: string; text: string }[];
+  cta?: { title?: string; text?: string; equipment?: string; service?: string; icon?: string };
 }
 const p = Astro.props;
 const jsonLd = [{
@@ -40,6 +42,8 @@ const jsonLd = [{
   <ul>{p.prepare.map((x) => <li set:html={x} />)}</ul>
 
   <slot />
+
+  <ServiceCta {...(p.cta ?? {})} />
 
   {p.related && (
     <>

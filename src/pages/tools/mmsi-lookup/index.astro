@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
 import midData from '../../../data/mid.json';
 import { SITE_URL } from '../../../data/site.js';
 
@@ -69,6 +70,8 @@ const jsonLd = [
     <li>On a flag change, the new MMSI must go into every DSC controller, AIS transponder and SSAS, and the 406 MHz EPIRB must be recoded and registered with the new flag, because the country code is part of the beacon's hex ID. On many units the MMSI is protected and only the service agent can change it.</li>
     <li>Never send a test distress alert. For DSC tests use a test call to a coast station.</li>
   </ul>
+
+  <ServiceCta equipment="AIS" icon="ais" title="Wrong MMSI in the AIS or DSC?" text="Reprogramming after a flag change is done by a service engineer. Tell us the port and ETA." />
 
   <h2>Questions</h2>
   {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}

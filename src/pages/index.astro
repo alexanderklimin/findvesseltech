@@ -3,7 +3,6 @@ import Base from '../layouts/Base.astro';
 import QuickRequest from '../components/QuickRequest.astro';
 import Icon from '../components/Icon.astro';
 import { SITE_NAME, SITE_TAGLINE, SITE_URL } from '../data/site.js';
-import { PORTS } from '../data/service.js';
 
 const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebSite', name: SITE_NAME, url: SITE_URL, description: SITE_TAGLINE }];
 
@@ -43,7 +42,7 @@ const tools = [
       <div class="hero-text">
         <p class="kicker"><Icon name="anchor" size={18} /> Radar · ECDIS · GMDSS · VDR · AIS · Gyro</p>
         <h1>Bridge equipment down? Get an engineer at your next port.</h1>
-        <p class="sub">Repairs, radio surveys and annual tests. Tell us the equipment, port and ETA, and we pass it to service engineers who cover that port.</p>
+        <p class="sub">Repairs, radio surveys and annual tests. Any port worldwide. Tell us the equipment, port and ETA, and we pass it to service engineers who cover that port.</p>
       </div>
       <svg class="scope" viewBox="0 0 200 200" aria-hidden="true">
         <defs>
@@ -58,7 +57,7 @@ const tools = [
       </svg>
     </div>
     <div class="hero-form"><QuickRequest /></div>
-    <p class="ports"><Icon name="anchor" size={16} /> Ports: {PORTS.map((p, i) => <>{i > 0 && ' · '}<span>{p.name}</span></>)} · other ports on request</p>
+    <p class="ports"><Icon name="anchor" size={16} /> Any port worldwide: from Singapore and Rotterdam to the Panama Canal and Valparaíso.</p>
     <svg class="waves" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c120 20 240 20 360 0s240-20 360 0 240 20 360 0 240-20 360 0v30H0Z" /></svg>
   </section>
 

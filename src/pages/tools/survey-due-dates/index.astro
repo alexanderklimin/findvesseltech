@@ -1,5 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
 import { SITE_URL } from '../../../data/site.js';
 
 const title = 'Radio Survey, VDR APT, AIS and EPIRB Due Date Calculator';
@@ -52,6 +53,8 @@ const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebApplication', n
   </form>
 
   <div id="out" aria-live="polite"></div>
+
+  <ServiceCta service="Annual radio survey" icon="calendar" title="Book the survey or tests for your next port" text="Radio survey, VDR APT, AIS and EPIRB tests: tell us the port and ETA." />
 
   <h2>Rules used</h2>
   <div class="table-scroll">
