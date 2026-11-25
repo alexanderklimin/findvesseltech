@@ -1,0 +1,95 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'Ship AIS: Data to Enter, Reporting Intervals and When It May Be Off';
+const description = 'Shipborne AIS (Class A) per IMO A.1106(29): static, dynamic and voyage data and who updates them, reporting intervals by speed, when the master may switch AIS off, limits in collision avoidance, annual test and finding an AIS technician.';
+
+const intervals = [
+  ['At anchor or moored, ≤ 3 kn', '3 min'],
+  ['At anchor or moored, > 3 kn', '10 s'],
+  ['0–14 kn', '10 s (3⅓ s when changing course)'],
+  ['14–23 kn', '6 s (2 s when changing course)'],
+  ['> 23 kn', '2 s'],
+  ['Static and voyage data', 'every 6 min or on request'],
+];
+
+const data = [
+  ['Static', 'MMSI, IMO number, call sign and name, length and beam, ship type, GNSS antenna position', 'Entered at installation; changed only if the name, MMSI or GNSS antenna position changes, or after a major conversion.'],
+  ['Dynamic', 'Position with accuracy, UTC, COG, SOG, heading, rate of turn', 'Automatic from the sensors, except navigational status, which the OOW sets by hand.'],
+  ['Voyage-related', 'Draught, hazardous cargo, destination and ETA, route, navigational status', 'Entered by the OOW at the start of the voyage and whenever it changes. UN/LOCODE recommended for ports.'],
+];
+
+const trouble = [
+  ['Other ships see wrong name, MMSI or dimensions', 'Static data error. Check it at least once per voyage or once a month; correct only with the Master\'s authority. On many units the MMSI is protected and only a technician can change it.'],
+  ['Wrong or old destination/ETA, draught or status', 'Voyage data not updated: enter it at departure and when it changes.'],
+  ['Own position or heading missing on other ships\' screens', 'Check the GNSS and gyro/heading inputs to the AIS.'],
+  ['No targets received at all', 'Check the VHF antenna and cable and the AIS alarms; then call a technician.'],
+];
+
+const faq = [
+  ['When may AIS be switched off?', 'AIS should be on when underway or at anchor. The master may switch it off if continued operation might compromise the ship\'s safety or security, for example when security incidents are imminent. The action and reason go in the logbook and, if in a mandatory ship reporting system, are reported to the authority unless that would compromise safety. Restart as soon as the danger is over; data stays stored and transmission resumes after about 2 minutes.'],
+  ['Can AIS be used for collision avoidance?', 'Only as an additional source of information. It does not replace radar target tracking or VTS, and does not change the duty to follow the Collision Regulations, including rule 7 on risk of collision. Not all vessels carry AIS, and some may have it switched off.'],
+  ['How often must AIS be tested?', 'Every year, by an authorized radio inspector, within the safety equipment survey window. See the AIS annual test checklist.'],
+  ['What is the MMSI in the AIS?', 'The ship\'s 9-digit Maritime Mobile Service Identity; its first three digits show the flag. Decode it with our MMSI lookup.'],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'Ship AIS: data to enter, reporting intervals and when it may be off', description, url: `${SITE_URL}/equipment/ais/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.a1106.name, IMO.c1252.name] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'AIS', path: '/equipment/ais/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="ais" size={34} /></span>
+    <div>
+      <h1>AIS (Class A)</h1>
+      <p class="lead">What the ship's AIS transmits, which data the officer of the watch must keep up to date, and the rules for switching it off.</p>
+    </div>
+  </div>
+
+  <h2>Three kinds of AIS data</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Type</th><th>Contents</th><th>Who updates</th></tr></thead>
+      <tbody>{data.map(([t, c, w]) => <tr><td><strong>{t}</strong></td><td>{c}</td><td>{w}</td></tr>)}</tbody></table>
+  </div>
+  <p class="source">A.1106(29), paragraphs 12–13 and 23–25.</p>
+
+  <h2>Problems and what to check</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+      <tbody>{trouble.map(([s, c]) => <tr><td><strong>{s}</strong></td><td>{c}</td></tr>)}</tbody></table>
+  </div>
+
+  <ServiceCta equipment="AIS" service="Repair / troubleshooting" icon="ais" title="AIS fault, MMSI change or annual test?" text="Transponder, antenna, sensor inputs, reprogramming after a flag change: tell us the port and ETA." />
+
+  <h2>Class A reporting intervals</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Ship's state</th><th>Position report every</th></tr></thead>
+      <tbody>{intervals.map(([a, b]) => <tr><td>{a}</td><td><strong>{b}</strong></td></tr>)}</tbody></table>
+  </div>
+  <p class="source">A.1106(29), paragraph 14 and table 2.</p>
+
+  <h2>Related</h2>
+  <div class="grid">
+    <a class="card" href="/surveys/ais-annual-test/"><span class="ico"><Icon name="clipboard" /></span><strong>AIS annual test</strong><span>What the inspector checks.</span></a>
+    <a class="card" href="/tools/mmsi-lookup/"><span class="ico"><Icon name="hash" /></span><strong>MMSI lookup</strong><span>Flag and station type from any MMSI.</span></a>
+  </div>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.a1106.url} rel="noopener">{IMO.a1106.name}</a>; <a href={IMO.c1252.url} rel="noopener">{IMO.c1252.name}</a>. Checked 2026-11-25.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>

@@ -14,6 +14,7 @@ export function GET() {
 - [MID codes](${SITE_URL}/tools/mid-codes/): all Maritime Identification Digits by country from the ITU table
 
 ## Equipment
+- [AIS](${SITE_URL}/equipment/ais/): AIS data types and who updates them, reporting intervals, switching off per A.1106(29)
 - [VDR](${SITE_URL}/equipment/vdr/): recording media, retention and the data items recorded per MSC.333(90)
 - [Inmarsat-C](${SITE_URL}/equipment/inmarsat-c/): distress alert rules, EGC SafetyNET, power and antenna siting per A.807(19) and A.664(16)
 - [BNWAS](${SITE_URL}/equipment/bnwas/): alarm stages and timings, modes and reset rules per MSC.128(75)

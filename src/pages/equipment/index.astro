@@ -3,6 +3,7 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 
 const ready = [
+  { icon: 'ais', href: '/equipment/ais/', name: 'AIS', text: 'Static, dynamic and voyage data, reporting intervals, when AIS may be off.' },
   { icon: 'vdr', href: '/equipment/vdr/', name: 'VDR', text: 'Recording media, 48 h and 30-day retention, the 20 data items, annual test.' },
   { icon: 'satellite', href: '/equipment/inmarsat-c/', name: 'Inmarsat-C', text: 'Distress button rules, EGC SafetyNET alarms, power and antenna shadowing.' },
   { icon: 'clipboard', href: '/equipment/bnwas/', name: 'BNWAS', text: 'Alarm stages and timings, modes, reset rules, false alarms.' },
@@ -13,9 +14,7 @@ const ready = [
   { icon: 'radar', href: '/equipment/radar/', name: 'Radar', text: 'Sensor alarms and fallback modes, X- vs S-band, SART detection, requirements by ship size.' },
   { icon: 'ecdis', href: '/equipment/ecdis/', name: 'ECDIS', text: 'Requirements, performance standard by installation date, software updates, known anomalies.' },
 ];
-const planned = [
-['ais', 'AIS', 'AIS']
-];
+const planned: string[][] = [];
 ---
 <Base title="Ship Radio and Navigation Equipment Guides" description="Guides to ship bridge equipment: ECDIS, radar, GMDSS, Inmarsat-C, EPIRB, VDR, AIS, gyro compass. Requirements, common problems and how to get an engineer in port." crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }]}>
   <h1>Equipment</h1>
@@ -23,8 +22,5 @@ const planned = [
   <div class="grid">
     {ready.map((e) => <a class="card" href={e.href}><span class="ico"><Icon name={e.icon} /></span><strong>{e.name}</strong><span>{e.text}</span></a>)}
   </div>
-  <h2>In preparation</h2>
-  <div class="grid">
-    {planned.map(([i, n, v]) => <a class="card soon" href={`/request/?equipment=${encodeURIComponent(v)}`}><span class="ico"><Icon name={i} /></span><strong>{n}</strong><span>Guide coming soon. Need service now? Request a technician.</span></a>)}
-  </div>
+  {planned.length > 0 && <h2>In preparation</h2>}
 </Base>
