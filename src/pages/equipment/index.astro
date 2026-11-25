@@ -3,10 +3,11 @@ import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
 
 const ready = [
+  { icon: 'radar', href: '/equipment/radar/', name: 'Radar', text: 'Sensor alarms and fallback modes, X- vs S-band, SART detection, requirements by ship size.' },
   { icon: 'ecdis', href: '/equipment/ecdis/', name: 'ECDIS', text: 'Requirements, performance standard by installation date, software updates, known anomalies.' },
 ];
 const planned = [
-  ['radar', 'Radar / ARPA', 'Radar / ARPA'], ['gmdss', 'GMDSS consoles (MF/HF, VHF DSC)', 'GMDSS console (MF/HF, VHF DSC)'],
+['gmdss', 'GMDSS consoles (MF/HF, VHF DSC)', 'GMDSS console (MF/HF, VHF DSC)'],
   ['satellite', 'Inmarsat-C and satellite GMDSS', 'Inmarsat-C / satellite GMDSS'], ['epirb', 'EPIRB and SART', 'EPIRB'],
   ['vdr', 'VDR / S-VDR', 'VDR / S-VDR'], ['ais', 'AIS', 'AIS'], ['gyro', 'Gyro compass', 'Gyro compass'], ['navtex', 'NAVTEX', 'NAVTEX'],
 ];

@@ -1,0 +1,109 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import Icon from '../../../components/Icon.astro';
+import { IMO } from '../../../data/imo-sources.js';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'Ship Radar: Sensor Alarms, Fallback Modes and Requirements';
+const description = 'Marine radar explained for the bridge: X-band vs S-band, IMO requirements by ship size (MSC.192(79)), what gyro, log, heading marker and video alarms mean, fallback modes, SART detection and when to call a radar engineer.';
+
+const bands = [
+  ['X-band', '9.2–9.5 GHz (3 cm)', 'High discrimination, good sensitivity and tracking. The only band that detects SARTs and radar beacons.'],
+  ['S-band', '2.9–3.1 GHz (10 cm)', 'Keeps detection and tracking in fog, rain and sea clutter.'],
+];
+
+const sizes = [
+  ['Minimum operational display diameter', '180 mm', '250 mm', '320 mm'],
+  ['Automatic target acquisition', '–', '–', 'Yes'],
+  ['Acquired radar targets (minimum)', '20', '30', '40'],
+  ['Activated AIS targets (minimum)', '20', '30', '40'],
+  ['Sleeping AIS targets (minimum)', '100', '150', '200'],
+  ['Trial manoeuvre', '–', '–', 'Yes'],
+];
+
+const alarms = [
+  ['Heading / gyro failure', 'Azimuth stabilization lost.', 'Radar switches to unstabilized head-up within 1 minute; automatic anti-clutter that needs stabilization switches off. Check the gyro and the heading interface.'],
+  ['Log (speed through water) failure', 'No STW input.', 'Enter speed manually; the manual input is indicated. Check the speed log and its connection.'],
+  ['COG/SOG failure', 'No GNSS course and speed over ground.', 'Radar can work with course and speed through the water. Check the GNSS receiver.'],
+  ['Position input failure', 'No EPFS position.', 'Chart and geo-referenced map overlays are disabled when only one reference target or a manual position is used.'],
+  ['Video / picture freeze', 'No radar video, or the picture stopped updating.', 'A frozen picture must not be shown; the display falls back to AIS targets. If it persists after a restart, call a service engineer.'],
+  ['Azimuth / sync / heading marker', 'Antenna bearing pulses or heading marker missing.', 'Sensor alarm; the picture may be inhibited. Fault finding in the antenna unit is a service job (see safety note).'],
+  ['AIS input failure', 'No AIS data.', 'Radar video and tracked radar targets remain. Check the AIS transponder and interface.'],
+];
+
+const faq = [
+  ['Which radars must a ship carry?', 'Under SOLAS chapter V, ships of 300 GT and upwards and all passenger ships carry a 9 GHz (X-band) radar; ships of 3,000 GT and upwards carry a second radar, normally 3 GHz (S-band). Check SOLAS regulation V/19 and your flag for the exact carriage on your ship.'],
+  ['Why does the SART not show on the S-band radar?', 'A SART answers in the 9 GHz band. Only the X-band radar can detect SARTs and radar beacons, and signal processing that might hide them (for example some anti-clutter or polarization modes) must be possible to switch off.'],
+  ['What standard applies to my radar?', 'Radars installed on or after 1 July 2008 should meet the revised performance standards in resolution MSC.192(79). Older installations follow the standards in force when they were fitted.'],
+  ['Can the crew replace a magnetron?', 'No. The transceiver contains high voltage and the antenna emits microwave radiation. Magnetron replacement and work in the antenna unit are jobs for a service engineer, with the radar switched off and isolated.'],
+];
+
+const makers = ['Furuno', 'JRC', 'Kongsberg', 'Raytheon Anschütz', 'Sperry Marine', 'Wärtsilä', 'Tokyo Keiki', 'Kelvin Hughes'];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'TechArticle', headline: 'Ship radar: sensor alarms, fallback modes and requirements', description, url: `${SITE_URL}/equipment/radar/`, dateModified: '2026-11-25', inLanguage: 'en', citation: [IMO.msc192.name, 'SOLAS chapter V'] },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Equipment', path: '/equipment/' }, { name: 'Radar', path: '/equipment/radar/' }]}>
+  <div class="head">
+    <span class="ico big"><Icon name="radar" size={34} /></span>
+    <div>
+      <h1>Ship radar</h1>
+      <p class="lead">What the radar alarms mean, how the radar keeps working when a sensor fails, and what IMO requires. For officers on watch, ETOs and superintendents.</p>
+    </div>
+  </div>
+
+  <h2>Sensor alarms and fallback modes</h2>
+  <p>A type-approved radar must alarm on failure of any sensor in use (gyro, log, azimuth, video, sync, heading marker) and continue in a defined fallback mode.</p>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Alarm</th><th>Meaning</th><th>What the radar does / what to check</th></tr></thead>
+      <tbody>{alarms.map(([a, b, c]) => <tr><td><strong>{a}</strong></td><td>{b}</td><td>{c}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p class="source">MSC.192(79), sections 5.34 and 9. Alarm texts differ between makers: check your operator's manual.</p>
+
+  <ServiceCta equipment="Radar / ARPA" service="Repair / troubleshooting" icon="radar" title="Radar fault or no picture?" text="Magnetron, transceiver, antenna unit, sensor interfaces: tell us the port and ETA and we pass it to radar engineers there." />
+
+  <div class="note">
+    <p><strong>Safety.</strong> The transceiver works with high voltage and the scanner radiates microwave energy. Do not open the transceiver, and never go near or work on the antenna unless the radar is switched off and isolated (lock-out and tag). Magnetron replacement is a service job.</p>
+  </div>
+
+  <h2>X-band and S-band</h2>
+  <div class="table-scroll">
+    <table><thead><tr><th>Band</th><th>Frequency</th><th>Strength</th></tr></thead>
+      <tbody>{bands.map(([b, f, s]) => <tr><td><strong>{b}</strong></td><td>{f}</td><td>{s}</td></tr>)}</tbody></table>
+  </div>
+  <p class="source">MSC.192(79), 5.1.2 and 5.3.4.</p>
+
+  <h2>Requirements by ship size</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Requirement</th><th>&lt; 500 GT</th><th>500 – &lt; 10,000 GT and HSC</th><th>≥ 10,000 GT</th></tr></thead>
+      <tbody>{sizes.map(([a, b, c, d]) => <tr><td>{a}</td><td>{b}</td><td>{c}</td><td>{d}</td></tr>)}</tbody>
+    </table>
+  </div>
+  <p class="source">MSC.192(79), table 1. Applies to radars installed on or after 1 July 2008.</p>
+
+  <h2>Common makers</h2>
+  <p class="makers">{makers.map((m) => <span>{m}</span>)}</p>
+  <p class="source">Model guides with official manual links will be added. Brand names identify equipment only.</p>
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+
+  <p class="source">Sources (summarized in our own words): <a href={IMO.msc192.url} rel="noopener">{IMO.msc192.name}</a>; SOLAS chapter V. Checked 2026-11-25. Your flag State may have additional requirements.</p>
+</Base>
+
+<style>
+  .head { display: flex; gap: 16px; align-items: flex-start; }
+  .ico.big { flex: 0 0 auto; display: grid; place-items: center; width: 64px; height: 64px; border-radius: 16px; background: var(--sea-soft); color: var(--sea); margin-top: 10px; }
+  .makers { display: flex; flex-wrap: wrap; gap: 8px; }
+  .makers span { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; font-size: .93rem; }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+  @media (max-width: 560px) { .ico.big { display: none; } }
+</style>

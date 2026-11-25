@@ -13,6 +13,7 @@ export function GET() {
 - [MID codes](${SITE_URL}/tools/mid-codes/): all Maritime Identification Digits by country from the ITU table
 
 ## Equipment
+- [Radar](${SITE_URL}/equipment/radar/): sensor alarms and fallback modes, X/S-band, requirements by ship size per MSC.192(79)
 - [ECDIS](${SITE_URL}/equipment/ecdis/): requirements (SOLAS V/19), performance standard by installation date (MSC.530(106)), software updates and known anomalies (MSC.1/Circ.1503/Rev.2)
 
 ## Surveys and annual tests
