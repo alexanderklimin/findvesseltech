@@ -10,6 +10,7 @@ export function GET() {
 - [EPIRB hex ID decoder](${SITE_URL}/tools/epirb-hex-id-decoder/): decode a 406 MHz beacon 15 Hex ID (country, protocol, MMSI, serial, TAC) per Cospas-Sarsat C/S T.001
 - [GMDSS frequencies](${SITE_URL}/tools/gmdss-frequencies/): distress and safety frequencies from ITU Radio Regulations Appendix 15 (Rev.WRC-23)
 - [Survey due dates](${SITE_URL}/tools/survey-due-dates/): time windows for radio survey, EPIRB, VDR and AIS annual tests and EPIRB SBM per HSSC 2025 (A.1207(34)) and MSC.1/Circ.1576
+- [NAVTEX stations](${SITE_URL}/tools/navtex-stations/): 271 NAVTEX stations (518/490/4209.5 kHz) with B1, times, range, language, status from IMO GMDSS.1/Circ.22
 - [MID codes](${SITE_URL}/tools/mid-codes/): all Maritime Identification Digits by country from the ITU table
 
 ## Equipment

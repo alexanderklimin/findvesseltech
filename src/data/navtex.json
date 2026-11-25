@@ -1,0 +1,5428 @@
+{
+"source": "IMO GMDSS Master Plan, GMDSS.1/Circ.22, Annex 7 (NAVTEX service)",
+"sourceUrl": "https://wwwcdn.imo.org/localresources/en/OurWork/Safety/Documents/Documents%20relevant%20to%20SAR/GMDSS.1-CIRC.22%20GMDSS%20Master%20Plan.pdf",
+"sourceDate": "2018-07-30",
+"checked": "2026-11-25",
+"stations": [
+{
+"freq": "518",
+"area": "I",
+"country": "Belgium",
+"station": "Oostende Radio",
+"lat": "51°10'.95N",
+"lon": "002°48'.47E",
+"range": 55,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Belgium",
+"station": "Oostende (Thames Approaches broadcast for United Kingdom)",
+"lat": "51°10'.95N",
+"lon": "002°48'.47E",
+"range": 150,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Estonia",
+"station": "Tallinn",
+"lat": "59°27'.84N",
+"lon": "024°21'.42E",
+"range": 250,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "France",
+"station": "Cross Corsen",
+"lat": "48°28'.56N",
+"lon": "005°03'.18W",
+"range": 300,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Germany",
+"station": "Pinneberg",
+"lat": "53°40'.50N",
+"lon": "009°48'.50E",
+"range": 250,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Iceland",
+"station": "Reykjavik Radio / Saudanes",
+"lat": "66°11'.17N",
+"lon": "018°57'.12W",
+"range": 450,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Iceland",
+"station": "Reykjavik Radio / Grindavik",
+"lat": "63°49'.99N",
+"lon": "022°27'.04W",
+"range": 450,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Ireland",
+"station": "Valentia",
+"lat": "51°56'.00N",
+"lon": "010°21'.00W",
+"range": 400,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Ireland",
+"station": "Malin Head",
+"lat": "55°21'.80N",
+"lon": "007°20'.39W",
+"range": 400,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Netherlands",
+"station": "Netherlands Coastguard Radio (PBK)",
+"lat": "52˚55'.06N",
+"lon": "004˚44'.34E",
+"range": 250,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Norway",
+"station": "Rogaland Radio",
+"lat": "58°38'.92N",
+"lon": "005°36'.58E",
+"range": 450,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Norway",
+"station": "Ørlandet",
+"lat": "63°39'.70N",
+"lon": "009°32'.80E",
+"range": 450,
+"b1": "N",
+"times": [
+"0210",
+"0610",
+"1010",
+"1410",
+"1810",
+"2210"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Norway",
+"station": "Jeloya",
+"lat": "59°26'.08N",
+"lon": "010°35'.48E",
+"range": 200,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Sweden",
+"station": "Bjuröklubb",
+"lat": "64°27'.71N",
+"lon": "021°35'.47E",
+"range": 300,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Sweden",
+"station": "Gislövshammar",
+"lat": "55°29'.38N",
+"lon": "014°18'.87E",
+"range": 300,
+"b1": "J",
+"times": [
+"0130",
+"0530",
+"0930",
+"1330",
+"1730",
+"2130"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Sweden",
+"station": "Grimeton",
+"lat": "57°06'.32N",
+"lon": "012°23'.36E",
+"range": 300,
+"b1": "I",
+"times": [
+"0120",
+"0520",
+"0920",
+"1320",
+"1720",
+"2120"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "United Kingdom",
+"station": "Cullercoats",
+"lat": "55°04'.49N",
+"lon": "001°27'.79W",
+"range": 300,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "United Kingdom",
+"station": "Portpatrick",
+"lat": "54°50'.64N",
+"lon": "005°07'.47W",
+"range": 300,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "United Kingdom",
+"station": "Niton",
+"lat": "50°35'.18N",
+"lon": "001°15'.29W",
+"range": 300,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "United Kingdom",
+"station": "Niton (NE Coast of France and Channel Islands broadcast for France)",
+"lat": "50°35'.18N",
+"lon": "001°15'.29W",
+"range": 300,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "I",
+"country": "Faroes",
+"station": "Torshavn Radio",
+"lat": "62°00'.87N",
+"lon": "006°47'.45W",
+"range": 300,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Cabo Verde",
+"station": "Sao Vicente Radio",
+"lat": "16°51'.24N",
+"lon": "025°00'.14W",
+"range": 250,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "France",
+"station": "Cross Corsen",
+"lat": "48°28'.56N",
+"lon": "005°03'.18W",
+"range": 300,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Nigeria",
+"station": "Lagos",
+"lat": "06°23'.99N",
+"lon": "003°22'.91E",
+"range": 250,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Nigeria",
+"station": "Oron",
+"lat": "04°48'.01N",
+"lon": "008°15'.34E",
+"range": 250,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Portugal",
+"station": "Cencomaracores (S.Miguel)",
+"lat": "37º48'.50N",
+"lon": "025º33'.20W",
+"range": 300,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Portugal",
+"station": "Cencomar (Penalva)",
+"lat": "38º36'.20N",
+"lon": "009º01'.80W",
+"range": 300,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Portugal",
+"station": "Cencomarmadeira (Porto Santo)",
+"lat": "33º05'.70N",
+"lon": "016º20'.40W",
+"range": 300,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Senegal",
+"station": "Dakar",
+"lat": "14°46'.25N",
+"lon": "017°20'.40W",
+"range": 200,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Spain",
+"station": "Coruña",
+"lat": "43°22'.03N",
+"lon": "008°27'.13W",
+"range": 300,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Spain",
+"station": "Tarifa",
+"lat": "36°02'.53N",
+"lon": "005°33'.38W",
+"range": 300,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "II",
+"country": "Spain",
+"station": "Las Palmas",
+"lat": "28°25'.97N",
+"lon": "016°20'.17W",
+"range": 450,
+"b1": "I",
+"times": [
+"0120",
+"0520",
+"0920",
+"1320",
+"1720",
+"2120"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Algeria",
+"station": "Ain Taya Radio",
+"lat": "36°48'.23N",
+"lon": "003°15'.63E",
+"range": 200,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Azerbaijan",
+"station": "Baku (Chilov)",
+"lat": "40°19'.63N",
+"lon": "050°36'.74E",
+"range": 200,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Bulgaria",
+"station": "Varna Radio",
+"lat": "43°04'.01N",
+"lon": "027°47'.19E",
+"range": 350,
+"b1": "J",
+"times": [
+"0130",
+"0530",
+"0930",
+"1330",
+"1730",
+"2130"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Croatia",
+"station": "Split (Hvar Is)",
+"lat": "43°10'.54N",
+"lon": "016°25'.38E",
+"range": 200,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Cyprus",
+"station": "Cyprus Radio",
+"lat": "34°44'.28N",
+"lon": "032°39'.52E",
+"range": 200,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Egypt",
+"station": "Alexandria",
+"lat": "31°12'.00N",
+"lon": "029°52'.00E",
+"range": 350,
+"b1": "N",
+"times": [
+"0210",
+"0610",
+"1010",
+"1410",
+"1810",
+"2210"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "France",
+"station": "CROSS La Garde",
+"lat": "43°06'.26N",
+"lon": "005°59'.49E",
+"range": 250,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Greece",
+"station": "Irakleio",
+"lat": "35°19'.33N",
+"lon": "025°44'.92E",
+"range": 400,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Greece",
+"station": "Kerkyra",
+"lat": "39°36'.43N",
+"lon": "019°53'.47E",
+"range": 400,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Greece",
+"station": "Limnos",
+"lat": "39°54'.41N",
+"lon": "025°10'.84E",
+"range": 400,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Iran (Islamic Republic of)",
+"station": "Fereydoonkenar Radio",
+"lat": "36°42'.00N",
+"lon": "052°33'.00E",
+"range": 250,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Israel",
+"station": "RCC Haifa",
+"lat": "32°54'.90N",
+"lon": "035°07'.10E",
+"range": 200,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Italy",
+"station": "La Maddalena",
+"lat": "41°13'.22N",
+"lon": "009°23'.57E",
+"range": 320,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Italy",
+"station": "Mondolfo",
+"lat": "43°44'.51N",
+"lon": "013°08'.33E",
+"range": 320,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Italy",
+"station": "Sellia Marina",
+"lat": "38°52'.21N",
+"lon": "016°43'.06E",
+"range": 320,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Libya",
+"station": "Surt",
+"lat": null,
+"lon": null,
+"range": 320,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Malta",
+"station": "Malta Radio",
+"lat": "35°50'.29N",
+"lon": "014°29'.38E",
+"range": 400,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Malta",
+"station": "Malta Radio",
+"lat": "35°50'.29N",
+"lon": "014°29'.38E",
+"range": 400,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Russian Federation",
+"station": "Novorossiysk",
+"lat": "44°36'.00N",
+"lon": "037°58'.00E",
+"range": 300,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Russian Federation",
+"station": "Astrakhan",
+"lat": "45°47'.00N",
+"lon": "047°33'.00E",
+"range": 250,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Spain",
+"station": "Cabo La Nao",
+"lat": "38°43'.07N",
+"lon": "000°10'.55E",
+"range": 220,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Spain",
+"station": "Tarifa",
+"lat": "36°02'.53N",
+"lon": "005°33'.38W",
+"range": 300,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Tunisia",
+"station": "Kelibia",
+"lat": "36°48'.08N",
+"lon": "011°02'.29E",
+"range": 270,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Turkey",
+"station": "Istanbul",
+"lat": "41°04'.00N",
+"lon": "028°57'.00E",
+"range": 400,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Turkey",
+"station": "Samsun",
+"lat": "41°23'.00N",
+"lon": "036°11'.00E",
+"range": 400,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Turkey",
+"station": "Antalya",
+"lat": "36°09'.00N",
+"lon": "032°26'.00E",
+"range": 400,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Turkey",
+"station": "Izmir",
+"lat": "38°16'.00N",
+"lon": "026°16'.00E",
+"range": 400,
+"b1": "I",
+"times": [
+"0120",
+"0520",
+"0920",
+"1320",
+"1720",
+"2120"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Ukraine",
+"station": "Odesa",
+"lat": "46°22'.65N",
+"lon": "030°44'.85E",
+"range": 250,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "III",
+"country": "Ukraine",
+"station": "Berdiansk",
+"lat": "46°38'.17N",
+"lon": "036°45'.72E",
+"range": 250,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Bermuda (United Kingdom)",
+"station": "Bermuda",
+"lat": "32°21'.07N",
+"lon": "064°39'.46W",
+"range": 280,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Moisie",
+"lat": "50°11'.75N",
+"lon": "066°06'.74W",
+"range": 300,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Ferndale",
+"lat": "44°56'.22N",
+"lon": "081°14'.00W",
+"range": 300,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Pass Lake",
+"lat": "48°33'.80N",
+"lon": "088°39'.37W",
+"range": 300,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Port Caledonia",
+"lat": "46°11'.15N",
+"lon": "059°53'.77W",
+"range": 300,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Chebogue",
+"lat": "43°44'.65N",
+"lon": "066°07'.32W",
+"range": 300,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Robin Hood Bay",
+"lat": "47°36'.65N",
+"lon": "052°40'.18W",
+"range": 300,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Cartwright",
+"lat": "53°42'.52N",
+"lon": "057°01'.35W",
+"range": 300,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Canada",
+"station": "Iqaluit",
+"lat": "63°43'.82N",
+"lon": "068°32'.70W",
+"range": 300,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Colombia",
+"station": "Santa Marta",
+"lat": "11°03'.33N",
+"lon": "074°13'.10W",
+"range": 300,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Under trial"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Curaçao (Netherlands)",
+"station": "Curaçao",
+"lat": "12°10'.31N",
+"lon": "068°51'.82W",
+"range": 400,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Greenland (Denmark)",
+"station": "Kook Island (Nuuk), Greenland",
+"lat": "64°04'.00N",
+"lon": "052°01'.00W",
+"range": 300,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "Greenland (Denmark)",
+"station": "Simiutaq, Greenland",
+"lat": "60°41'.00N",
+"lon": "046°35'.00W",
+"range": 300,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "United States",
+"station": "Miami",
+"lat": "25°37'.40N",
+"lon": "080°23'.37W",
+"range": 240,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "United States",
+"station": "Boston",
+"lat": "41°42'.82N",
+"lon": "070°30'.27W",
+"range": 200,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "United States",
+"station": "New Orleans",
+"lat": "29°53'.08N",
+"lon": "089°56'.73W",
+"range": 200,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "United States",
+"station": "Portsmouth",
+"lat": "36°43'.72N",
+"lon": "076°00'.60W",
+"range": 280,
+"b1": "N",
+"times": [
+"0210",
+"0610",
+"1010",
+"1410",
+"1810",
+"2210"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "United States",
+"station": "Isabella",
+"lat": "18°28'.00N",
+"lon": "067°04'.32W",
+"range": 200,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IV",
+"country": "United States",
+"station": "Charleston",
+"lat": "32°50'.67N",
+"lon": "079°57'.00W",
+"range": 200,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VI",
+"country": "Argentina",
+"station": "Ushuaia",
+"lat": "54°48'.00S",
+"lon": "068°18'.00W",
+"range": 280,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VI",
+"country": "Argentina",
+"station": "Rio Gallegos",
+"lat": "51°37'.00S",
+"lon": "069°12'.00W",
+"range": 280,
+"b1": "N",
+"times": [
+"0210",
+"0610",
+"1010",
+"1410",
+"1810",
+"2210"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VI",
+"country": "Argentina",
+"station": "Comodoro Rivadavia",
+"lat": "45°50'.50S",
+"lon": "067°28'.40W",
+"range": 280,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VI",
+"country": "Argentina",
+"station": "Bahia Blanca",
+"lat": "38°52'.00S",
+"lon": "062°06'.00W",
+"range": 280,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VI",
+"country": "Argentina",
+"station": "Mar del Plata",
+"lat": "38°03'.00S",
+"lon": "057°32'.00W",
+"range": 280,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VI",
+"country": "Argentina",
+"station": "Buenos Aires",
+"lat": "35°29'.00S",
+"lon": "057°10'.00W",
+"range": 280,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VI",
+"country": "Uruguay",
+"station": "La Paloma",
+"lat": "34°40'.00S",
+"lon": "054°09'.00W",
+"range": 280,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "VII",
+"country": "Namibia",
+"station": "Walvis Bay",
+"lat": "23°03'.00S",
+"lon": "014°37'.00E",
+"range": 378,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "VII",
+"country": "South Africa",
+"station": "Cape Town Radio",
+"lat": "33°40'.97S",
+"lon": "018°43'.09E",
+"range": 300,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VII",
+"country": "South Africa",
+"station": "Port Elizabeth Radio",
+"lat": "34°02'.20S",
+"lon": "025°33'.37E",
+"range": 300,
+"b1": "I",
+"times": [
+"0120",
+"0520",
+"0920",
+"1320",
+"1720",
+"2120"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VII",
+"country": "South Africa",
+"station": "Durban Radio",
+"lat": "29°48'.35S",
+"lon": "030°48'.95E",
+"range": 300,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VII",
+"country": "South Africa",
+"station": "Cape Columbine",
+"lat": "32°49'.55S",
+"lon": "017°50'.97E",
+"range": 300,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "India",
+"station": "Veraval",
+"lat": "20°54'.60N",
+"lon": "070°21'.00E",
+"range": 250,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "India",
+"station": "Vengurla Point",
+"lat": "15°51'.20N",
+"lon": "073°37'.00E",
+"range": 250,
+"b1": "J",
+"times": [
+"0130",
+"0530",
+"0930",
+"1330",
+"1730",
+"2130"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "India",
+"station": "Muttam Point",
+"lat": "08°07'.40N",
+"lon": "077°19'.10E",
+"range": 250,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "India",
+"station": "Porto Novo",
+"lat": "11°30'.20N",
+"lon": "079°46'.20E",
+"range": 250,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "India",
+"station": "Vakalpudi",
+"lat": "17°00'.80N",
+"lon": "082°17'.10E",
+"range": 250,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "India",
+"station": "Balasore",
+"lat": "21°29'.20N",
+"lon": "086°55'.00E",
+"range": 250,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "Mauritius",
+"station": "Mauritius",
+"lat": "20°10'.05S",
+"lon": "057°28'.69E",
+"range": 400,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "VIII",
+"country": "Seychelles",
+"station": "Mahe",
+"lat": "04°39'.32S",
+"lon": "055°28'.38E",
+"range": 400,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Bahrain",
+"station": "Hamala",
+"lat": "26°09'.53N",
+"lon": "050°28'.35E",
+"range": 300,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Egypt",
+"station": "Serapeum (Ismailia)",
+"lat": "30°28'.00N",
+"lon": "032°22'.00E",
+"range": 400,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Egypt",
+"station": "Kosseir",
+"lat": "26°06'.00N",
+"lon": "034°17'.00E",
+"range": 400,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Iran (Islamic Republic of)",
+"station": "Abbas Radio",
+"lat": "27°06'.00N",
+"lon": "056°03'.00E",
+"range": 300,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Iran (Islamic Republic of)",
+"station": "Busherhr",
+"lat": "28°59'.00N",
+"lon": "050°49'.00E",
+"range": 300,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Oman",
+"station": "Wattayah",
+"lat": "23°36'.77N",
+"lon": "058°30'.26E",
+"range": 400,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Oman",
+"station": "Salalah",
+"lat": "17°01'.90N",
+"lon": "054°15'.67E",
+"range": 400,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Pakistan",
+"station": "Karachi",
+"lat": "24°52'.77N",
+"lon": "067°09'.94E",
+"range": 400,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "IX",
+"country": "Saudi Arabia",
+"station": "Jeddah",
+"lat": "21°23'.00N",
+"lon": "039°10'.00E",
+"range": 390,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "China",
+"station": "Sanya",
+"lat": "18°17'.49N",
+"lon": "109°21'.80E",
+"range": 250,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "China",
+"station": "Guangzhou",
+"lat": "23°09'.56N",
+"lon": "113°30'.80E",
+"range": 250,
+"b1": "N",
+"times": [
+"0210",
+"0610",
+"1010",
+"1410",
+"1810",
+"2210"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "China",
+"station": "Fuzhou",
+"lat": "25°59'.96N",
+"lon": "119°26'.50E",
+"range": 250,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "China",
+"station": "Shanghai",
+"lat": "31°06'.79N",
+"lon": "121°32'.79E",
+"range": 250,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "China",
+"station": "Dalian",
+"lat": "38°50'.69N",
+"lon": "121°31'.09E",
+"range": 250,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Democratic People's Republic of Korea",
+"station": "Pyongyang",
+"lat": "38°59'.58N",
+"lon": "125°42'.93E",
+"range": 200,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Democratic People's Republic of Korea",
+"station": "Hamhung",
+"lat": "39°50'.00N",
+"lon": "127°41'.02E",
+"range": 200,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Guam (United States)",
+"station": "Guam",
+"lat": "13°28'.62N",
+"lon": "144°50'.10E",
+"range": 250,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Indonesia",
+"station": "Jayapura",
+"lat": "02°31'.13S",
+"lon": "140°43'.30E",
+"range": 300,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Indonesia",
+"station": "Ambon",
+"lat": "03°41'.68S",
+"lon": "128°11'.88E",
+"range": 300,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Indonesia",
+"station": "Makassar",
+"lat": "05°04'.89S",
+"lon": "119°29'.83E",
+"range": 300,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Indonesia",
+"station": "Jakarta",
+"lat": "06°07'.15S",
+"lon": "106°51'.78E",
+"range": 300,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Japan",
+"station": "Kushiro",
+"lat": "42°57'.35N",
+"lon": "144°35'.37E",
+"range": 400,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Japan",
+"station": "Otaru",
+"lat": "43°19'.53N",
+"lon": "140°26'.83E",
+"range": 400,
+"b1": "J",
+"times": [
+"0130",
+"0530",
+"0930",
+"1330",
+"1730",
+"2130"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Japan",
+"station": "Yokohama",
+"lat": "35°14'.55N",
+"lon": "139°55'.28E",
+"range": 400,
+"b1": "I",
+"times": [
+"0120",
+"0520",
+"0920",
+"1320",
+"1720",
+"2120"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Japan",
+"station": "Moji",
+"lat": "34°00'.90N",
+"lon": "130°56'.10E",
+"range": 400,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Japan",
+"station": "Naha",
+"lat": "26°05'.47N",
+"lon": "127°40'.12E",
+"range": 400,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Malaysia",
+"station": "Penang",
+"lat": "05°25'.58N",
+"lon": "100°24'.40E",
+"range": 350,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Malaysia",
+"station": "Miri",
+"lat": "04°26'.42N",
+"lon": "114°01'.51E",
+"range": 350,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Malaysia",
+"station": "Sandakan",
+"lat": "05°53'.85N",
+"lon": "118°00'.24E",
+"range": 350,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Philippines",
+"station": "Manila",
+"lat": "14°33'.33N",
+"lon": "121°03'.90E",
+"range": 320,
+"b1": "J",
+"times": [
+"0130",
+"0530",
+"0930",
+"1330",
+"1730",
+"2130"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Philippines",
+"station": "Davao",
+"lat": "07°07'.30N",
+"lon": "125°39'.42E",
+"range": 320,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Republic of Korea",
+"station": "Jukbyeon",
+"lat": "37°03'.45N",
+"lon": "129°25'.70E",
+"range": 200,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Republic of Korea",
+"station": "Byeonsan",
+"lat": "35°35'.82N",
+"lon": "126°29'.18E",
+"range": 200,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Singapore",
+"station": "Singapore POCC",
+"lat": "01°20'.65N",
+"lon": "103°58'.35E",
+"range": 400,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Thailand",
+"station": "Bangkok Radio",
+"lat": "13°01'.47N",
+"lon": "100°01'.20E",
+"range": 400,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Viet Nam",
+"station": "Ho Chi Minh Radio",
+"lat": "10°23'.40N",
+"lon": "107°08'.41E",
+"range": 400,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Viet Nam",
+"station": "Da Nang Radio",
+"lat": "16°03'.33N",
+"lon": "108°09'.42E",
+"range": 400,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XI",
+"country": "Hong Kong, China",
+"station": "Hong Kong, China",
+"lat": "22°12'.57N",
+"lon": "114°15'.03E",
+"range": 400,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "Canada",
+"station": "Digby Island",
+"lat": "54°18'.05N",
+"lon": "130°24'.17W",
+"range": 300,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "Canada",
+"station": "Amphitrite Point",
+"lat": "48°55'.28N",
+"lon": "125°32'.38W",
+"range": 300,
+"b1": "H",
+"times": [
+"0110",
+"0510",
+"0910",
+"1310",
+"1710",
+"2110"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "Colombia",
+"station": "Buenaventura",
+"lat": "03°54'.18N",
+"lon": "077°03'.77W",
+"range": 300,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Under trial"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "Ecuador",
+"station": "Ayora",
+"lat": "00°43'.03S",
+"lon": "090°19'.63W",
+"range": 400,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "United States",
+"station": "San Francisco",
+"lat": "37°55'.53N",
+"lon": "122°43'.87W",
+"range": 350,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "United States",
+"station": "Kodiak",
+"lat": "57°46'.63N",
+"lon": "152°31'.72W",
+"range": 200,
+"b1": "J",
+"times": [
+"0130",
+"0530",
+"0930",
+"1330",
+"1730",
+"2130"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "United States",
+"station": "Kodiak",
+"lat": "57°46'.63N",
+"lon": "152°31'.72W",
+"range": 200,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "United States",
+"station": "Honolulu",
+"lat": "21°26'.10N",
+"lon": "158°08'.65W",
+"range": 350,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "United States",
+"station": "Cambria",
+"lat": "35°31'.12N",
+"lon": "121°03'.60W",
+"range": 350,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XII",
+"country": "United States",
+"station": "Astoria",
+"lat": "46°12'.40N",
+"lon": "123°57'.38W",
+"range": 216,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIII",
+"country": "Russian Federation",
+"station": "Kholmsk",
+"lat": "47°02'.00N",
+"lon": "142°03'.00E",
+"range": 300,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIII",
+"country": "Russian Federation",
+"station": "Petropavlovsk- Kamchatskiy",
+"lat": "53°00'.00N",
+"lon": "158°40'.00E",
+"range": 300,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIII",
+"country": "Russian Federation",
+"station": "Vladivostok",
+"lat": "43°23'.00N",
+"lon": "131°54'.00E",
+"range": 230,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIII",
+"country": "Russian Federation",
+"station": "Okhotsk",
+"lat": "59°22'.00N",
+"lon": "143°12'.00E",
+"range": 300,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIII",
+"country": "Russian Federation",
+"station": "Magadan",
+"lat": "59°41'.00N",
+"lon": "150°09'.00E",
+"range": 120,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XV",
+"country": "Chile",
+"station": "Antofagasta",
+"lat": "23°29'.47S",
+"lon": "070°25'.39W",
+"range": 400,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XV",
+"country": "Chile",
+"station": "Valparaiso",
+"lat": "32°48'.37S",
+"lon": "071°29'.23W",
+"range": 400,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XV",
+"country": "Chile",
+"station": "Talcahuano",
+"lat": "36°37'.75S",
+"lon": "073°07'.01W",
+"range": 400,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XV",
+"country": "Chile",
+"station": "Puerto Montt",
+"lat": "41°47'.06S",
+"lon": "073°52'.75W",
+"range": 400,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XV",
+"country": "Chile",
+"station": "Magallanes",
+"lat": "52°55'.70S",
+"lon": "070°53'.42W",
+"range": 400,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XV",
+"country": "Chile",
+"station": "Isla de Pascua",
+"lat": "27°08'.85S",
+"lon": "109°22'.61W",
+"range": 400,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "English",
+"status": "Temporarily suspended"
+},
+{
+"freq": "518",
+"area": "XVI",
+"country": "Peru",
+"station": "Paita",
+"lat": "05°06'.00S",
+"lon": "081°07'.00W",
+"range": 250,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XVI",
+"country": "Peru",
+"station": "Callao",
+"lat": "12°01'.80S",
+"lon": "077°07'.80W",
+"range": 250,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XVI",
+"country": "Peru",
+"station": "Mollendo",
+"lat": "17°00'.30S",
+"lon": "072°01'.90W",
+"range": 250,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XVIII",
+"country": "Greenland (Denmark)",
+"station": "Upernavik, Greenland",
+"lat": "72°47'.00N",
+"lon": "056°09'.00W",
+"range": 300,
+"b1": "I",
+"times": [
+"0120",
+"0520",
+"0920",
+"1320",
+"1720",
+"2120"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIX",
+"country": "Norway",
+"station": "Bodø Radio",
+"lat": "67°16'.15N",
+"lon": "014°25'.37E",
+"range": 450,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIX",
+"country": "Norway",
+"station": "Vardø Radio",
+"lat": "70°22'.27N",
+"lon": "031°05'.83E",
+"range": 450,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XIX",
+"country": "Norway",
+"station": "Svalbard (Isfjord)",
+"lat": "78°03'.42N",
+"lon": "013°36'.59E",
+"range": 450,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XX",
+"country": "Russian Federation",
+"station": "Murmansk",
+"lat": "68°46'.00N",
+"lon": "032°58'.00E",
+"range": 300,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XX",
+"country": "Russian Federation",
+"station": "Arkhangelsk",
+"lat": "64°51'.00N",
+"lon": "040°17'.00E",
+"range": 300,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "518",
+"area": "XXI",
+"country": "Russian Federation",
+"station": "Tiksi",
+"lat": "71°38'.00N",
+"lon": "128°50'.00E",
+"range": 300,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "Belgium",
+"station": "Oostende Radio",
+"lat": "51°10'.95N",
+"lon": "002°48'.47E",
+"range": 55,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "Dutch",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "Germany",
+"station": "Pinneberg",
+"lat": "53°40'.50N",
+"lon": "009°48'.50E",
+"range": 250,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "German",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "Iceland",
+"station": "Reykjavik Radio/ Grindavik",
+"lat": "63°49'.99N",
+"lon": "022°27'.04W",
+"range": 450,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "Icelandic",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "Iceland",
+"station": "Reykjavik Radio/ Saudnes",
+"lat": "66°11'.17N",
+"lon": "018°57'.12W",
+"range": 450,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "Icelandic",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "Ireland",
+"station": "Malin Head (North West Approaches broadcast for United Kingdom)",
+"lat": "55°21'.80N",
+"lon": "007°20'.39W",
+"range": 400,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "United Kingdom",
+"station": "Cullercoats",
+"lat": "55°04'.49N",
+"lon": "001°27'.79W",
+"range": 300,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "United Kingdom",
+"station": "Portpatrick",
+"lat": "54°50'.64N",
+"lon": "005°07'.47W",
+"range": 300,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "United Kingdom",
+"station": "Niton",
+"lat": "50°35'.18N",
+"lon": "001°15'.29W",
+"range": 300,
+"b1": "I",
+"times": [
+"0120",
+"0530",
+"0930",
+"1320",
+"1720",
+"2120"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "I",
+"country": "United Kingdom",
+"station": "Niton (NE Coast of France and Channel Islands broadcast for France)",
+"lat": "50°35'.18N",
+"lon": "001°15'.29W",
+"range": 300,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Cabo Verde",
+"station": "Sao Vicente Radio",
+"lat": "16°51'.24N",
+"lon": "025°00'.14W",
+"range": 250,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "Portuguese",
+"status": "Temporarily suspended"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "France",
+"station": "Ouessant",
+"lat": "48°28'.56N",
+"lon": "005°03'.18W",
+"range": 300,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Nigeria",
+"station": "Lagos",
+"lat": "06°23'.99N",
+"lon": "003°22'.91E",
+"range": 250,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "-",
+"status": "Planned"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Nigeria",
+"station": "Oron",
+"lat": "04°48'.01N",
+"lon": "008°15'.34E",
+"range": 250,
+"b1": "O",
+"times": [
+"0220",
+"0620",
+"1020",
+"1420",
+"1820",
+"2220"
+],
+"language": "-",
+"status": "Planned"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Portugal",
+"station": "Cencomaracores (S. Miguel)",
+"lat": "37º48'.50N",
+"lon": "025º33'.20W",
+"range": 300,
+"b1": "J",
+"times": [
+"0051",
+"0451",
+"0851",
+"1251",
+"1651",
+"2051"
+],
+"language": "Portuguese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Portugal",
+"station": "Cencomar (Penalva)",
+"lat": "38º36'.20N",
+"lon": "009º01'.80W",
+"range": 300,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "Portuguese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Portugal",
+"station": "Cencomarmadeira (Porto Santo)",
+"lat": "33º05'.70N",
+"lon": "016º20'.40W",
+"range": 300,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "Portuguese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Senegal",
+"station": "Dakar",
+"lat": "14°46'.25N",
+"lon": "017°20'.40W",
+"range": 200,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "French",
+"status": "Temporarily suspended"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Spain",
+"station": "Coruña",
+"lat": "43°22'.03N",
+"lon": "008°27'.13W",
+"range": 300,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Spain",
+"station": "Tarifa",
+"lat": "36°02'.53N",
+"lon": "005°33'.38W",
+"range": 300,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "II",
+"country": "Spain",
+"station": "Las Palmas",
+"lat": "28°25'.97N",
+"lon": "016°20'.17W",
+"range": 450,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Algeria",
+"station": "Ain Taya Radio",
+"lat": "36°48'.23N",
+"lon": "003°15'.63E",
+"range": 200,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Azerbaijan",
+"station": "Baku (Chilov)",
+"lat": "40°19'.63N",
+"lon": "050°36'.74E",
+"range": 200,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "Azerbaijan",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "France",
+"station": "CROSS La Garde",
+"lat": "43°06'.26N",
+"lon": "005°59'.49E",
+"range": 250,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Georgia",
+"station": "Poti",
+"lat": "42°07'.97N",
+"lon": "041°39'.66E",
+"range": 350,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Greece",
+"station": "Irakleio",
+"lat": "35°19'.33N",
+"lon": "025°44'.92E",
+"range": 400,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "Greek",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Greece",
+"station": "Kerkyra",
+"lat": "39°36'.43N",
+"lon": "019°53'.47E",
+"range": 400,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "Greek",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Greece",
+"station": "Limnos",
+"lat": "39°54'.41N",
+"lon": "025°10'.84E",
+"range": 400,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "Greek",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Iran (Islamic Republic of)",
+"station": "Fereydoonkenar Radio",
+"lat": "36°42'.00N",
+"lon": "052°33'.00E",
+"range": 250,
+"b1": "J",
+"times": [
+"0051",
+"0451",
+"0851",
+"1251",
+"1651",
+"2051"
+],
+"language": "Farsii",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Italy",
+"station": "La Maddalena",
+"lat": "41°13'.22N",
+"lon": "009°23'.57E",
+"range": 320,
+"b1": "I",
+"times": [
+"0120",
+"0530",
+"0930",
+"1320",
+"1720",
+"2120"
+],
+"language": "Italian",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Italy",
+"station": "Mondolfo",
+"lat": "43°44'.51N",
+"lon": "013°08'.33E",
+"range": 320,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "Italian",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Italy",
+"station": "Sellia Marina",
+"lat": "38°52'.21N",
+"lon": "016°43'.06E",
+"range": 320,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "Italian",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Italy",
+"station": "Piombino",
+"lat": "42°55'.36N",
+"lon": "010°32'.45E",
+"range": 320,
+"b1": "N",
+"times": [
+"0210",
+"0610",
+"1010",
+"1410",
+"1810",
+"2210"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Romania",
+"station": "Constanta Radio",
+"lat": "44°06'.00N",
+"lon": "028°38'.00E",
+"range": 400,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "Romanian",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Spain",
+"station": "Cabo La Nao",
+"lat": "38°43'.07N",
+"lon": "000°10'.55E",
+"range": 220,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Spain",
+"station": "Tarifa",
+"lat": "36°02'.53N",
+"lon": "005°33'.38W",
+"range": 300,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Syrian Arab Republic",
+"station": "Lattakia Radio",
+"lat": "35°32'.13N",
+"lon": "035°46'.50E",
+"range": null,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "-",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Turkey",
+"station": "Samsun",
+"lat": "41°23'.00N",
+"lon": "036°11'.00E",
+"range": 400,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "Turkish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Turkey",
+"station": "Istanbul",
+"lat": "41°04'.00N",
+"lon": "028°57'.00E",
+"range": 400,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "Turkish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Turkey",
+"station": "Izmir",
+"lat": "38°16'.00N",
+"lon": "026°16'.00E",
+"range": 400,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "Turkish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Turkey",
+"station": "Antalya",
+"lat": "36°09'.00N",
+"lon": "032°26'.00E",
+"range": 400,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "Turkish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Ukraine",
+"station": "Odesa",
+"lat": "46°22'.65N",
+"lon": "030°44'.85E",
+"range": 250,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "III",
+"country": "Ukraine",
+"station": "Berdiansk",
+"lat": "46°38'.17N",
+"lon": "036°45'.72E",
+"range": 250,
+"b1": "U",
+"times": [
+"0320",
+"0720",
+"1120",
+"1520",
+"1920",
+"2320"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IV",
+"country": "Canada",
+"station": "Moisie",
+"lat": "50°11'.75N",
+"lon": "066°06'.73W",
+"range": 300,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IV",
+"country": "Canada",
+"station": "Port Caledonia",
+"lat": "46°11'.15N",
+"lon": "059°53'.77W",
+"range": 300,
+"b1": "J",
+"times": [
+"0051",
+"0451",
+"0851",
+"1251",
+"1651",
+"2051"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IV",
+"country": "Canada",
+"station": "Chebogue",
+"lat": "43°44'.65N",
+"lon": "066°07'.32W",
+"range": 300,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IV",
+"country": "Canada",
+"station": "Iqaluit",
+"lat": "63°43'.82N",
+"lon": "068°32'.70W",
+"range": 300,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "French",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IV",
+"country": "Colombia",
+"station": "Santa Marta",
+"lat": "11°03'.33N",
+"lon": "074°13'.10W",
+"range": 300,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "VI",
+"country": "Argentina",
+"station": "Ushuaia",
+"lat": "54°48'.00S",
+"lon": "068°18'.00W",
+"range": 280,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "VI",
+"country": "Argentina",
+"station": "Rio Gallegos",
+"lat": "51°37'.00S",
+"lon": "069°12'.00W",
+"range": 280,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "VI",
+"country": "Argentina",
+"station": "Comodoro Rivadavia",
+"lat": "45°50'.50S",
+"lon": "067°28'.40W",
+"range": 280,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "VI",
+"country": "Argentina",
+"station": "Bahia Blanca",
+"lat": "38°52'.00S",
+"lon": "062°06'.00W",
+"range": 280,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "VI",
+"country": "Argentina",
+"station": "Mar del Plata",
+"lat": "38°03'.00S",
+"lon": "057°32'.00W",
+"range": 280,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "VI",
+"country": "Argentina",
+"station": "Buenos Aires",
+"lat": "35°29'.00S",
+"lon": "057°10'.00W",
+"range": 280,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "VI",
+"country": "Uruguay",
+"station": "La Paloma",
+"lat": "34°40'.00S",
+"lon": "054°09'.00W",
+"range": 280,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "Spanish",
+"status": "Temporarily suspended"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "India",
+"station": "Veraval",
+"lat": "20°54'.60N",
+"lon": "070°21'.00E",
+"range": 250,
+"b1": "P",
+"times": [
+"0230",
+"0630",
+"1030",
+"1430",
+"1830",
+"2230"
+],
+"language": "Gujrati, Marathi, Hindi",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "India",
+"station": "Vengurla Point",
+"lat": "15°51'.20N",
+"lon": "073°37'.00E",
+"range": 250,
+"b1": "R",
+"times": [
+"0250",
+"0650",
+"1050",
+"1450",
+"1850",
+"2250"
+],
+"language": "Marathi, Konkani, Kannada, Hindi",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "India",
+"station": "Muttam Point",
+"lat": "08°07'.40N",
+"lon": "077°19'.10E",
+"range": 250,
+"b1": "T",
+"times": [
+"0310",
+"0710",
+"1110",
+"1510",
+"1910",
+"2310"
+],
+"language": "Malayalam, Tamil, Hindi",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "India",
+"station": "Porto Novo",
+"lat": "11°30'.20N",
+"lon": "079°46'.20E",
+"range": 250,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "Tamil, Hindi",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "India",
+"station": "Vakalpudi",
+"lat": "17°00'.80N",
+"lon": "082°17'.10E",
+"range": 250,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "Telegu, Hindi",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "India",
+"station": "Balasore",
+"lat": "21°29'.20N",
+"lon": "086°55'.00E",
+"range": 250,
+"b1": "I",
+"times": [
+"0120",
+"0530",
+"0930",
+"1320",
+"1720",
+"2120"
+],
+"language": "Oriya, Bengali, Hindi",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "India",
+"station": "Keating Point (Andaman and Nicobar Islands)",
+"lat": "09°15'.40N",
+"lon": "092°46'.50E",
+"range": 250,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "Hindi",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "VIII",
+"country": "Seychelles",
+"station": "Mahe",
+"lat": "04°39'.32S",
+"lon": "055°28'.38E",
+"range": 400,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "Creole",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IX",
+"country": "Iran (Islamic Republic of)",
+"station": "Abbas Radio",
+"lat": "27°06'.00N",
+"lon": "056°03'.00E",
+"range": 300,
+"b1": "I",
+"times": [
+"0120",
+"0530",
+"0930",
+"1320",
+"1720",
+"2120"
+],
+"language": "Farsi",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IX",
+"country": "Iran (Islamic Republic of)",
+"station": "Bushehr Radio",
+"lat": "28°59'.00N",
+"lon": "050°49'.00E",
+"range": 300,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "Farsi",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "IX",
+"country": "Iraq",
+"station": "UMM Qsar",
+"lat": "30°01'89N",
+"lon": "047°56'88E",
+"range": 200,
+"b1": "W",
+"times": [
+"0340",
+"0740",
+"1140",
+"1540",
+"1940",
+"2340"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "490",
+"area": "IX",
+"country": "Oman",
+"station": "Wattayah",
+"lat": "23°36'.77N",
+"lon": "058°30'.26E",
+"range": 400,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "Arabic",
+"status": "Planned"
+},
+{
+"freq": "490",
+"area": "IX",
+"country": "Oman",
+"station": "Salalah",
+"lat": "17°01'.90N",
+"lon": "054°15'.67E",
+"range": 400,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "Arabic",
+"status": "Planned"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "China",
+"station": "Sanya",
+"lat": "18°17'.49N",
+"lon": "109°21'.80E",
+"range": 250,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "China",
+"station": "Zhanjiang",
+"lat": "21°09'.58N",
+"lon": "110°21'.82E",
+"range": 250,
+"b1": "D",
+"times": [
+"0030",
+"0430",
+"0830",
+"1230",
+"1630",
+"2030"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "China",
+"station": "Guangzhou",
+"lat": "23°09'.56N",
+"lon": "113°30'.80E",
+"range": 250,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "China",
+"station": "Fuzhou",
+"lat": "25°59'.96N",
+"lon": "119°26'.50E",
+"range": 250,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "China",
+"station": "Shanghai",
+"lat": "31°06'.79N",
+"lon": "121°32'.79E",
+"range": 250,
+"b1": "E",
+"times": [
+"0040",
+"0440",
+"0840",
+"1240",
+"1640",
+"2040"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "China",
+"station": "Tianjin",
+"lat": "39°02'.39N",
+"lon": "117°26'.95E",
+"range": 250,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "China",
+"station": "Dalian",
+"lat": "38°50'.69N",
+"lon": "121°31'.09E",
+"range": 250,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Democratic People's Republic of Korea",
+"station": "Pyongyang",
+"lat": "38°59'.58N",
+"lon": "125°42'.93E",
+"range": 200,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "Korean",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Democratic People's Republic of Korea",
+"station": "Hamhung",
+"lat": "39°50'.00N",
+"lon": "127°41'.02E",
+"range": 200,
+"b1": "B",
+"times": [
+"0010",
+"0410",
+"0810",
+"1210",
+"1610",
+"2010"
+],
+"language": "Korean",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Japan",
+"station": "Kushiro",
+"lat": "42°57'.35N",
+"lon": "144°35'.37E",
+"range": 400,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "Japanese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Japan",
+"station": "Otaru",
+"lat": "43°19'.53N",
+"lon": "140°26'.83E",
+"range": 400,
+"b1": "J",
+"times": [
+"0051",
+"0451",
+"0851",
+"1251",
+"1651",
+"2051"
+],
+"language": "Japanese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Japan",
+"station": "Yokohama",
+"lat": "35°14'.55N",
+"lon": "139°55'.28E",
+"range": 400,
+"b1": "I",
+"times": [
+"0120",
+"0530",
+"0930",
+"1320",
+"1720",
+"2120"
+],
+"language": "Japanese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Japan",
+"station": "Moji",
+"lat": "34°00'.90N",
+"lon": "130°56'.10E",
+"range": 400,
+"b1": "H",
+"times": [
+"0017",
+"0417",
+"0817",
+"1217",
+"1617",
+"2017"
+],
+"language": "Japanese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Japan",
+"station": "Naha",
+"lat": "26°05'.48N",
+"lon": "127°40'.13E",
+"range": 400,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "Japanese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Philippines",
+"station": "Puerto Princesa",
+"lat": "09°44'.36N",
+"lon": "118°44'.00E",
+"range": 320,
+"b1": "I",
+"times": [
+"0120",
+"0530",
+"0930",
+"1320",
+"1720",
+"2120"
+],
+"language": "Tagalog, English",
+"status": "Planned"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Republic of Korea",
+"station": "Jukbyeon",
+"lat": "37°03'.45N",
+"lon": "129°25'.70E",
+"range": 200,
+"b1": "J",
+"times": [
+"0051",
+"0451",
+"0851",
+"1251",
+"1651",
+"2051"
+],
+"language": "Korean",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Republic of Korea",
+"station": "Byeonsan",
+"lat": "35°35'.82N",
+"lon": "126°29'.18E",
+"range": 200,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "Korean",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Viet Nam",
+"station": "Da Nang Radio",
+"lat": "16°03'.33N",
+"lon": "108°09'.42E",
+"range": 400,
+"b1": "F",
+"times": [
+"0050",
+"0450",
+"0850",
+"1250",
+"1650",
+"2050"
+],
+"language": "Vietnamese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XI",
+"country": "Viet Nam",
+"station": "Vung Tau Radio",
+"lat": "10°23'.40N",
+"lon": "107°08'.41E",
+"range": 400,
+"b1": "V",
+"times": [
+"0330",
+"0730",
+"1130",
+"1530",
+"1930",
+"2330"
+],
+"language": "Vietnamese",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XII",
+"country": "Colombia",
+"station": "Buenaventura",
+"lat": "03°54'.18N",
+"lon": "077°03'.77W",
+"range": 300,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "Spanish",
+"status": "Under trial"
+},
+{
+"freq": "490",
+"area": "XII",
+"country": "Ecuador",
+"station": "Ayora",
+"lat": "00°43'.03S",
+"lon": "090°19'.63W",
+"range": 400,
+"b1": "A",
+"times": [
+"0000",
+"0400",
+"0800",
+"1200",
+"1600",
+"2000"
+],
+"language": "Spanish",
+"status": "Temporarily suspended"
+},
+{
+"freq": "490",
+"area": "XV",
+"country": "Chile",
+"station": "Antofagasta",
+"lat": "23°29'.47S",
+"lon": "070°25'.39W",
+"range": 400,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XV",
+"country": "Chile",
+"station": "Valparaiso",
+"lat": "32°48'.37S",
+"lon": "071°29'.23W",
+"range": 400,
+"b1": "H",
+"times": [
+"0017",
+"0417",
+"0817",
+"1217",
+"1617",
+"2017"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XV",
+"country": "Chile",
+"station": "Talcahuano",
+"lat": "36°37'.75S",
+"lon": "073°07'.01W",
+"range": 400,
+"b1": "I",
+"times": [
+"0120",
+"0530",
+"0930",
+"1320",
+"1720",
+"2120"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XV",
+"country": "Chile",
+"station": "Puerto Montt",
+"lat": "41°47'.06S",
+"lon": "073°52'.75W",
+"range": 400,
+"b1": "J",
+"times": [
+"0051",
+"0451",
+"0851",
+"1251",
+"1651",
+"2051"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XV",
+"country": "Chile",
+"station": "Magallanes",
+"lat": "52°55'.70S",
+"lon": "070°53'.42W",
+"range": 400,
+"b1": "K",
+"times": [
+"0140",
+"0540",
+"0940",
+"1340",
+"1740",
+"2140"
+],
+"language": "Spanish",
+"status": "Operational"
+},
+{
+"freq": "490",
+"area": "XV",
+"country": "Chile",
+"station": "Isla des Pascua",
+"lat": "27°08'.85S",
+"lon": "109°22'.61W",
+"range": 400,
+"b1": "L",
+"times": [
+"0150",
+"0550",
+"0950",
+"1350",
+"1750",
+"2150"
+],
+"language": "Spanish",
+"status": "Temporarily suspended"
+},
+{
+"freq": "4209.5",
+"area": "III",
+"country": "Greece",
+"station": "Irakleio",
+"lat": "35°19'.33N",
+"lon": "025°44'.92E",
+"range": 400,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "Greek",
+"status": "Operational"
+},
+{
+"freq": "4209.5",
+"area": "III",
+"country": "Turkey",
+"station": "Istanbul",
+"lat": "41°04'.00N",
+"lon": "028°57'.00E",
+"range": 400,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "Turkish",
+"status": "Operational"
+},
+{
+"freq": "4209.5",
+"area": "IX",
+"country": "Egypt",
+"station": "Serapeum (Ismailia)",
+"lat": "30°28'.00N",
+"lon": "032°22'.00E",
+"range": 400,
+"b1": "X",
+"times": [
+"0350",
+"0750",
+"1150",
+"1550",
+"1950",
+"2350"
+],
+"language": "English",
+"status": "Operational"
+},
+{
+"freq": "4209.5",
+"area": "XI",
+"country": "China",
+"station": "Shanghai",
+"lat": "31°06'.79N",
+"lon": "121°32'.79E",
+"range": 500,
+"b1": "Q",
+"times": [
+"0240",
+"0640",
+"1040",
+"1440",
+"1840",
+"2240"
+],
+"language": "English",
+"status": "Under trial"
+},
+{
+"freq": "4209.5",
+"area": "XI",
+"country": "China",
+"station": "Guangzhou",
+"lat": "23°09'.33N",
+"lon": "113°30'.62E",
+"range": 500,
+"b1": "G",
+"times": [
+"0100",
+"0500",
+"0900",
+"1300",
+"1700",
+"2100"
+],
+"language": "Chinese",
+"status": "Under trial"
+},
+{
+"freq": "4209.5",
+"area": "XI",
+"country": "China",
+"station": "Tianjin",
+"lat": "39°02'.39N",
+"lon": "117°26'.95E",
+"range": 500,
+"b1": "S",
+"times": [
+"0300",
+"0700",
+"1100",
+"1500",
+"1900",
+"2300"
+],
+"language": "English",
+"status": "Planned"
+},
+{
+"freq": "4209.5",
+"area": "XI",
+"country": "Viet Nam",
+"station": "Hai Phong Radio",
+"lat": "20°51'.02N",
+"lon": "106°44'.02E",
+"range": null,
+"b1": "M",
+"times": [
+"0200",
+"0600",
+"1000",
+"1400",
+"1800",
+"2200"
+],
+"language": "English; Vietnamese",
+"status": "Operational"
+},
+{
+"freq": "4209.5",
+"area": "XI",
+"country": "Viet Nam",
+"station": "Nha Trang Radio",
+"lat": "12°13'.20N",
+"lon": "109°10'.50E",
+"range": null,
+"b1": "C",
+"times": [
+"0020",
+"0420",
+"0820",
+"1220",
+"1620",
+"2020"
+],
+"language": "English; Vietnamese",
+"status": "Operational"
+}
+]
+}

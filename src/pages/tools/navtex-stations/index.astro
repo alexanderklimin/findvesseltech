@@ -1,0 +1,105 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ServiceCta from '../../../components/ServiceCta.astro';
+import nav from '../../../data/navtex.json';
+import { SITE_URL } from '../../../data/site.js';
+
+const title = 'NAVTEX Stations List: 518, 490 and 4209.5 kHz by NAVAREA';
+const description = `All ${nav.stations.length} NAVTEX coast stations from the IMO GMDSS Master Plan: B1 identifier, transmission times (UTC), range, language and status, for 518 kHz international, 490 kHz national and 4209.5 kHz. Search by country, station or B1.`;
+
+const areas = [...new Set(nav.stations.map((s) => s.area))];
+const roman = (r: string) => { const v: Record<string, number> = { I: 1, V: 5, X: 10 }; let n = 0; for (let i = 0; i < r.length; i++) { const a = v[r[i]], b = v[r[i + 1]] ?? 0; n += a < b ? -a : a; } return n; };
+areas.sort((a, b) => roman(a) - roman(b));
+const freqs = [['518', '518 kHz (international, English)'], ['490', '490 kHz (national)'], ['4209.5', '4209.5 kHz (HF)']];
+const sorted = [...nav.stations].sort((a, b) => roman(a.area) - roman(b.area) || a.country.localeCompare(b.country) || a.b1.localeCompare(b.b1));
+const short = (t: string[]) => (t.length === 6 && t.every((x, i) => i === 0 || (Number(x.slice(0, 2)) - Number(t[i - 1].slice(0, 2)) + 24) % 24 === 4 && x.slice(2) === t[0].slice(2)) ? `${t[0]} +4h` : t.join(', '));
+
+const faq = [
+  ['What is the B1 character?', 'The letter (A–X) that identifies a NAVTEX transmitter within its area. It also fixes the station\'s time slots: stations transmit in turn so that neighbours on the same frequency do not interfere. Set your receiver to accept the B1 letters of the stations along your route.'],
+  ['What is the difference between 518 and 490 kHz?', '518 kHz is the international NAVTEX service, broadcast in English. 490 kHz carries national NAVTEX, often in the local language. 4209.5 kHz is used for NAVTEX-type broadcasts on HF in some areas.'],
+  ['How far does NAVTEX reach?', 'Typically a few hundred nautical miles: the table shows the range each country declared, from 55 to 500 NM.'],
+  ['Is this list up to date?', `It reproduces the last publicly available IMO GMDSS Master Plan (${nav.sourceDate}). Stations, B1 letters and schedules can change: check the Admiralty List of Radio Signals, your national notices to mariners or IMO GISIS before relying on a station.`],
+];
+
+const jsonLd = [
+  { '@context': 'https://schema.org', '@type': 'Dataset', name: 'NAVTEX coast stations (IMO GMDSS Master Plan)', description, url: `${SITE_URL}/tools/navtex-stations/`, isBasedOn: nav.sourceUrl, temporalCoverage: nav.sourceDate, dateModified: nav.checked },
+  { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
+];
+---
+<Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'NAVTEX stations', path: '/tools/navtex-stations/' }]}>
+  <h1>NAVTEX stations</h1>
+  <p class="lead">Every NAVTEX coast station in the IMO GMDSS Master Plan: B1 identifier, broadcast times, range, language and status. Filter by area, frequency or country.</p>
+
+  <div class="card filters">
+    <label>Search <input type="search" id="q" placeholder="Country, station or B1 letter" /></label>
+    <label>NAVAREA <select id="area"><option value="">All</option>{areas.map((a) => <option>{a}</option>)}</select></label>
+    <label>Frequency <select id="freq"><option value="">All</option>{freqs.map(([v, l]) => <option value={v}>{l}</option>)}</select></label>
+    <label class="chk"><input type="checkbox" id="op" /> Operational only</label>
+    <p id="count" class="source" aria-live="polite"></p>
+  </div>
+
+  <div class="table-scroll" style="margin-top:12px">
+    <table id="nt">
+      <thead><tr><th>Area</th><th>kHz</th><th>B1</th><th>Station</th><th>Country</th><th>Times (UTC)</th><th>Range</th><th>Language</th><th>Status</th></tr></thead>
+      <tbody>
+        {sorted.map((s) => (
+          <tr data-area={s.area} data-freq={s.freq} data-op={s.status === 'Operational' ? '1' : '0'} data-q={`${s.country} ${s.station} ${s.b1}`.toLowerCase()}>
+            <td>{s.area}</td><td>{s.freq}</td><td><strong class="b1">{s.b1}</strong></td><td>{s.station}</td><td>{s.country}</td>
+            <td class="times" title={s.times.join(', ')}>{short(s.times)}</td><td>{s.range ? `${s.range} NM` : '–'}</td><td>{s.language}</td>
+            <td class={s.status === 'Operational' ? 'ok' : 'warn'}>{s.status}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="source">"0010 +4h" means 0010, 0410, 0810, 1210, 1610 and 2010 UTC. Hover a time to see the full list.</p>
+
+  <div class="note">
+    <p><strong>Data date.</strong> Source: <a href={nav.sourceUrl} rel="noopener">{nav.source}</a>, dated {nav.sourceDate}, the latest edition published openly by IMO. Check the Admiralty List of Radio Signals, national notices or IMO GISIS for current details before relying on a station.</p>
+  </div>
+
+  <ServiceCta equipment="NAVTEX" icon="navtex" title="NAVTEX receiver not printing or no messages?" text="Receiver, antenna or interface fault: tell us the port and ETA." />
+
+  <h2>Questions</h2>
+  {faq.map(([q, a]) => <details class="card faq"><summary>{q}</summary><p>{a}</p></details>)}
+</Base>
+
+<script>
+  const q = document.getElementById('q') as HTMLInputElement;
+  const area = document.getElementById('area') as HTMLSelectElement;
+  const freq = document.getElementById('freq') as HTMLSelectElement;
+  const op = document.getElementById('op') as HTMLInputElement;
+  const rows = [...document.querySelectorAll<HTMLTableRowElement>('#nt tbody tr')];
+  const count = document.getElementById('count')!;
+  const apply = () => {
+    const v = q.value.trim().toLowerCase();
+    let n = 0;
+    for (const r of rows) {
+      const d = r.dataset;
+      const hit = (!v || d.q!.includes(v)) && (!area.value || d.area === area.value) && (!freq.value || d.freq === freq.value) && (!op.checked || d.op === '1');
+      r.hidden = !hit; if (hit) n++;
+    }
+    count.textContent = `${n} of ${rows.length} stations`;
+    const url = new URL(location.href);
+    for (const [k, val] of [['q', q.value.trim()], ['area', area.value], ['freq', freq.value]] as const) val ? url.searchParams.set(k, val) : url.searchParams.delete(k);
+    history.replaceState(null, '', url);
+  };
+  const p = new URL(location.href).searchParams;
+  q.value = p.get('q') ?? ''; area.value = p.get('area') ?? ''; freq.value = p.get('freq') ?? '';
+  for (const el of [q, area, freq, op]) el.addEventListener('input', apply);
+  apply();
+</script>
+
+<style>
+  .filters { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: flex-end; }
+  .filters label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; font-size: .9rem; flex: 1 1 160px; }
+  .filters input[type=search], .filters select { font: inherit; font-weight: 400; padding: 8px 10px; border: 2px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--text); }
+  .filters .chk { flex-direction: row; align-items: center; gap: 6px; flex: 0 0 auto; }
+  .filters p { flex-basis: 100%; margin: 0; }
+  #nt td, #nt th { white-space: nowrap; }
+  .b1 { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--code); padding: 1px 7px; border-radius: 5px; }
+  td.ok { color: var(--ok); } td.warn { color: var(--warn); }
+  .faq { margin-bottom: 8px; padding: 10px 14px; }
+  .faq summary { cursor: pointer; font-weight: 600; }
+  .faq p { margin: 8px 0 0; }
+</style>
