@@ -85,3 +85,5 @@
 - Мобильная шапка: слева квадратная кнопка меню (раскрывающийся список), по центру логотип, справа квадратная оранжевая кнопка заявки (/request/). Десктоп без изменений.
 - 2026-11-25 17:22 выложено с явного «да» пользователя: радар, NAVTEX, мобильная шапка и открытая индексация. Проверено на домене: canonical есть, noindex снят (кроме 404), нет X-Robots-Tag, sitemap 19 URL, все страницы 200.
 - Search Console: ресурса sc-domain:findvesseltech.com в аккаунте пока нет — пользователь добавляет (подтверждение через Cloudflare DNS), затем отправить sitemap https://findvesseltech.com/sitemap-index.xml.
+- Search Console: sc-domain:findvesseltech.com подтверждён (siteOwner), sitemap-index.xml принят 17:24 без ошибок; страницы пока «unknown to Google».
+- PageSpeed (research/psi.mjs, ключ из /opt/asa-dashboard/.env): главная, ECDIS, /request/ — 100/100/100/100 мобильный и десктоп, 8–10 КБ, LCP 0.8 с (моб.). NAVTEX десктоп perf 97 из-за CLS 0.115 (счётчик заполнялся скриптом) — счётчик теперь в HTML (и на MID codes).

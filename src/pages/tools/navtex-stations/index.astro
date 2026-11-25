@@ -35,7 +35,7 @@ const jsonLd = [
     <label>NAVAREA <select id="area"><option value="">All</option>{areas.map((a) => <option>{a}</option>)}</select></label>
     <label>Frequency <select id="freq"><option value="">All</option>{freqs.map(([v, l]) => <option value={v}>{l}</option>)}</select></label>
     <label class="chk"><input type="checkbox" id="op" /> Operational only</label>
-    <p id="count" class="source" aria-live="polite"></p>
+    <p id="count" class="source" aria-live="polite">{nav.stations.length} of {nav.stations.length} stations</p>
   </div>
 
   <div class="table-scroll" style="margin-top:12px">
