@@ -22,7 +22,7 @@ const faq = [
 ];
 
 const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'Dataset', name: 'NAVTEX coast stations (IMO GMDSS Master Plan)', description, url: `${SITE_URL}/tools/navtex-stations/`, isBasedOn: nav.sourceUrl, temporalCoverage: nav.sourceDate, dateModified: nav.checked },
+  { '@context': 'https://schema.org', '@type': 'WebPage', name: 'NAVTEX coast stations (IMO GMDSS Master Plan)', description, url: `${SITE_URL}/tools/navtex-stations/`, isBasedOn: nav.sourceUrl, dateModified: nav.checked },
   { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
 ---

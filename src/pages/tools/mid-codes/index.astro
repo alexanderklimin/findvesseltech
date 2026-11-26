@@ -18,11 +18,10 @@ for (const m of midData.mids) byName.set(m.name, [...(byName.get(m.name) ?? []),
 const multi = [...byName.entries()].filter(([, v]) => v.length > 1).sort((a, b) => b[1].length - a[1].length);
 
 const jsonLd = [{
-  '@context': 'https://schema.org', '@type': 'Dataset',
+  '@context': 'https://schema.org', '@type': 'WebPage',
   name: 'Maritime Identification Digits (MID) by country',
   description, url: `${SITE_URL}/tools/mid-codes/`,
   isBasedOn: midData.sourceUrl, dateModified: midData.checked,
-  creator: { '@type': 'Organization', name: 'International Telecommunication Union (source data)' },
 }];
 ---
 <Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'MID codes', path: '/tools/mid-codes/' }]}>

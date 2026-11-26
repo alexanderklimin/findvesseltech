@@ -19,7 +19,7 @@ const faq = [
 ];
 
 const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'Dataset', name: 'GMDSS distress and safety frequencies (ITU RR Appendix 15)', description, url: `${SITE_URL}/tools/gmdss-frequencies/`, isBasedOn: f.sourceUrl, dateModified: f.checked },
+  { '@context': 'https://schema.org', '@type': 'WebPage', name: 'GMDSS distress and safety frequencies (ITU RR Appendix 15)', description, url: `${SITE_URL}/tools/gmdss-frequencies/`, isBasedOn: f.sourceUrl, dateModified: f.checked },
   { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
 ---

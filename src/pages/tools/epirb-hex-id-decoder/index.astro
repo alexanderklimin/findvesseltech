@@ -29,7 +29,7 @@ const faq = [
 ];
 
 const jsonLd = [
-  { '@context': 'https://schema.org', '@type': 'WebApplication', name: 'EPIRB Hex ID Decoder', url: `${SITE_URL}/tools/epirb-hex-id-decoder/`, applicationCategory: 'UtilityApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description },
+  { '@context': 'https://schema.org', '@type': 'WebPage', name: 'EPIRB Hex ID Decoder', url: `${SITE_URL}/tools/epirb-hex-id-decoder/`, description },
   { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) },
 ];
 ---

@@ -15,7 +15,7 @@ const rules = [
   ['EPIRB shore-based maintenance', 'At intervals set by the flag State, not exceeding five years. Battery replacement is recommended at the same time.', 'SOLAS IV/15.9; MSC.1/Circ.1039/Rev.1 §4.2'],
 ];
 
-const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebApplication', name: 'Survey and test due date calculator', url: `${SITE_URL}/tools/survey-due-dates/`, applicationCategory: 'BusinessApplication', operatingSystem: 'Any', offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' }, description }];
+const jsonLd = [{ '@context': 'https://schema.org', '@type': 'WebPage', name: 'Survey and test due date calculator', url: `${SITE_URL}/tools/survey-due-dates/`, description }];
 ---
 <Base title={title} description={description} jsonLd={jsonLd} crumbs={[{ name: 'Home', path: '/' }, { name: 'Tools', path: '/tools/' }, { name: 'Survey due dates', path: '/tools/survey-due-dates/' }]}>
   <h1>Survey and test due dates</h1>
